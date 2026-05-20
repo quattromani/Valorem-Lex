@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_12_tax_increment_financing",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+  "aliases": [
+    "Article VIII-12",
+    "TIF constitutional authority"
+  ],
+  "category": "constitutional_levy",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section authorizing legislative powers for tax increment financing and community redevelopment.",
+  "plain_language": "This is the constitutional anchor for Nebraska TIF.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "tax_increment_financing",
+    "tif",
+    "community_redevelopment"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "12"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Adopted 1978 via Laws 1977, LR 30; amended 2020 via Laws 2019, LR 14CA."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "defines_authority_for",
+      "target_id": "concept_tax_increment_financing",
+      "note": "TIF constitutional authority."
+    },
+    {
+      "type": "related_regulation",
+      "target_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Regulatory chapter."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF affects tax allocation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_12",
+      "locator": "Article VIII-12",
+      "citation": "Neb. Const. art. VIII, § 12."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

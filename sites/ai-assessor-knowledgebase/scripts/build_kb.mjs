@@ -39,6 +39,15 @@ async function readJson(relativePath) {
   return JSON.parse(await fs.readFile(fullPath, "utf8"));
 }
 
+async function readOptionalJson(relativePath, fallback) {
+  try {
+    return await readJson(relativePath);
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
+
 async function writeJson(relativePath, data) {
   const fullPath = path.join(root, relativePath);
   await fs.mkdir(path.dirname(fullPath), { recursive: true });
@@ -129,8 +138,18 @@ async function resetGeneratedTree() {
 async function main() {
   const sourceSeed = await readJson("data/seed/sources.seed.json");
   const knowledgeSeed = await readJson("data/seed/knowledge.seed.json");
-  const sources = [...sourceSeed.sources].sort((a, b) => a.id.localeCompare(b.id));
-  const objects = [...knowledgeSeed.objects].sort((a, b) => a.id.localeCompare(b.id));
+  const authorityCatalogSeed = await readOptionalJson("data/seed/authority_catalog.seed.json", {
+    sources: [],
+    objects: [],
+    gap_analysis_additions: [],
+    future_ingestion_targets_additions: []
+  });
+  const sources = [...sourceSeed.sources, ...(authorityCatalogSeed.sources ?? [])].sort((a, b) =>
+    a.id.localeCompare(b.id)
+  );
+  const objects = [...knowledgeSeed.objects, ...(authorityCatalogSeed.objects ?? [])].sort((a, b) =>
+    a.id.localeCompare(b.id)
+  );
 
   await resetGeneratedTree();
 
@@ -235,9 +254,20 @@ async function main() {
   await writeJson("reports/gap_analysis.json", {
     schema_version: knowledgeSeed.schema_version,
     generated_at: stableGeneratedAt,
-    gaps: knowledgeSeed.gap_analysis,
-    future_ingestion_targets: knowledgeSeed.future_ingestion_targets
+    gaps: [...knowledgeSeed.gap_analysis, ...(authorityCatalogSeed.gap_analysis_additions ?? [])],
+    future_ingestion_targets: [
+      ...knowledgeSeed.future_ingestion_targets,
+      ...(authorityCatalogSeed.future_ingestion_targets_additions ?? [])
+    ]
   });
+
+  if (authorityCatalogSeed.authority_coverage) {
+    await writeJson("reports/authority_coverage.json", {
+      schema_version: knowledgeSeed.schema_version,
+      generated_at: stableGeneratedAt,
+      ...authorityCatalogSeed.authority_coverage
+    });
+  }
 
   await writeJson("discovery/search_queries.json", {
     schema_version: sourceSeed.schema_version,
@@ -265,7 +295,11 @@ async function main() {
     schema_version: knowledgeSeed.schema_version,
     generated_at: stableGeneratedAt,
     deterministic_timestamp: true,
-    seed_files: ["data/seed/sources.seed.json", "data/seed/knowledge.seed.json"],
+    seed_files: [
+      "data/seed/sources.seed.json",
+      "data/seed/knowledge.seed.json",
+      "data/seed/authority_catalog.seed.json"
+    ],
     generated_object_count: objects.length,
     generated_source_count: sources.length,
     generated_edge_count: edges.length

@@ -19,6 +19,28 @@
     "local_tax",
     "article_viii"
   ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "1A"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Adopted 1954 via Laws 1953, constitutional amendment No. 3; amended 1958 and 1970."
+    }
+  ],
   "relationships": [
     {
       "type": "context_for",
@@ -32,6 +54,11 @@
     }
   ],
   "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_1a",
+      "locator": "Article VIII-1A",
+      "citation": "Neb. Const. art. VIII, § 1A."
+    },
     {
       "source_id": "ne_dor_pad_statutes_page",
       "locator": "Article VIII-1A entry",

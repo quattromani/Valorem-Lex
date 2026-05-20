@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch91_pad_proceedings",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 91 Proceedings Instituted by the Department of Revenue, Property Assessment Division",
+  "aliases": [
+    "PAD instituted proceedings regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for proceedings instituted by DOR Property Assessment Division.",
+  "plain_language": "This chapter is a procedural source for PAD-initiated matters.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_91",
+    "pad_proceedings",
+    "procedure"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "91"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Proceedings Instituted by the Department of Revenue, Property Assessment Division"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 3/15/09; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "pad_statewide_equalization",
+      "note": "PAD proceeding domain."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "PAD action may arise from oversight/equalization context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 91 Proceedings Instituted by DOR PAD",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 91."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 91",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 91."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_11_public_electrical_systems",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-11 Public Electrical System In-Lieu Taxes",
+  "aliases": [
+    "Article VIII-11",
+    "public corporation electrical system tax",
+    "PILOT constitutional section"
+  ],
+  "category": "constitutional_taxation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing tax or in-lieu tax treatment for certain public corporations and political subdivisions engaged in electrical business.",
+  "plain_language": "This is the constitutional context for certain public electrical system taxes or in-lieu payments.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "public_corporation",
+    "political_subdivision",
+    "in_lieu_of_tax",
+    "electric_system"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "11"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Adopted 1946 via Laws 1945, constitutional amendment No. 1; amended 1958 and 1976."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "defines_authority_for",
+      "target_id": "concept_payment_in_lieu_of_tax",
+      "note": "In-lieu tax context."
+    },
+    {
+      "type": "related_regulation",
+      "target_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Regulatory chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_11",
+      "locator": "Article VIII-11",
+      "citation": "Neb. Const. art. VIII, § 11."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

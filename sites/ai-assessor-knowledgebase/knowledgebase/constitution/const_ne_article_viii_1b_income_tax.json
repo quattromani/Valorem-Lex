@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_1b_income_tax",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-1B Income Tax",
+  "aliases": [
+    "Article VIII-1B",
+    "income tax continuation limitation"
+  ],
+  "category": "constitutional_revenue",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing continuation and limitation of Nebraska income tax authority; included for complete revenue article coverage.",
+  "plain_language": "This is a revenue section but usually not a property-assessment authority.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "income_tax",
+    "revenue"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "1B"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "low"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Adopted 1966 via Laws 1965, LB 1022, constitutional amendment No. 3."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_1b",
+      "locator": "Article VIII-1B",
+      "citation": "Neb. Const. art. VIII, § 1B."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

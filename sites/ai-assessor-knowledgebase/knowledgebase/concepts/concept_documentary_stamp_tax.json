@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_documentary_stamp_tax",
+  "object_type": "concept",
+  "canonical_term": "Documentary Stamp Tax",
+  "aliases": [
+    "deed documentary stamp tax",
+    "real estate transfer stamp tax"
+  ],
+  "category": "real_estate_transfer_tax",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "Nebraska tax domain connected to recorded real estate transfer instruments and Title 350 Chapter 52.",
+  "plain_language": "This is a transfer-related tax tied to recorded real estate documents, not the annual valuation itself.",
+  "semantic_tags": [
+    "documentary_stamp_tax",
+    "real_estate_transfer",
+    "title_350",
+    "chapter_52"
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "note": "Title 350 Chapter 52 catalogue entry."
+    },
+    {
+      "type": "distinguished_from",
+      "target_id": "concept_tax_bill",
+      "note": "Transfer tax is distinct from annual property tax billing."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 52",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 52."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

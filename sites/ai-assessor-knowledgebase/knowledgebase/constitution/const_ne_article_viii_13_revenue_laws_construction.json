@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_13_revenue_laws_construction",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-13 Revenue Laws Construction",
+  "aliases": [
+    "Article VIII-13",
+    "construction of revenue laws"
+  ],
+  "category": "constitutional_revenue",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section preserving operation and construction of revenue laws through constitutional transition.",
+  "plain_language": "This is a constitutional transition/construction rule for revenue laws.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "revenue_laws",
+    "construction",
+    "transition"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "13"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 9 (1875); amended and renumbered 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "crosswalk_legal_hierarchy",
+      "note": "Constitution/statute continuity and construction context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_13",
+      "locator": "Article VIII-13",
+      "citation": "Neb. Const. art. VIII, § 13."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

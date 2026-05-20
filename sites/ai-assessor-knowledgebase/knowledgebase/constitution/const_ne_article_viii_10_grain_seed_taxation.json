@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_10_grain_seed_taxation",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-10 Grain and Seed Taxation",
+  "aliases": [
+    "Article VIII-10",
+    "grain tax constitutional section"
+  ],
+  "category": "constitutional_taxation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing taxation of grain and seed.",
+  "plain_language": "This is an agricultural/commercial property taxation section with specific grain and seed treatment.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "grain",
+    "seed",
+    "agricultural_property",
+    "personal_property"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "10"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 7A (1920); adopted 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_personal_property",
+      "note": "Agricultural/commercial personal property context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_10",
+      "locator": "Article VIII-10",
+      "citation": "Neb. Const. art. VIII, § 10."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

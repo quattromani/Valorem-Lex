@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "edge_count": 305,
+  "edge_count": 449,
   "edges": [
     {
       "from_id": "case_gordman_v_hall_county_boe",
@@ -130,6 +130,18 @@
       "note": "Operational workflow for data upkeep."
     },
     {
+      "from_id": "concept_centrally_assessed_property",
+      "relationship_type": "context_for",
+      "to_id": "pad_statewide_equalization",
+      "note": "Centrally assessed property is a state assessment domain adjacent to equalization."
+    },
+    {
+      "from_id": "concept_centrally_assessed_property",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "note": "Title 350 Chapter 30 catalogue entry."
+    },
+    {
       "from_id": "concept_cod",
       "relationship_type": "contrasted_with",
       "to_id": "concept_prd",
@@ -196,6 +208,18 @@
       "note": "Cost approach depends on depreciation."
     },
     {
+      "from_id": "concept_documentary_stamp_tax",
+      "relationship_type": "distinguished_from",
+      "to_id": "concept_tax_bill",
+      "note": "Transfer tax is distinct from annual property tax billing."
+    },
+    {
+      "from_id": "concept_documentary_stamp_tax",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "note": "Title 350 Chapter 52 catalogue entry."
+    },
+    {
       "from_id": "concept_effective_tax_rate",
       "relationship_type": "related_concept",
       "to_id": "concept_tax_bill",
@@ -224,6 +248,18 @@
       "relationship_type": "implemented_by",
       "to_id": "workflow_ratio_study_equalization",
       "note": "Ratio-study workflow supports equalization review."
+    },
+    {
+      "from_id": "concept_free_port_in_transit_property",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "note": "Article VIII-2A catalogue entry."
+    },
+    {
+      "from_id": "concept_free_port_in_transit_property",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Exemption applies to a defined personal-property category."
     },
     {
       "from_id": "concept_greenbelt_special_valuation",
@@ -416,6 +452,18 @@
       "relationship_type": "used_by",
       "to_id": "concept_sales_comparison_approach",
       "note": "Comparable sales should be market-relevant."
+    },
+    {
+      "from_id": "concept_payment_in_lieu_of_tax",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Title 350 Chapter 41 catalogue entry."
+    },
+    {
+      "from_id": "concept_payment_in_lieu_of_tax",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_11_public_electrical_systems",
+      "note": "Article VIII-11 catalogue entry."
     },
     {
       "from_id": "concept_personal_property",
@@ -700,6 +748,24 @@
       "note": "Public explanation object."
     },
     {
+      "from_id": "concept_tax_increment_financing",
+      "relationship_type": "context_for",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF affects tax allocation after valuation and levy mechanics."
+    },
+    {
+      "from_id": "concept_tax_increment_financing",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Title 350 Chapter 18 catalogue entry."
+    },
+    {
+      "from_id": "concept_tax_increment_financing",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Article VIII-12 catalogue entry."
+    },
+    {
       "from_id": "concept_uniformity_proportionality",
       "relationship_type": "grounded_in",
       "to_id": "const_ne_article_viii_uniformity",
@@ -856,6 +922,186 @@
       "note": "PRD denominator."
     },
     {
+      "from_id": "const_ne_article_viii_10_grain_seed_taxation",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_10_grain_seed_taxation",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Agricultural/commercial personal property context."
+    },
+    {
+      "from_id": "const_ne_article_viii_11_public_electrical_systems",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_11_public_electrical_systems",
+      "relationship_type": "defines_authority_for",
+      "to_id": "concept_payment_in_lieu_of_tax",
+      "note": "In-lieu tax context."
+    },
+    {
+      "from_id": "const_ne_article_viii_11_public_electrical_systems",
+      "relationship_type": "related_regulation",
+      "to_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Regulatory chapter."
+    },
+    {
+      "from_id": "const_ne_article_viii_12_tax_increment_financing",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_12_tax_increment_financing",
+      "relationship_type": "context_for",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF affects tax allocation."
+    },
+    {
+      "from_id": "const_ne_article_viii_12_tax_increment_financing",
+      "relationship_type": "defines_authority_for",
+      "to_id": "concept_tax_increment_financing",
+      "note": "TIF constitutional authority."
+    },
+    {
+      "from_id": "const_ne_article_viii_12_tax_increment_financing",
+      "relationship_type": "related_regulation",
+      "to_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Regulatory chapter."
+    },
+    {
+      "from_id": "const_ne_article_viii_13_revenue_laws_construction",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_13_revenue_laws_construction",
+      "relationship_type": "context_for",
+      "to_id": "crosswalk_legal_hierarchy",
+      "note": "Constitution/statute continuity and construction context."
+    },
+    {
+      "from_id": "const_ne_article_viii_1b_income_tax",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "relationship_type": "defines_authority_for",
+      "to_id": "concept_free_port_in_transit_property",
+      "note": "Constitutional exemption category."
+    },
+    {
+      "from_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Personal property exemption context."
+    },
+    {
+      "from_id": "const_ne_article_viii_3_tax_sale_redemption",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_3_tax_sale_redemption",
+      "relationship_type": "context_for",
+      "to_id": "concept_tax_bill",
+      "note": "Tax collection and sale context follows assessment/levy."
+    },
+    {
+      "from_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "relationship_type": "context_for",
+      "to_id": "concept_tax_bill",
+      "note": "Tax collection and cancellation context."
+    },
+    {
+      "from_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "relationship_type": "related_concept",
+      "to_id": "concept_payment_in_lieu_of_tax",
+      "note": "Authorized exceptions and substitutes require separate authority."
+    },
+    {
+      "from_id": "const_ne_article_viii_5_county_tax_limitation",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_5_county_tax_limitation",
+      "relationship_type": "context_for",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Constitutional county-tax limitation context."
+    },
+    {
+      "from_id": "const_ne_article_viii_5_county_tax_limitation",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statutory workflow."
+    },
+    {
+      "from_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "relationship_type": "context_for",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Municipal taxes and special assessments affect taxpayer bills."
+    },
+    {
+      "from_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "relationship_type": "related_concept",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Uniform municipal tax context."
+    },
+    {
+      "from_id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "relationship_type": "context_for",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Property exemption context."
+    },
+    {
+      "from_id": "const_ne_article_viii_8_funding_indebtedness",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "from_id": "const_ne_article_viii_9_claims_against_state",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
       "from_id": "const_ne_article_viii_exemptions",
       "relationship_type": "related_concept",
       "to_id": "concept_homestead_exemption",
@@ -952,6 +1198,108 @@
       "note": "Statutory definition."
     },
     {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "anchors",
+      "to_id": "crosswalk_legal_hierarchy",
+      "note": "Constitutional layer of assessor-domain legal hierarchy."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_10_grain_seed_taxation",
+      "note": "Article VIII-10."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_11_public_electrical_systems",
+      "note": "Article VIII-11."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Article VIII-12."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_13_revenue_laws_construction",
+      "note": "Article VIII-13."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_1b_income_tax",
+      "note": "Article VIII-1B."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "note": "Article VIII-2A."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_3_tax_sale_redemption",
+      "note": "Article VIII-3."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "note": "Article VIII-4."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_5_county_tax_limitation",
+      "note": "Article VIII-5."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "note": "Article VIII-6."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "note": "Article VIII-7."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_8_funding_indebtedness",
+      "note": "Article VIII-8."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_9_claims_against_state",
+      "note": "Article VIII-9."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Article VIII-2."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_state_property_tax_prohibition",
+      "note": "Article VIII-1A."
+    },
+    {
+      "from_id": "crosswalk_ne_const_article_viii_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "const_ne_article_viii_uniformity",
+      "note": "Article VIII-1."
+    },
+    {
       "from_id": "crosswalk_ratio_metrics",
       "relationship_type": "level_metric",
       "to_id": "concept_level_of_value",
@@ -986,6 +1334,168 @@
       "relationship_type": "vertical_metric",
       "to_id": "concept_prd",
       "note": "Vertical equity indicator."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues_historical",
+      "to_id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "note": "Repealed chapter 51."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues_historical",
+      "to_id": "standard_ne_title350_ch60_reports_repealed",
+      "note": "Repealed chapter 60."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues_historical",
+      "to_id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "note": "Repealed chapter 70."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues_historical",
+      "to_id": "standard_ne_title350_ch93_proceedings_repealed",
+      "note": "Repealed chapter 93."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch10_real_property",
+      "note": "Current chapter 10."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch11_ag_special_valuation",
+      "note": "Current chapter 11."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Current chapter 12."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch13_mineral_interests",
+      "note": "Current chapter 13."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch14_agricultural_land",
+      "note": "Current chapter 14."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch15_state_government_property",
+      "note": "Current chapter 15."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch17_reports_opinions",
+      "note": "Current chapter 17."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Current chapter 18."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch20_personal_property",
+      "note": "Current chapter 20."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch23_historical_real_property",
+      "note": "Current chapter 23."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "note": "Current chapter 30."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "note": "Current chapter 40."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Current chapter 41."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "note": "Current chapter 42."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "note": "Current chapter 43."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch45_homestead_exemption",
+      "note": "Current chapter 45."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch50_assessment_process",
+      "note": "Current chapter 50."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "note": "Current chapter 52."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Current chapter 65."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch71_certification",
+      "note": "Current chapter 71."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "note": "Current chapter 80."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch90_practice_procedure",
+      "note": "Current chapter 90."
+    },
+    {
+      "from_id": "crosswalk_title350_chapter_catalog",
+      "relationship_type": "catalogues",
+      "to_id": "standard_ne_title350_ch91_pad_proceedings",
+      "note": "Current chapter 91."
     },
     {
       "from_id": "deadline_jan1_assessment_date",
@@ -1312,6 +1822,48 @@
       "note": "Ratio-study workflow."
     },
     {
+      "from_id": "standard_ne_title350_ch10_real_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch10_real_property",
+      "relationship_type": "governs",
+      "to_id": "concept_actual_value",
+      "note": "Real property valuation standard domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch10_real_property",
+      "relationship_type": "related_concept",
+      "to_id": "concept_valuation_approaches",
+      "note": "Real property valuation approaches and methods."
+    },
+    {
+      "from_id": "standard_ne_title350_ch10_real_property",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual real property assessment workflow."
+    },
+    {
+      "from_id": "standard_ne_title350_ch11_ag_special_valuation",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch11_ag_special_valuation",
+      "relationship_type": "governs",
+      "to_id": "concept_greenbelt_special_valuation",
+      "note": "Special valuation domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch11_ag_special_valuation",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1359_greenbelt",
+      "note": "Statutory special valuation workflow."
+    },
+    {
       "from_id": "standard_ne_title350_ch12_sales_file",
       "relationship_type": "governs",
       "to_id": "concept_valid_sale",
@@ -1330,10 +1882,40 @@
       "note": "Sales are ratio denominator."
     },
     {
+      "from_id": "standard_ne_title350_ch13_mineral_interests",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch13_mineral_interests",
+      "relationship_type": "context_for",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Special real-property domain."
+    },
+    {
       "from_id": "standard_ne_title350_ch14_agricultural_land",
       "relationship_type": "governs",
       "to_id": "concept_greenbelt_special_valuation",
       "note": "Agricultural/horticultural valuation domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch15_state_government_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch15_state_government_property",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch15_state_government_property",
+      "relationship_type": "related_concept",
+      "to_id": "concept_homestead_exemption",
+      "note": "Exemption-classification context, distinct program."
     },
     {
       "from_id": "standard_ne_title350_ch17_reports_opinions",
@@ -1348,6 +1930,162 @@
       "note": "Statewide equalization evidence."
     },
     {
+      "from_id": "standard_ne_title350_ch18_community_redevelopment",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch18_community_redevelopment",
+      "relationship_type": "governs",
+      "to_id": "concept_tax_increment_financing",
+      "note": "Regulatory TIF domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch18_community_redevelopment",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Constitutional authority context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch20_personal_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch20_personal_property",
+      "relationship_type": "governs",
+      "to_id": "concept_personal_property",
+      "note": "Personal property assessment domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch20_personal_property",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property statutory domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch23_historical_real_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch23_historical_real_property",
+      "relationship_type": "context_for",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Special real-property classification/treatment domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "relationship_type": "context_for",
+      "to_id": "pad_statewide_equalization",
+      "note": "State valuation domain adjacent to statewide oversight."
+    },
+    {
+      "from_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "relationship_type": "governs",
+      "to_id": "concept_centrally_assessed_property",
+      "note": "Centrally/state-assessed property domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption authority."
+    },
+    {
+      "from_id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "relationship_type": "related_concept",
+      "to_id": "concept_homestead_exemption",
+      "note": "Separate relief/exemption program context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "relationship_type": "governs",
+      "to_id": "concept_payment_in_lieu_of_tax",
+      "note": "PILOT domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_11_public_electrical_systems",
+      "note": "Constitutional in-lieu tax context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Exempt personal property domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Exempt personal property domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch45_homestead_exemption",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch45_homestead_exemption",
+      "relationship_type": "governs",
+      "to_id": "concept_homestead_exemption",
+      "note": "Homestead relief/exemption domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch45_homestead_exemption",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_3501_3530_homestead",
+      "note": "Statutory homestead provisions."
+    },
+    {
       "from_id": "standard_ne_title350_ch50_assessment_process",
       "relationship_type": "governs",
       "to_id": "workflow_real_property_annual_assessment_cycle",
@@ -1358,6 +2096,48 @@
       "relationship_type": "supports",
       "to_id": "workflow_cama_data_maintenance",
       "note": "Data/record maintenance."
+    },
+    {
+      "from_id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "relationship_type": "historical_context_for",
+      "to_id": "concept_equalization",
+      "note": "Repealed equalization chapter retained for history."
+    },
+    {
+      "from_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "relationship_type": "distinguished_from",
+      "to_id": "concept_value_vs_tax",
+      "note": "Transfer tax is not annual assessed-value taxation."
+    },
+    {
+      "from_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "relationship_type": "governs",
+      "to_id": "concept_documentary_stamp_tax",
+      "note": "Documentary stamp tax domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch60_reports_repealed",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch60_reports_repealed",
+      "relationship_type": "historical_context_for",
+      "to_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Current reporting requirements are catalogued in Chapter 65."
     },
     {
       "from_id": "standard_ne_title350_ch65_reporting_due_dates",
@@ -1372,10 +2152,94 @@
       "note": "Reporting due dates are part of annual assessment operations."
     },
     {
+      "from_id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "relationship_type": "historical_context_for",
+      "to_id": "pad_assessor_certification",
+      "note": "Assessor education/certification history."
+    },
+    {
+      "from_id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "relationship_type": "historical_context_for",
+      "to_id": "standard_ne_title350_ch71_certification",
+      "note": "Current education/certification chapter is Chapter 71."
+    },
+    {
       "from_id": "standard_ne_title350_ch71_certification",
       "relationship_type": "governs",
       "to_id": "pad_assessor_certification",
       "note": "Certification workflow."
+    },
+    {
+      "from_id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "relationship_type": "context_for",
+      "to_id": "concept_equalization",
+      "note": "Adjusted valuation is an assessment-data use case."
+    },
+    {
+      "from_id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "relationship_type": "context_for",
+      "to_id": "pad_statewide_equalization",
+      "note": "School adjusted valuation depends on valuation/equalization data."
+    },
+    {
+      "from_id": "standard_ne_title350_ch90_practice_procedure",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch90_practice_procedure",
+      "relationship_type": "context_for",
+      "to_id": "pad_statewide_equalization",
+      "note": "PAD procedure context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch90_practice_procedure",
+      "relationship_type": "context_for",
+      "to_id": "workflow_terc_appeal",
+      "note": "Administrative procedure is adjacent to appeal/proceeding workflows."
+    },
+    {
+      "from_id": "standard_ne_title350_ch91_pad_proceedings",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch91_pad_proceedings",
+      "relationship_type": "context_for",
+      "to_id": "pad_statewide_equalization",
+      "note": "PAD proceeding domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch91_pad_proceedings",
+      "relationship_type": "context_for",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "PAD action may arise from oversight/equalization context."
+    },
+    {
+      "from_id": "standard_ne_title350_ch93_proceedings_repealed",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "from_id": "standard_ne_title350_ch93_proceedings_repealed",
+      "relationship_type": "historical_context_for",
+      "to_id": "standard_ne_title350_ch91_pad_proceedings",
+      "note": "Current proceedings chapter is Chapter 91."
     },
     {
       "from_id": "statute_ne_13_501_budget_act",

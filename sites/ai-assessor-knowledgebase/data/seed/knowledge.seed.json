@@ -1124,11 +1124,19 @@
       "summary": "Constitutional source for exemptions and classification authority in Nebraska property taxation.",
       "plain_language": "Exemptions and different property classes must have constitutional/statutory authority.",
       "semantic_tags": ["constitution", "article_viii", "exemptions", "classification", "taxation"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "2" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Neb. Const. art. IX, sec. 2 (1875); amended 1906, 1912, 1920, 1954, 1958, 1966, 1970, 1972, 1984, 1990, 1992, 1998, 2020." }
+      ],
       "relationships": [
         { "type": "related_concept", "target_id": "concept_homestead_exemption", "note": "Homestead is a statutory relief program with constitutional context." },
         { "type": "related_concept", "target_id": "concept_personal_property", "note": "Personal property treatment is constitutionally/statutorily framed." }
       ],
       "source_refs": [
+        { "source_id": "ne_const_article_viii_2", "locator": "Article VIII-2", "citation": "Neb. Const. art. VIII, § 2." },
         { "source_id": "ne_const_article_viii", "locator": "Article VIII-2", "citation": "Neb. Const. art. VIII, § 2." },
         { "source_id": "ne_dor_pad_statutes_page", "locator": "Article VIII property assessment provisions", "citation": "Nebraska DOR PAD, Property Assessment Statutes." }
       ],
@@ -1146,11 +1154,19 @@
       "summary": "Nebraska constitutional provision prohibiting levy of property tax for state purposes.",
       "plain_language": "Nebraska property taxes are local, not a state property tax for state purposes.",
       "semantic_tags": ["constitution", "state_property_tax", "local_tax", "article_viii"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "1A" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Adopted 1954 via Laws 1953, constitutional amendment No. 3; amended 1958 and 1970." }
+      ],
       "relationships": [
         { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Property tax levy workflow is local-government oriented." },
         { "type": "related_public_guidance", "target_id": "public_guidance_assessment_vs_taxes", "note": "Helps explain state versus local roles." }
       ],
       "source_refs": [
+        { "source_id": "ne_const_article_viii_1a", "locator": "Article VIII-1A", "citation": "Neb. Const. art. VIII, § 1A." },
         { "source_id": "ne_dor_pad_statutes_page", "locator": "Article VIII-1A entry", "citation": "Nebraska DOR PAD, Property Assessment Statutes." }
       ],
       "confidence": "medium",
@@ -1167,6 +1183,13 @@
       "summary": "Constitutional anchor requiring real property taxes to be levied by valuation uniformly and proportionately, subject to permitted exceptions.",
       "plain_language": "Nebraska's property tax system is constitutionally built around uniform and proportionate valuation.",
       "semantic_tags": ["constitution", "article_viii", "uniformity", "proportionality", "property_tax"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "1" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Neb. Const. art. IX, sec. 1 (1875); amended 1903, 1912, 1920, 1954, 1958, 1966, 1970, 1984." }
+      ],
       "relationships": [
         { "type": "defines_authority_for", "target_id": "concept_uniformity_proportionality", "note": "Canonical constitutional concept." },
         { "type": "supports", "target_id": "concept_equalization", "note": "Equalization operationalizes constitutional requirement." },

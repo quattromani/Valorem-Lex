@@ -1,30 +1,31 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "edge_count": 305,
+  "edge_count": 449,
   "relationship_type_counts": {
     "interprets": 4,
     "related_workflow": 3,
-    "related_concept": 22,
+    "related_concept": 32,
     "defined_by": 4,
-    "distinguished_from": 3,
+    "distinguished_from": 5,
     "measured_by": 7,
     "based_on": 1,
     "subject_to": 1,
     "used_in": 11,
     "implemented_by": 5,
-    "related_statute": 7,
-    "supports": 21,
+    "related_statute": 11,
+    "supports": 22,
     "contains": 1,
     "related_standard": 1,
+    "context_for": 23,
+    "governed_by": 21,
     "contrasted_with": 6,
     "part_of": 8,
     "uses": 21,
     "used_by": 7,
     "related_research": 2,
-    "grounded_in": 3,
+    "grounded_in": 12,
     "exception_or_variant_of": 1,
-    "governed_by": 17,
     "related_case": 1,
     "constitutional_context": 1,
     "related_relief": 1,
@@ -57,27 +58,31 @@
     "workflow": 1,
     "failure_mode": 1,
     "researched_by": 1,
-    "context_for": 5,
+    "catalogued_in": 34,
+    "defines_authority_for": 4,
+    "related_regulation": 4,
     "related_public_guidance": 1,
-    "defines_authority_for": 1,
     "explains": 3,
     "stage": 4,
     "contextualizes": 3,
     "prioritizes": 3,
+    "anchors": 1,
+    "catalogues": 39,
     "level_metric": 2,
     "reliability_concept": 1,
     "uniformity_metric": 1,
     "vertical_metric": 2,
+    "catalogues_historical": 4,
     "implements": 1,
     "precedes": 4,
     "uses_form": 2,
     "applies_to": 1,
     "claims": 1,
-    "related_regulation": 2,
     "uses_workflow": 1,
     "grounds": 2,
     "defines": 5,
-    "governs": 15,
+    "governs": 23,
+    "historical_context_for": 5,
     "related_deadline": 2,
     "triggers_or_precedes": 1,
     "requires": 1,
@@ -97,6 +102,14 @@
     "evidence_uses": 2
   },
   "high_degree_objects": [
+    {
+      "id": "crosswalk_title350_chapter_catalog",
+      "outbound_count": 27
+    },
+    {
+      "id": "crosswalk_ne_const_article_viii_catalog",
+      "outbound_count": 17
+    },
     {
       "id": "workflow_ratio_study_equalization",
       "outbound_count": 8
@@ -186,15 +199,7 @@
       "outbound_count": 4
     },
     {
-      "id": "crosswalk_legal_hierarchy",
-      "outbound_count": 4
-    },
-    {
-      "id": "pad_reports_opinions_methodology",
-      "outbound_count": 4
-    },
-    {
-      "id": "public_guidance_assessment_vs_taxes",
+      "id": "const_ne_article_viii_12_tax_increment_financing",
       "outbound_count": 4
     }
   ]

@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_2a_personal_property_in_transit",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-2A Personal Property in Transit Exemption",
+  "aliases": [
+    "Article VIII-2A",
+    "free port constitutional exemption"
+  ],
+  "category": "constitutional_taxation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section authorizing an exemption for personal property in transit through licensed warehouses or storage areas.",
+  "plain_language": "This is the constitutional home for the in-transit personal-property exemption.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "personal_property",
+    "exemption",
+    "free_port"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "2A"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Adopted 1962 via Laws 1961, constitutional amendment No. 5."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "defines_authority_for",
+      "target_id": "concept_free_port_in_transit_property",
+      "note": "Constitutional exemption category."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_personal_property",
+      "note": "Personal property exemption context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_2a",
+      "locator": "Article VIII-2A",
+      "citation": "Neb. Const. art. VIII, § 2A."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

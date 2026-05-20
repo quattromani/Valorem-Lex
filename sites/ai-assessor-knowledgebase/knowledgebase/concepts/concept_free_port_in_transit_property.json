@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_free_port_in_transit_property",
+  "object_type": "concept",
+  "canonical_term": "Personal Property in Transit Exemption",
+  "aliases": [
+    "free port exemption",
+    "in-transit personal property",
+    "licensed warehouse storage area exemption"
+  ],
+  "category": "personal_property_exemption",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "Constitutional exemption category for qualifying personal property in transit in licensed warehouses or storage areas.",
+  "plain_language": "Certain property moving through Nebraska storage or warehouse channels may be constitutionally exempt from property tax.",
+  "semantic_tags": [
+    "personal_property",
+    "exemption",
+    "article_viii_2a",
+    "free_port"
+  ],
+  "relationships": [
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "note": "Article VIII-2A catalogue entry."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_personal_property",
+      "note": "Exemption applies to a defined personal-property category."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_2a",
+      "locator": "Article VIII-2A",
+      "citation": "Neb. Const. art. VIII, § 2A."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

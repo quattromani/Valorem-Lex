@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 43 Nebraska Advantage Act Exempt Personal Property",
+  "aliases": [
+    "Nebraska Advantage Act personal property regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for exempt personal property under the Nebraska Advantage Act.",
+  "plain_language": "This chapter covers a Nebraska Advantage incentive-related personal-property exemption domain.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_43",
+    "personal_property",
+    "exemption",
+    "nebraska_advantage"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "43"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Nebraska Advantage Act Exempt Personal Property"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 5/14/06; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_personal_property",
+      "note": "Exempt personal property domain."
+    },
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 43 Nebraska Advantage Act Exempt Personal Property",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 43."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 43",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 43."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

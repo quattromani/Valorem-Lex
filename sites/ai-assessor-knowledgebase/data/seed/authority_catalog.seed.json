@@ -1,0 +1,1543 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "sources": [
+    {
+      "id": "ne_const_browse_constitution",
+      "title": "Nebraska State Constitution - Browse Constitution",
+      "source_type": "constitution_index",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/browse-constitution.php",
+      "publication_date": null,
+      "publication_date_note": "Official browse page does not state a publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["constitution", "article_viii", "revenue", "taxation", "section_index"],
+      "notes": "Official Article VIII section index used to catalogue current constitutional sections."
+    },
+    {
+      "id": "ne_const_article_viii_1a",
+      "title": "Nebraska Constitution Article VIII-1A Property Tax; State Purposes; Levy Prohibited",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-1A",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "property_tax", "state_property_tax_prohibition", "levy"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_1b",
+      "title": "Nebraska Constitution Article VIII-1B Income Tax; Continuation; Limitation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-1B",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "income_tax", "revenue"],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_article_viii_2",
+      "title": "Nebraska Constitution Article VIII-2 Property Taxes; Exemptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-2",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "property_tax", "exemptions", "classification"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_2a",
+      "title": "Nebraska Constitution Article VIII-2A Property Tax; Personal Property in Transit; Exemption",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-2A",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "personal_property", "free_port", "exemption"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_3",
+      "title": "Nebraska Constitution Article VIII-3 Redemption from Sale of Real Estate for Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-3",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "tax_sale", "redemption", "real_estate"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_4",
+      "title": "Nebraska Constitution Article VIII-4 Taxes; No Release or Commutation; Exceptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-4",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "tax_collection", "tax_cancellation", "public_corporation"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_5",
+      "title": "Nebraska Constitution Article VIII-5 County Taxes; Limitation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-5",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "county_tax", "levy_limit", "county_board"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_6",
+      "title": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-6",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "municipal_tax", "special_assessment", "uniformity"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_7",
+      "title": "Nebraska Constitution Article VIII-7 Private Property; Corporate Debts; Exemptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-7",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "exemptions", "municipal_property", "institutions"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_8",
+      "title": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-8",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "indebtedness", "public_finance"],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_article_viii_9",
+      "title": "Nebraska Constitution Article VIII-9 Claims Against State; Procedure",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-9",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "claims", "state_treasury"],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_article_viii_10",
+      "title": "Nebraska Constitution Article VIII-10 Grain and Seed; Taxation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-10",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "grain", "seed", "personal_property", "agricultural_property"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_11",
+      "title": "Nebraska Constitution Article VIII-11 Public Corporations and Political Subdivisions; Electrical System Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-11",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "public_corporation", "political_subdivision", "in_lieu_of_tax"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_12",
+      "title": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-12",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "tax_increment_financing", "community_redevelopment", "levy"],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_13",
+      "title": "Nebraska Constitution Article VIII-13 Revenue Laws; How Construed",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-13",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["article_viii", "revenue_laws", "construction", "transition"],
+      "notes": "Official section page with current text and source/amendment trace."
+    }
+  ],
+  "objects": [
+    {
+      "id": "concept_centrally_assessed_property",
+      "object_type": "concept",
+      "canonical_term": "Centrally Assessed Property",
+      "aliases": ["state-assessed property", "property valued by the state", "centrally assessed companies"],
+      "category": "assessment_administration",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Property classes valued by the state rather than locally, including centrally assessed/public-service property domains handled by PAD.",
+      "plain_language": "Some property is valued centrally by the state instead of by the county assessor.",
+      "semantic_tags": ["centrally_assessed_property", "state_assessed_property", "pad", "title_350", "chapter_30"],
+      "relationships": [
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch30_property_valued_by_state", "note": "Title 350 Chapter 30 catalogue entry." },
+        { "type": "context_for", "target_id": "pad_statewide_equalization", "note": "Centrally assessed property is a state assessment domain adjacent to equalization." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_state_assessed_property", "locator": "state assessed property page", "citation": "Nebraska DOR PAD, State Assessed Property." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 30", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 30." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "concept_documentary_stamp_tax",
+      "object_type": "concept",
+      "canonical_term": "Documentary Stamp Tax",
+      "aliases": ["deed documentary stamp tax", "real estate transfer stamp tax"],
+      "category": "real_estate_transfer_tax",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Nebraska tax domain connected to recorded real estate transfer instruments and Title 350 Chapter 52.",
+      "plain_language": "This is a transfer-related tax tied to recorded real estate documents, not the annual valuation itself.",
+      "semantic_tags": ["documentary_stamp_tax", "real_estate_transfer", "title_350", "chapter_52"],
+      "relationships": [
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch52_documentary_stamp_tax", "note": "Title 350 Chapter 52 catalogue entry." },
+        { "type": "distinguished_from", "target_id": "concept_tax_bill", "note": "Transfer tax is distinct from annual property tax billing." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 52", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 52." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "concept_free_port_in_transit_property",
+      "object_type": "concept",
+      "canonical_term": "Personal Property in Transit Exemption",
+      "aliases": ["free port exemption", "in-transit personal property", "licensed warehouse storage area exemption"],
+      "category": "personal_property_exemption",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Constitutional exemption category for qualifying personal property in transit in licensed warehouses or storage areas.",
+      "plain_language": "Certain property moving through Nebraska storage or warehouse channels may be constitutionally exempt from property tax.",
+      "semantic_tags": ["personal_property", "exemption", "article_viii_2a", "free_port"],
+      "relationships": [
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_2a_personal_property_in_transit", "note": "Article VIII-2A catalogue entry." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Exemption applies to a defined personal-property category." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_2a", "locator": "Article VIII-2A", "citation": "Neb. Const. art. VIII, § 2A." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "concept_payment_in_lieu_of_tax",
+      "object_type": "concept",
+      "canonical_term": "Payment in Lieu of Tax",
+      "aliases": ["in-lieu tax", "PILOT", "in lieu of tax"],
+      "category": "property_tax_substitute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "A payment or tax substitute domain for certain public corporation or political subdivision property and electrical systems.",
+      "plain_language": "Some public or quasi-public property may pay a substitute amount instead of ordinary property tax.",
+      "semantic_tags": ["in_lieu_of_tax", "public_corporation", "political_subdivision", "article_viii_11", "title_350_ch41"],
+      "relationships": [
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_11_public_electrical_systems", "note": "Article VIII-11 catalogue entry." },
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch41_in_lieu_of_tax", "note": "Title 350 Chapter 41 catalogue entry." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_11", "locator": "Article VIII-11", "citation": "Neb. Const. art. VIII, § 11." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 41", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 41." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "concept_tax_increment_financing",
+      "object_type": "concept",
+      "canonical_term": "Tax Increment Financing",
+      "abbreviation": "TIF",
+      "aliases": ["community redevelopment tax increment financing", "redevelopment increment"],
+      "category": "levy_tax_mechanic",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Nebraska constitutional and regulatory domain allowing legislatively authorized community redevelopment financing using incremental property tax value.",
+      "plain_language": "TIF separates part of the tax value growth for a redevelopment project under constitutional and statutory rules.",
+      "semantic_tags": ["tax_increment_financing", "tif", "community_redevelopment", "article_viii_12", "title_350_ch18"],
+      "relationships": [
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_12_tax_increment_financing", "note": "Article VIII-12 catalogue entry." },
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch18_community_redevelopment", "note": "Title 350 Chapter 18 catalogue entry." },
+        { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "TIF affects tax allocation after valuation and levy mechanics." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_12", "locator": "Article VIII-12", "citation": "Neb. Const. art. VIII, § 12." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 18", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "standard_ne_title350_ch10_real_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 10 Real Property",
+      "aliases": ["Nebraska Title 350 Chapter 10", "Real Property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for real-property assessment definitions, valuation concepts, and real property administration.",
+      "plain_language": "This is the regulation chapter most directly tied to real-property field review and valuation work.",
+      "semantic_tags": ["title_350", "chapter_10", "real_property", "valuation", "field_review"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "10" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Real Property" },
+        { "predicate": "revision_status", "object": "Rev. 3/15/09; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_actual_value", "note": "Real property valuation standard domain." },
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Annual real property assessment workflow." },
+        { "type": "related_concept", "target_id": "concept_valuation_approaches", "note": "Real property valuation approaches and methods." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 10 Real Property", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 10." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 10", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch11_ag_special_valuation",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 11 Agricultural or Horticultural Land Special Valuation",
+      "aliases": ["Agricultural Land Special Valuation regulation", "Greenbelt special valuation regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for agricultural or horticultural land special valuation.",
+      "plain_language": "This chapter is a regulation source for greenbelt or special valuation questions.",
+      "semantic_tags": ["title_350", "chapter_11", "agricultural_land", "horticultural_land", "special_valuation", "greenbelt"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "11" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Agricultural or Horticultural Land Special Valuation" },
+        { "predicate": "revision_status", "object": "Rev. 9/23/07; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_greenbelt_special_valuation", "note": "Special valuation domain." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1359_greenbelt", "note": "Statutory special valuation workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 11 Agricultural Land Special Valuation", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 11." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 11", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 11." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch13_mineral_interests",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 13 Mineral Interests",
+      "aliases": ["Mineral Interests regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for assessment of mineral interests.",
+      "plain_language": "This chapter is the regulation source for mineral-interest assessment questions.",
+      "semantic_tags": ["title_350", "chapter_13", "mineral_interests", "real_property"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "13" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Mineral Interests" },
+        { "predicate": "revision_status", "object": "Rev. 8/2/11; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "context_for", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Special real-property domain." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 13 Mineral Interests", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 13." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 13", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 13." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch15_state_government_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 15 Property Owned by the State and Governmental Subdivisions",
+      "aliases": ["Governmental subdivision property regulation", "State-owned property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for property owned by the state and governmental subdivisions.",
+      "plain_language": "This chapter helps separate taxable property from governmental property treatment.",
+      "semantic_tags": ["title_350", "chapter_15", "government_property", "exemption", "state_property"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "15" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Property Owned by the State and Governmental Subdivisions" },
+        { "predicate": "revision_status", "object": "Rev. 3/15/09; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "related_concept", "target_id": "concept_homestead_exemption", "note": "Exemption-classification context, distinct program." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_exemptions", "note": "Constitutional exemption context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 15 Property Owned by the State and Governmental Subdivisions", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 15." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 15", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 15." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch18_community_redevelopment",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 18 Community Redevelopment Law",
+      "aliases": ["TIF regulation", "Community Redevelopment Law regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for Community Redevelopment Law and tax increment financing administration.",
+      "plain_language": "This chapter is a regulation source for TIF and redevelopment tax questions.",
+      "semantic_tags": ["title_350", "chapter_18", "community_redevelopment", "tax_increment_financing", "tif"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "18" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Community Redevelopment Law" },
+        { "predicate": "revision_status", "object": "Rev. 8/2/11; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_tax_increment_financing", "note": "Regulatory TIF domain." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_12_tax_increment_financing", "note": "Constitutional authority context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 18 Community Redevelopment Law", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 18." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 18", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch20_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 20 Personal Property",
+      "aliases": ["Personal Property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for personal property assessment administration.",
+      "plain_language": "This chapter is a regulation source for taxable personal-property listing and assessment questions.",
+      "semantic_tags": ["title_350", "chapter_20", "personal_property", "assessment"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "20" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Personal Property" },
+        { "predicate": "revision_status", "object": "Rev. 3/14/16; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_personal_property", "note": "Personal property assessment domain." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1201_personal_property_assessment", "note": "Personal property statutory domain." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 20 Personal Property", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 20." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 20", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 20." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch23_historical_real_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 23 Historical Real Property",
+      "aliases": ["Historical Real Property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for historical real property treatment.",
+      "plain_language": "This chapter covers an historic-property assessment domain that can affect real-property valuation or classification.",
+      "semantic_tags": ["title_350", "chapter_23", "historical_real_property", "real_property"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "23" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Historical Real Property" },
+        { "predicate": "revision_status", "object": "Rev. 6/29/11; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "context_for", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Special real-property classification/treatment domain." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 23 Historical Real Property", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 23." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 23", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 23." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch30_property_valued_by_state",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 30 Property Valued by the State",
+      "aliases": ["Centrally assessed property regulation", "State-assessed property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for property valued by the state, including centrally assessed property domains.",
+      "plain_language": "This chapter is the regulation source for property the state values instead of the county assessor.",
+      "semantic_tags": ["title_350", "chapter_30", "centrally_assessed_property", "state_assessed_property"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "30" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Property Valued by the State" },
+        { "predicate": "revision_status", "object": "Rev. 3/14/16; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_centrally_assessed_property", "note": "Centrally/state-assessed property domain." },
+        { "type": "context_for", "target_id": "pad_statewide_equalization", "note": "State valuation domain adjacent to statewide oversight." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 30 Property Valued by the State", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 30." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 30", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 30." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 40 Property Tax Exemptions",
+      "aliases": ["Property Tax Exemptions regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for property tax exemption administration.",
+      "plain_language": "This is a core regulation chapter for exemption applications and exemption questions.",
+      "semantic_tags": ["title_350", "chapter_40", "property_tax_exemptions", "exemption"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "40" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Property Tax Exemptions" },
+        { "predicate": "revision_status", "object": "Rev. 10/26/14; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_exemptions", "note": "Constitutional exemption authority." },
+        { "type": "related_concept", "target_id": "concept_homestead_exemption", "note": "Separate relief/exemption program context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 40 Property Tax Exemptions", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 40." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 40", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 40." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 41 In Lieu of Tax",
+      "aliases": ["PILOT regulation", "In lieu tax regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for in-lieu-of-tax treatment.",
+      "plain_language": "This chapter handles substitute payment/tax treatment rather than ordinary property taxation.",
+      "semantic_tags": ["title_350", "chapter_41", "in_lieu_of_tax", "pilot"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "41" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "In Lieu of Tax" },
+        { "predicate": "revision_status", "object": "Rev. 6/29/11; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_payment_in_lieu_of_tax", "note": "PILOT domain." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_11_public_electrical_systems", "note": "Constitutional in-lieu tax context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 41 In Lieu of Tax", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 41." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 41", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 41." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 42 Employment and Investment Growth Act Exempt Personal Property",
+      "aliases": ["Employment and Investment Growth Act personal property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for exempt personal property under the Employment and Investment Growth Act.",
+      "plain_language": "This chapter covers an incentive-related personal-property exemption domain.",
+      "semantic_tags": ["title_350", "chapter_42", "personal_property", "exemption", "incentive"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "42" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Employment and Investment Growth Act Exempt Personal Property" },
+        { "predicate": "revision_status", "object": "Rev. 6/6/00; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Exempt personal property domain." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_exemptions", "note": "Constitutional exemption context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 42 Employment and Investment Growth Act Exempt Personal Property", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 42." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 42", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 42." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 43 Nebraska Advantage Act Exempt Personal Property",
+      "aliases": ["Nebraska Advantage Act personal property regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for exempt personal property under the Nebraska Advantage Act.",
+      "plain_language": "This chapter covers a Nebraska Advantage incentive-related personal-property exemption domain.",
+      "semantic_tags": ["title_350", "chapter_43", "personal_property", "exemption", "nebraska_advantage"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "43" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Nebraska Advantage Act Exempt Personal Property" },
+        { "predicate": "revision_status", "object": "Rev. 5/14/06; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Exempt personal property domain." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_exemptions", "note": "Constitutional exemption context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 43 Nebraska Advantage Act Exempt Personal Property", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 43." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 43", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 43." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch45_homestead_exemption",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 45 Homestead Exemption",
+      "aliases": ["Homestead Exemption regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for Nebraska homestead exemption administration.",
+      "plain_language": "This chapter is a regulation source for homestead exemption eligibility and administration questions.",
+      "semantic_tags": ["title_350", "chapter_45", "homestead_exemption", "property_tax_relief"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "45" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Homestead Exemption" },
+        { "predicate": "revision_status", "object": "Rev. 8/7/21; current in DOR chapter index" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_homestead_exemption", "note": "Homestead relief/exemption domain." },
+        { "type": "related_statute", "target_id": "statute_ne_77_3501_3530_homestead", "note": "Statutory homestead provisions." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 45 Homestead Exemption", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 45." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 45", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 45." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 52 Documentary Stamp Tax",
+      "aliases": ["Documentary Stamp Tax regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for documentary stamp tax administration.",
+      "plain_language": "This chapter covers real-estate transfer document tax mechanics, separate from ordinary annual property tax.",
+      "semantic_tags": ["title_350", "chapter_52", "documentary_stamp_tax", "real_estate_transfer"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "52" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Documentary Stamp Tax" },
+        { "predicate": "revision_status", "object": "Rev. 2/25/16; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "governs", "target_id": "concept_documentary_stamp_tax", "note": "Documentary stamp tax domain." },
+        { "type": "distinguished_from", "target_id": "concept_value_vs_tax", "note": "Transfer tax is not annual assessed-value taxation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 52 Documentary Stamp Tax", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 52." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 52", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 52." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 80 School Adjusted Valuation",
+      "aliases": ["School adjusted valuation regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for school adjusted valuation.",
+      "plain_language": "This chapter connects assessment data to school finance adjusted valuation calculations.",
+      "semantic_tags": ["title_350", "chapter_80", "school_adjusted_valuation", "school_finance", "equalization"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "80" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "School Adjusted Valuation" },
+        { "predicate": "revision_status", "object": "Rev. 6/6/00; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "context_for", "target_id": "concept_equalization", "note": "Adjusted valuation is an assessment-data use case." },
+        { "type": "context_for", "target_id": "pad_statewide_equalization", "note": "School adjusted valuation depends on valuation/equalization data." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 80 School Adjusted Valuation", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 80." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 80", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 80." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch90_practice_procedure",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 90 Practice and Procedure",
+      "aliases": ["PAD practice and procedure regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for Property Assessment Division practice and procedure.",
+      "plain_language": "This chapter is a procedural source for PAD proceedings and administrative practice.",
+      "semantic_tags": ["title_350", "chapter_90", "practice_procedure", "pad_procedure"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "90" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Practice and Procedure" },
+        { "predicate": "revision_status", "object": "Rev. 6/6/00; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "context_for", "target_id": "pad_statewide_equalization", "note": "PAD procedure context." },
+        { "type": "context_for", "target_id": "workflow_terc_appeal", "note": "Administrative procedure is adjacent to appeal/proceeding workflows." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 90 Practice and Procedure", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 90." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 90", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 90." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch91_pad_proceedings",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 91 Proceedings Instituted by the Department of Revenue, Property Assessment Division",
+      "aliases": ["PAD instituted proceedings regulation"],
+      "category": "nebraska_regulation_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Current Title 350 regulation chapter for proceedings instituted by DOR Property Assessment Division.",
+      "plain_language": "This chapter is a procedural source for PAD-initiated matters.",
+      "semantic_tags": ["title_350", "chapter_91", "pad_proceedings", "procedure"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "91" },
+        { "predicate": "chapter_status", "object": "current" },
+        { "predicate": "chapter_title", "object": "Proceedings Instituted by the Department of Revenue, Property Assessment Division" },
+        { "predicate": "revision_status", "object": "Rev. 3/15/09; current in 2017 full set" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "context_for", "target_id": "pad_statewide_equalization", "note": "PAD proceeding domain." },
+        { "type": "context_for", "target_id": "workflow_ratio_study_equalization", "note": "PAD action may arise from oversight/equalization context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 91 Proceedings Instituted by DOR PAD", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 91." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 91", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 91." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_requires_section_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 51 Countywide Equalization (Repealed)",
+      "aliases": ["Countywide Equalization repealed regulation"],
+      "category": "nebraska_regulation_repealed_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation_history",
+      "summary": "Repealed Title 350 chapter formerly covering countywide equalization; retained for history and amendment trace.",
+      "plain_language": "This chapter is historical and should not be treated as current law.",
+      "semantic_tags": ["title_350", "chapter_51", "countywide_equalization", "repealed", "history"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "51" },
+        { "predicate": "chapter_status", "object": "repealed" },
+        { "predicate": "chapter_title", "object": "Countywide Equalization" },
+        { "predicate": "revision_status", "object": "Rep. 6/6/00" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "historical_context_for", "target_id": "concept_equalization", "note": "Repealed equalization chapter retained for history." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_chapters_pdf", "locator": "Chapter 51 Countywide Equalization", "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 51." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 repealed chapter index", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_historical"
+    },
+    {
+      "id": "standard_ne_title350_ch60_reports_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 60 Reports (Repealed)",
+      "aliases": ["Reports repealed regulation"],
+      "category": "nebraska_regulation_repealed_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation_history",
+      "summary": "Repealed Title 350 chapter formerly covering reports; retained for history and amendment trace.",
+      "plain_language": "This reporting chapter is historical and should not be treated as current law.",
+      "semantic_tags": ["title_350", "chapter_60", "reports", "repealed", "history"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "60" },
+        { "predicate": "chapter_status", "object": "repealed" },
+        { "predicate": "chapter_title", "object": "Reports" },
+        { "predicate": "revision_status", "object": "Rep. 2/25/16" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "historical_context_for", "target_id": "standard_ne_title350_ch65_reporting_due_dates", "note": "Current reporting requirements are catalogued in Chapter 65." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_chapters_pdf", "locator": "Chapter 60 Reports", "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 60." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 repealed chapter index", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_historical"
+    },
+    {
+      "id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 70 Schooling and Education (Repealed)",
+      "aliases": ["Schooling and Education repealed regulation"],
+      "category": "nebraska_regulation_repealed_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation_history",
+      "summary": "Repealed Title 350 chapter formerly covering schooling and education; retained for history and amendment trace.",
+      "plain_language": "This education chapter is historical and should not be treated as current law.",
+      "semantic_tags": ["title_350", "chapter_70", "education", "assessor_certification", "repealed", "history"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "70" },
+        { "predicate": "chapter_status", "object": "repealed" },
+        { "predicate": "chapter_title", "object": "Schooling and Education" },
+        { "predicate": "revision_status", "object": "Rep. 7/14/19" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "historical_context_for", "target_id": "standard_ne_title350_ch71_certification", "note": "Current education/certification chapter is Chapter 71." },
+        { "type": "historical_context_for", "target_id": "pad_assessor_certification", "note": "Assessor education/certification history." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_chapters_pdf", "locator": "Chapter 70 Schooling and Education", "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 70." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 repealed chapter index", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_historical"
+    },
+    {
+      "id": "standard_ne_title350_ch93_proceedings_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 93 Proceedings Instituted by the Department of Property Assessment and Taxation (Repealed)",
+      "aliases": ["Department of Property Assessment and Taxation proceedings repealed regulation"],
+      "category": "nebraska_regulation_repealed_chapter",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation_history",
+      "summary": "Repealed Title 350 chapter formerly covering proceedings instituted by the former Department of Property Assessment and Taxation.",
+      "plain_language": "This chapter is historical and should not be treated as current procedure.",
+      "semantic_tags": ["title_350", "chapter_93", "proceedings", "repealed", "history"],
+      "facts": [
+        { "predicate": "title", "object": "350" },
+        { "predicate": "chapter_number", "object": "93" },
+        { "predicate": "chapter_status", "object": "repealed" },
+        { "predicate": "chapter_title", "object": "Proceedings Instituted by the Department of Property Assessment and Taxation" },
+        { "predicate": "revision_status", "object": "Rep. 3/15/09" }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_title350_chapter_catalog", "note": "Title 350 chapter catalogue." },
+        { "type": "historical_context_for", "target_id": "standard_ne_title350_ch91_pad_proceedings", "note": "Current proceedings chapter is Chapter 91." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_chapters_pdf", "locator": "Chapter 93 Proceedings Instituted by the Department of Property Assessment and Taxation", "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 93." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 repealed chapter index", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index." }
+      ],
+      "confidence": "medium",
+      "review_status": "catalogued_historical"
+    },
+    {
+      "id": "const_ne_article_viii_1b_income_tax",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-1B Income Tax",
+      "aliases": ["Article VIII-1B", "income tax continuation limitation"],
+      "category": "constitutional_revenue",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing continuation and limitation of Nebraska income tax authority; included for complete revenue article coverage.",
+      "plain_language": "This is a revenue section but usually not a property-assessment authority.",
+      "semantic_tags": ["constitution", "article_viii", "income_tax", "revenue"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "1B" },
+        { "predicate": "core_property_assessment_relevance", "object": "low" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Adopted 1966 via Laws 1965, LB 1022, constitutional amendment No. 3." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_1b", "locator": "Article VIII-1B", "citation": "Neb. Const. art. VIII, § 1B." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-2A Personal Property in Transit Exemption",
+      "aliases": ["Article VIII-2A", "free port constitutional exemption"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section authorizing an exemption for personal property in transit through licensed warehouses or storage areas.",
+      "plain_language": "This is the constitutional home for the in-transit personal-property exemption.",
+      "semantic_tags": ["constitution", "article_viii", "personal_property", "exemption", "free_port"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "2A" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Adopted 1962 via Laws 1961, constitutional amendment No. 5." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "defines_authority_for", "target_id": "concept_free_port_in_transit_property", "note": "Constitutional exemption category." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Personal property exemption context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_2a", "locator": "Article VIII-2A", "citation": "Neb. Const. art. VIII, § 2A." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_3_tax_sale_redemption",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-3 Tax Sale Redemption",
+      "aliases": ["Article VIII-3", "redemption from tax sale"],
+      "category": "constitutional_tax_collection",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section preserving a redemption period from sale of real estate for taxes or special assessments.",
+      "plain_language": "This is a constitutional tax-collection safeguard after property is sold for taxes or special assessments.",
+      "semantic_tags": ["constitution", "article_viii", "tax_sale", "redemption", "special_assessment"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "3" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 4 (1875); amended 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "concept_tax_bill", "note": "Tax collection and sale context follows assessment/levy." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_3", "locator": "Article VIII-3", "citation": "Neb. Const. art. VIII, § 3." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-4 No Release or Commutation of Taxes",
+      "aliases": ["Article VIII-4", "tax release prohibition", "tax cancellation exception"],
+      "category": "constitutional_tax_collection",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section prohibiting release or commutation of taxes except under constitutionally recognized circumstances.",
+      "plain_language": "Taxes generally cannot just be forgiven unless an authorized exception applies.",
+      "semantic_tags": ["constitution", "article_viii", "tax_collection", "tax_cancellation", "public_corporation"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "4" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 5 (1875); amended 1920 and 2012." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "concept_tax_bill", "note": "Tax collection and cancellation context." },
+        { "type": "related_concept", "target_id": "concept_payment_in_lieu_of_tax", "note": "Authorized exceptions and substitutes require separate authority." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_4", "locator": "Article VIII-4", "citation": "Neb. Const. art. VIII, § 4." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_5_county_tax_limitation",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-5 County Taxes Limitation",
+      "aliases": ["Article VIII-5", "county tax limit"],
+      "category": "constitutional_levy",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section limiting county taxes except as constitutionally authorized.",
+      "plain_language": "County taxing power is constitutionally limited and then implemented through statutes and levy processes.",
+      "semantic_tags": ["constitution", "article_viii", "county_tax", "levy_limit", "county_board"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "5" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 6 (1875); amended 1920 and 1966." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Constitutional county-tax limitation context." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1601_county_tax_levy", "note": "County levy statutory workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_5", "locator": "Article VIII-5", "citation": "Neb. Const. art. VIII, § 5." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+      "aliases": ["Article VIII-6", "municipal tax uniformity", "special assessments"],
+      "category": "constitutional_levy",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing local improvement special assessments and uniform municipal taxes.",
+      "plain_language": "Municipal taxes and special assessments have their own constitutional structure alongside general property tax valuation.",
+      "semantic_tags": ["constitution", "article_viii", "municipal_tax", "special_assessment", "uniformity"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "6" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 7 (1875); amended 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Municipal taxes and special assessments affect taxpayer bills." },
+        { "type": "related_concept", "target_id": "concept_uniformity_proportionality", "note": "Uniform municipal tax context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_6", "locator": "Article VIII-6", "citation": "Neb. Const. art. VIII, § 6." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-7 Private Property and Corporate Debts",
+      "aliases": ["Article VIII-7"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing liability of private property for corporate debts and exemptions for municipal/institutional property.",
+      "plain_language": "This is a constitutional property and exemption context section with limited direct assessment workflow use.",
+      "semantic_tags": ["constitution", "article_viii", "private_property", "corporate_debt", "exemptions"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "7" },
+        { "predicate": "core_property_assessment_relevance", "object": "low" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. XI, sec. 4 (1875); amended and renumbered 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "const_ne_article_viii_exemptions", "note": "Property exemption context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_7", "locator": "Article VIII-7", "citation": "Neb. Const. art. VIII, § 7." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_8_funding_indebtedness",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+      "aliases": ["Article VIII-8"],
+      "category": "constitutional_revenue",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing funding of indebtedness; included for complete revenue article coverage.",
+      "plain_language": "This is a public-finance section, not usually an assessor workflow source.",
+      "semantic_tags": ["constitution", "article_viii", "indebtedness", "public_finance"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "8" },
+        { "predicate": "core_property_assessment_relevance", "object": "low" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 3 (1875); amended 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_8", "locator": "Article VIII-8", "citation": "Neb. Const. art. VIII, § 8." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_9_claims_against_state",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-9 Claims Against State",
+      "aliases": ["Article VIII-9"],
+      "category": "constitutional_revenue",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing claims against the state and treasury procedure; included for complete revenue article coverage.",
+      "plain_language": "This is a state fiscal procedure section, not usually an assessor workflow source.",
+      "semantic_tags": ["constitution", "article_viii", "state_claims", "treasury"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "9" },
+        { "predicate": "core_property_assessment_relevance", "object": "low" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 8 (1875); amended and renumbered 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_9", "locator": "Article VIII-9", "citation": "Neb. Const. art. VIII, § 9." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_10_grain_seed_taxation",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-10 Grain and Seed Taxation",
+      "aliases": ["Article VIII-10", "grain tax constitutional section"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing taxation of grain and seed.",
+      "plain_language": "This is an agricultural/commercial property taxation section with specific grain and seed treatment.",
+      "semantic_tags": ["constitution", "article_viii", "grain", "seed", "agricultural_property", "personal_property"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "10" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 7A (1920); adopted 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Agricultural/commercial personal property context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_10", "locator": "Article VIII-10", "citation": "Neb. Const. art. VIII, § 10." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_11_public_electrical_systems",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-11 Public Electrical System In-Lieu Taxes",
+      "aliases": ["Article VIII-11", "public corporation electrical system tax", "PILOT constitutional section"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section addressing tax or in-lieu tax treatment for certain public corporations and political subdivisions engaged in electrical business.",
+      "plain_language": "This is the constitutional context for certain public electrical system taxes or in-lieu payments.",
+      "semantic_tags": ["constitution", "article_viii", "public_corporation", "political_subdivision", "in_lieu_of_tax", "electric_system"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "11" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Adopted 1946 via Laws 1945, constitutional amendment No. 1; amended 1958 and 1976." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "defines_authority_for", "target_id": "concept_payment_in_lieu_of_tax", "note": "In-lieu tax context." },
+        { "type": "related_regulation", "target_id": "standard_ne_title350_ch41_in_lieu_of_tax", "note": "Regulatory chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_11", "locator": "Article VIII-11", "citation": "Neb. Const. art. VIII, § 11." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_12_tax_increment_financing",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+      "aliases": ["Article VIII-12", "TIF constitutional authority"],
+      "category": "constitutional_levy",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section authorizing legislative powers for tax increment financing and community redevelopment.",
+      "plain_language": "This is the constitutional anchor for Nebraska TIF.",
+      "semantic_tags": ["constitution", "article_viii", "tax_increment_financing", "tif", "community_redevelopment"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "12" },
+        { "predicate": "core_property_assessment_relevance", "object": "high" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Adopted 1978 via Laws 1977, LR 30; amended 2020 via Laws 2019, LR 14CA." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "defines_authority_for", "target_id": "concept_tax_increment_financing", "note": "TIF constitutional authority." },
+        { "type": "related_regulation", "target_id": "standard_ne_title350_ch18_community_redevelopment", "note": "Regulatory chapter." },
+        { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "TIF affects tax allocation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_12", "locator": "Article VIII-12", "citation": "Neb. Const. art. VIII, § 12." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "const_ne_article_viii_13_revenue_laws_construction",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-13 Revenue Laws Construction",
+      "aliases": ["Article VIII-13", "construction of revenue laws"],
+      "category": "constitutional_revenue",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Article VIII section preserving operation and construction of revenue laws through constitutional transition.",
+      "plain_language": "This is a constitutional transition/construction rule for revenue laws.",
+      "semantic_tags": ["constitution", "article_viii", "revenue_laws", "construction", "transition"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section", "object": "13" },
+        { "predicate": "core_property_assessment_relevance", "object": "medium" },
+        { "predicate": "current_status", "object": "current" },
+        { "predicate": "source_history", "object": "Originated as Neb. Const. art. IX, sec. 9 (1875); amended and renumbered 1920." }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_ne_const_article_viii_catalog", "note": "Article VIII catalogue." },
+        { "type": "context_for", "target_id": "crosswalk_legal_hierarchy", "note": "Constitution/statute continuity and construction context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_13", "locator": "Article VIII-13", "citation": "Neb. Const. art. VIII, § 13." }
+      ],
+      "confidence": "medium",
+      "review_status": "authority_catalog_seed"
+    },
+    {
+      "id": "crosswalk_title350_chapter_catalog",
+      "object_type": "crosswalk",
+      "canonical_term": "Title 350 Chapter Catalogue",
+      "aliases": ["Nebraska Property Assessment Regulations chapter index", "Title 350 authority catalogue"],
+      "category": "authority_catalog",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Canonical catalogue of current and repealed Title 350 Nebraska Administrative Code chapters relevant to property assessment administration.",
+      "plain_language": "This object is the navigation map for every Title 350 property assessment regulation chapter.",
+      "semantic_tags": ["title_350", "regulation_catalog", "chapter_index", "authority_trace"],
+      "facts": [
+        { "predicate": "current_chapter_count", "object": 23 },
+        { "predicate": "repealed_chapter_count", "object": 4 },
+        { "predicate": "catalog_status", "object": "chapter-level complete; section-level extraction pending" },
+        { "predicate": "current_chapters", "object": [
+          { "chapter": "10", "title": "Real Property", "revision": "Rev. 3/15/09", "object_id": "standard_ne_title350_ch10_real_property" },
+          { "chapter": "11", "title": "Agricultural or Horticultural Land Special Valuation", "revision": "Rev. 9/23/07", "object_id": "standard_ne_title350_ch11_ag_special_valuation" },
+          { "chapter": "12", "title": "Sales File", "revision": "Rev. 2/25/16", "object_id": "standard_ne_title350_ch12_sales_file" },
+          { "chapter": "13", "title": "Mineral Interests", "revision": "Rev. 8/2/11", "object_id": "standard_ne_title350_ch13_mineral_interests" },
+          { "chapter": "14", "title": "Agricultural and Horticultural Land Assessment", "revision": "Rev. 3/15/09", "object_id": "standard_ne_title350_ch14_agricultural_land" },
+          { "chapter": "15", "title": "Property Owned by the State and Governmental Subdivisions", "revision": "Rev. 3/15/09", "object_id": "standard_ne_title350_ch15_state_government_property" },
+          { "chapter": "17", "title": "Reports and Opinions of the Property Tax Administrator", "revision": "Rev. 2/25/16", "object_id": "standard_ne_title350_ch17_reports_opinions" },
+          { "chapter": "18", "title": "Community Redevelopment Law", "revision": "Rev. 8/2/11", "object_id": "standard_ne_title350_ch18_community_redevelopment" },
+          { "chapter": "20", "title": "Personal Property", "revision": "Rev. 3/14/16", "object_id": "standard_ne_title350_ch20_personal_property" },
+          { "chapter": "23", "title": "Historical Real Property", "revision": "Rev. 6/29/11", "object_id": "standard_ne_title350_ch23_historical_real_property" },
+          { "chapter": "30", "title": "Property Valued by the State", "revision": "Rev. 3/14/16", "object_id": "standard_ne_title350_ch30_property_valued_by_state" },
+          { "chapter": "40", "title": "Property Tax Exemptions", "revision": "Rev. 10/26/14", "object_id": "standard_ne_title350_ch40_property_tax_exemptions" },
+          { "chapter": "41", "title": "In Lieu of Tax", "revision": "Rev. 6/29/11", "object_id": "standard_ne_title350_ch41_in_lieu_of_tax" },
+          { "chapter": "42", "title": "Employment and Investment Growth Act Exempt Personal Property", "revision": "Rev. 6/6/00", "object_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property" },
+          { "chapter": "43", "title": "Nebraska Advantage Act Exempt Personal Property", "revision": "Rev. 5/14/06", "object_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property" },
+          { "chapter": "45", "title": "Homestead Exemption", "revision": "Rev. 8/7/21", "object_id": "standard_ne_title350_ch45_homestead_exemption" },
+          { "chapter": "50", "title": "Assessment Process", "revision": "Rev. 10/26/14", "object_id": "standard_ne_title350_ch50_assessment_process" },
+          { "chapter": "52", "title": "Documentary Stamp Tax", "revision": "Rev. 2/25/16", "object_id": "standard_ne_title350_ch52_documentary_stamp_tax" },
+          { "chapter": "65", "title": "Reporting Requirements and Due Dates for County Assessors and County Clerks", "revision": "Rev. 2/25/16", "object_id": "standard_ne_title350_ch65_reporting_due_dates" },
+          { "chapter": "71", "title": "Education, Certification, and Recertification", "revision": "Rev. 7/14/19", "object_id": "standard_ne_title350_ch71_certification" },
+          { "chapter": "80", "title": "School Adjusted Valuation", "revision": "Rev. 6/6/00", "object_id": "standard_ne_title350_ch80_school_adjusted_valuation" },
+          { "chapter": "90", "title": "Practice and Procedure", "revision": "Rev. 6/6/00", "object_id": "standard_ne_title350_ch90_practice_procedure" },
+          { "chapter": "91", "title": "Proceedings Instituted by the Department of Revenue, Property Assessment Division", "revision": "Rev. 3/15/09", "object_id": "standard_ne_title350_ch91_pad_proceedings" }
+        ] },
+        { "predicate": "repealed_chapters", "object": [
+          { "chapter": "51", "title": "Countywide Equalization", "revision": "Rep. 6/6/00", "object_id": "standard_ne_title350_ch51_countywide_equalization_repealed" },
+          { "chapter": "60", "title": "Reports", "revision": "Rep. 2/25/16", "object_id": "standard_ne_title350_ch60_reports_repealed" },
+          { "chapter": "70", "title": "Schooling and Education", "revision": "Rep. 7/14/19", "object_id": "standard_ne_title350_ch70_schooling_education_repealed" },
+          { "chapter": "93", "title": "Proceedings Instituted by the Department of Property Assessment and Taxation", "revision": "Rep. 3/15/09", "object_id": "standard_ne_title350_ch93_proceedings_repealed" }
+        ] }
+      ],
+      "relationships": [
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch10_real_property", "note": "Current chapter 10." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch11_ag_special_valuation", "note": "Current chapter 11." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch12_sales_file", "note": "Current chapter 12." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch13_mineral_interests", "note": "Current chapter 13." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch14_agricultural_land", "note": "Current chapter 14." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch15_state_government_property", "note": "Current chapter 15." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch17_reports_opinions", "note": "Current chapter 17." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch18_community_redevelopment", "note": "Current chapter 18." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch20_personal_property", "note": "Current chapter 20." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch23_historical_real_property", "note": "Current chapter 23." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch30_property_valued_by_state", "note": "Current chapter 30." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch40_property_tax_exemptions", "note": "Current chapter 40." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch41_in_lieu_of_tax", "note": "Current chapter 41." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property", "note": "Current chapter 42." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property", "note": "Current chapter 43." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch45_homestead_exemption", "note": "Current chapter 45." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch50_assessment_process", "note": "Current chapter 50." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch52_documentary_stamp_tax", "note": "Current chapter 52." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch65_reporting_due_dates", "note": "Current chapter 65." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch71_certification", "note": "Current chapter 71." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch80_school_adjusted_valuation", "note": "Current chapter 80." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch90_practice_procedure", "note": "Current chapter 90." },
+        { "type": "catalogues", "target_id": "standard_ne_title350_ch91_pad_proceedings", "note": "Current chapter 91." },
+        { "type": "catalogues_historical", "target_id": "standard_ne_title350_ch51_countywide_equalization_repealed", "note": "Repealed chapter 51." },
+        { "type": "catalogues_historical", "target_id": "standard_ne_title350_ch60_reports_repealed", "note": "Repealed chapter 60." },
+        { "type": "catalogues_historical", "target_id": "standard_ne_title350_ch70_schooling_education_repealed", "note": "Repealed chapter 70." },
+        { "type": "catalogues_historical", "target_id": "standard_ne_title350_ch93_proceedings_repealed", "note": "Repealed chapter 93." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 chapter table", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." },
+        { "source_id": "ne_dor_title350_chapters_pdf", "locator": "List of Regulation Chapters", "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 full regulation set", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code." }
+      ],
+      "confidence": "medium",
+      "review_status": "chapter_catalog_complete_section_extraction_pending"
+    },
+    {
+      "id": "crosswalk_ne_const_article_viii_catalog",
+      "object_type": "crosswalk",
+      "canonical_term": "Nebraska Constitution Article VIII Revenue Catalogue",
+      "aliases": ["Article VIII catalogue", "Nebraska constitutional taxation crosswalk"],
+      "category": "authority_catalog",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Canonical catalogue of Nebraska Constitution Article VIII revenue and taxation sections, with property-assessment relevance and source-history trace.",
+      "plain_language": "This object is the navigation map for Article VIII constitutional tax authority.",
+      "semantic_tags": ["constitution", "article_viii", "revenue", "taxation", "history", "amendments"],
+      "facts": [
+        { "predicate": "article", "object": "VIII" },
+        { "predicate": "section_count", "object": 16 },
+        { "predicate": "catalog_status", "object": "section-level current/history catalogue complete; full amendment ballot-history extraction pending" },
+        { "predicate": "sections", "object": [
+          { "section": "1", "title": "Revenue; raised by taxation; legislative powers", "object_id": "const_ne_article_viii_uniformity", "relevance": "high", "source_history": "Neb. Const. art. IX, sec. 1 (1875); amended 1903, 1912, 1920, 1954, 1958, 1966, 1970, 1984." },
+          { "section": "1A", "title": "Property tax; state purposes; levy prohibited", "object_id": "const_ne_article_viii_state_property_tax_prohibition", "relevance": "high", "source_history": "Adopted 1954 via Laws 1953, constitutional amendment No. 3; amended 1958 and 1970." },
+          { "section": "1B", "title": "Income tax; continuation; limitation", "object_id": "const_ne_article_viii_1b_income_tax", "relevance": "low", "source_history": "Adopted 1966 via Laws 1965, LB 1022, constitutional amendment No. 3." },
+          { "section": "2", "title": "Property taxes; exemptions", "object_id": "const_ne_article_viii_exemptions", "relevance": "high", "source_history": "Neb. Const. art. IX, sec. 2 (1875); amended 1906, 1912, 1920, 1954, 1958, 1966, 1970, 1972, 1984, 1990, 1992, 1998, 2020." },
+          { "section": "2A", "title": "Personal property in transit; exemption", "object_id": "const_ne_article_viii_2a_personal_property_in_transit", "relevance": "high", "source_history": "Adopted 1962 via Laws 1961, constitutional amendment No. 5." },
+          { "section": "3", "title": "Redemption from sale of real estate for taxes", "object_id": "const_ne_article_viii_3_tax_sale_redemption", "relevance": "medium", "source_history": "Neb. Const. art. IX, sec. 4 (1875); amended 1920." },
+          { "section": "4", "title": "Taxes; no release or commutation; exceptions", "object_id": "const_ne_article_viii_4_no_release_commutation_taxes", "relevance": "medium", "source_history": "Neb. Const. art. IX, sec. 5 (1875); amended 1920 and 2012." },
+          { "section": "5", "title": "County taxes; limitation", "object_id": "const_ne_article_viii_5_county_tax_limitation", "relevance": "high", "source_history": "Neb. Const. art. IX, sec. 6 (1875); amended 1920 and 1966." },
+          { "section": "6", "title": "Local improvements and municipal taxes", "object_id": "const_ne_article_viii_6_local_improvements_municipal_taxes", "relevance": "medium", "source_history": "Neb. Const. art. IX, sec. 7 (1875); amended 1920." },
+          { "section": "7", "title": "Private property; corporate debts; exemptions", "object_id": "const_ne_article_viii_7_private_property_corporate_debts", "relevance": "low", "source_history": "Neb. Const. art. XI, sec. 4 (1875); amended and renumbered 1920." },
+          { "section": "8", "title": "Funding indebtedness", "object_id": "const_ne_article_viii_8_funding_indebtedness", "relevance": "low", "source_history": "Neb. Const. art. IX, sec. 3 (1875); amended 1920." },
+          { "section": "9", "title": "Claims against state; procedure", "object_id": "const_ne_article_viii_9_claims_against_state", "relevance": "low", "source_history": "Neb. Const. art. IX, sec. 8 (1875); amended and renumbered 1920." },
+          { "section": "10", "title": "Grain and seed; taxation", "object_id": "const_ne_article_viii_10_grain_seed_taxation", "relevance": "medium", "source_history": "Neb. Const. art. IX, sec. 7A (1920); adopted 1920." },
+          { "section": "11", "title": "Public corporations and political subdivisions; electrical system taxes", "object_id": "const_ne_article_viii_11_public_electrical_systems", "relevance": "medium", "source_history": "Adopted 1946 via Laws 1945, constitutional amendment No. 1; amended 1958 and 1976." },
+          { "section": "12", "title": "Tax increment financing", "object_id": "const_ne_article_viii_12_tax_increment_financing", "relevance": "high", "source_history": "Adopted 1978 via Laws 1977, LR 30; amended 2020 via Laws 2019, LR 14CA." },
+          { "section": "13", "title": "Revenue laws; how construed", "object_id": "const_ne_article_viii_13_revenue_laws_construction", "relevance": "medium", "source_history": "Neb. Const. art. IX, sec. 9 (1875); amended and renumbered 1920." }
+        ] }
+      ],
+      "relationships": [
+        { "type": "catalogues", "target_id": "const_ne_article_viii_uniformity", "note": "Article VIII-1." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_state_property_tax_prohibition", "note": "Article VIII-1A." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_1b_income_tax", "note": "Article VIII-1B." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_exemptions", "note": "Article VIII-2." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_2a_personal_property_in_transit", "note": "Article VIII-2A." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_3_tax_sale_redemption", "note": "Article VIII-3." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_4_no_release_commutation_taxes", "note": "Article VIII-4." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_5_county_tax_limitation", "note": "Article VIII-5." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_6_local_improvements_municipal_taxes", "note": "Article VIII-6." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_7_private_property_corporate_debts", "note": "Article VIII-7." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_8_funding_indebtedness", "note": "Article VIII-8." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_9_claims_against_state", "note": "Article VIII-9." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_10_grain_seed_taxation", "note": "Article VIII-10." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_11_public_electrical_systems", "note": "Article VIII-11." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_12_tax_increment_financing", "note": "Article VIII-12." },
+        { "type": "catalogues", "target_id": "const_ne_article_viii_13_revenue_laws_construction", "note": "Article VIII-13." },
+        { "type": "anchors", "target_id": "crosswalk_legal_hierarchy", "note": "Constitutional layer of assessor-domain legal hierarchy." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_browse_constitution", "locator": "Article VIII section index", "citation": "Nebraska Legislature, Nebraska State Constitution, Article VIII." },
+        { "source_id": "ne_dor_pad_statutes_page", "locator": "Article VIII property assessment provisions", "citation": "Nebraska DOR PAD, Property Assessment Statutes." },
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-1", "citation": "Neb. Const. art. VIII, § 1." },
+        { "source_id": "ne_const_article_viii_1a", "locator": "Article VIII-1A", "citation": "Neb. Const. art. VIII, § 1A." },
+        { "source_id": "ne_const_article_viii_1b", "locator": "Article VIII-1B", "citation": "Neb. Const. art. VIII, § 1B." },
+        { "source_id": "ne_const_article_viii_2", "locator": "Article VIII-2", "citation": "Neb. Const. art. VIII, § 2." },
+        { "source_id": "ne_const_article_viii_2a", "locator": "Article VIII-2A", "citation": "Neb. Const. art. VIII, § 2A." },
+        { "source_id": "ne_const_article_viii_3", "locator": "Article VIII-3", "citation": "Neb. Const. art. VIII, § 3." },
+        { "source_id": "ne_const_article_viii_4", "locator": "Article VIII-4", "citation": "Neb. Const. art. VIII, § 4." },
+        { "source_id": "ne_const_article_viii_5", "locator": "Article VIII-5", "citation": "Neb. Const. art. VIII, § 5." },
+        { "source_id": "ne_const_article_viii_6", "locator": "Article VIII-6", "citation": "Neb. Const. art. VIII, § 6." },
+        { "source_id": "ne_const_article_viii_7", "locator": "Article VIII-7", "citation": "Neb. Const. art. VIII, § 7." },
+        { "source_id": "ne_const_article_viii_8", "locator": "Article VIII-8", "citation": "Neb. Const. art. VIII, § 8." },
+        { "source_id": "ne_const_article_viii_9", "locator": "Article VIII-9", "citation": "Neb. Const. art. VIII, § 9." },
+        { "source_id": "ne_const_article_viii_10", "locator": "Article VIII-10", "citation": "Neb. Const. art. VIII, § 10." },
+        { "source_id": "ne_const_article_viii_11", "locator": "Article VIII-11", "citation": "Neb. Const. art. VIII, § 11." },
+        { "source_id": "ne_const_article_viii_12", "locator": "Article VIII-12", "citation": "Neb. Const. art. VIII, § 12." },
+        { "source_id": "ne_const_article_viii_13", "locator": "Article VIII-13", "citation": "Neb. Const. art. VIII, § 13." }
+      ],
+      "confidence": "medium",
+      "review_status": "section_catalog_complete_amendment_history_pending"
+    }
+  ],
+  "authority_coverage": {
+    "catalogued_authority_phase": "title_350_and_article_viii",
+    "title350_current_chapter_count": 23,
+    "title350_repealed_chapter_count": 4,
+    "title350_chapter_level_status": "complete",
+    "title350_section_level_status": "pending_pdf_section_extraction",
+    "article_viii_section_count": 16,
+    "article_viii_current_history_status": "section-level current/source-history facts catalogued",
+    "article_viii_deep_amendment_status": "pending ballot measure/LR/session-law trace extraction",
+    "high_relevance_article_viii_sections": ["VIII-1", "VIII-1A", "VIII-2", "VIII-2A", "VIII-5", "VIII-12"],
+    "medium_relevance_article_viii_sections": ["VIII-3", "VIII-4", "VIII-6", "VIII-10", "VIII-11", "VIII-13"],
+    "low_relevance_article_viii_sections": ["VIII-1B", "VIII-7", "VIII-8", "VIII-9"]
+  },
+  "gap_analysis_additions": [
+    {
+      "gap": "Title 350 is now catalogued at chapter level, but section-level rules remain compressed into chapter authority objects.",
+      "risk": "An AI can route to the correct chapter but should not yet answer fine-grained regulation-section questions without deeper extraction.",
+      "next_action": "Parse REGS_web_fullset.pdf into section-level objects with numbered sections, definitions, duties, deadlines, and cross-references."
+    },
+    {
+      "gap": "Article VIII current sections and source histories are catalogued, but amendment traces are not yet expanded into ballot measure, LR, election-date, and session-law objects.",
+      "risk": "Historical constitutional questions can be grounded at a source-history level, but not yet fully reconstructed across every amendment event.",
+      "next_action": "Extract each Article VIII amendment event into canonical amendment-history objects linked to LR/session-law/election results where available."
+    }
+  ],
+  "future_ingestion_targets_additions": [
+    "Title 350 section-level extraction from REGS_web_fullset.pdf into regulation section objects.",
+    "Nebraska Constitution Article VIII amendment-event trace using Legislature source notes, LR texts, election materials, and historical constitution compilations.",
+    "Chapter 10 Real Property extraction for field-review valuation concepts, appraisal approaches, quality/condition, and property-record duties.",
+    "Chapter 14 agricultural/horticultural assessment extraction with soil/LVG/ag-land methodology crosswalks."
+  ]
+}

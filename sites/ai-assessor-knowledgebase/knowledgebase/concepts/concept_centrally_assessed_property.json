@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_centrally_assessed_property",
+  "object_type": "concept",
+  "canonical_term": "Centrally Assessed Property",
+  "aliases": [
+    "state-assessed property",
+    "property valued by the state",
+    "centrally assessed companies"
+  ],
+  "category": "assessment_administration",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "Property classes valued by the state rather than locally, including centrally assessed/public-service property domains handled by PAD.",
+  "plain_language": "Some property is valued centrally by the state instead of by the county assessor.",
+  "semantic_tags": [
+    "centrally_assessed_property",
+    "state_assessed_property",
+    "pad",
+    "title_350",
+    "chapter_30"
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "note": "Title 350 Chapter 30 catalogue entry."
+    },
+    {
+      "type": "context_for",
+      "target_id": "pad_statewide_equalization",
+      "note": "Centrally assessed property is a state assessment domain adjacent to equalization."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_state_assessed_property",
+      "locator": "state assessed property page",
+      "citation": "Nebraska DOR PAD, State Assessed Property."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 30",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 30."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

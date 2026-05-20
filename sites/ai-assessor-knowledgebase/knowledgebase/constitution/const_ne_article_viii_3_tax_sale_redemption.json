@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_3_tax_sale_redemption",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-3 Tax Sale Redemption",
+  "aliases": [
+    "Article VIII-3",
+    "redemption from tax sale"
+  ],
+  "category": "constitutional_tax_collection",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section preserving a redemption period from sale of real estate for taxes or special assessments.",
+  "plain_language": "This is a constitutional tax-collection safeguard after property is sold for taxes or special assessments.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "tax_sale",
+    "redemption",
+    "special_assessment"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "3"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 4 (1875); amended 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "concept_tax_bill",
+      "note": "Tax collection and sale context follows assessment/levy."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_3",
+      "locator": "Article VIII-3",
+      "citation": "Neb. Const. art. VIII, § 3."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

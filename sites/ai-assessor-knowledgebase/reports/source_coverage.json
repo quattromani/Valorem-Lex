@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "source_count": 57,
-  "object_count": 96,
+  "source_count": 73,
+  "object_count": 137,
   "sources_by_type": {
     "working_paper": 2,
     "case_law": 4,
@@ -13,6 +13,8 @@
     "draft_standard": 1,
     "agency_guidance": 7,
     "constitution": 1,
+    "constitution_section": 15,
+    "constitution_index": 1,
     "annual_report": 1,
     "agency_data": 1,
     "form": 1,
@@ -40,7 +42,7 @@
     "research": 1,
     "draft_standard": 1,
     "agency_guidance": 6,
-    "constitution": 1,
+    "constitution": 17,
     "pad_report": 1,
     "agency_data": 1,
     "pad_form": 1,
@@ -66,7 +68,7 @@
     "Lincoln Institute of Land Policy": 1,
     "Journal of Real Estate Finance and Economics": 1,
     "Nebraska Auditor of Public Accounts": 2,
-    "Nebraska Legislature": 15,
+    "Nebraska Legislature": 31,
     "Nebraska Department of Revenue Property Assessment Division": 14,
     "Nebraska Department of Revenue": 6,
     "Nebraska Judicial Branch": 1,
@@ -76,12 +78,14 @@
   "topics": {
     "actual_value": 5,
     "agricultural_land": 3,
+    "agricultural_property": 1,
     "air_carriers": 1,
     "annual_report": 1,
     "appeal": 1,
     "appeal_deadline": 1,
     "appeals": 2,
     "appraisal_terms": 1,
+    "article_viii": 16,
     "assessed_value": 1,
     "assessment": 1,
     "assessment_calendar": 2,
@@ -106,18 +110,24 @@
     "case_law": 2,
     "centrally_assessed_property": 1,
     "chapter_77": 2,
-    "classification": 1,
+    "claims": 1,
+    "classification": 2,
     "clerical_error": 1,
     "cod": 2,
     "collection": 2,
     "community_college_tax": 4,
+    "community_redevelopment": 1,
+    "constitution": 1,
     "constitution_article_viii": 1,
     "constitutional_authority": 1,
+    "construction": 1,
     "county_assessor": 1,
+    "county_board": 1,
     "county_board_equalization": 7,
     "county_clerk": 2,
     "county_reports": 1,
     "county_statistics": 1,
+    "county_tax": 1,
     "county_treasurer": 2,
     "court_of_appeals": 1,
     "data_quality": 1,
@@ -132,13 +142,16 @@
     "equalization": 5,
     "evidence": 3,
     "exam": 1,
-    "exemptions": 1,
+    "exemption": 1,
+    "exemptions": 3,
     "exposure_draft": 1,
     "filing": 1,
     "form_403stc": 1,
     "form_422": 4,
     "form_ptc": 3,
+    "free_port": 1,
     "glossary": 1,
+    "grain": 1,
     "greenbelt": 1,
     "grossly_excessive": 1,
     "homestead": 3,
@@ -146,31 +159,38 @@
     "homestead_exemption": 1,
     "homestead_exemptions": 1,
     "horticultural_land": 1,
+    "in_lieu_of_tax": 1,
     "income_approach": 1,
+    "income_tax": 1,
+    "indebtedness": 1,
     "independent_review": 1,
+    "institutions": 1,
     "june_30": 1,
     "level_of_value": 1,
     "levels_of_value": 1,
-    "levy": 5,
-    "levy_limit": 1,
+    "levy": 7,
+    "levy_limit": 2,
     "levy_limits": 1,
     "list_and_value": 1,
     "look_up_tool": 1,
     "market_value": 1,
     "mass_appraisal": 1,
     "mass_appraisal_limits": 1,
+    "municipal_property": 1,
+    "municipal_tax": 1,
     "notice": 1,
     "official_opinions": 1,
     "oversight_agencies": 1,
     "pad_authority": 1,
     "pad_sections": 1,
-    "personal_property": 4,
+    "personal_property": 6,
     "petition": 1,
     "policy_legal": 1,
-    "political_subdivision": 3,
+    "political_subdivision": 4,
     "prb": 1,
     "prd": 2,
     "property_characteristics": 1,
+    "property_tax": 2,
     "property_tax_administrator": 1,
     "property_tax_credit": 3,
     "property_tax_incentive": 1,
@@ -183,46 +203,60 @@
     "protest_hearing": 1,
     "protest_timeline": 1,
     "ptcx": 1,
+    "public_corporation": 2,
+    "public_finance": 1,
     "public_guidance": 1,
     "public_service_entities": 1,
     "qualified_taxes": 1,
     "railroads": 1,
     "ratio_studies": 3,
     "ratio_study_terms": 1,
+    "real_estate": 1,
     "real_property": 4,
     "recertification": 1,
+    "redemption": 1,
     "refundable_credit": 2,
     "regression_bias": 1,
     "regulations": 2,
     "reporting_due_dates": 1,
     "reports_opinions": 2,
+    "revenue": 2,
+    "revenue_laws": 1,
     "revenue_taxation": 1,
     "sales_file": 3,
     "sales_validation": 1,
     "school_district_property_tax_relief_credit": 1,
     "school_district_tax": 3,
+    "section_index": 1,
+    "seed": 1,
+    "special_assessment": 1,
     "special_valuation": 1,
     "standard_revision": 1,
+    "state_property_tax_prohibition": 1,
+    "state_treasury": 1,
     "statewide_equalization": 1,
     "substantial_compliance": 1,
     "suits_index": 1,
     "supreme_court": 1,
     "survey": 1,
-    "tax_collection": 2,
+    "tax_cancellation": 1,
+    "tax_collection": 3,
+    "tax_increment_financing": 1,
     "tax_relief": 1,
     "tax_request": 2,
-    "tax_sale": 1,
+    "tax_sale": 2,
     "taxable_personal_property": 1,
-    "taxation": 1,
+    "taxation": 2,
     "taxes_levied": 1,
     "taxpayer_rights": 1,
     "terc": 2,
     "terc_appeal": 7,
     "terc_representation": 1,
     "title_350": 3,
+    "transition": 1,
     "treasurer_calendar": 1,
     "uniform_execution": 1,
-    "uniformity": 5,
+    "uniformity": 6,
     "vacant_lots": 1,
     "valuation": 1,
     "valuation_approaches": 1,
@@ -367,13 +401,128 @@
       ]
     },
     "ne_const_article_viii": {
-      "object_count": 5,
+      "object_count": 6,
       "object_ids": [
         "concept_equalization",
         "concept_horizontal_equity",
         "concept_uniformity_proportionality",
         "const_ne_article_viii_exemptions",
-        "const_ne_article_viii_uniformity"
+        "const_ne_article_viii_uniformity",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_10": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_10_grain_seed_taxation",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_11": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_payment_in_lieu_of_tax",
+        "const_ne_article_viii_11_public_electrical_systems",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_12": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_tax_increment_financing",
+        "const_ne_article_viii_12_tax_increment_financing",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_13": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_13_revenue_laws_construction",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_1a": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_state_property_tax_prohibition",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_1b": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_1b_income_tax",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_2": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_exemptions",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_2a": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_free_port_in_transit_property",
+        "const_ne_article_viii_2a_personal_property_in_transit",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_3": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_3_tax_sale_redemption",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_4": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_4_no_release_commutation_taxes",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_5": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_5_county_tax_limitation",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_6": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_6_local_improvements_municipal_taxes",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_7": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_7_private_property_corporate_debts",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_8": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_8_funding_indebtedness",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_article_viii_9": {
+      "object_count": 2,
+      "object_ids": [
+        "const_ne_article_viii_9_claims_against_state",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_const_browse_constitution": {
+      "object_count": 1,
+      "object_ids": [
+        "crosswalk_ne_const_article_viii_catalog"
       ]
     },
     "ne_dor_2025_annual_report": {
@@ -470,22 +619,65 @@
         "workflow_valuation_notice_to_protest"
       ]
     },
+    "ne_dor_pad_state_assessed_property": {
+      "object_count": 1,
+      "object_ids": [
+        "concept_centrally_assessed_property"
+      ]
+    },
     "ne_dor_pad_statutes_page": {
-      "object_count": 3,
+      "object_count": 4,
       "object_ids": [
         "const_ne_article_viii_exemptions",
         "const_ne_article_viii_state_property_tax_prohibition",
-        "crosswalk_legal_hierarchy"
+        "crosswalk_legal_hierarchy",
+        "crosswalk_ne_const_article_viii_catalog"
+      ]
+    },
+    "ne_dor_title350_chapters_pdf": {
+      "object_count": 5,
+      "object_ids": [
+        "crosswalk_title350_chapter_catalog",
+        "standard_ne_title350_ch51_countywide_equalization_repealed",
+        "standard_ne_title350_ch60_reports_repealed",
+        "standard_ne_title350_ch70_schooling_education_repealed",
+        "standard_ne_title350_ch93_proceedings_repealed"
       ]
     },
     "ne_dor_title350_fullset_pdf": {
-      "object_count": 1,
+      "object_count": 27,
       "object_ids": [
-        "standard_ne_title350_ch12_sales_file"
+        "concept_centrally_assessed_property",
+        "concept_documentary_stamp_tax",
+        "concept_payment_in_lieu_of_tax",
+        "concept_tax_increment_financing",
+        "crosswalk_title350_chapter_catalog",
+        "standard_ne_title350_ch10_real_property",
+        "standard_ne_title350_ch11_ag_special_valuation",
+        "standard_ne_title350_ch12_sales_file",
+        "standard_ne_title350_ch13_mineral_interests",
+        "standard_ne_title350_ch15_state_government_property",
+        "standard_ne_title350_ch18_community_redevelopment",
+        "standard_ne_title350_ch20_personal_property",
+        "standard_ne_title350_ch23_historical_real_property",
+        "standard_ne_title350_ch30_property_valued_by_state",
+        "standard_ne_title350_ch40_property_tax_exemptions",
+        "standard_ne_title350_ch41_in_lieu_of_tax",
+        "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+        "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+        "standard_ne_title350_ch45_homestead_exemption",
+        "standard_ne_title350_ch51_countywide_equalization_repealed",
+        "standard_ne_title350_ch52_documentary_stamp_tax",
+        "standard_ne_title350_ch60_reports_repealed",
+        "standard_ne_title350_ch70_schooling_education_repealed",
+        "standard_ne_title350_ch80_school_adjusted_valuation",
+        "standard_ne_title350_ch90_practice_procedure",
+        "standard_ne_title350_ch91_pad_proceedings",
+        "standard_ne_title350_ch93_proceedings_repealed"
       ]
     },
     "ne_dor_title350_regs_page": {
-      "object_count": 19,
+      "object_count": 37,
       "object_ids": [
         "concept_cama",
         "concept_greenbelt_special_valuation",
@@ -495,14 +687,32 @@
         "concept_valid_sale",
         "concept_valuation_group",
         "crosswalk_legal_hierarchy",
+        "crosswalk_title350_chapter_catalog",
         "pad_assessor_certification",
         "pad_reports_opinions_methodology",
+        "standard_ne_title350_ch10_real_property",
+        "standard_ne_title350_ch11_ag_special_valuation",
         "standard_ne_title350_ch12_sales_file",
+        "standard_ne_title350_ch13_mineral_interests",
         "standard_ne_title350_ch14_agricultural_land",
+        "standard_ne_title350_ch15_state_government_property",
         "standard_ne_title350_ch17_reports_opinions",
+        "standard_ne_title350_ch18_community_redevelopment",
+        "standard_ne_title350_ch20_personal_property",
+        "standard_ne_title350_ch23_historical_real_property",
+        "standard_ne_title350_ch30_property_valued_by_state",
+        "standard_ne_title350_ch40_property_tax_exemptions",
+        "standard_ne_title350_ch41_in_lieu_of_tax",
+        "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+        "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+        "standard_ne_title350_ch45_homestead_exemption",
         "standard_ne_title350_ch50_assessment_process",
+        "standard_ne_title350_ch52_documentary_stamp_tax",
         "standard_ne_title350_ch65_reporting_due_dates",
         "standard_ne_title350_ch71_certification",
+        "standard_ne_title350_ch80_school_adjusted_valuation",
+        "standard_ne_title350_ch90_practice_procedure",
+        "standard_ne_title350_ch91_pad_proceedings",
         "workflow_cama_data_maintenance",
         "workflow_ratio_study_equalization",
         "workflow_sales_file_to_ratio_study"
@@ -664,6 +874,86 @@
       "source_id": "ne_const_article_viii",
       "title": "Nebraska Constitution Article VIII Revenue",
       "publication_date_note": "Constitutional page does not state a publication date in discovered result."
+    },
+    {
+      "source_id": "ne_const_article_viii_10",
+      "title": "Nebraska Constitution Article VIII-10 Grain and Seed; Taxation",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_11",
+      "title": "Nebraska Constitution Article VIII-11 Public Corporations and Political Subdivisions; Electrical System Taxes",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_12",
+      "title": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_13",
+      "title": "Nebraska Constitution Article VIII-13 Revenue Laws; How Construed",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_1a",
+      "title": "Nebraska Constitution Article VIII-1A Property Tax; State Purposes; Levy Prohibited",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_1b",
+      "title": "Nebraska Constitution Article VIII-1B Income Tax; Continuation; Limitation",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_2",
+      "title": "Nebraska Constitution Article VIII-2 Property Taxes; Exemptions",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_2a",
+      "title": "Nebraska Constitution Article VIII-2A Property Tax; Personal Property in Transit; Exemption",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_3",
+      "title": "Nebraska Constitution Article VIII-3 Redemption from Sale of Real Estate for Taxes",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_4",
+      "title": "Nebraska Constitution Article VIII-4 Taxes; No Release or Commutation; Exceptions",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_5",
+      "title": "Nebraska Constitution Article VIII-5 County Taxes; Limitation",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_6",
+      "title": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_7",
+      "title": "Nebraska Constitution Article VIII-7 Private Property; Corporate Debts; Exemptions",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_8",
+      "title": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_article_viii_9",
+      "title": "Nebraska Constitution Article VIII-9 Claims Against State; Procedure",
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date."
+    },
+    {
+      "source_id": "ne_const_browse_constitution",
+      "title": "Nebraska State Constitution - Browse Constitution",
+      "publication_date_note": "Official browse page does not state a publication date."
     },
     {
       "source_id": "ne_dor_form_422a",

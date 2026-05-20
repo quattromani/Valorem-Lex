@@ -1,0 +1,336 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_ne_const_article_viii_catalog",
+  "object_type": "crosswalk",
+  "canonical_term": "Nebraska Constitution Article VIII Revenue Catalogue",
+  "aliases": [
+    "Article VIII catalogue",
+    "Nebraska constitutional taxation crosswalk"
+  ],
+  "category": "authority_catalog",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Canonical catalogue of Nebraska Constitution Article VIII revenue and taxation sections, with property-assessment relevance and source-history trace.",
+  "plain_language": "This object is the navigation map for Article VIII constitutional tax authority.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "revenue",
+    "taxation",
+    "history",
+    "amendments"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section_count",
+      "object": 16
+    },
+    {
+      "predicate": "catalog_status",
+      "object": "section-level current/history catalogue complete; full amendment ballot-history extraction pending"
+    },
+    {
+      "predicate": "sections",
+      "object": [
+        {
+          "section": "1",
+          "title": "Revenue; raised by taxation; legislative powers",
+          "object_id": "const_ne_article_viii_uniformity",
+          "relevance": "high",
+          "source_history": "Neb. Const. art. IX, sec. 1 (1875); amended 1903, 1912, 1920, 1954, 1958, 1966, 1970, 1984."
+        },
+        {
+          "section": "1A",
+          "title": "Property tax; state purposes; levy prohibited",
+          "object_id": "const_ne_article_viii_state_property_tax_prohibition",
+          "relevance": "high",
+          "source_history": "Adopted 1954 via Laws 1953, constitutional amendment No. 3; amended 1958 and 1970."
+        },
+        {
+          "section": "1B",
+          "title": "Income tax; continuation; limitation",
+          "object_id": "const_ne_article_viii_1b_income_tax",
+          "relevance": "low",
+          "source_history": "Adopted 1966 via Laws 1965, LB 1022, constitutional amendment No. 3."
+        },
+        {
+          "section": "2",
+          "title": "Property taxes; exemptions",
+          "object_id": "const_ne_article_viii_exemptions",
+          "relevance": "high",
+          "source_history": "Neb. Const. art. IX, sec. 2 (1875); amended 1906, 1912, 1920, 1954, 1958, 1966, 1970, 1972, 1984, 1990, 1992, 1998, 2020."
+        },
+        {
+          "section": "2A",
+          "title": "Personal property in transit; exemption",
+          "object_id": "const_ne_article_viii_2a_personal_property_in_transit",
+          "relevance": "high",
+          "source_history": "Adopted 1962 via Laws 1961, constitutional amendment No. 5."
+        },
+        {
+          "section": "3",
+          "title": "Redemption from sale of real estate for taxes",
+          "object_id": "const_ne_article_viii_3_tax_sale_redemption",
+          "relevance": "medium",
+          "source_history": "Neb. Const. art. IX, sec. 4 (1875); amended 1920."
+        },
+        {
+          "section": "4",
+          "title": "Taxes; no release or commutation; exceptions",
+          "object_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+          "relevance": "medium",
+          "source_history": "Neb. Const. art. IX, sec. 5 (1875); amended 1920 and 2012."
+        },
+        {
+          "section": "5",
+          "title": "County taxes; limitation",
+          "object_id": "const_ne_article_viii_5_county_tax_limitation",
+          "relevance": "high",
+          "source_history": "Neb. Const. art. IX, sec. 6 (1875); amended 1920 and 1966."
+        },
+        {
+          "section": "6",
+          "title": "Local improvements and municipal taxes",
+          "object_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+          "relevance": "medium",
+          "source_history": "Neb. Const. art. IX, sec. 7 (1875); amended 1920."
+        },
+        {
+          "section": "7",
+          "title": "Private property; corporate debts; exemptions",
+          "object_id": "const_ne_article_viii_7_private_property_corporate_debts",
+          "relevance": "low",
+          "source_history": "Neb. Const. art. XI, sec. 4 (1875); amended and renumbered 1920."
+        },
+        {
+          "section": "8",
+          "title": "Funding indebtedness",
+          "object_id": "const_ne_article_viii_8_funding_indebtedness",
+          "relevance": "low",
+          "source_history": "Neb. Const. art. IX, sec. 3 (1875); amended 1920."
+        },
+        {
+          "section": "9",
+          "title": "Claims against state; procedure",
+          "object_id": "const_ne_article_viii_9_claims_against_state",
+          "relevance": "low",
+          "source_history": "Neb. Const. art. IX, sec. 8 (1875); amended and renumbered 1920."
+        },
+        {
+          "section": "10",
+          "title": "Grain and seed; taxation",
+          "object_id": "const_ne_article_viii_10_grain_seed_taxation",
+          "relevance": "medium",
+          "source_history": "Neb. Const. art. IX, sec. 7A (1920); adopted 1920."
+        },
+        {
+          "section": "11",
+          "title": "Public corporations and political subdivisions; electrical system taxes",
+          "object_id": "const_ne_article_viii_11_public_electrical_systems",
+          "relevance": "medium",
+          "source_history": "Adopted 1946 via Laws 1945, constitutional amendment No. 1; amended 1958 and 1976."
+        },
+        {
+          "section": "12",
+          "title": "Tax increment financing",
+          "object_id": "const_ne_article_viii_12_tax_increment_financing",
+          "relevance": "high",
+          "source_history": "Adopted 1978 via Laws 1977, LR 30; amended 2020 via Laws 2019, LR 14CA."
+        },
+        {
+          "section": "13",
+          "title": "Revenue laws; how construed",
+          "object_id": "const_ne_article_viii_13_revenue_laws_construction",
+          "relevance": "medium",
+          "source_history": "Neb. Const. art. IX, sec. 9 (1875); amended and renumbered 1920."
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_uniformity",
+      "note": "Article VIII-1."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_state_property_tax_prohibition",
+      "note": "Article VIII-1A."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_1b_income_tax",
+      "note": "Article VIII-1B."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_exemptions",
+      "note": "Article VIII-2."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "note": "Article VIII-2A."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_3_tax_sale_redemption",
+      "note": "Article VIII-3."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "note": "Article VIII-4."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_5_county_tax_limitation",
+      "note": "Article VIII-5."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "note": "Article VIII-6."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "note": "Article VIII-7."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_8_funding_indebtedness",
+      "note": "Article VIII-8."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_9_claims_against_state",
+      "note": "Article VIII-9."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_10_grain_seed_taxation",
+      "note": "Article VIII-10."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_11_public_electrical_systems",
+      "note": "Article VIII-11."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Article VIII-12."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "const_ne_article_viii_13_revenue_laws_construction",
+      "note": "Article VIII-13."
+    },
+    {
+      "type": "anchors",
+      "target_id": "crosswalk_legal_hierarchy",
+      "note": "Constitutional layer of assessor-domain legal hierarchy."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_browse_constitution",
+      "locator": "Article VIII section index",
+      "citation": "Nebraska Legislature, Nebraska State Constitution, Article VIII."
+    },
+    {
+      "source_id": "ne_dor_pad_statutes_page",
+      "locator": "Article VIII property assessment provisions",
+      "citation": "Nebraska DOR PAD, Property Assessment Statutes."
+    },
+    {
+      "source_id": "ne_const_article_viii",
+      "locator": "Article VIII-1",
+      "citation": "Neb. Const. art. VIII, § 1."
+    },
+    {
+      "source_id": "ne_const_article_viii_1a",
+      "locator": "Article VIII-1A",
+      "citation": "Neb. Const. art. VIII, § 1A."
+    },
+    {
+      "source_id": "ne_const_article_viii_1b",
+      "locator": "Article VIII-1B",
+      "citation": "Neb. Const. art. VIII, § 1B."
+    },
+    {
+      "source_id": "ne_const_article_viii_2",
+      "locator": "Article VIII-2",
+      "citation": "Neb. Const. art. VIII, § 2."
+    },
+    {
+      "source_id": "ne_const_article_viii_2a",
+      "locator": "Article VIII-2A",
+      "citation": "Neb. Const. art. VIII, § 2A."
+    },
+    {
+      "source_id": "ne_const_article_viii_3",
+      "locator": "Article VIII-3",
+      "citation": "Neb. Const. art. VIII, § 3."
+    },
+    {
+      "source_id": "ne_const_article_viii_4",
+      "locator": "Article VIII-4",
+      "citation": "Neb. Const. art. VIII, § 4."
+    },
+    {
+      "source_id": "ne_const_article_viii_5",
+      "locator": "Article VIII-5",
+      "citation": "Neb. Const. art. VIII, § 5."
+    },
+    {
+      "source_id": "ne_const_article_viii_6",
+      "locator": "Article VIII-6",
+      "citation": "Neb. Const. art. VIII, § 6."
+    },
+    {
+      "source_id": "ne_const_article_viii_7",
+      "locator": "Article VIII-7",
+      "citation": "Neb. Const. art. VIII, § 7."
+    },
+    {
+      "source_id": "ne_const_article_viii_8",
+      "locator": "Article VIII-8",
+      "citation": "Neb. Const. art. VIII, § 8."
+    },
+    {
+      "source_id": "ne_const_article_viii_9",
+      "locator": "Article VIII-9",
+      "citation": "Neb. Const. art. VIII, § 9."
+    },
+    {
+      "source_id": "ne_const_article_viii_10",
+      "locator": "Article VIII-10",
+      "citation": "Neb. Const. art. VIII, § 10."
+    },
+    {
+      "source_id": "ne_const_article_viii_11",
+      "locator": "Article VIII-11",
+      "citation": "Neb. Const. art. VIII, § 11."
+    },
+    {
+      "source_id": "ne_const_article_viii_12",
+      "locator": "Article VIII-12",
+      "citation": "Neb. Const. art. VIII, § 12."
+    },
+    {
+      "source_id": "ne_const_article_viii_13",
+      "locator": "Article VIII-13",
+      "citation": "Neb. Const. art. VIII, § 13."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "section_catalog_complete_amendment_history_pending"
+}

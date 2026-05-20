@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
   "accessed_date": "2026-05-20",
-  "source_count": 57,
+  "source_count": 73,
   "sources": [
     {
       "id": "berry_reassessing_property_tax",
@@ -392,6 +392,325 @@
         "exemptions"
       ],
       "notes": "Registry entry points to Article VIII section 1; source page links adjacent Article VIII sections."
+    },
+    {
+      "id": "ne_const_article_viii_10",
+      "title": "Nebraska Constitution Article VIII-10 Grain and Seed; Taxation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-10",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "grain",
+        "seed",
+        "personal_property",
+        "agricultural_property"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_11",
+      "title": "Nebraska Constitution Article VIII-11 Public Corporations and Political Subdivisions; Electrical System Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-11",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "public_corporation",
+        "political_subdivision",
+        "in_lieu_of_tax"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_12",
+      "title": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-12",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "tax_increment_financing",
+        "community_redevelopment",
+        "levy"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_13",
+      "title": "Nebraska Constitution Article VIII-13 Revenue Laws; How Construed",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-13",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "revenue_laws",
+        "construction",
+        "transition"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_1a",
+      "title": "Nebraska Constitution Article VIII-1A Property Tax; State Purposes; Levy Prohibited",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-1A",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "property_tax",
+        "state_property_tax_prohibition",
+        "levy"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_1b",
+      "title": "Nebraska Constitution Article VIII-1B Income Tax; Continuation; Limitation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-1B",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "income_tax",
+        "revenue"
+      ],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_article_viii_2",
+      "title": "Nebraska Constitution Article VIII-2 Property Taxes; Exemptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-2",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "property_tax",
+        "exemptions",
+        "classification"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_2a",
+      "title": "Nebraska Constitution Article VIII-2A Property Tax; Personal Property in Transit; Exemption",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-2A",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "personal_property",
+        "free_port",
+        "exemption"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_3",
+      "title": "Nebraska Constitution Article VIII-3 Redemption from Sale of Real Estate for Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-3",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "tax_sale",
+        "redemption",
+        "real_estate"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_4",
+      "title": "Nebraska Constitution Article VIII-4 Taxes; No Release or Commutation; Exceptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-4",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "tax_collection",
+        "tax_cancellation",
+        "public_corporation"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_5",
+      "title": "Nebraska Constitution Article VIII-5 County Taxes; Limitation",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-5",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "county_tax",
+        "levy_limit",
+        "county_board"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_6",
+      "title": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-6",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "municipal_tax",
+        "special_assessment",
+        "uniformity"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_7",
+      "title": "Nebraska Constitution Article VIII-7 Private Property; Corporate Debts; Exemptions",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-7",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "exemptions",
+        "municipal_property",
+        "institutions"
+      ],
+      "notes": "Official section page with current text and source/amendment trace."
+    },
+    {
+      "id": "ne_const_article_viii_8",
+      "title": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-8",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "indebtedness",
+        "public_finance"
+      ],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_article_viii_9",
+      "title": "Nebraska Constitution Article VIII-9 Claims Against State; Procedure",
+      "source_type": "constitution_section",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-9",
+      "publication_date": null,
+      "publication_date_note": "Constitution section page provides source/amendment notes but no page publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "article_viii",
+        "claims",
+        "state_treasury"
+      ],
+      "notes": "Included for complete Article VIII catalogue; lower direct assessor relevance."
+    },
+    {
+      "id": "ne_const_browse_constitution",
+      "title": "Nebraska State Constitution - Browse Constitution",
+      "source_type": "constitution_index",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "url": "https://nebraskalegislature.gov/laws/browse-constitution.php",
+      "publication_date": null,
+      "publication_date_note": "Official browse page does not state a publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "constitution",
+        "article_viii",
+        "revenue",
+        "taxation",
+        "section_index"
+      ],
+      "notes": "Official Article VIII section index used to catalogue current constitutional sections."
     },
     {
       "id": "ne_dor_2025_annual_report",

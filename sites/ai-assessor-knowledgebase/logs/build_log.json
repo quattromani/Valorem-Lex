@@ -4,9 +4,10 @@
   "deterministic_timestamp": true,
   "seed_files": [
     "data/seed/sources.seed.json",
-    "data/seed/knowledge.seed.json"
+    "data/seed/knowledge.seed.json",
+    "data/seed/authority_catalog.seed.json"
   ],
-  "generated_object_count": 96,
-  "generated_source_count": 57,
-  "generated_edge_count": 305
+  "generated_object_count": 137,
+  "generated_source_count": 73,
+  "generated_edge_count": 449
 }

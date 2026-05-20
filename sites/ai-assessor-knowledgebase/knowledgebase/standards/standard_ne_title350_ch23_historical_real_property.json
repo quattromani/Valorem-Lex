@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch23_historical_real_property",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 23 Historical Real Property",
+  "aliases": [
+    "Historical Real Property regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for historical real property treatment.",
+  "plain_language": "This chapter covers an historic-property assessment domain that can affect real-property valuation or classification.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_23",
+    "historical_real_property",
+    "real_property"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "23"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Historical Real Property"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 6/29/11; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Special real-property classification/treatment domain."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 23 Historical Real Property",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 23."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 23",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 23."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

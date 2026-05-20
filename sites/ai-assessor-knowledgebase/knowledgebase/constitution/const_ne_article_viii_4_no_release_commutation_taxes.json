@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_4_no_release_commutation_taxes",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-4 No Release or Commutation of Taxes",
+  "aliases": [
+    "Article VIII-4",
+    "tax release prohibition",
+    "tax cancellation exception"
+  ],
+  "category": "constitutional_tax_collection",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section prohibiting release or commutation of taxes except under constitutionally recognized circumstances.",
+  "plain_language": "Taxes generally cannot just be forgiven unless an authorized exception applies.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "tax_collection",
+    "tax_cancellation",
+    "public_corporation"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "4"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 5 (1875); amended 1920 and 2012."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "concept_tax_bill",
+      "note": "Tax collection and cancellation context."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_payment_in_lieu_of_tax",
+      "note": "Authorized exceptions and substitutes require separate authority."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_4",
+      "locator": "Article VIII-4",
+      "citation": "Neb. Const. art. VIII, § 4."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch15_state_government_property",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 15 Property Owned by the State and Governmental Subdivisions",
+  "aliases": [
+    "Governmental subdivision property regulation",
+    "State-owned property regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for property owned by the state and governmental subdivisions.",
+  "plain_language": "This chapter helps separate taxable property from governmental property treatment.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_15",
+    "government_property",
+    "exemption",
+    "state_property"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "15"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Property Owned by the State and Governmental Subdivisions"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 3/15/09; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_homestead_exemption",
+      "note": "Exemption-classification context, distinct program."
+    },
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_exemptions",
+      "note": "Constitutional exemption context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 15 Property Owned by the State and Governmental Subdivisions",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 15."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 15",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 15."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

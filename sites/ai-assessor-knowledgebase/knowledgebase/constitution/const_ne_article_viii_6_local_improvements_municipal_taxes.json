@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+  "aliases": [
+    "Article VIII-6",
+    "municipal tax uniformity",
+    "special assessments"
+  ],
+  "category": "constitutional_levy",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing local improvement special assessments and uniform municipal taxes.",
+  "plain_language": "Municipal taxes and special assessments have their own constitutional structure alongside general property tax valuation.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "municipal_tax",
+    "special_assessment",
+    "uniformity"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "6"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "medium"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 7 (1875); amended 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Municipal taxes and special assessments affect taxpayer bills."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Uniform municipal tax context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_6",
+      "locator": "Article VIII-6",
+      "citation": "Neb. Const. art. VIII, § 6."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

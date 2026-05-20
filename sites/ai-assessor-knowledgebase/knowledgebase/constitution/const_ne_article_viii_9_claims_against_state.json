@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_9_claims_against_state",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-9 Claims Against State",
+  "aliases": [
+    "Article VIII-9"
+  ],
+  "category": "constitutional_revenue",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing claims against the state and treasury procedure; included for complete revenue article coverage.",
+  "plain_language": "This is a state fiscal procedure section, not usually an assessor workflow source.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "state_claims",
+    "treasury"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "9"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "low"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 8 (1875); amended and renumbered 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_9",
+      "locator": "Article VIII-9",
+      "citation": "Neb. Const. art. VIII, § 9."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_title350_chapter_catalog",
+  "object_type": "crosswalk",
+  "canonical_term": "Title 350 Chapter Catalogue",
+  "aliases": [
+    "Nebraska Property Assessment Regulations chapter index",
+    "Title 350 authority catalogue"
+  ],
+  "category": "authority_catalog",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Canonical catalogue of current and repealed Title 350 Nebraska Administrative Code chapters relevant to property assessment administration.",
+  "plain_language": "This object is the navigation map for every Title 350 property assessment regulation chapter.",
+  "semantic_tags": [
+    "title_350",
+    "regulation_catalog",
+    "chapter_index",
+    "authority_trace"
+  ],
+  "facts": [
+    {
+      "predicate": "current_chapter_count",
+      "object": 23
+    },
+    {
+      "predicate": "repealed_chapter_count",
+      "object": 4
+    },
+    {
+      "predicate": "catalog_status",
+      "object": "chapter-level complete; section-level extraction pending"
+    },
+    {
+      "predicate": "current_chapters",
+      "object": [
+        {
+          "chapter": "10",
+          "title": "Real Property",
+          "revision": "Rev. 3/15/09",
+          "object_id": "standard_ne_title350_ch10_real_property"
+        },
+        {
+          "chapter": "11",
+          "title": "Agricultural or Horticultural Land Special Valuation",
+          "revision": "Rev. 9/23/07",
+          "object_id": "standard_ne_title350_ch11_ag_special_valuation"
+        },
+        {
+          "chapter": "12",
+          "title": "Sales File",
+          "revision": "Rev. 2/25/16",
+          "object_id": "standard_ne_title350_ch12_sales_file"
+        },
+        {
+          "chapter": "13",
+          "title": "Mineral Interests",
+          "revision": "Rev. 8/2/11",
+          "object_id": "standard_ne_title350_ch13_mineral_interests"
+        },
+        {
+          "chapter": "14",
+          "title": "Agricultural and Horticultural Land Assessment",
+          "revision": "Rev. 3/15/09",
+          "object_id": "standard_ne_title350_ch14_agricultural_land"
+        },
+        {
+          "chapter": "15",
+          "title": "Property Owned by the State and Governmental Subdivisions",
+          "revision": "Rev. 3/15/09",
+          "object_id": "standard_ne_title350_ch15_state_government_property"
+        },
+        {
+          "chapter": "17",
+          "title": "Reports and Opinions of the Property Tax Administrator",
+          "revision": "Rev. 2/25/16",
+          "object_id": "standard_ne_title350_ch17_reports_opinions"
+        },
+        {
+          "chapter": "18",
+          "title": "Community Redevelopment Law",
+          "revision": "Rev. 8/2/11",
+          "object_id": "standard_ne_title350_ch18_community_redevelopment"
+        },
+        {
+          "chapter": "20",
+          "title": "Personal Property",
+          "revision": "Rev. 3/14/16",
+          "object_id": "standard_ne_title350_ch20_personal_property"
+        },
+        {
+          "chapter": "23",
+          "title": "Historical Real Property",
+          "revision": "Rev. 6/29/11",
+          "object_id": "standard_ne_title350_ch23_historical_real_property"
+        },
+        {
+          "chapter": "30",
+          "title": "Property Valued by the State",
+          "revision": "Rev. 3/14/16",
+          "object_id": "standard_ne_title350_ch30_property_valued_by_state"
+        },
+        {
+          "chapter": "40",
+          "title": "Property Tax Exemptions",
+          "revision": "Rev. 10/26/14",
+          "object_id": "standard_ne_title350_ch40_property_tax_exemptions"
+        },
+        {
+          "chapter": "41",
+          "title": "In Lieu of Tax",
+          "revision": "Rev. 6/29/11",
+          "object_id": "standard_ne_title350_ch41_in_lieu_of_tax"
+        },
+        {
+          "chapter": "42",
+          "title": "Employment and Investment Growth Act Exempt Personal Property",
+          "revision": "Rev. 6/6/00",
+          "object_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property"
+        },
+        {
+          "chapter": "43",
+          "title": "Nebraska Advantage Act Exempt Personal Property",
+          "revision": "Rev. 5/14/06",
+          "object_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property"
+        },
+        {
+          "chapter": "45",
+          "title": "Homestead Exemption",
+          "revision": "Rev. 8/7/21",
+          "object_id": "standard_ne_title350_ch45_homestead_exemption"
+        },
+        {
+          "chapter": "50",
+          "title": "Assessment Process",
+          "revision": "Rev. 10/26/14",
+          "object_id": "standard_ne_title350_ch50_assessment_process"
+        },
+        {
+          "chapter": "52",
+          "title": "Documentary Stamp Tax",
+          "revision": "Rev. 2/25/16",
+          "object_id": "standard_ne_title350_ch52_documentary_stamp_tax"
+        },
+        {
+          "chapter": "65",
+          "title": "Reporting Requirements and Due Dates for County Assessors and County Clerks",
+          "revision": "Rev. 2/25/16",
+          "object_id": "standard_ne_title350_ch65_reporting_due_dates"
+        },
+        {
+          "chapter": "71",
+          "title": "Education, Certification, and Recertification",
+          "revision": "Rev. 7/14/19",
+          "object_id": "standard_ne_title350_ch71_certification"
+        },
+        {
+          "chapter": "80",
+          "title": "School Adjusted Valuation",
+          "revision": "Rev. 6/6/00",
+          "object_id": "standard_ne_title350_ch80_school_adjusted_valuation"
+        },
+        {
+          "chapter": "90",
+          "title": "Practice and Procedure",
+          "revision": "Rev. 6/6/00",
+          "object_id": "standard_ne_title350_ch90_practice_procedure"
+        },
+        {
+          "chapter": "91",
+          "title": "Proceedings Instituted by the Department of Revenue, Property Assessment Division",
+          "revision": "Rev. 3/15/09",
+          "object_id": "standard_ne_title350_ch91_pad_proceedings"
+        }
+      ]
+    },
+    {
+      "predicate": "repealed_chapters",
+      "object": [
+        {
+          "chapter": "51",
+          "title": "Countywide Equalization",
+          "revision": "Rep. 6/6/00",
+          "object_id": "standard_ne_title350_ch51_countywide_equalization_repealed"
+        },
+        {
+          "chapter": "60",
+          "title": "Reports",
+          "revision": "Rep. 2/25/16",
+          "object_id": "standard_ne_title350_ch60_reports_repealed"
+        },
+        {
+          "chapter": "70",
+          "title": "Schooling and Education",
+          "revision": "Rep. 7/14/19",
+          "object_id": "standard_ne_title350_ch70_schooling_education_repealed"
+        },
+        {
+          "chapter": "93",
+          "title": "Proceedings Instituted by the Department of Property Assessment and Taxation",
+          "revision": "Rep. 3/15/09",
+          "object_id": "standard_ne_title350_ch93_proceedings_repealed"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch10_real_property",
+      "note": "Current chapter 10."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch11_ag_special_valuation",
+      "note": "Current chapter 11."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Current chapter 12."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch13_mineral_interests",
+      "note": "Current chapter 13."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch14_agricultural_land",
+      "note": "Current chapter 14."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch15_state_government_property",
+      "note": "Current chapter 15."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch17_reports_opinions",
+      "note": "Current chapter 17."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Current chapter 18."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch20_personal_property",
+      "note": "Current chapter 20."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch23_historical_real_property",
+      "note": "Current chapter 23."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch30_property_valued_by_state",
+      "note": "Current chapter 30."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "note": "Current chapter 40."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Current chapter 41."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "note": "Current chapter 42."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "note": "Current chapter 43."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch45_homestead_exemption",
+      "note": "Current chapter 45."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch50_assessment_process",
+      "note": "Current chapter 50."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "note": "Current chapter 52."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Current chapter 65."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch71_certification",
+      "note": "Current chapter 71."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "note": "Current chapter 80."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch90_practice_procedure",
+      "note": "Current chapter 90."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "standard_ne_title350_ch91_pad_proceedings",
+      "note": "Current chapter 91."
+    },
+    {
+      "type": "catalogues_historical",
+      "target_id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "note": "Repealed chapter 51."
+    },
+    {
+      "type": "catalogues_historical",
+      "target_id": "standard_ne_title350_ch60_reports_repealed",
+      "note": "Repealed chapter 60."
+    },
+    {
+      "type": "catalogues_historical",
+      "target_id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "note": "Repealed chapter 70."
+    },
+    {
+      "type": "catalogues_historical",
+      "target_id": "standard_ne_title350_ch93_proceedings_repealed",
+      "note": "Repealed chapter 93."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 chapter table",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    },
+    {
+      "source_id": "ne_dor_title350_chapters_pdf",
+      "locator": "List of Regulation Chapters",
+      "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 full regulation set",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "chapter_catalog_complete_section_extraction_pending"
+}

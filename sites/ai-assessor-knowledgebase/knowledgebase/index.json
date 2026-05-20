@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "object_count": 96,
-  "source_count": 57,
+  "object_count": 137,
+  "source_count": 73,
   "objects": [
     {
       "id": "case_gordman_v_hall_county_boe",
@@ -125,6 +125,21 @@
       "path": "knowledgebase/cama/concept_cama.json"
     },
     {
+      "id": "concept_centrally_assessed_property",
+      "object_type": "concept",
+      "canonical_term": "Centrally Assessed Property",
+      "category": "assessment_administration",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "centrally_assessed_property",
+        "state_assessed_property",
+        "pad",
+        "title_350",
+        "chapter_30"
+      ],
+      "path": "knowledgebase/concepts/concept_centrally_assessed_property.json"
+    },
+    {
       "id": "concept_cod",
       "object_type": "metric",
       "canonical_term": "Coefficient of Dispersion",
@@ -185,6 +200,20 @@
       "path": "knowledgebase/cama/concept_depreciation.json"
     },
     {
+      "id": "concept_documentary_stamp_tax",
+      "object_type": "concept",
+      "canonical_term": "Documentary Stamp Tax",
+      "category": "real_estate_transfer_tax",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "documentary_stamp_tax",
+        "real_estate_transfer",
+        "title_350",
+        "chapter_52"
+      ],
+      "path": "knowledgebase/concepts/concept_documentary_stamp_tax.json"
+    },
+    {
       "id": "concept_effective_tax_rate",
       "object_type": "tax",
       "canonical_term": "Effective Tax Rate",
@@ -213,6 +242,20 @@
         "pad"
       ],
       "path": "knowledgebase/equalization/concept_equalization.json"
+    },
+    {
+      "id": "concept_free_port_in_transit_property",
+      "object_type": "concept",
+      "canonical_term": "Personal Property in Transit Exemption",
+      "category": "personal_property_exemption",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "personal_property",
+        "exemption",
+        "article_viii_2a",
+        "free_port"
+      ],
+      "path": "knowledgebase/concepts/concept_free_port_in_transit_property.json"
     },
     {
       "id": "concept_greenbelt_special_valuation",
@@ -361,6 +404,21 @@
         "stratification"
       ],
       "path": "knowledgebase/cama/concept_neighborhood.json"
+    },
+    {
+      "id": "concept_payment_in_lieu_of_tax",
+      "object_type": "concept",
+      "canonical_term": "Payment in Lieu of Tax",
+      "category": "property_tax_substitute",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "in_lieu_of_tax",
+        "public_corporation",
+        "political_subdivision",
+        "article_viii_11",
+        "title_350_ch41"
+      ],
+      "path": "knowledgebase/concepts/concept_payment_in_lieu_of_tax.json"
     },
     {
       "id": "concept_personal_property",
@@ -560,6 +618,21 @@
       "path": "knowledgebase/taxes/concept_tax_bill.json"
     },
     {
+      "id": "concept_tax_increment_financing",
+      "object_type": "concept",
+      "canonical_term": "Tax Increment Financing",
+      "category": "levy_tax_mechanic",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "tax_increment_financing",
+        "tif",
+        "community_redevelopment",
+        "article_viii_12",
+        "title_350_ch18"
+      ],
+      "path": "knowledgebase/concepts/concept_tax_increment_financing.json"
+    },
+    {
       "id": "concept_uniformity_proportionality",
       "object_type": "concept",
       "canonical_term": "Uniformity and Proportionality",
@@ -665,6 +738,200 @@
       "path": "knowledgebase/metrics/concept_weighted_mean_ratio.json"
     },
     {
+      "id": "const_ne_article_viii_10_grain_seed_taxation",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-10 Grain and Seed Taxation",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "grain",
+        "seed",
+        "agricultural_property",
+        "personal_property"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_10_grain_seed_taxation.json"
+    },
+    {
+      "id": "const_ne_article_viii_11_public_electrical_systems",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-11 Public Electrical System In-Lieu Taxes",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "public_corporation",
+        "political_subdivision",
+        "in_lieu_of_tax",
+        "electric_system"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_11_public_electrical_systems.json"
+    },
+    {
+      "id": "const_ne_article_viii_12_tax_increment_financing",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-12 Tax Increment Financing",
+      "category": "constitutional_levy",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "tax_increment_financing",
+        "tif",
+        "community_redevelopment"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_12_tax_increment_financing.json"
+    },
+    {
+      "id": "const_ne_article_viii_13_revenue_laws_construction",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-13 Revenue Laws Construction",
+      "category": "constitutional_revenue",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "revenue_laws",
+        "construction",
+        "transition"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_13_revenue_laws_construction.json"
+    },
+    {
+      "id": "const_ne_article_viii_1b_income_tax",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-1B Income Tax",
+      "category": "constitutional_revenue",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "income_tax",
+        "revenue"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_1b_income_tax.json"
+    },
+    {
+      "id": "const_ne_article_viii_2a_personal_property_in_transit",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-2A Personal Property in Transit Exemption",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "personal_property",
+        "exemption",
+        "free_port"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_2a_personal_property_in_transit.json"
+    },
+    {
+      "id": "const_ne_article_viii_3_tax_sale_redemption",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-3 Tax Sale Redemption",
+      "category": "constitutional_tax_collection",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "tax_sale",
+        "redemption",
+        "special_assessment"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_3_tax_sale_redemption.json"
+    },
+    {
+      "id": "const_ne_article_viii_4_no_release_commutation_taxes",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-4 No Release or Commutation of Taxes",
+      "category": "constitutional_tax_collection",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "tax_collection",
+        "tax_cancellation",
+        "public_corporation"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_4_no_release_commutation_taxes.json"
+    },
+    {
+      "id": "const_ne_article_viii_5_county_tax_limitation",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-5 County Taxes Limitation",
+      "category": "constitutional_levy",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "county_tax",
+        "levy_limit",
+        "county_board"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_5_county_tax_limitation.json"
+    },
+    {
+      "id": "const_ne_article_viii_6_local_improvements_municipal_taxes",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-6 Local Improvements and Municipal Taxes",
+      "category": "constitutional_levy",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "municipal_tax",
+        "special_assessment",
+        "uniformity"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_6_local_improvements_municipal_taxes.json"
+    },
+    {
+      "id": "const_ne_article_viii_7_private_property_corporate_debts",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-7 Private Property and Corporate Debts",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "private_property",
+        "corporate_debt",
+        "exemptions"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_7_private_property_corporate_debts.json"
+    },
+    {
+      "id": "const_ne_article_viii_8_funding_indebtedness",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+      "category": "constitutional_revenue",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "indebtedness",
+        "public_finance"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_8_funding_indebtedness.json"
+    },
+    {
+      "id": "const_ne_article_viii_9_claims_against_state",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII-9 Claims Against State",
+      "category": "constitutional_revenue",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "state_claims",
+        "treasury"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_9_claims_against_state.json"
+    },
+    {
       "id": "const_ne_article_viii_exemptions",
       "object_type": "constitution",
       "canonical_term": "Nebraska Constitution Article VIII Exemptions and Classification",
@@ -740,6 +1007,22 @@
       "path": "knowledgebase/crosswalks/crosswalk_legal_hierarchy.json"
     },
     {
+      "id": "crosswalk_ne_const_article_viii_catalog",
+      "object_type": "crosswalk",
+      "canonical_term": "Nebraska Constitution Article VIII Revenue Catalogue",
+      "category": "authority_catalog",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "revenue",
+        "taxation",
+        "history",
+        "amendments"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_ne_const_article_viii_catalog.json"
+    },
+    {
       "id": "crosswalk_ratio_metrics",
       "object_type": "crosswalk",
       "canonical_term": "Ratio Study Metrics Crosswalk",
@@ -754,6 +1037,20 @@
         "median_ratio"
       ],
       "path": "knowledgebase/crosswalks/crosswalk_ratio_metrics.json"
+    },
+    {
+      "id": "crosswalk_title350_chapter_catalog",
+      "object_type": "crosswalk",
+      "canonical_term": "Title 350 Chapter Catalogue",
+      "category": "authority_catalog",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "regulation_catalog",
+        "chapter_index",
+        "authority_trace"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_title350_chapter_catalog.json"
     },
     {
       "id": "deadline_jan1_assessment_date",
@@ -1045,6 +1342,37 @@
       "path": "knowledgebase/iaao/standard_iaao_ratio_studies_2013.json"
     },
     {
+      "id": "standard_ne_title350_ch10_real_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 10 Real Property",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_10",
+        "real_property",
+        "valuation",
+        "field_review"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch10_real_property.json"
+    },
+    {
+      "id": "standard_ne_title350_ch11_ag_special_valuation",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 11 Agricultural or Horticultural Land Special Valuation",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_11",
+        "agricultural_land",
+        "horticultural_land",
+        "special_valuation",
+        "greenbelt"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch11_ag_special_valuation.json"
+    },
+    {
       "id": "standard_ne_title350_ch12_sales_file",
       "object_type": "standard",
       "canonical_term": "Title 350 Chapter 12 Sales File",
@@ -1058,6 +1386,20 @@
         "regulation"
       ],
       "path": "knowledgebase/standards/standard_ne_title350_ch12_sales_file.json"
+    },
+    {
+      "id": "standard_ne_title350_ch13_mineral_interests",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 13 Mineral Interests",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_13",
+        "mineral_interests",
+        "real_property"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch13_mineral_interests.json"
     },
     {
       "id": "standard_ne_title350_ch14_agricultural_land",
@@ -1075,6 +1417,21 @@
       "path": "knowledgebase/standards/standard_ne_title350_ch14_agricultural_land.json"
     },
     {
+      "id": "standard_ne_title350_ch15_state_government_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 15 Property Owned by the State and Governmental Subdivisions",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_15",
+        "government_property",
+        "exemption",
+        "state_property"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch15_state_government_property.json"
+    },
+    {
       "id": "standard_ne_title350_ch17_reports_opinions",
       "object_type": "standard",
       "canonical_term": "Title 350 Chapter 17 Reports and Opinions",
@@ -1088,6 +1445,135 @@
         "equalization"
       ],
       "path": "knowledgebase/standards/standard_ne_title350_ch17_reports_opinions.json"
+    },
+    {
+      "id": "standard_ne_title350_ch18_community_redevelopment",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 18 Community Redevelopment Law",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_18",
+        "community_redevelopment",
+        "tax_increment_financing",
+        "tif"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch18_community_redevelopment.json"
+    },
+    {
+      "id": "standard_ne_title350_ch20_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 20 Personal Property",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_20",
+        "personal_property",
+        "assessment"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch20_personal_property.json"
+    },
+    {
+      "id": "standard_ne_title350_ch23_historical_real_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 23 Historical Real Property",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_23",
+        "historical_real_property",
+        "real_property"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch23_historical_real_property.json"
+    },
+    {
+      "id": "standard_ne_title350_ch30_property_valued_by_state",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 30 Property Valued by the State",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_30",
+        "centrally_assessed_property",
+        "state_assessed_property"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch30_property_valued_by_state.json"
+    },
+    {
+      "id": "standard_ne_title350_ch40_property_tax_exemptions",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 40 Property Tax Exemptions",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_40",
+        "property_tax_exemptions",
+        "exemption"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch40_property_tax_exemptions.json"
+    },
+    {
+      "id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 41 In Lieu of Tax",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_41",
+        "in_lieu_of_tax",
+        "pilot"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch41_in_lieu_of_tax.json"
+    },
+    {
+      "id": "standard_ne_title350_ch42_employment_investment_exempt_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 42 Employment and Investment Growth Act Exempt Personal Property",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_42",
+        "personal_property",
+        "exemption",
+        "incentive"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch42_employment_investment_exempt_personal_property.json"
+    },
+    {
+      "id": "standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 43 Nebraska Advantage Act Exempt Personal Property",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_43",
+        "personal_property",
+        "exemption",
+        "nebraska_advantage"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch43_nebraska_advantage_exempt_personal_property.json"
+    },
+    {
+      "id": "standard_ne_title350_ch45_homestead_exemption",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 45 Homestead Exemption",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_45",
+        "homestead_exemption",
+        "property_tax_relief"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch45_homestead_exemption.json"
     },
     {
       "id": "standard_ne_title350_ch50_assessment_process",
@@ -1105,6 +1591,50 @@
       "path": "knowledgebase/standards/standard_ne_title350_ch50_assessment_process.json"
     },
     {
+      "id": "standard_ne_title350_ch51_countywide_equalization_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 51 Countywide Equalization (Repealed)",
+      "category": "nebraska_regulation_repealed_chapter",
+      "legal_hierarchy": "regulation_history",
+      "semantic_tags": [
+        "title_350",
+        "chapter_51",
+        "countywide_equalization",
+        "repealed",
+        "history"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch51_countywide_equalization_repealed.json"
+    },
+    {
+      "id": "standard_ne_title350_ch52_documentary_stamp_tax",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 52 Documentary Stamp Tax",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_52",
+        "documentary_stamp_tax",
+        "real_estate_transfer"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch52_documentary_stamp_tax.json"
+    },
+    {
+      "id": "standard_ne_title350_ch60_reports_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 60 Reports (Repealed)",
+      "category": "nebraska_regulation_repealed_chapter",
+      "legal_hierarchy": "regulation_history",
+      "semantic_tags": [
+        "title_350",
+        "chapter_60",
+        "reports",
+        "repealed",
+        "history"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch60_reports_repealed.json"
+    },
+    {
       "id": "standard_ne_title350_ch65_reporting_due_dates",
       "object_type": "standard",
       "canonical_term": "Title 350 Chapter 65 Reporting Requirements and Due Dates",
@@ -1120,6 +1650,22 @@
       "path": "knowledgebase/standards/standard_ne_title350_ch65_reporting_due_dates.json"
     },
     {
+      "id": "standard_ne_title350_ch70_schooling_education_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 70 Schooling and Education (Repealed)",
+      "category": "nebraska_regulation_repealed_chapter",
+      "legal_hierarchy": "regulation_history",
+      "semantic_tags": [
+        "title_350",
+        "chapter_70",
+        "education",
+        "assessor_certification",
+        "repealed",
+        "history"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch70_schooling_education_repealed.json"
+    },
+    {
       "id": "standard_ne_title350_ch71_certification",
       "object_type": "standard",
       "canonical_term": "Title 350 Chapter 71 Education, Certification, and Recertification",
@@ -1132,6 +1678,64 @@
         "recertification"
       ],
       "path": "knowledgebase/standards/standard_ne_title350_ch71_certification.json"
+    },
+    {
+      "id": "standard_ne_title350_ch80_school_adjusted_valuation",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 80 School Adjusted Valuation",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_80",
+        "school_adjusted_valuation",
+        "school_finance",
+        "equalization"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch80_school_adjusted_valuation.json"
+    },
+    {
+      "id": "standard_ne_title350_ch90_practice_procedure",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 90 Practice and Procedure",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_90",
+        "practice_procedure",
+        "pad_procedure"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch90_practice_procedure.json"
+    },
+    {
+      "id": "standard_ne_title350_ch91_pad_proceedings",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 91 Proceedings Instituted by the Department of Revenue, Property Assessment Division",
+      "category": "nebraska_regulation_chapter",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "chapter_91",
+        "pad_proceedings",
+        "procedure"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch91_pad_proceedings.json"
+    },
+    {
+      "id": "standard_ne_title350_ch93_proceedings_repealed",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 93 Proceedings Instituted by the Department of Property Assessment and Taxation (Repealed)",
+      "category": "nebraska_regulation_repealed_chapter",
+      "legal_hierarchy": "regulation_history",
+      "semantic_tags": [
+        "title_350",
+        "chapter_93",
+        "proceedings",
+        "repealed",
+        "history"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch93_proceedings_repealed.json"
     },
     {
       "id": "statute_ne_13_501_budget_act",

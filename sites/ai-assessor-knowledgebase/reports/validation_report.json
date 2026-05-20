@@ -2,10 +2,10 @@
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
   "status": "pass",
-  "object_count": 96,
-  "source_count": 57,
+  "object_count": 137,
+  "source_count": 73,
   "error_count": 0,
-  "warning_count": 41,
+  "warning_count": 57,
   "issues": [
     {
       "severity": "warning",
@@ -61,6 +61,134 @@
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
         "source_id": "ne_const_article_viii"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_10"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_11"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_12"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_13"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_1a"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_1b"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_2"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_2a"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_3"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_4"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_5"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_6"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_7"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_8"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii_9"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_browse_constitution"
       }
     },
     {

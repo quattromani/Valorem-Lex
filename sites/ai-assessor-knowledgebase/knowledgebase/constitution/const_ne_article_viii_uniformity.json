@@ -21,6 +21,28 @@
     "proportionality",
     "property_tax"
   ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "1"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Neb. Const. art. IX, sec. 1 (1875); amended 1903, 1912, 1920, 1954, 1958, 1966, 1970, 1984."
+    }
+  ],
   "relationships": [
     {
       "type": "defines_authority_for",

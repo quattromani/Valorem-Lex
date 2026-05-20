@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_tax_increment_financing",
+  "object_type": "concept",
+  "canonical_term": "Tax Increment Financing",
+  "abbreviation": "TIF",
+  "aliases": [
+    "community redevelopment tax increment financing",
+    "redevelopment increment"
+  ],
+  "category": "levy_tax_mechanic",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "Nebraska constitutional and regulatory domain allowing legislatively authorized community redevelopment financing using incremental property tax value.",
+  "plain_language": "TIF separates part of the tax value growth for a redevelopment project under constitutional and statutory rules.",
+  "semantic_tags": [
+    "tax_increment_financing",
+    "tif",
+    "community_redevelopment",
+    "article_viii_12",
+    "title_350_ch18"
+  ],
+  "relationships": [
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Article VIII-12 catalogue entry."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Title 350 Chapter 18 catalogue entry."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF affects tax allocation after valuation and levy mechanics."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_12",
+      "locator": "Article VIII-12",
+      "citation": "Neb. Const. art. VIII, § 12."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 18",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_5_county_tax_limitation",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-5 County Taxes Limitation",
+  "aliases": [
+    "Article VIII-5",
+    "county tax limit"
+  ],
+  "category": "constitutional_levy",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section limiting county taxes except as constitutionally authorized.",
+  "plain_language": "County taxing power is constitutionally limited and then implemented through statutes and levy processes.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "county_tax",
+    "levy_limit",
+    "county_board"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "5"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 6 (1875); amended 1920 and 1966."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Constitutional county-tax limitation context."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statutory workflow."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_5",
+      "locator": "Article VIII-5",
+      "citation": "Neb. Const. art. VIII, § 5."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

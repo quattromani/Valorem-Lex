@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch20_personal_property",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 20 Personal Property",
+  "aliases": [
+    "Personal Property regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for personal property assessment administration.",
+  "plain_language": "This chapter is a regulation source for taxable personal-property listing and assessment questions.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_20",
+    "personal_property",
+    "assessment"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "20"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Personal Property"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 3/14/16; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "governs",
+      "target_id": "concept_personal_property",
+      "note": "Personal property assessment domain."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property statutory domain."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 20 Personal Property",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 20."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 20",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 20."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch70_schooling_education_repealed",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 70 Schooling and Education (Repealed)",
+  "aliases": [
+    "Schooling and Education repealed regulation"
+  ],
+  "category": "nebraska_regulation_repealed_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation_history",
+  "summary": "Repealed Title 350 chapter formerly covering schooling and education; retained for history and amendment trace.",
+  "plain_language": "This education chapter is historical and should not be treated as current law.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_70",
+    "education",
+    "assessor_certification",
+    "repealed",
+    "history"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "70"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "repealed"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Schooling and Education"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rep. 7/14/19"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "historical_context_for",
+      "target_id": "standard_ne_title350_ch71_certification",
+      "note": "Current education/certification chapter is Chapter 71."
+    },
+    {
+      "type": "historical_context_for",
+      "target_id": "pad_assessor_certification",
+      "note": "Assessor education/certification history."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_chapters_pdf",
+      "locator": "Chapter 70 Schooling and Education",
+      "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 70."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 repealed chapter index",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_historical"
+}

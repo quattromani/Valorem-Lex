@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_8_funding_indebtedness",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII-8 Funding Indebtedness",
+  "aliases": [
+    "Article VIII-8"
+  ],
+  "category": "constitutional_revenue",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Article VIII section addressing funding of indebtedness; included for complete revenue article coverage.",
+  "plain_language": "This is a public-finance section, not usually an assessor workflow source.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "indebtedness",
+    "public_finance"
+  ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "8"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "low"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Originated as Neb. Const. art. IX, sec. 3 (1875); amended 1920."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_ne_const_article_viii_catalog",
+      "note": "Article VIII catalogue."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_8",
+      "locator": "Article VIII-8",
+      "citation": "Neb. Const. art. VIII, § 8."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

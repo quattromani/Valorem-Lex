@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_payment_in_lieu_of_tax",
+  "object_type": "concept",
+  "canonical_term": "Payment in Lieu of Tax",
+  "aliases": [
+    "in-lieu tax",
+    "PILOT",
+    "in lieu of tax"
+  ],
+  "category": "property_tax_substitute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "A payment or tax substitute domain for certain public corporation or political subdivision property and electrical systems.",
+  "plain_language": "Some public or quasi-public property may pay a substitute amount instead of ordinary property tax.",
+  "semantic_tags": [
+    "in_lieu_of_tax",
+    "public_corporation",
+    "political_subdivision",
+    "article_viii_11",
+    "title_350_ch41"
+  ],
+  "relationships": [
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_11_public_electrical_systems",
+      "note": "Article VIII-11 catalogue entry."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch41_in_lieu_of_tax",
+      "note": "Title 350 Chapter 41 catalogue entry."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_11",
+      "locator": "Article VIII-11",
+      "citation": "Neb. Const. art. VIII, § 11."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 41",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 41."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "authority_catalog_seed"
+}

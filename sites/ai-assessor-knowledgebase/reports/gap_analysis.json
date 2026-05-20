@@ -37,6 +37,16 @@
       "status": "not_yet_ingested",
       "risk": "No PAD R&O JSON, CTL history, levy history, property tax credit data, glossary data, valuation-group data, or county statistical history has been linked into canonical objects yet.",
       "recommended_acquisition": "Add /data/imports and deterministic transforms preserving stable IDs and dataset provenance."
+    },
+    {
+      "gap": "Title 350 is now catalogued at chapter level, but section-level rules remain compressed into chapter authority objects.",
+      "risk": "An AI can route to the correct chapter but should not yet answer fine-grained regulation-section questions without deeper extraction.",
+      "next_action": "Parse REGS_web_fullset.pdf into section-level objects with numbered sections, definitions, duties, deadlines, and cross-references."
+    },
+    {
+      "gap": "Article VIII current sections and source histories are catalogued, but amendment traces are not yet expanded into ballot measure, LR, election-date, and session-law objects.",
+      "risk": "Historical constitutional questions can be grounded at a source-history level, but not yet fully reconstructed across every amendment event.",
+      "next_action": "Extract each Article VIII amendment event into canonical amendment-history objects linked to LR/session-law/election results where available."
     }
   ],
   "future_ingestion_targets": [
@@ -49,6 +59,10 @@
     "Valuation group data",
     "IAAO glossary extracted term-by-term",
     "County BOE protest packets and assessor manuals",
-    "Nebraska Judicial Branch official opinions for all assessment/equalization cases"
+    "Nebraska Judicial Branch official opinions for all assessment/equalization cases",
+    "Title 350 section-level extraction from REGS_web_fullset.pdf into regulation section objects.",
+    "Nebraska Constitution Article VIII amendment-event trace using Legislature source notes, LR texts, election materials, and historical constitution compilations.",
+    "Chapter 10 Real Property extraction for field-review valuation concepts, appraisal approaches, quality/condition, and property-record duties.",
+    "Chapter 14 agricultural/horticultural assessment extraction with soil/LVG/ag-land methodology crosswalks."
   ]
 }

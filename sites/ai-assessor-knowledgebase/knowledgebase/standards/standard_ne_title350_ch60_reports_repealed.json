@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch60_reports_repealed",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 60 Reports (Repealed)",
+  "aliases": [
+    "Reports repealed regulation"
+  ],
+  "category": "nebraska_regulation_repealed_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation_history",
+  "summary": "Repealed Title 350 chapter formerly covering reports; retained for history and amendment trace.",
+  "plain_language": "This reporting chapter is historical and should not be treated as current law.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_60",
+    "reports",
+    "repealed",
+    "history"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "60"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "repealed"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Reports"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rep. 2/25/16"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "historical_context_for",
+      "target_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Current reporting requirements are catalogued in Chapter 65."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_chapters_pdf",
+      "locator": "Chapter 60 Reports",
+      "citation": "Nebraska DOR PAD, Title 350 List of Regulation Chapters, ch. 60."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 repealed chapter index",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, repealed chapter index."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_historical"
+}

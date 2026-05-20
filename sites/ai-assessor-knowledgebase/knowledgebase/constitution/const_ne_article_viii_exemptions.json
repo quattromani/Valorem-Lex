@@ -20,6 +20,28 @@
     "classification",
     "taxation"
   ],
+  "facts": [
+    {
+      "predicate": "article",
+      "object": "VIII"
+    },
+    {
+      "predicate": "section",
+      "object": "2"
+    },
+    {
+      "predicate": "core_property_assessment_relevance",
+      "object": "high"
+    },
+    {
+      "predicate": "current_status",
+      "object": "current"
+    },
+    {
+      "predicate": "source_history",
+      "object": "Neb. Const. art. IX, sec. 2 (1875); amended 1906, 1912, 1920, 1954, 1958, 1966, 1970, 1972, 1984, 1990, 1992, 1998, 2020."
+    }
+  ],
   "relationships": [
     {
       "type": "related_concept",
@@ -33,6 +55,11 @@
     }
   ],
   "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_2",
+      "locator": "Article VIII-2",
+      "citation": "Neb. Const. art. VIII, § 2."
+    },
     {
       "source_id": "ne_const_article_viii",
       "locator": "Article VIII-2",

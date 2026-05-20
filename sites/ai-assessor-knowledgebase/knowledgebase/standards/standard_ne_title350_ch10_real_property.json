@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch10_real_property",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 10 Real Property",
+  "aliases": [
+    "Nebraska Title 350 Chapter 10",
+    "Real Property regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for real-property assessment definitions, valuation concepts, and real property administration.",
+  "plain_language": "This is the regulation chapter most directly tied to real-property field review and valuation work.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_10",
+    "real_property",
+    "valuation",
+    "field_review"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "10"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Real Property"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 3/15/09; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "governs",
+      "target_id": "concept_actual_value",
+      "note": "Real property valuation standard domain."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual real property assessment workflow."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_valuation_approaches",
+      "note": "Real property valuation approaches and methods."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 10 Real Property",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 10."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 10",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}

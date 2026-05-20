@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch52_documentary_stamp_tax",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 52 Documentary Stamp Tax",
+  "aliases": [
+    "Documentary Stamp Tax regulation"
+  ],
+  "category": "nebraska_regulation_chapter",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Current Title 350 regulation chapter for documentary stamp tax administration.",
+  "plain_language": "This chapter covers real-estate transfer document tax mechanics, separate from ordinary annual property tax.",
+  "semantic_tags": [
+    "title_350",
+    "chapter_52",
+    "documentary_stamp_tax",
+    "real_estate_transfer"
+  ],
+  "facts": [
+    {
+      "predicate": "title",
+      "object": "350"
+    },
+    {
+      "predicate": "chapter_number",
+      "object": "52"
+    },
+    {
+      "predicate": "chapter_status",
+      "object": "current"
+    },
+    {
+      "predicate": "chapter_title",
+      "object": "Documentary Stamp Tax"
+    },
+    {
+      "predicate": "revision_status",
+      "object": "Rev. 2/25/16; current in 2017 full set"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_title350_chapter_catalog",
+      "note": "Title 350 chapter catalogue."
+    },
+    {
+      "type": "governs",
+      "target_id": "concept_documentary_stamp_tax",
+      "note": "Documentary stamp tax domain."
+    },
+    {
+      "type": "distinguished_from",
+      "target_id": "concept_value_vs_tax",
+      "note": "Transfer tax is not annual assessed-value taxation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 52 Documentary Stamp Tax",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350, ch. 52."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 52",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 52."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "catalogued_requires_section_extraction"
+}
