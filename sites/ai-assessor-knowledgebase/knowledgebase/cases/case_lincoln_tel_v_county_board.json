@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "case_lincoln_tel_v_county_board",
+  "object_type": "case",
+  "canonical_term": "Lincoln Telephone & Telegraph Co. v. County Board",
+  "aliases": [
+    "Lincoln Tel. & Tel.",
+    "LT&T"
+  ],
+  "category": "substantial_compliance_case",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "case_law",
+  "summary": "Nebraska case authority discussing substantial compliance with equalization and uniformity where designed or manifest departures from rules are avoided.",
+  "plain_language": "Nebraska courts recognize that assessment is approximate, but intentional or major departures from equalization rules can matter.",
+  "semantic_tags": [
+    "case_law",
+    "substantial_compliance",
+    "uniformity",
+    "personal_property",
+    "assessment_approximation"
+  ],
+  "facts": [
+    {
+      "predicate": "rule_theme",
+      "object": "substantial_compliance_with_uniformity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "interprets",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Adds substantial-compliance context."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_personal_property",
+      "note": "Case involved tangible personal property comparison."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "case_lincoln_tel_justia",
+      "locator": "case text",
+      "citation": "Lincoln Tel. & Tel. Co. v. County Board, Nebraska Supreme Court text via Justia."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "secondary_case_source_needs_official_review"
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "status": "pass",
+  "object_count": 96,
+  "source_count": 57,
+  "error_count": 0,
+  "warning_count": 41,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "frontier_county_property_valuation_protests"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "iaao_glossary"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "lancaster_county_property_valuation_protests"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "lancaster_county_protest_timeline"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "lincoln_vertical_inequality_measures"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_auditor_budget_faq"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_const_article_viii"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_form_422a"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_assessor_certification"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_calendars"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_court_case_summaries_history"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_faq"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_property_tax_credit_faq"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_property_tax_credit_general_info"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_property_tax_credits"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_purpose"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_real_property_valuation_protest_guide"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_sections"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_state_assessed_property"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_statutes_page"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_title350_chapters_pdf"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_title350_fullset_pdf"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_title350_regs_page"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_judicial_epublication_library"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_13_501_13_522_budget_act"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_112"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1201"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1301"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1314"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1315"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1359"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1502"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1504"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1601"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_3442"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_3501_3530_homestead"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_6701_6706_property_tax_incentive"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_chapter77_index"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "sarpy_county_form_422"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "terc_about"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "terc_appeal_process"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_iaao_ratio_studies_2013",
+  "object_type": "iaao",
+  "canonical_term": "IAAO Standard on Ratio Studies 2013",
+  "aliases": [
+    "Standard on Ratio Studies",
+    "Ratio Study Standard"
+  ],
+  "category": "ratio_study_standard",
+  "jurisdiction": "International/professional",
+  "legal_hierarchy": "iaao_standard",
+  "summary": "IAAO standard for designing, validating, interpreting, and using sales ratio studies for appraisal level, uniformity, equalization, and oversight.",
+  "plain_language": "This is the professional source behind concepts like COD, PRD, PRB, sales validation, and ratio-study interpretation.",
+  "semantic_tags": [
+    "iaao",
+    "ratio_study",
+    "cod",
+    "prd",
+    "prb",
+    "sales_validation",
+    "equalization"
+  ],
+  "relationships": [
+    {
+      "type": "defines",
+      "target_id": "concept_sales_ratio",
+      "note": "Ratio formation."
+    },
+    {
+      "type": "defines",
+      "target_id": "concept_cod",
+      "note": "Uniformity metric."
+    },
+    {
+      "type": "defines",
+      "target_id": "concept_prd",
+      "note": "Vertical equity metric."
+    },
+    {
+      "type": "defines",
+      "target_id": "concept_prb",
+      "note": "Price-related bias."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "standard PDF",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "iaao_ratio_study_exposure_draft_2026",
+      "locator": "exposure draft page status note",
+      "citation": "IAAO, Ratio Studies Exposure Draft page (2026)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

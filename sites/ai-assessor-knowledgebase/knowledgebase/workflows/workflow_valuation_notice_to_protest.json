@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_valuation_notice_to_protest",
+  "object_type": "workflow",
+  "canonical_term": "Valuation Notice to Protest Workflow",
+  "aliases": [
+    "notice and protest workflow",
+    "taxpayer protest workflow"
+  ],
+  "category": "protest_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_workflow",
+  "summary": "Taxpayer workflow from valuation notice or assessment roll review through filing a timely real property valuation protest with required content and evidence.",
+  "plain_language": "If you disagree with value, gather evidence and file the protest by the deadline with the county clerk/board workflow.",
+  "semantic_tags": [
+    "workflow",
+    "valuation_notice",
+    "protest",
+    "form_422",
+    "evidence",
+    "june_30"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Review valuation notice/property record."
+    },
+    {
+      "order": 2,
+      "step": "Identify issue: market value, data error, classification, or equalization."
+    },
+    {
+      "order": 3,
+      "step": "Gather evidence such as recent arms-length sales, appraisal, income/cost data, or record corrections."
+    },
+    {
+      "order": 4,
+      "step": "File Form 422/422A with required requested value, reasons, property description, and signature by deadline."
+    },
+    {
+      "order": 5,
+      "step": "Proceed to county board protest hearing/review."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1502_protests",
+      "note": "Filing content and deadline."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_june30_real_property_protest",
+      "note": "Regular annual protest deadline."
+    },
+    {
+      "type": "uses_form",
+      "target_id": "form_422_property_valuation_protest",
+      "note": "Formal protest form."
+    },
+    {
+      "type": "follows",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Notice/assessment stage."
+    },
+    {
+      "type": "precedes",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Filed protest goes to board."
+    },
+    {
+      "type": "evidence_uses",
+      "target_id": "concept_sales_comparison_approach",
+      "note": "Comparable sales evidence."
+    },
+    {
+      "type": "evidence_uses",
+      "target_id": "concept_property_record",
+      "note": "Property record/data error evidence."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "filing and evidence guidance",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "locator": "supporting documentation",
+      "citation": "Lancaster County, Property Valuation Protests."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_and_county_sources"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_cost_approach",
+  "object_type": "valuation",
+  "canonical_term": "Cost Approach",
+  "aliases": [
+    "replacement cost approach",
+    "cost less depreciation"
+  ],
+  "category": "valuation_approach",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Valuation approach that estimates value from land value plus depreciated improvement cost; commonly relevant to newer improvements, special-use property, or where market/income evidence is limited.",
+  "plain_language": "Estimate the land, estimate what the building would cost, subtract depreciation, then reconcile with market evidence.",
+  "semantic_tags": [
+    "cost_approach",
+    "valuation",
+    "depreciation",
+    "land_table",
+    "improvement_modeling"
+  ],
+  "facts": [
+    {
+      "predicate": "components",
+      "object": [
+        "land_value",
+        "replacement_or_reproduction_cost",
+        "depreciation"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "part_of",
+      "target_id": "concept_valuation_approaches",
+      "note": "One of the major appraisal approaches."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_depreciation",
+      "note": "Improvement cost is adjusted for depreciation."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_land_table",
+      "note": "Land component often comes from land schedules/tables."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_court_case_summaries_history",
+      "locator": "valuation approaches discussion",
+      "citation": "Nebraska DOR PAD, Court Case Summaries History."
+    },
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "valuation methods",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_manual_review"
+}

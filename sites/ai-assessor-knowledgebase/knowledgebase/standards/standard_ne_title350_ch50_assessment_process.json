@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch50_assessment_process",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 50 Assessment Process",
+  "aliases": [
+    "Assessment Process regulation"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska regulation chapter covering assessment process domain; future extraction should normalize inspection, assessment, notice, and record requirements.",
+  "plain_language": "This is a key regulation source for how assessment work is supposed to happen.",
+  "semantic_tags": [
+    "title_350",
+    "assessment_process",
+    "inspection",
+    "records",
+    "regulation"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment process."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Data/record maintenance."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 50",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

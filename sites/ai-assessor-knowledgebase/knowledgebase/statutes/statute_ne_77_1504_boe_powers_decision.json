@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1504_boe_powers_decision",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1504 Equalization of Property; Protest Procedure",
+  "aliases": [
+    "77-1504",
+    "BOE protest decision statute"
+  ],
+  "category": "equalization_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statutory source for county board of equalization powers and duties to consider and correct current-year real property overvaluation or undervaluation and provide decisions/appeal path.",
+  "plain_language": "This statute governs what the county board does with valuation protests.",
+  "semantic_tags": [
+    "statute",
+    "boe",
+    "equalization",
+    "protest_hearing",
+    "terc_appeal"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "County board hearing workflow."
+    },
+    {
+      "type": "sets_deadline",
+      "target_id": "deadline_july25_boe_decision_session",
+      "note": "Regular session deadline."
+    },
+    {
+      "type": "precedes",
+      "target_id": "workflow_terc_appeal",
+      "note": "Appeal follows BOE decision."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "§ 77-1504",
+      "citation": "Neb. Rev. Stat. § 77-1504."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

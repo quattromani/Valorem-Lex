@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch17_reports_opinions",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 17 Reports and Opinions",
+  "aliases": [
+    "Reports and Opinions regulation",
+    "R&O regulation"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska regulation chapter governing Reports and Opinions of the Property Tax Administrator.",
+  "plain_language": "This is the regulation home for PAD's annual Reports and Opinions process.",
+  "semantic_tags": [
+    "title_350",
+    "reports_opinions",
+    "pad_ro",
+    "ratio_study",
+    "equalization"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "pad_reports_opinions_methodology",
+      "note": "R&O methodology domain."
+    },
+    {
+      "type": "supports",
+      "target_id": "pad_statewide_equalization",
+      "note": "Statewide equalization evidence."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 17",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

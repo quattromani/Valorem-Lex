@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_prb",
+  "object_type": "metric",
+  "canonical_term": "Price-Related Bias",
+  "aliases": [
+    "PRB",
+    "coefficient of price-related bias"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "General assessment; used in IAAO ratio studies",
+  "legal_hierarchy": "iaao_standard_metric",
+  "summary": "Ratio-study vertical-equity statistic estimating whether assessment ratios systematically change as property values change.",
+  "plain_language": "PRB checks whether higher-value properties tend to be assessed at lower or higher percentages than lower-value properties.",
+  "semantic_tags": [
+    "prb",
+    "vertical_equity",
+    "regressivity",
+    "ratio_study",
+    "bias"
+  ],
+  "facts": [
+    {
+      "predicate": "measures",
+      "object": "price_related_bias_in_ratios"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "defined_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study metric."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_vertical_equity",
+      "note": "Direct vertical-equity statistic."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_regressivity",
+      "note": "Negative or positive patterns may indicate regressivity/progressivity depending on ratio orientation."
+    },
+    {
+      "type": "contrasted_with",
+      "target_id": "concept_prd",
+      "note": "PRD is a descriptive ratio of means; PRB is regression-oriented."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "vertical equity and PRB discussion",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "iaao_glossary",
+      "locator": "PRB glossary entry",
+      "citation": "IAAO, Glossary for Property Appraisal and Assessment."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

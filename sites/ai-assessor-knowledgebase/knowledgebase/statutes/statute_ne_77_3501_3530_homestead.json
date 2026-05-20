@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_3501_3530_homestead",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. §§ 77-3501 to 77-3530 Homestead Exemption",
+  "aliases": [
+    "homestead statutes",
+    "77-3501 to 77-3530"
+  ],
+  "category": "tax_relief_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska statutory range governing homestead exemption eligibility and administration.",
+  "plain_language": "Homestead exemption is a statutory relief program, separate from protesting market value.",
+  "semantic_tags": [
+    "statute",
+    "homestead_exemption",
+    "tax_relief",
+    "eligibility"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_homestead_exemption",
+      "note": "Homestead exemption concept."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_property_tax_credit",
+      "note": "Both are tax-relief concepts but use different mechanisms."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_3501_3530_homestead",
+      "locator": "§§ 77-3501 to 77-3530",
+      "citation": "Neb. Rev. Stat. §§ 77-3501 to 77-3530."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_statute_range_extraction"
+}

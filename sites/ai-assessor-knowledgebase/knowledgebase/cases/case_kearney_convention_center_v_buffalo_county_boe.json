@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "case_kearney_convention_center_v_buffalo_county_boe",
+  "object_type": "case",
+  "canonical_term": "Kearney Convention Center v. Buffalo County Board of Equalization",
+  "aliases": [
+    "Kearney Convention Center"
+  ],
+  "category": "uniformity_case",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "case_law",
+  "summary": "Nebraska case authority for the principle that reasonable valuation classifications and methods must still produce uniform and proportionate results not exceeding actual value.",
+  "plain_language": "Different property types can be valued with different methods, but the resulting values still have to fit Nebraska's uniformity and actual-value requirements.",
+  "semantic_tags": [
+    "case_law",
+    "classification",
+    "uniformity",
+    "actual_value",
+    "valuation_methods"
+  ],
+  "facts": [
+    {
+      "predicate": "rule",
+      "object": "Reasonable classifications and different valuation methods must be correlated to uniform, proportionate, non-excessive values."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "interprets",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Links method choice to constitutional equality."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_valuation_approaches",
+      "note": "Valuation method choice cannot defeat uniformity."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "case_kearney_convention_v_buffalo_vlex",
+      "locator": "case summary",
+      "citation": "Kearney Convention Ctr., Inc. v. Buffalo Cty. Bd. of Equal., 216 Neb. 292 (1984), secondary text via vLex."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "secondary_case_source_needs_official_review"
+}

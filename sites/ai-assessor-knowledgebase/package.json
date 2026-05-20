@@ -1,0 +1,15 @@
+{
+  "name": "ai-assessor-knowledgebase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Structured Nebraska assessor-domain JSON knowledgebase for LexValorum.",
+  "scripts": {
+    "build": "node scripts/build_kb.mjs",
+    "validate": "node scripts/validate_kb.mjs",
+    "rebuild": "node scripts/build_kb.mjs && node scripts/validate_kb.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

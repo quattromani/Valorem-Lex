@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "form_422_property_valuation_protest",
+  "object_type": "form",
+  "canonical_term": "Property Valuation Protest Form 422/422A",
+  "aliases": [
+    "Form 422",
+    "Form 422A",
+    "valuation protest form"
+  ],
+  "category": "protest_form",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "pad_form",
+  "summary": "Nebraska form family used to file a property valuation protest with the county board of equalization/county clerk workflow.",
+  "plain_language": "This is the form used to start a formal property value protest.",
+  "semantic_tags": [
+    "form_422",
+    "valuation_protest",
+    "county_clerk",
+    "boe",
+    "june_30"
+  ],
+  "facts": [
+    {
+      "predicate": "required_content",
+      "object": [
+        "property_description",
+        "requested_value",
+        "reasons",
+        "signature"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "used_in",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Formal protest filing."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_june30_real_property_protest",
+      "note": "Regular annual filing deadline."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1502_protests",
+      "note": "Required protest content/dismissal rule."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_form_422a",
+      "locator": "form PDF",
+      "citation": "Nebraska DOR PAD, Property Valuation Protest Form 422A."
+    },
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    },
+    {
+      "source_id": "frontier_county_property_valuation_protests",
+      "locator": "Protest form guidance",
+      "citation": "Frontier County, Property Valuation Protests."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_and_county_sources"
+}

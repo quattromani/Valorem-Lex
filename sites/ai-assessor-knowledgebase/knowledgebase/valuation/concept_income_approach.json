@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_income_approach",
+  "object_type": "valuation",
+  "canonical_term": "Income Approach",
+  "aliases": [
+    "income capitalization approach",
+    "discounted cash flow",
+    "DCF"
+  ],
+  "category": "valuation_approach",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Valuation approach that derives value from income-producing capacity; Nebraska law specifically references income approach and discounted cash-flow analysis for certain commonly owned vacant subdivision lots.",
+  "plain_language": "For income-producing property, value can be estimated from income. Nebraska also has a specific statute for certain subdivision lots.",
+  "semantic_tags": [
+    "income_approach",
+    "discounted_cash_flow",
+    "valuation",
+    "subdivision_lots",
+    "terc"
+  ],
+  "facts": [
+    {
+      "predicate": "statutory_specific_use",
+      "object": "certain vacant or unimproved lots in same subdivision/tax district held for sale or resale"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "part_of",
+      "target_id": "concept_valuation_approaches",
+      "note": "One major appraisal approach."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1314_income_approach",
+      "note": "Nebraska-specific statutory instruction."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_actual_value",
+      "note": "Approach should estimate actual value."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1314",
+      "locator": "§ 77-1314",
+      "citation": "Neb. Rev. Stat. § 77-1314."
+    },
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "valuation methods",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

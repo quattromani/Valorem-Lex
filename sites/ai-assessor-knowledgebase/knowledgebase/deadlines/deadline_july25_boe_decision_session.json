@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_july25_boe_decision_session",
+  "object_type": "deadline",
+  "canonical_term": "July 25 County Board Equalization Session Deadline",
+  "aliases": [
+    "BOE July 25",
+    "county board protest decision deadline"
+  ],
+  "category": "protest_deadline",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_deadline",
+  "summary": "County board equalization/protest action generally occurs by July 25, with statutory extension variants where adopted.",
+  "plain_language": "The county board usually finishes regular protest decisions by July 25, unless an extension rule applies.",
+  "semantic_tags": [
+    "deadline",
+    "july_25",
+    "boe",
+    "protest",
+    "equalization"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "07-25",
+      "description": "Regular county board equalization/protest session endpoint."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1504_boe_powers_decision",
+      "note": "County board powers/duties."
+    },
+    {
+      "type": "part_of",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Hearing and decision workflow."
+    },
+    {
+      "type": "precedes",
+      "target_id": "workflow_terc_appeal",
+      "note": "Appeal follows county board action."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "§ 77-1504",
+      "citation": "Neb. Rev. Stat. § 77-1504."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "county board deadline",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

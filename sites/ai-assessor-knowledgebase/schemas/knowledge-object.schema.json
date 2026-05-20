@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lexvalorum.local/schemas/knowledge-object.schema.json",
+  "title": "LexValorum Knowledge Object",
+  "type": "object",
+  "required": [
+    "id",
+    "object_type",
+    "canonical_term",
+    "category",
+    "jurisdiction",
+    "legal_hierarchy",
+    "summary",
+    "semantic_tags",
+    "source_refs",
+    "relationships",
+    "review_status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "object_type": { "type": "string" },
+    "canonical_term": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string" },
+    "jurisdiction": { "type": "string" },
+    "legal_hierarchy": { "type": "string" },
+    "summary": { "type": "string" },
+    "plain_language": { "type": ["string", "null"] },
+    "semantic_tags": { "type": "array", "items": { "type": "string" } },
+    "facts": { "type": "array", "items": { "type": "object" } },
+    "thresholds": { "type": "array", "items": { "type": "object" } },
+    "dates": { "type": "array", "items": { "type": "object" } },
+    "steps": { "type": "array", "items": { "type": "object" } },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "target_id"],
+        "properties": {
+          "type": { "type": "string" },
+          "target_id": { "type": "string" },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "citation"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "locator": { "type": ["string", "null"] },
+          "citation": { "type": "string" }
+        }
+      }
+    },
+    "confidence": { "type": "string" },
+    "review_status": { "type": "string" },
+    "updated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_sales_file_to_ratio_study",
+  "object_type": "workflow",
+  "canonical_term": "Sales File to Ratio Study Workflow",
+  "aliases": [
+    "sales qualification workflow",
+    "sales validation workflow"
+  ],
+  "category": "ratio_study_workflow",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "administrative_statistical_workflow",
+  "summary": "Workflow moving recorded sales through validation/qualification into ratio-study datasets used for level, uniformity, and equalization analysis.",
+  "plain_language": "Sales are screened before they become evidence in a ratio study.",
+  "semantic_tags": [
+    "workflow",
+    "sales_file",
+    "valid_sale",
+    "ratio_study",
+    "sales_validation"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Collect sales records."
+    },
+    {
+      "order": 2,
+      "step": "Screen for arms-length/market validity and required adjustments."
+    },
+    {
+      "order": 3,
+      "step": "Code sale usability and property characteristics."
+    },
+    {
+      "order": 4,
+      "step": "Assign sales to classes/strata/valuation groups."
+    },
+    {
+      "order": 5,
+      "step": "Compute ratios and study statistics."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Nebraska sales file regulation."
+    },
+    {
+      "type": "contextualized_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "Sales validation guidance."
+    },
+    {
+      "type": "produces",
+      "target_id": "concept_valid_sale",
+      "note": "Qualified sale input."
+    },
+    {
+      "type": "feeds",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio study workflow."
+    },
+    {
+      "type": "risk",
+      "target_id": "concept_sales_chasing",
+      "note": "Integrity risk."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    },
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "sales validation",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_title350_ch12_extraction"
+}

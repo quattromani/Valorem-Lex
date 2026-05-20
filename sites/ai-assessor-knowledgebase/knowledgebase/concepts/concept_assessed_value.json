@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_assessed_value",
+  "object_type": "concept",
+  "canonical_term": "Assessed Value",
+  "aliases": [
+    "assessment",
+    "assessor's value",
+    "valuation notice value"
+  ],
+  "category": "valuation_foundation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_concept",
+  "summary": "Value placed on property for assessment purposes before levy application and credits; generally tied to actual value except where Nebraska law provides a different assessment basis.",
+  "plain_language": "This is the value number on the assessment side of the tax system; it is not the tax bill.",
+  "semantic_tags": [
+    "assessed_value",
+    "valuation_notice",
+    "tax_base",
+    "assessment"
+  ],
+  "facts": [
+    {
+      "predicate": "feeds",
+      "object": "workflow_levy_setting_tax_statement_cycle"
+    },
+    {
+      "predicate": "can_be_protested_via",
+      "object": "workflow_valuation_notice_to_protest"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "based_on",
+      "target_id": "concept_actual_value",
+      "note": "General real-property basis."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Combined with levy to compute taxes."
+    },
+    {
+      "type": "subject_to",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest path for disputed valuation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "Property assessment FAQs",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1301",
+      "locator": "§ 77-1301",
+      "citation": "Neb. Rev. Stat. § 77-1301."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

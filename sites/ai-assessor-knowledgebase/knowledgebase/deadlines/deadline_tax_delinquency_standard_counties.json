@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_tax_delinquency_standard_counties",
+  "object_type": "deadline",
+  "canonical_term": "Standard County Real Property Tax Delinquency Dates",
+  "aliases": [
+    "May 1 and September 1 delinquency",
+    "real estate tax delinquency"
+  ],
+  "category": "tax_collection_deadline",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_collection_timeline",
+  "summary": "For most Nebraska counties, first-half real property taxes become delinquent May 1 and second-half taxes become delinquent September 1.",
+  "plain_language": "Outside Douglas, Lancaster, and Sarpy counties, the usual delinquency dates are May 1 and September 1.",
+  "semantic_tags": [
+    "deadline",
+    "delinquency",
+    "tax_collection",
+    "county_treasurer",
+    "real_property_tax"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "05-01",
+      "description": "First half delinquent in standard counties."
+    },
+    {
+      "date": "annual",
+      "month_day": "09-01",
+      "description": "Second half delinquent in standard counties."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "part_of",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Collection endpoint."
+    },
+    {
+      "type": "contrasted_with",
+      "target_id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "note": "Three-county alternate dates."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "tax delinquency FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

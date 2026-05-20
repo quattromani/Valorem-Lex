@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "pad_assessor_certification",
+  "object_type": "pad",
+  "canonical_term": "Nebraska Assessor Certification and Education",
+  "aliases": [
+    "assessor certification",
+    "deputy assessor exam",
+    "PAD education"
+  ],
+  "category": "assessor_operations",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "pad_guidance",
+  "summary": "PAD education/certification ecosystem for county assessors and deputy assessors, including examinations, education calendar, and recertification regulations.",
+  "plain_language": "Nebraska assessors have a PAD-administered certification and education framework.",
+  "semantic_tags": [
+    "assessor_certification",
+    "education",
+    "pad",
+    "exam",
+    "recertification"
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Qualified assessor role."
+    },
+    {
+      "type": "related_regulation",
+      "target_id": "standard_ne_title350_ch71_certification",
+      "note": "Education/certification regulation chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_assessor_certification",
+      "locator": "assessor page",
+      "citation": "Nebraska DOR PAD, Assessor Certification & Education."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 71",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

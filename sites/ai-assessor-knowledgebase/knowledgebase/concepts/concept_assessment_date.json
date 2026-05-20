@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_assessment_date",
+  "object_type": "concept",
+  "canonical_term": "Assessment Date",
+  "aliases": [
+    "January 1 valuation date",
+    "lien date",
+    "assessment as of January 1"
+  ],
+  "category": "assessment_calendar",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_concept",
+  "summary": "Nebraska real and personal property assessment is anchored to January 1 at 12:01 a.m. for listing and valuation unless a specific statute provides otherwise.",
+  "plain_language": "The yearly value question is normally: what was the property as of January 1?",
+  "semantic_tags": [
+    "assessment_date",
+    "january_1",
+    "valuation_date",
+    "calendar",
+    "deadline"
+  ],
+  "facts": [
+    {
+      "predicate": "date",
+      "object": "January 1 12:01 a.m."
+    }
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "01-01",
+      "time": "12:01",
+      "description": "Assessment of real and personal property."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implemented_by",
+      "target_id": "deadline_jan1_assessment_date",
+      "note": "Calendar deadline object."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Cycle starts with January 1 status/value."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property list and value statute."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "Jan. 1 entries",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    },
+    {
+      "source_id": "ne_leg_77_1301",
+      "locator": "§ 77-1301",
+      "citation": "Neb. Rev. Stat. § 77-1301."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

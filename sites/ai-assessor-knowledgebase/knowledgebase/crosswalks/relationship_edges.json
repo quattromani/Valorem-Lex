@@ -1,0 +1,1837 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "edge_count": 305,
+  "edges": [
+    {
+      "from_id": "case_gordman_v_hall_county_boe",
+      "relationship_type": "interprets",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Grounds equalization challenge taxonomy."
+    },
+    {
+      "from_id": "case_gordman_v_hall_county_boe",
+      "relationship_type": "related_workflow",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Protest hearing may include actual value and equalization arguments."
+    },
+    {
+      "from_id": "case_kearney_convention_center_v_buffalo_county_boe",
+      "relationship_type": "interprets",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Links method choice to constitutional equality."
+    },
+    {
+      "from_id": "case_kearney_convention_center_v_buffalo_county_boe",
+      "relationship_type": "related_concept",
+      "to_id": "concept_valuation_approaches",
+      "note": "Valuation method choice cannot defeat uniformity."
+    },
+    {
+      "from_id": "case_lancaster_county_boe_v_moser",
+      "relationship_type": "interprets",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Defines evidentiary burden for equalization relief."
+    },
+    {
+      "from_id": "case_lancaster_county_boe_v_moser",
+      "relationship_type": "related_concept",
+      "to_id": "concept_greenbelt_special_valuation",
+      "note": "Facts involved agricultural land subclassification."
+    },
+    {
+      "from_id": "case_lancaster_county_boe_v_moser",
+      "relationship_type": "related_workflow",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Relevant to evidence quality in protest hearing."
+    },
+    {
+      "from_id": "case_lincoln_tel_v_county_board",
+      "relationship_type": "interprets",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Adds substantial-compliance context."
+    },
+    {
+      "from_id": "case_lincoln_tel_v_county_board",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Case involved tangible personal property comparison."
+    },
+    {
+      "from_id": "concept_actual_value",
+      "relationship_type": "defined_by",
+      "to_id": "statute_ne_77_112_actual_value",
+      "note": "Statutory definition."
+    },
+    {
+      "from_id": "concept_actual_value",
+      "relationship_type": "distinguished_from",
+      "to_id": "concept_tax_bill",
+      "note": "Actual value is not the same as tax due."
+    },
+    {
+      "from_id": "concept_actual_value",
+      "relationship_type": "measured_by",
+      "to_id": "concept_sales_ratio",
+      "note": "Ratio studies compare assessed/appraised value to sale prices as market indicators."
+    },
+    {
+      "from_id": "concept_assessed_value",
+      "relationship_type": "based_on",
+      "to_id": "concept_actual_value",
+      "note": "General real-property basis."
+    },
+    {
+      "from_id": "concept_assessed_value",
+      "relationship_type": "subject_to",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest path for disputed valuation."
+    },
+    {
+      "from_id": "concept_assessed_value",
+      "relationship_type": "used_in",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Combined with levy to compute taxes."
+    },
+    {
+      "from_id": "concept_assessment_date",
+      "relationship_type": "implemented_by",
+      "to_id": "deadline_jan1_assessment_date",
+      "note": "Calendar deadline object."
+    },
+    {
+      "from_id": "concept_assessment_date",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property list and value statute."
+    },
+    {
+      "from_id": "concept_assessment_date",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Cycle starts with January 1 status/value."
+    },
+    {
+      "from_id": "concept_cama",
+      "relationship_type": "contains",
+      "to_id": "concept_property_record",
+      "note": "Property record is core CAMA unit."
+    },
+    {
+      "from_id": "concept_cama",
+      "relationship_type": "related_standard",
+      "to_id": "standard_iaao_mass_appraisal",
+      "note": "IAAO mass appraisal standard includes data and system expectations."
+    },
+    {
+      "from_id": "concept_cama",
+      "relationship_type": "supports",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Operational workflow for data upkeep."
+    },
+    {
+      "from_id": "concept_cod",
+      "relationship_type": "contrasted_with",
+      "to_id": "concept_prd",
+      "note": "PRD addresses vertical equity signals rather than general dispersion."
+    },
+    {
+      "from_id": "concept_cod",
+      "relationship_type": "defined_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study metric."
+    },
+    {
+      "from_id": "concept_cod",
+      "relationship_type": "related_concept",
+      "to_id": "concept_horizontal_equity",
+      "note": "COD is a common horizontal equity statistic."
+    },
+    {
+      "from_id": "concept_cod",
+      "relationship_type": "related_concept",
+      "to_id": "concept_median_ratio",
+      "note": "COD is centered on median ratio."
+    },
+    {
+      "from_id": "concept_confidence_interval",
+      "relationship_type": "related_concept",
+      "to_id": "concept_sample_adequacy",
+      "note": "Sample adequacy affects reliability."
+    },
+    {
+      "from_id": "concept_confidence_interval",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio study interpretation should consider uncertainty."
+    },
+    {
+      "from_id": "concept_cost_approach",
+      "relationship_type": "part_of",
+      "to_id": "concept_valuation_approaches",
+      "note": "One of the major appraisal approaches."
+    },
+    {
+      "from_id": "concept_cost_approach",
+      "relationship_type": "uses",
+      "to_id": "concept_depreciation",
+      "note": "Improvement cost is adjusted for depreciation."
+    },
+    {
+      "from_id": "concept_cost_approach",
+      "relationship_type": "uses",
+      "to_id": "concept_land_table",
+      "note": "Land component often comes from land schedules/tables."
+    },
+    {
+      "from_id": "concept_depreciation",
+      "relationship_type": "related_concept",
+      "to_id": "concept_quality_condition",
+      "note": "Condition and quality influence depreciation modeling."
+    },
+    {
+      "from_id": "concept_depreciation",
+      "relationship_type": "used_by",
+      "to_id": "concept_cost_approach",
+      "note": "Cost approach depends on depreciation."
+    },
+    {
+      "from_id": "concept_effective_tax_rate",
+      "relationship_type": "related_concept",
+      "to_id": "concept_tax_bill",
+      "note": "Tax bill is numerator source."
+    },
+    {
+      "from_id": "concept_effective_tax_rate",
+      "relationship_type": "related_research",
+      "to_id": "research_berry_reassessing_property_tax",
+      "note": "Effective burden is central to regressivity analysis."
+    },
+    {
+      "from_id": "concept_equalization",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_uniformity",
+      "note": "Constitutional uniformity and proportionality."
+    },
+    {
+      "from_id": "concept_equalization",
+      "relationship_type": "implemented_by",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "County board can correct over/under valuation in protest/equalization session."
+    },
+    {
+      "from_id": "concept_equalization",
+      "relationship_type": "implemented_by",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow supports equalization review."
+    },
+    {
+      "from_id": "concept_greenbelt_special_valuation",
+      "relationship_type": "exception_or_variant_of",
+      "to_id": "concept_actual_value",
+      "note": "Different statutory treatment from general real-property actual value."
+    },
+    {
+      "from_id": "concept_greenbelt_special_valuation",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1359_greenbelt",
+      "note": "Special valuation statute."
+    },
+    {
+      "from_id": "concept_greenbelt_special_valuation",
+      "relationship_type": "related_case",
+      "to_id": "case_lancaster_county_boe_v_moser",
+      "note": "Moser involved agricultural land valuation/equalization dispute."
+    },
+    {
+      "from_id": "concept_homestead_exemption",
+      "relationship_type": "constitutional_context",
+      "to_id": "const_ne_article_viii_exemptions",
+      "note": "Exemption/classification authority context."
+    },
+    {
+      "from_id": "concept_homestead_exemption",
+      "relationship_type": "contrasted_with",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Exemption eligibility is separate from contesting value."
+    },
+    {
+      "from_id": "concept_homestead_exemption",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_3501_3530_homestead",
+      "note": "Homestead statutory range."
+    },
+    {
+      "from_id": "concept_homestead_exemption",
+      "relationship_type": "related_relief",
+      "to_id": "concept_property_tax_credit",
+      "note": "Different relief mechanism."
+    },
+    {
+      "from_id": "concept_horizontal_equity",
+      "relationship_type": "measured_by",
+      "to_id": "concept_cod",
+      "note": "COD is a standard dispersion metric."
+    },
+    {
+      "from_id": "concept_horizontal_equity",
+      "relationship_type": "related_to",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Maps appraisal theory to Nebraska legal requirement."
+    },
+    {
+      "from_id": "concept_horizontal_equity",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio studies evaluate uniformity."
+    },
+    {
+      "from_id": "concept_income_approach",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1314_income_approach",
+      "note": "Nebraska-specific statutory instruction."
+    },
+    {
+      "from_id": "concept_income_approach",
+      "relationship_type": "part_of",
+      "to_id": "concept_valuation_approaches",
+      "note": "One major appraisal approach."
+    },
+    {
+      "from_id": "concept_income_approach",
+      "relationship_type": "related_concept",
+      "to_id": "concept_actual_value",
+      "note": "Approach should estimate actual value."
+    },
+    {
+      "from_id": "concept_land_table",
+      "relationship_type": "contained_in",
+      "to_id": "concept_cama",
+      "note": "CAMA systems maintain land schedules."
+    },
+    {
+      "from_id": "concept_land_table",
+      "relationship_type": "related_concept",
+      "to_id": "concept_market_area",
+      "note": "Land tables are often market-area sensitive."
+    },
+    {
+      "from_id": "concept_land_table",
+      "relationship_type": "used_by",
+      "to_id": "concept_cost_approach",
+      "note": "Cost approach includes land value."
+    },
+    {
+      "from_id": "concept_level_of_value",
+      "relationship_type": "measured_by",
+      "to_id": "concept_median_ratio",
+      "note": "Median is a common level statistic."
+    },
+    {
+      "from_id": "concept_level_of_value",
+      "relationship_type": "related_metric",
+      "to_id": "concept_weighted_mean_ratio",
+      "note": "Weighted mean supports PRD and aggregate burden analysis."
+    },
+    {
+      "from_id": "concept_level_of_value",
+      "relationship_type": "used_in",
+      "to_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O uses indicated level of value by class/county."
+    },
+    {
+      "from_id": "concept_level_of_value",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Level informs equalization."
+    },
+    {
+      "from_id": "concept_market_area",
+      "relationship_type": "related_concept",
+      "to_id": "concept_neighborhood",
+      "note": "Neighborhood coding is often a local implementation of market segmentation."
+    },
+    {
+      "from_id": "concept_market_area",
+      "relationship_type": "used_by",
+      "to_id": "concept_sales_comparison_approach",
+      "note": "Comparable sale selection often considers market area."
+    },
+    {
+      "from_id": "concept_market_area",
+      "relationship_type": "used_by",
+      "to_id": "concept_stratification",
+      "note": "Market areas can define ratio-study strata."
+    },
+    {
+      "from_id": "concept_mean_ratio",
+      "relationship_type": "related_metric",
+      "to_id": "concept_median_ratio",
+      "note": "Median is less affected by outliers."
+    },
+    {
+      "from_id": "concept_mean_ratio",
+      "relationship_type": "related_metric",
+      "to_id": "concept_weighted_mean_ratio",
+      "note": "Weighted mean accounts for price/value weights."
+    },
+    {
+      "from_id": "concept_mean_ratio",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study statistic."
+    },
+    {
+      "from_id": "concept_median_ratio",
+      "relationship_type": "basis_for",
+      "to_id": "concept_cod",
+      "note": "COD is dispersion around median."
+    },
+    {
+      "from_id": "concept_median_ratio",
+      "relationship_type": "computed_from",
+      "to_id": "concept_sales_ratio",
+      "note": "Uses ordered sale ratios."
+    },
+    {
+      "from_id": "concept_median_ratio",
+      "relationship_type": "measures",
+      "to_id": "concept_level_of_value",
+      "note": "Common level measure."
+    },
+    {
+      "from_id": "concept_neighborhood",
+      "relationship_type": "implementation_of",
+      "to_id": "concept_market_area",
+      "note": "Neighborhood is a local coding form of market segmentation."
+    },
+    {
+      "from_id": "concept_neighborhood",
+      "relationship_type": "quality_controlled_by",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Neighborhood assignment must be maintained."
+    },
+    {
+      "from_id": "concept_neighborhood",
+      "relationship_type": "used_by",
+      "to_id": "concept_sales_comparison_approach",
+      "note": "Comparable sales should be market-relevant."
+    },
+    {
+      "from_id": "concept_personal_property",
+      "relationship_type": "contrasted_with",
+      "to_id": "concept_actual_value",
+      "note": "Personal property may use net book/depreciation framework."
+    },
+    {
+      "from_id": "concept_personal_property",
+      "relationship_type": "deadline",
+      "to_id": "deadline_may1_personal_property_return",
+      "note": "Personal property return due date."
+    },
+    {
+      "from_id": "concept_personal_property",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property assessment statute."
+    },
+    {
+      "from_id": "concept_prb",
+      "relationship_type": "contrasted_with",
+      "to_id": "concept_prd",
+      "note": "PRD is a descriptive ratio of means; PRB is regression-oriented."
+    },
+    {
+      "from_id": "concept_prb",
+      "relationship_type": "defined_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study metric."
+    },
+    {
+      "from_id": "concept_prb",
+      "relationship_type": "related_concept",
+      "to_id": "concept_regressivity",
+      "note": "Negative or positive patterns may indicate regressivity/progressivity depending on ratio orientation."
+    },
+    {
+      "from_id": "concept_prb",
+      "relationship_type": "related_concept",
+      "to_id": "concept_vertical_equity",
+      "note": "Direct vertical-equity statistic."
+    },
+    {
+      "from_id": "concept_prd",
+      "relationship_type": "defined_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study standard."
+    },
+    {
+      "from_id": "concept_prd",
+      "relationship_type": "indicates",
+      "to_id": "concept_vertical_equity",
+      "note": "Vertical equity signal."
+    },
+    {
+      "from_id": "concept_prd",
+      "relationship_type": "related_research",
+      "to_id": "research_lincoln_vertical_inequality_measures",
+      "note": "Research cautions about vertical inequity measures."
+    },
+    {
+      "from_id": "concept_prd",
+      "relationship_type": "uses",
+      "to_id": "concept_mean_ratio",
+      "note": "Numerator."
+    },
+    {
+      "from_id": "concept_prd",
+      "relationship_type": "uses",
+      "to_id": "concept_weighted_mean_ratio",
+      "note": "Denominator."
+    },
+    {
+      "from_id": "concept_property_record",
+      "relationship_type": "contained_in",
+      "to_id": "concept_cama",
+      "note": "CAMA stores and maintains property records."
+    },
+    {
+      "from_id": "concept_property_record",
+      "relationship_type": "quality_controlled_by",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Data integrity workflow."
+    },
+    {
+      "from_id": "concept_property_record",
+      "relationship_type": "supports",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Record errors can be evidence in valuation discussions/protests."
+    },
+    {
+      "from_id": "concept_property_tax_credit",
+      "relationship_type": "distinguished_from",
+      "to_id": "concept_tax_bill",
+      "note": "Credits may reduce/refund burden but are not the same as assessment value."
+    },
+    {
+      "from_id": "concept_property_tax_credit",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "note": "Property Tax Incentive Act."
+    },
+    {
+      "from_id": "concept_property_tax_credit",
+      "relationship_type": "related_form",
+      "to_id": "form_ptc_property_tax_credit",
+      "note": "Credit computation form."
+    },
+    {
+      "from_id": "concept_quality_condition",
+      "relationship_type": "contained_in",
+      "to_id": "concept_property_record",
+      "note": "Property record should preserve characteristic data."
+    },
+    {
+      "from_id": "concept_quality_condition",
+      "relationship_type": "influences",
+      "to_id": "concept_depreciation",
+      "note": "Quality and condition affect depreciation estimates."
+    },
+    {
+      "from_id": "concept_quality_condition",
+      "relationship_type": "supports",
+      "to_id": "concept_cost_approach",
+      "note": "Improvement valuation needs quality/condition."
+    },
+    {
+      "from_id": "concept_regressivity",
+      "relationship_type": "grounded_by",
+      "to_id": "research_berry_reassessing_property_tax",
+      "note": "Major empirical regressivity research."
+    },
+    {
+      "from_id": "concept_regressivity",
+      "relationship_type": "grounded_by",
+      "to_id": "research_mcmillen_singh_assessment_regressivity",
+      "note": "Incidence and homestead interaction research."
+    },
+    {
+      "from_id": "concept_regressivity",
+      "relationship_type": "measured_by",
+      "to_id": "concept_prb",
+      "note": "PRB directly estimates price-related bias."
+    },
+    {
+      "from_id": "concept_regressivity",
+      "relationship_type": "measured_by",
+      "to_id": "concept_prd",
+      "note": "PRD can signal vertical inequity."
+    },
+    {
+      "from_id": "concept_regressivity",
+      "relationship_type": "related_concept",
+      "to_id": "concept_vertical_equity",
+      "note": "Regressivity is a vertical equity failure mode."
+    },
+    {
+      "from_id": "concept_sales_chasing",
+      "relationship_type": "addressed_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO standard discusses sales validation and study integrity."
+    },
+    {
+      "from_id": "concept_sales_chasing",
+      "relationship_type": "related_concept",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Selective treatment can create unequal assessment."
+    },
+    {
+      "from_id": "concept_sales_chasing",
+      "relationship_type": "risk_to",
+      "to_id": "workflow_sales_file_to_ratio_study",
+      "note": "Can bias sale sample and ratio study."
+    },
+    {
+      "from_id": "concept_sales_comparison_approach",
+      "relationship_type": "part_of",
+      "to_id": "concept_valuation_approaches",
+      "note": "One major appraisal approach."
+    },
+    {
+      "from_id": "concept_sales_comparison_approach",
+      "relationship_type": "supports",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Recent arms-length comparable sales can support protest evidence."
+    },
+    {
+      "from_id": "concept_sales_comparison_approach",
+      "relationship_type": "uses",
+      "to_id": "concept_market_area",
+      "note": "Market area affects comparability."
+    },
+    {
+      "from_id": "concept_sales_comparison_approach",
+      "relationship_type": "uses",
+      "to_id": "concept_valid_sale",
+      "note": "Comparable sales should be valid market indicators."
+    },
+    {
+      "from_id": "concept_sales_ratio",
+      "relationship_type": "basis_for",
+      "to_id": "concept_cod",
+      "note": "COD computed from sales ratio dispersion."
+    },
+    {
+      "from_id": "concept_sales_ratio",
+      "relationship_type": "basis_for",
+      "to_id": "concept_median_ratio",
+      "note": "Median ratio computed from sales ratios."
+    },
+    {
+      "from_id": "concept_sales_ratio",
+      "relationship_type": "computed_from",
+      "to_id": "concept_valid_sale",
+      "note": "Sale must be screened/validated."
+    },
+    {
+      "from_id": "concept_sales_ratio",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Core ratio-study unit."
+    },
+    {
+      "from_id": "concept_sample_adequacy",
+      "relationship_type": "related_concept",
+      "to_id": "concept_confidence_interval",
+      "note": "Sample quality affects uncertainty."
+    },
+    {
+      "from_id": "concept_sample_adequacy",
+      "relationship_type": "related_concept",
+      "to_id": "concept_stratification",
+      "note": "More strata can reduce sample size."
+    },
+    {
+      "from_id": "concept_sample_adequacy",
+      "relationship_type": "supports",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Adequacy affects equalization reliability."
+    },
+    {
+      "from_id": "concept_stratification",
+      "relationship_type": "tradeoff_with",
+      "to_id": "concept_sample_adequacy",
+      "note": "More granular strata may reduce sample size."
+    },
+    {
+      "from_id": "concept_stratification",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Core ratio-study design choice."
+    },
+    {
+      "from_id": "concept_stratification",
+      "relationship_type": "uses",
+      "to_id": "concept_market_area",
+      "note": "Market area can define strata."
+    },
+    {
+      "from_id": "concept_stratification",
+      "relationship_type": "uses",
+      "to_id": "concept_valuation_group",
+      "note": "Nebraska/PAD workflow may use valuation groups."
+    },
+    {
+      "from_id": "concept_tax_bill",
+      "relationship_type": "computed_after",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Tax statement follows levy/tax-list process."
+    },
+    {
+      "from_id": "concept_tax_bill",
+      "relationship_type": "distinguished_from",
+      "to_id": "concept_assessed_value",
+      "note": "Tax bill is not the assessed value."
+    },
+    {
+      "from_id": "concept_tax_bill",
+      "relationship_type": "explained_by",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Public explanation object."
+    },
+    {
+      "from_id": "concept_uniformity_proportionality",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_uniformity",
+      "note": "Article VIII-1."
+    },
+    {
+      "from_id": "concept_uniformity_proportionality",
+      "relationship_type": "implemented_by",
+      "to_id": "concept_equalization",
+      "note": "Equalization operationalizes uniformity."
+    },
+    {
+      "from_id": "concept_uniformity_proportionality",
+      "relationship_type": "interpreted_by",
+      "to_id": "case_lancaster_county_boe_v_moser",
+      "note": "Case law on proof burden."
+    },
+    {
+      "from_id": "concept_uniformity_proportionality",
+      "relationship_type": "tested_by",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio studies provide aggregate evidence."
+    },
+    {
+      "from_id": "concept_valid_sale",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Nebraska Sales File regulation chapter."
+    },
+    {
+      "from_id": "concept_valid_sale",
+      "relationship_type": "managed_by",
+      "to_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales file workflow qualifies sales."
+    },
+    {
+      "from_id": "concept_valid_sale",
+      "relationship_type": "required_by",
+      "to_id": "concept_sales_ratio",
+      "note": "Ratio study requires valid sales."
+    },
+    {
+      "from_id": "concept_valuation_approaches",
+      "relationship_type": "bounded_by",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Methods must produce uniform/proportionate results."
+    },
+    {
+      "from_id": "concept_valuation_approaches",
+      "relationship_type": "includes",
+      "to_id": "concept_cost_approach",
+      "note": "Cost approach."
+    },
+    {
+      "from_id": "concept_valuation_approaches",
+      "relationship_type": "includes",
+      "to_id": "concept_income_approach",
+      "note": "Income approach."
+    },
+    {
+      "from_id": "concept_valuation_approaches",
+      "relationship_type": "includes",
+      "to_id": "concept_sales_comparison_approach",
+      "note": "Market approach."
+    },
+    {
+      "from_id": "concept_valuation_approaches",
+      "relationship_type": "must_support",
+      "to_id": "concept_actual_value",
+      "note": "Approaches should support actual value."
+    },
+    {
+      "from_id": "concept_valuation_group",
+      "relationship_type": "used_by",
+      "to_id": "concept_stratification",
+      "note": "Valuation groups can serve as strata."
+    },
+    {
+      "from_id": "concept_valuation_group",
+      "relationship_type": "used_in",
+      "to_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O ingestion should refine group taxonomy."
+    },
+    {
+      "from_id": "concept_valuation_group",
+      "relationship_type": "used_in",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Analysis grouping."
+    },
+    {
+      "from_id": "concept_value_vs_tax",
+      "relationship_type": "distinguishes",
+      "to_id": "concept_assessed_value",
+      "note": "Value side."
+    },
+    {
+      "from_id": "concept_value_vs_tax",
+      "relationship_type": "distinguishes",
+      "to_id": "concept_tax_bill",
+      "note": "Tax due side."
+    },
+    {
+      "from_id": "concept_value_vs_tax",
+      "relationship_type": "explained_by",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Public guidance object."
+    },
+    {
+      "from_id": "concept_value_vs_tax",
+      "relationship_type": "workflow",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Explains how taxes are generated."
+    },
+    {
+      "from_id": "concept_vertical_equity",
+      "relationship_type": "failure_mode",
+      "to_id": "concept_regressivity",
+      "note": "Regressivity is a vertical inequity pattern."
+    },
+    {
+      "from_id": "concept_vertical_equity",
+      "relationship_type": "measured_by",
+      "to_id": "concept_prb",
+      "note": "PRB is a vertical-equity statistic."
+    },
+    {
+      "from_id": "concept_vertical_equity",
+      "relationship_type": "measured_by",
+      "to_id": "concept_prd",
+      "note": "PRD is a vertical-equity indicator."
+    },
+    {
+      "from_id": "concept_vertical_equity",
+      "relationship_type": "researched_by",
+      "to_id": "research_lincoln_vertical_inequality_measures",
+      "note": "Research on measure limitations."
+    },
+    {
+      "from_id": "concept_weighted_mean_ratio",
+      "relationship_type": "related_metric",
+      "to_id": "concept_level_of_value",
+      "note": "Alternative aggregate level view."
+    },
+    {
+      "from_id": "concept_weighted_mean_ratio",
+      "relationship_type": "related_metric",
+      "to_id": "concept_mean_ratio",
+      "note": "PRD compares mean and weighted mean."
+    },
+    {
+      "from_id": "concept_weighted_mean_ratio",
+      "relationship_type": "used_by",
+      "to_id": "concept_prd",
+      "note": "PRD denominator."
+    },
+    {
+      "from_id": "const_ne_article_viii_exemptions",
+      "relationship_type": "related_concept",
+      "to_id": "concept_homestead_exemption",
+      "note": "Homestead is a statutory relief program with constitutional context."
+    },
+    {
+      "from_id": "const_ne_article_viii_exemptions",
+      "relationship_type": "related_concept",
+      "to_id": "concept_personal_property",
+      "note": "Personal property treatment is constitutionally/statutorily framed."
+    },
+    {
+      "from_id": "const_ne_article_viii_state_property_tax_prohibition",
+      "relationship_type": "context_for",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Property tax levy workflow is local-government oriented."
+    },
+    {
+      "from_id": "const_ne_article_viii_state_property_tax_prohibition",
+      "relationship_type": "related_public_guidance",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Helps explain state versus local roles."
+    },
+    {
+      "from_id": "const_ne_article_viii_uniformity",
+      "relationship_type": "defines_authority_for",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Canonical constitutional concept."
+    },
+    {
+      "from_id": "const_ne_article_viii_uniformity",
+      "relationship_type": "interpreted_by",
+      "to_id": "case_lancaster_county_boe_v_moser",
+      "note": "Case law burden context."
+    },
+    {
+      "from_id": "const_ne_article_viii_uniformity",
+      "relationship_type": "supports",
+      "to_id": "concept_equalization",
+      "note": "Equalization operationalizes constitutional requirement."
+    },
+    {
+      "from_id": "crosswalk_assessment_to_tax_cycle",
+      "relationship_type": "explains",
+      "to_id": "concept_value_vs_tax",
+      "note": "Public explanation."
+    },
+    {
+      "from_id": "crosswalk_assessment_to_tax_cycle",
+      "relationship_type": "stage",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Equalization stage."
+    },
+    {
+      "from_id": "crosswalk_assessment_to_tax_cycle",
+      "relationship_type": "stage",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy and tax statement stage."
+    },
+    {
+      "from_id": "crosswalk_assessment_to_tax_cycle",
+      "relationship_type": "stage",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment stage."
+    },
+    {
+      "from_id": "crosswalk_assessment_to_tax_cycle",
+      "relationship_type": "stage",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest stage."
+    },
+    {
+      "from_id": "crosswalk_legal_hierarchy",
+      "relationship_type": "contextualizes",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "Professional standard, not Nebraska law by itself."
+    },
+    {
+      "from_id": "crosswalk_legal_hierarchy",
+      "relationship_type": "prioritizes",
+      "to_id": "const_ne_article_viii_uniformity",
+      "note": "Constitutional anchor."
+    },
+    {
+      "from_id": "crosswalk_legal_hierarchy",
+      "relationship_type": "prioritizes",
+      "to_id": "standard_ne_title350_ch50_assessment_process",
+      "note": "Regulatory layer."
+    },
+    {
+      "from_id": "crosswalk_legal_hierarchy",
+      "relationship_type": "prioritizes",
+      "to_id": "statute_ne_77_112_actual_value",
+      "note": "Statutory definition."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "level_metric",
+      "to_id": "concept_level_of_value",
+      "note": "Canonical level concept."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "level_metric",
+      "to_id": "concept_median_ratio",
+      "note": "Typical assessment level."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "reliability_concept",
+      "to_id": "concept_sample_adequacy",
+      "note": "Reliability context."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "uniformity_metric",
+      "to_id": "concept_cod",
+      "note": "Horizontal dispersion."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "vertical_metric",
+      "to_id": "concept_prb",
+      "note": "Price-related bias."
+    },
+    {
+      "from_id": "crosswalk_ratio_metrics",
+      "relationship_type": "vertical_metric",
+      "to_id": "concept_prd",
+      "note": "Vertical equity indicator."
+    },
+    {
+      "from_id": "deadline_jan1_assessment_date",
+      "relationship_type": "implements",
+      "to_id": "concept_assessment_date",
+      "note": "Deadline expression of assessment date."
+    },
+    {
+      "from_id": "deadline_jan1_assessment_date",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property."
+    },
+    {
+      "from_id": "deadline_jan1_assessment_date",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property."
+    },
+    {
+      "from_id": "deadline_july25_boe_decision_session",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1504_boe_powers_decision",
+      "note": "County board powers/duties."
+    },
+    {
+      "from_id": "deadline_july25_boe_decision_session",
+      "relationship_type": "part_of",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Hearing and decision workflow."
+    },
+    {
+      "from_id": "deadline_july25_boe_decision_session",
+      "relationship_type": "precedes",
+      "to_id": "workflow_terc_appeal",
+      "note": "Appeal follows county board action."
+    },
+    {
+      "from_id": "deadline_june30_real_property_protest",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1502_protests",
+      "note": "Protest filing statute."
+    },
+    {
+      "from_id": "deadline_june30_real_property_protest",
+      "relationship_type": "part_of",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Filing deadline."
+    },
+    {
+      "from_id": "deadline_june30_real_property_protest",
+      "relationship_type": "uses_form",
+      "to_id": "form_422_property_valuation_protest",
+      "note": "DOR protest form."
+    },
+    {
+      "from_id": "deadline_may1_personal_property_return",
+      "relationship_type": "applies_to",
+      "to_id": "concept_personal_property",
+      "note": "Personal property filing."
+    },
+    {
+      "from_id": "deadline_may1_personal_property_return",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property assessment."
+    },
+    {
+      "from_id": "deadline_oct20_county_tax_levy",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute."
+    },
+    {
+      "from_id": "deadline_oct20_county_tax_levy",
+      "relationship_type": "part_of",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy setting workflow."
+    },
+    {
+      "from_id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "relationship_type": "contrasted_with",
+      "to_id": "deadline_tax_delinquency_standard_counties",
+      "note": "Standard county dates."
+    },
+    {
+      "from_id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "relationship_type": "part_of",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Collection endpoint."
+    },
+    {
+      "from_id": "deadline_tax_delinquency_standard_counties",
+      "relationship_type": "contrasted_with",
+      "to_id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "note": "Three-county alternate dates."
+    },
+    {
+      "from_id": "deadline_tax_delinquency_standard_counties",
+      "relationship_type": "part_of",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Collection endpoint."
+    },
+    {
+      "from_id": "form_422_property_valuation_protest",
+      "relationship_type": "deadline",
+      "to_id": "deadline_june30_real_property_protest",
+      "note": "Regular annual filing deadline."
+    },
+    {
+      "from_id": "form_422_property_valuation_protest",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1502_protests",
+      "note": "Required protest content/dismissal rule."
+    },
+    {
+      "from_id": "form_422_property_valuation_protest",
+      "relationship_type": "used_in",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Formal protest filing."
+    },
+    {
+      "from_id": "form_ptc_property_tax_credit",
+      "relationship_type": "claims",
+      "to_id": "concept_property_tax_credit",
+      "note": "Tax credit program."
+    },
+    {
+      "from_id": "form_ptc_property_tax_credit",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "note": "Property Tax Incentive Act."
+    },
+    {
+      "from_id": "pad_assessor_certification",
+      "relationship_type": "related_regulation",
+      "to_id": "standard_ne_title350_ch71_certification",
+      "note": "Education/certification regulation chapter."
+    },
+    {
+      "from_id": "pad_assessor_certification",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Qualified assessor role."
+    },
+    {
+      "from_id": "pad_reports_opinions_methodology",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch17_reports_opinions",
+      "note": "Title 350 Reports and Opinions regulation chapter."
+    },
+    {
+      "from_id": "pad_reports_opinions_methodology",
+      "relationship_type": "supports",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Statewide equalization evidence."
+    },
+    {
+      "from_id": "pad_reports_opinions_methodology",
+      "relationship_type": "uses",
+      "to_id": "concept_level_of_value",
+      "note": "Core R&O output."
+    },
+    {
+      "from_id": "pad_reports_opinions_methodology",
+      "relationship_type": "uses",
+      "to_id": "concept_stratification",
+      "note": "Class/group analysis."
+    },
+    {
+      "from_id": "pad_statewide_equalization",
+      "relationship_type": "grounded_in",
+      "to_id": "concept_equalization",
+      "note": "Equalization concept."
+    },
+    {
+      "from_id": "pad_statewide_equalization",
+      "relationship_type": "uses",
+      "to_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O evidence."
+    },
+    {
+      "from_id": "pad_statewide_equalization",
+      "relationship_type": "uses",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow."
+    },
+    {
+      "from_id": "public_guidance_assessment_vs_taxes",
+      "relationship_type": "distinguishes",
+      "to_id": "concept_assessed_value",
+      "note": "Assessment role."
+    },
+    {
+      "from_id": "public_guidance_assessment_vs_taxes",
+      "relationship_type": "distinguishes",
+      "to_id": "concept_tax_bill",
+      "note": "Tax collection result."
+    },
+    {
+      "from_id": "public_guidance_assessment_vs_taxes",
+      "relationship_type": "explains",
+      "to_id": "concept_value_vs_tax",
+      "note": "Canonical concept."
+    },
+    {
+      "from_id": "public_guidance_assessment_vs_taxes",
+      "relationship_type": "uses_workflow",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy/tax statement process."
+    },
+    {
+      "from_id": "research_berry_reassessing_property_tax",
+      "relationship_type": "grounds",
+      "to_id": "concept_regressivity",
+      "note": "Major empirical research source."
+    },
+    {
+      "from_id": "research_berry_reassessing_property_tax",
+      "relationship_type": "related_concept",
+      "to_id": "concept_vertical_equity",
+      "note": "Vertical equity theory."
+    },
+    {
+      "from_id": "research_berry_reassessing_property_tax",
+      "relationship_type": "related_metric",
+      "to_id": "concept_effective_tax_rate",
+      "note": "Burden analysis."
+    },
+    {
+      "from_id": "research_lincoln_vertical_inequality_measures",
+      "relationship_type": "contextualizes",
+      "to_id": "concept_prd",
+      "note": "Cautions about vertical measure interpretation."
+    },
+    {
+      "from_id": "research_lincoln_vertical_inequality_measures",
+      "relationship_type": "contextualizes",
+      "to_id": "concept_vertical_equity",
+      "note": "Measurement theory."
+    },
+    {
+      "from_id": "research_lincoln_vertical_inequality_measures",
+      "relationship_type": "related_to",
+      "to_id": "concept_regressivity",
+      "note": "Regressivity measurement."
+    },
+    {
+      "from_id": "research_mcmillen_singh_assessment_regressivity",
+      "relationship_type": "grounds",
+      "to_id": "concept_regressivity",
+      "note": "Incidence-focused regressivity source."
+    },
+    {
+      "from_id": "research_mcmillen_singh_assessment_regressivity",
+      "relationship_type": "related_concept",
+      "to_id": "concept_homestead_exemption",
+      "note": "Research discusses homestead effects."
+    },
+    {
+      "from_id": "research_mcmillen_singh_assessment_regressivity",
+      "relationship_type": "related_metric",
+      "to_id": "concept_effective_tax_rate",
+      "note": "Burden analysis."
+    },
+    {
+      "from_id": "standard_iaao_assessment_appeal",
+      "relationship_type": "context_for",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Local appeal/protest principles."
+    },
+    {
+      "from_id": "standard_iaao_assessment_appeal",
+      "relationship_type": "context_for",
+      "to_id": "workflow_terc_appeal",
+      "note": "Professional appeal principles."
+    },
+    {
+      "from_id": "standard_iaao_mass_appraisal",
+      "relationship_type": "supports",
+      "to_id": "concept_cama",
+      "note": "CAMA/data system concepts."
+    },
+    {
+      "from_id": "standard_iaao_mass_appraisal",
+      "relationship_type": "supports",
+      "to_id": "concept_valuation_approaches",
+      "note": "Valuation methods."
+    },
+    {
+      "from_id": "standard_iaao_mass_appraisal",
+      "relationship_type": "supports",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Operational data maintenance."
+    },
+    {
+      "from_id": "standard_iaao_ratio_studies_2013",
+      "relationship_type": "defines",
+      "to_id": "concept_cod",
+      "note": "Uniformity metric."
+    },
+    {
+      "from_id": "standard_iaao_ratio_studies_2013",
+      "relationship_type": "defines",
+      "to_id": "concept_prb",
+      "note": "Price-related bias."
+    },
+    {
+      "from_id": "standard_iaao_ratio_studies_2013",
+      "relationship_type": "defines",
+      "to_id": "concept_prd",
+      "note": "Vertical equity metric."
+    },
+    {
+      "from_id": "standard_iaao_ratio_studies_2013",
+      "relationship_type": "defines",
+      "to_id": "concept_sales_ratio",
+      "note": "Ratio formation."
+    },
+    {
+      "from_id": "standard_iaao_ratio_studies_2013",
+      "relationship_type": "supports",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow."
+    },
+    {
+      "from_id": "standard_ne_title350_ch12_sales_file",
+      "relationship_type": "governs",
+      "to_id": "concept_valid_sale",
+      "note": "Sale qualification."
+    },
+    {
+      "from_id": "standard_ne_title350_ch12_sales_file",
+      "relationship_type": "governs",
+      "to_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales data workflow."
+    },
+    {
+      "from_id": "standard_ne_title350_ch12_sales_file",
+      "relationship_type": "supports",
+      "to_id": "concept_sales_ratio",
+      "note": "Sales are ratio denominator."
+    },
+    {
+      "from_id": "standard_ne_title350_ch14_agricultural_land",
+      "relationship_type": "governs",
+      "to_id": "concept_greenbelt_special_valuation",
+      "note": "Agricultural/horticultural valuation domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch17_reports_opinions",
+      "relationship_type": "governs",
+      "to_id": "pad_reports_opinions_methodology",
+      "note": "R&O methodology domain."
+    },
+    {
+      "from_id": "standard_ne_title350_ch17_reports_opinions",
+      "relationship_type": "supports",
+      "to_id": "pad_statewide_equalization",
+      "note": "Statewide equalization evidence."
+    },
+    {
+      "from_id": "standard_ne_title350_ch50_assessment_process",
+      "relationship_type": "governs",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment process."
+    },
+    {
+      "from_id": "standard_ne_title350_ch50_assessment_process",
+      "relationship_type": "supports",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Data/record maintenance."
+    },
+    {
+      "from_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "relationship_type": "context_for",
+      "to_id": "pad_reports_opinions_methodology",
+      "note": "R&O depends on county reports/data."
+    },
+    {
+      "from_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "relationship_type": "context_for",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Reporting due dates are part of annual assessment operations."
+    },
+    {
+      "from_id": "standard_ne_title350_ch71_certification",
+      "relationship_type": "governs",
+      "to_id": "pad_assessor_certification",
+      "note": "Certification workflow."
+    },
+    {
+      "from_id": "statute_ne_13_501_budget_act",
+      "relationship_type": "related_deadline",
+      "to_id": "deadline_oct20_county_tax_levy",
+      "note": "Budget and tax request precede levy."
+    },
+    {
+      "from_id": "statute_ne_13_501_budget_act",
+      "relationship_type": "supports",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Budget/tax request feeds levy."
+    },
+    {
+      "from_id": "statute_ne_77_112_actual_value",
+      "relationship_type": "defines",
+      "to_id": "concept_actual_value",
+      "note": "Core definition."
+    },
+    {
+      "from_id": "statute_ne_77_112_actual_value",
+      "relationship_type": "supports",
+      "to_id": "concept_valuation_approaches",
+      "note": "Valuation approaches estimate actual value."
+    },
+    {
+      "from_id": "statute_ne_77_1201_personal_property_assessment",
+      "relationship_type": "deadline",
+      "to_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "from_id": "statute_ne_77_1201_personal_property_assessment",
+      "relationship_type": "deadline",
+      "to_id": "deadline_may1_personal_property_return",
+      "note": "Return deadline from FAQ/calendar context."
+    },
+    {
+      "from_id": "statute_ne_77_1201_personal_property_assessment",
+      "relationship_type": "governs",
+      "to_id": "concept_personal_property",
+      "note": "Personal property concept."
+    },
+    {
+      "from_id": "statute_ne_77_1301_assessment_of_real_property",
+      "relationship_type": "deadline",
+      "to_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "from_id": "statute_ne_77_1301_assessment_of_real_property",
+      "relationship_type": "governs",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment workflow."
+    },
+    {
+      "from_id": "statute_ne_77_1301_assessment_of_real_property",
+      "relationship_type": "uses",
+      "to_id": "concept_actual_value",
+      "note": "Real property value basis."
+    },
+    {
+      "from_id": "statute_ne_77_1314_income_approach",
+      "relationship_type": "governs",
+      "to_id": "concept_income_approach",
+      "note": "Nebraska-specific use case."
+    },
+    {
+      "from_id": "statute_ne_77_1314_income_approach",
+      "relationship_type": "related_workflow",
+      "to_id": "workflow_terc_appeal",
+      "note": "TERC appears in statutory process."
+    },
+    {
+      "from_id": "statute_ne_77_1315_assessment_roll",
+      "relationship_type": "related_deadline",
+      "to_id": "deadline_june30_real_property_protest",
+      "note": "Protest timing references roll completion."
+    },
+    {
+      "from_id": "statute_ne_77_1315_assessment_roll",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment roll step."
+    },
+    {
+      "from_id": "statute_ne_77_1315_assessment_roll",
+      "relationship_type": "triggers_or_precedes",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protests follow roll completion."
+    },
+    {
+      "from_id": "statute_ne_77_1359_greenbelt",
+      "relationship_type": "governs",
+      "to_id": "concept_greenbelt_special_valuation",
+      "note": "Special valuation program."
+    },
+    {
+      "from_id": "statute_ne_77_1359_greenbelt",
+      "relationship_type": "related_regulation",
+      "to_id": "standard_ne_title350_ch14_agricultural_land",
+      "note": "Regulation chapter."
+    },
+    {
+      "from_id": "statute_ne_77_1502_protests",
+      "relationship_type": "governs",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest filing workflow."
+    },
+    {
+      "from_id": "statute_ne_77_1502_protests",
+      "relationship_type": "requires",
+      "to_id": "form_422_property_valuation_protest",
+      "note": "Protest form/content."
+    },
+    {
+      "from_id": "statute_ne_77_1502_protests",
+      "relationship_type": "sets_deadline",
+      "to_id": "deadline_june30_real_property_protest",
+      "note": "Annual protest deadline."
+    },
+    {
+      "from_id": "statute_ne_77_1504_boe_powers_decision",
+      "relationship_type": "governs",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "County board hearing workflow."
+    },
+    {
+      "from_id": "statute_ne_77_1504_boe_powers_decision",
+      "relationship_type": "precedes",
+      "to_id": "workflow_terc_appeal",
+      "note": "Appeal follows BOE decision."
+    },
+    {
+      "from_id": "statute_ne_77_1504_boe_powers_decision",
+      "relationship_type": "sets_deadline",
+      "to_id": "deadline_july25_boe_decision_session",
+      "note": "Regular session deadline."
+    },
+    {
+      "from_id": "statute_ne_77_1601_county_tax_levy",
+      "relationship_type": "governs",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy workflow."
+    },
+    {
+      "from_id": "statute_ne_77_1601_county_tax_levy",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_3442_levy_limits",
+      "note": "Tax request and levy limits."
+    },
+    {
+      "from_id": "statute_ne_77_1601_county_tax_levy",
+      "relationship_type": "sets_deadline",
+      "to_id": "deadline_oct20_county_tax_levy",
+      "note": "Annual levy deadline."
+    },
+    {
+      "from_id": "statute_ne_77_3442_levy_limits",
+      "relationship_type": "constrains",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy setting must stay within legal limits."
+    },
+    {
+      "from_id": "statute_ne_77_3442_levy_limits",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_13_501_budget_act",
+      "note": "Budget/tax request context."
+    },
+    {
+      "from_id": "statute_ne_77_3442_levy_limits",
+      "relationship_type": "related_statute",
+      "to_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute references tax requests."
+    },
+    {
+      "from_id": "statute_ne_77_3501_3530_homestead",
+      "relationship_type": "governs",
+      "to_id": "concept_homestead_exemption",
+      "note": "Homestead exemption concept."
+    },
+    {
+      "from_id": "statute_ne_77_3501_3530_homestead",
+      "relationship_type": "related_concept",
+      "to_id": "concept_property_tax_credit",
+      "note": "Both are tax-relief concepts but use different mechanisms."
+    },
+    {
+      "from_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "relationship_type": "governs",
+      "to_id": "concept_property_tax_credit",
+      "note": "Property tax credit concept."
+    },
+    {
+      "from_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "relationship_type": "implemented_by",
+      "to_id": "form_ptc_property_tax_credit",
+      "note": "Credit form."
+    },
+    {
+      "from_id": "workflow_boe_protest_hearing",
+      "relationship_type": "evidence_context",
+      "to_id": "case_lancaster_county_boe_v_moser",
+      "note": "Equalization proof burden."
+    },
+    {
+      "from_id": "workflow_boe_protest_hearing",
+      "relationship_type": "follows",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Filed protest starts board workflow."
+    },
+    {
+      "from_id": "workflow_boe_protest_hearing",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1504_boe_powers_decision",
+      "note": "Board powers/duties."
+    },
+    {
+      "from_id": "workflow_boe_protest_hearing",
+      "relationship_type": "precedes",
+      "to_id": "workflow_terc_appeal",
+      "note": "TERC appeal may follow."
+    },
+    {
+      "from_id": "workflow_cama_data_maintenance",
+      "relationship_type": "contextualized_by",
+      "to_id": "standard_iaao_mass_appraisal",
+      "note": "Professional standard."
+    },
+    {
+      "from_id": "workflow_cama_data_maintenance",
+      "relationship_type": "maintains",
+      "to_id": "concept_property_record",
+      "note": "Record unit."
+    },
+    {
+      "from_id": "workflow_cama_data_maintenance",
+      "relationship_type": "maintains",
+      "to_id": "concept_quality_condition",
+      "note": "Key data fields."
+    },
+    {
+      "from_id": "workflow_cama_data_maintenance",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment accuracy."
+    },
+    {
+      "from_id": "workflow_cama_data_maintenance",
+      "relationship_type": "uses",
+      "to_id": "concept_cama",
+      "note": "System context."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "constrained_by",
+      "to_id": "statute_ne_77_3442_levy_limits",
+      "note": "Levy limits/tax requests."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "deadline",
+      "to_id": "deadline_oct20_county_tax_levy",
+      "note": "Levy deadline."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "explains",
+      "to_id": "concept_value_vs_tax",
+      "note": "Public distinction."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "informed_by",
+      "to_id": "statute_ne_13_501_budget_act",
+      "note": "Budget Act."
+    },
+    {
+      "from_id": "workflow_levy_setting_tax_statement_cycle",
+      "relationship_type": "produces",
+      "to_id": "concept_tax_bill",
+      "note": "Tax statement/tax due."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "contextualized_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "Professional standard."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "supports",
+      "to_id": "concept_equalization",
+      "note": "Equalization evidence."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "concept_cod",
+      "note": "Uniformity statistic."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "concept_median_ratio",
+      "note": "Level statistic."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "concept_prb",
+      "note": "Vertical statistic."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "concept_prd",
+      "note": "Vertical indicator."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "concept_sales_ratio",
+      "note": "Core ratio unit."
+    },
+    {
+      "from_id": "workflow_ratio_study_equalization",
+      "relationship_type": "uses",
+      "to_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales file input."
+    },
+    {
+      "from_id": "workflow_real_property_annual_assessment_cycle",
+      "relationship_type": "feeds",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Final value feeds levy/tax statements."
+    },
+    {
+      "from_id": "workflow_real_property_annual_assessment_cycle",
+      "relationship_type": "feeds",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Notice/protest stage."
+    },
+    {
+      "from_id": "workflow_real_property_annual_assessment_cycle",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property assessment statute."
+    },
+    {
+      "from_id": "workflow_real_property_annual_assessment_cycle",
+      "relationship_type": "starts_with",
+      "to_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "from_id": "workflow_real_property_annual_assessment_cycle",
+      "relationship_type": "uses",
+      "to_id": "concept_actual_value",
+      "note": "Value basis."
+    },
+    {
+      "from_id": "workflow_sales_file_to_ratio_study",
+      "relationship_type": "contextualized_by",
+      "to_id": "standard_iaao_ratio_studies_2013",
+      "note": "Sales validation guidance."
+    },
+    {
+      "from_id": "workflow_sales_file_to_ratio_study",
+      "relationship_type": "feeds",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Ratio study workflow."
+    },
+    {
+      "from_id": "workflow_sales_file_to_ratio_study",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Nebraska sales file regulation."
+    },
+    {
+      "from_id": "workflow_sales_file_to_ratio_study",
+      "relationship_type": "produces",
+      "to_id": "concept_valid_sale",
+      "note": "Qualified sale input."
+    },
+    {
+      "from_id": "workflow_sales_file_to_ratio_study",
+      "relationship_type": "risk",
+      "to_id": "concept_sales_chasing",
+      "note": "Integrity risk."
+    },
+    {
+      "from_id": "workflow_terc_appeal",
+      "relationship_type": "authority",
+      "to_id": "pad_statewide_equalization",
+      "note": "TERC also has statewide equalization role."
+    },
+    {
+      "from_id": "workflow_terc_appeal",
+      "relationship_type": "contextualized_by",
+      "to_id": "standard_iaao_assessment_appeal",
+      "note": "Professional appeal principles."
+    },
+    {
+      "from_id": "workflow_terc_appeal",
+      "relationship_type": "follows",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "County board decision is prerequisite for regular protest appeal."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "deadline",
+      "to_id": "deadline_june30_real_property_protest",
+      "note": "Regular annual protest deadline."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "evidence_uses",
+      "to_id": "concept_property_record",
+      "note": "Property record/data error evidence."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "evidence_uses",
+      "to_id": "concept_sales_comparison_approach",
+      "note": "Comparable sales evidence."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "follows",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Notice/assessment stage."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1502_protests",
+      "note": "Filing content and deadline."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "precedes",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Filed protest goes to board."
+    },
+    {
+      "from_id": "workflow_valuation_notice_to_protest",
+      "relationship_type": "uses_form",
+      "to_id": "form_422_property_valuation_protest",
+      "note": "Formal protest form."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_value_vs_tax",
+  "object_type": "public_guidance",
+  "canonical_term": "Value Versus Taxes",
+  "aliases": [
+    "assessment versus taxes",
+    "valuation versus tax bill",
+    "value does not equal tax"
+  ],
+  "category": "taxpayer_explanation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Assessment value and property tax due are related but distinct: value establishes a tax-base share, while levies, budgets, exemptions, and credits determine the final tax bill.",
+  "plain_language": "The assessor estimates value. Local taxing bodies set budgets/levies. The treasurer collects the taxes.",
+  "semantic_tags": [
+    "public_guidance",
+    "assessment_vs_tax",
+    "levy",
+    "tax_bill",
+    "taxpayer_question"
+  ],
+  "relationships": [
+    {
+      "type": "distinguishes",
+      "target_id": "concept_assessed_value",
+      "note": "Value side."
+    },
+    {
+      "type": "distinguishes",
+      "target_id": "concept_tax_bill",
+      "note": "Tax due side."
+    },
+    {
+      "type": "explained_by",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Public guidance object."
+    },
+    {
+      "type": "workflow",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Explains how taxes are generated."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "property assessment FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1601",
+      "locator": "§ 77-1601",
+      "citation": "Neb. Rev. Stat. § 77-1601."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

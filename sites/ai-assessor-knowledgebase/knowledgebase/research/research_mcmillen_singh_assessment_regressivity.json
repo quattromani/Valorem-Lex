@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "research_mcmillen_singh_assessment_regressivity",
+  "object_type": "research",
+  "canonical_term": "McMillen and Singh - Assessment Regressivity and Property Taxation",
+  "aliases": [
+    "Assessment Regressivity and Property Taxation"
+  ],
+  "category": "assessment_regressivity_research",
+  "jurisdiction": "United States",
+  "legal_hierarchy": "academic_research",
+  "summary": "Research connecting assessment regressivity to property tax incidence and showing how assessment patterns can offset or reverse statutory progressivity.",
+  "plain_language": "Even if a tax relief design is progressive on paper, regressive assessments can change who actually bears the burden.",
+  "semantic_tags": [
+    "research",
+    "assessment_regressivity",
+    "tax_incidence",
+    "homestead_exemptions",
+    "income"
+  ],
+  "relationships": [
+    {
+      "type": "grounds",
+      "target_id": "concept_regressivity",
+      "note": "Incidence-focused regressivity source."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_homestead_exemption",
+      "note": "Research discusses homestead effects."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_effective_tax_rate",
+      "note": "Burden analysis."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "mcmillen_singh_assessment_regressivity",
+      "locator": "abstract",
+      "citation": "Daniel McMillen & Ruchi Singh, Assessment Regressivity and Property Taxation, J. Real Estate Finance & Econ. (2019/2020)."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_from_research_snippet"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_mean_ratio",
+  "object_type": "metric",
+  "canonical_term": "Mean Ratio",
+  "aliases": [
+    "average ratio",
+    "arithmetic mean ratio"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "General assessment; used in ratio studies",
+  "legal_hierarchy": "statistical_metric",
+  "summary": "Arithmetic average of assessment ratios; useful but more sensitive to extreme ratios than the median.",
+  "plain_language": "The mean ratio is the ordinary average of all ratios in the group.",
+  "semantic_tags": [
+    "mean_ratio",
+    "ratio_study",
+    "statistics",
+    "assessment_level"
+  ],
+  "relationships": [
+    {
+      "type": "related_metric",
+      "target_id": "concept_median_ratio",
+      "note": "Median is less affected by outliers."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_weighted_mean_ratio",
+      "note": "Weighted mean accounts for price/value weights."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study statistic."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio statistics",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

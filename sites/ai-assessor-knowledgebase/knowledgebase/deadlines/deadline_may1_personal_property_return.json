@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_may1_personal_property_return",
+  "object_type": "deadline",
+  "canonical_term": "May 1 Personal Property Return Deadline",
+  "aliases": [
+    "personal property return due date",
+    "May 1 return"
+  ],
+  "category": "personal_property_deadline",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_deadline",
+  "summary": "Taxable personal property filers generally file the Nebraska Personal Property Return with the county assessor on or before May 1.",
+  "plain_language": "Business personal property returns are generally due May 1.",
+  "semantic_tags": [
+    "deadline",
+    "may_1",
+    "personal_property",
+    "return",
+    "county_assessor"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "05-01",
+      "description": "Personal property return deadline."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "applies_to",
+      "target_id": "concept_personal_property",
+      "note": "Personal property filing."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property assessment."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "taxable personal property FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "May entries",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

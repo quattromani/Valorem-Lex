@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "research_berry_reassessing_property_tax",
+  "object_type": "research",
+  "canonical_term": "Berry - Reassessing the Property Tax",
+  "aliases": [
+    "Christopher Berry regressivity paper",
+    "Reassessing the Property Tax"
+  ],
+  "category": "assessment_regressivity_research",
+  "jurisdiction": "United States",
+  "legal_hierarchy": "academic_research",
+  "summary": "Empirical research finding widespread residential assessment regressivity and attributing much of the pattern to data/model limitations rather than explicit policy choices alone.",
+  "plain_language": "Berry's work is a major source for the claim that low-value homes are often overassessed relative to high-value homes.",
+  "semantic_tags": [
+    "research",
+    "berry",
+    "regressivity",
+    "mass_appraisal_limits",
+    "property_tax_incidence"
+  ],
+  "relationships": [
+    {
+      "type": "grounds",
+      "target_id": "concept_regressivity",
+      "note": "Major empirical research source."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_effective_tax_rate",
+      "note": "Burden analysis."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_vertical_equity",
+      "note": "Vertical equity theory."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "berry_reassessing_property_tax",
+      "locator": "SSRN abstract",
+      "citation": "Christopher R. Berry, Reassessing the Property Tax (Mar. 9, 2021)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_research_snippet"
+}

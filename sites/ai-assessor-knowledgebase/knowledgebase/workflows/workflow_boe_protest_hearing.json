@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_boe_protest_hearing",
+  "object_type": "workflow",
+  "canonical_term": "County Board of Equalization Protest Hearing Workflow",
+  "aliases": [
+    "BOE hearing",
+    "county board protest",
+    "valuation protest hearing"
+  ],
+  "category": "protest_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_workflow",
+  "summary": "Workflow for county board review of filed protests, assessor/referee reporting, hearing, board decision, notice, and potential TERC appeal.",
+  "plain_language": "After a protest is filed, the county board considers evidence and issues a decision that can be appealed.",
+  "semantic_tags": [
+    "workflow",
+    "boe",
+    "protest",
+    "hearing",
+    "decision",
+    "terc_appeal"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Receive filed protest with required property description, requested value, reasons, and signature."
+    },
+    {
+      "order": 2,
+      "step": "Assessor/referee prepares report and recommendation if applicable."
+    },
+    {
+      "order": 3,
+      "step": "County board hears or considers protest evidence."
+    },
+    {
+      "order": 4,
+      "step": "Board decides current-year assessed value and mails notice."
+    },
+    {
+      "order": 5,
+      "step": "Aggrieved party may appeal to TERC under applicable deadline."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1504_boe_powers_decision",
+      "note": "Board powers/duties."
+    },
+    {
+      "type": "follows",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Filed protest starts board workflow."
+    },
+    {
+      "type": "precedes",
+      "target_id": "workflow_terc_appeal",
+      "note": "TERC appeal may follow."
+    },
+    {
+      "type": "evidence_context",
+      "target_id": "case_lancaster_county_boe_v_moser",
+      "note": "Equalization proof burden."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "§ 77-1504",
+      "citation": "Neb. Rev. Stat. § 77-1504."
+    },
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502 report requirements",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    },
+    {
+      "source_id": "sarpy_county_form_422",
+      "locator": "county guidance",
+      "citation": "Sarpy County, Form 422 - Property Valuation Protest."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_and_county_sources"
+}

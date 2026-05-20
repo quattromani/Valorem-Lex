@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1359_greenbelt",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1359 Agricultural and Horticultural Land Special Valuation",
+  "aliases": [
+    "77-1359",
+    "greenbelt statute",
+    "special valuation statute"
+  ],
+  "category": "agricultural_valuation_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statutory source for Nebraska agricultural and horticultural land special valuation.",
+  "plain_language": "This is a core statute for greenbelt/special valuation treatment.",
+  "semantic_tags": [
+    "statute",
+    "greenbelt",
+    "agricultural_land",
+    "special_valuation"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_greenbelt_special_valuation",
+      "note": "Special valuation program."
+    },
+    {
+      "type": "related_regulation",
+      "target_id": "standard_ne_title350_ch14_agricultural_land",
+      "note": "Regulation chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1359",
+      "locator": "§ 77-1359",
+      "citation": "Neb. Rev. Stat. § 77-1359."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_statute_text_review"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_6701_6706_property_tax_incentive",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Property Tax Incentive Act",
+  "aliases": [
+    "Neb. Rev. Stat. §§ 77-6701 to 77-6706",
+    "PTIA"
+  ],
+  "category": "tax_credit_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska statutory framework for refundable credits tied to qualifying school district and community college property taxes paid.",
+  "plain_language": "This is the statute behind Nebraska's Form PTC property tax credit program.",
+  "semantic_tags": [
+    "statute",
+    "property_tax_incentive_act",
+    "property_tax_credit",
+    "school_district_tax",
+    "community_college_tax"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_property_tax_credit",
+      "note": "Property tax credit concept."
+    },
+    {
+      "type": "implemented_by",
+      "target_id": "form_ptc_property_tax_credit",
+      "note": "Credit form."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_6701_6706_property_tax_incentive",
+      "locator": "§§ 77-6701 to 77-6706",
+      "citation": "Neb. Rev. Stat. §§ 77-6701 to 77-6706."
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_general_info",
+      "locator": "general information",
+      "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

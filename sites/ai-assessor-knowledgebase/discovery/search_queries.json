@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "stop_conditions": [
+    "Official Nebraska constitutional, statutory, PAD, TERC, and administrative-regulation categories represented.",
+    "IAAO ratio study, mass appraisal, appeals, and glossary standards represented.",
+    "Research/theory sources represented for regressivity, vertical inequity, and assessment-model limitations.",
+    "County workflow examples represented by multiple Nebraska county protest pages.",
+    "Remaining discovery should prioritize deeper extraction from PDFs and county-specific manuals rather than broad source-category discovery."
+  ],
+  "queries": [
+    {
+      "query": "Nebraska Department of Revenue Property Assessment Division assessment calendar real property Nebraska assessor calendar",
+      "intent": "PAD calendar and assessment cycle discovery"
+    },
+    {
+      "query": "Nebraska Property Assessment Division Reports and Opinions methodology ratio study COD PRD PRB",
+      "intent": "PAD R&O and ratio-study methodology discovery"
+    },
+    {
+      "query": "Nebraska Constitution Article VIII property tax uniformity proportionality",
+      "intent": "constitutional hierarchy and uniformity clause discovery"
+    },
+    {
+      "query": "Nebraska Revised Statutes Chapter 77 property assessment protests equalization levy",
+      "intent": "statutory hierarchy discovery"
+    },
+    {
+      "query": "site:revenue.nebraska.gov/PAD Nebraska Property Assessment Division regulations Title 350 NAC rules",
+      "intent": "administrative regulation discovery"
+    },
+    {
+      "query": "site:terc.nebraska.gov Nebraska Tax Equalization Review Commission property valuation appeal procedures",
+      "intent": "TERC appeal procedure discovery"
+    },
+    {
+      "query": "IAAO Standard on Ratio Studies 2013 COD PRD PRB acceptable range PDF",
+      "intent": "IAAO ratio-study metrics and thresholds"
+    },
+    {
+      "query": "Christopher Berry property tax regressivity assessment uniformity paper PDF",
+      "intent": "research/theory source discovery"
+    },
+    {
+      "query": "Nebraska property tax levy budget process county clerk levy certification 77-1601 77-3442",
+      "intent": "levy and budget workflow discovery"
+    },
+    {
+      "query": "Nebraska county assessor valuation protest procedure June 30 Board of Equalization PDF",
+      "intent": "county protest workflow discovery"
+    }
+  ]
+}

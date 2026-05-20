@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch71_certification",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 71 Education, Certification, and Recertification",
+  "aliases": [
+    "Assessor certification regulation",
+    "education regulation"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska regulation chapter for education, certification, and recertification of assessor personnel.",
+  "plain_language": "This regulation chapter governs assessor certification/education requirements.",
+  "semantic_tags": [
+    "title_350",
+    "assessor_certification",
+    "education",
+    "recertification"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "pad_assessor_certification",
+      "note": "Certification workflow."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 71",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

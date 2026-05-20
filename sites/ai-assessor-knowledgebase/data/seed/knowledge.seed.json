@@ -1,0 +1,2440 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "objects": [
+    {
+      "id": "case_gordman_v_hall_county_boe",
+      "object_type": "case",
+      "canonical_term": "Gordman Properties v. Hall County Board of Equalization",
+      "aliases": ["Gordman", "Gordman Properties"],
+      "category": "uniformity_case",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "case_law",
+      "summary": "Nebraska case authority for using county board proceedings to challenge actual value, uniformity, or both.",
+      "plain_language": "A taxpayer can argue that a property is valued too high, unequally valued compared with similar property, or both.",
+      "semantic_tags": ["case_law", "uniformity", "actual_value", "equalization", "appeals"],
+      "facts": [
+        { "predicate": "supports_issue_types", "object": ["actual_value", "uniformity_and_proportionality"] }
+      ],
+      "relationships": [
+        { "type": "interprets", "target_id": "concept_uniformity_proportionality", "note": "Grounds equalization challenge taxonomy." },
+        { "type": "related_workflow", "target_id": "workflow_boe_protest_hearing", "note": "Protest hearing may include actual value and equalization arguments." }
+      ],
+      "source_refs": [
+        { "source_id": "case_gordman_justia", "locator": "case summary", "citation": "Gordman Props. v. Hall Cty. Bd. of Equal., 1987 Neb. Supreme Court text via Justia." }
+      ],
+      "confidence": "medium",
+      "review_status": "secondary_case_source_needs_official_review"
+    },
+    {
+      "id": "case_kearney_convention_center_v_buffalo_county_boe",
+      "object_type": "case",
+      "canonical_term": "Kearney Convention Center v. Buffalo County Board of Equalization",
+      "aliases": ["Kearney Convention Center"],
+      "category": "uniformity_case",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "case_law",
+      "summary": "Nebraska case authority for the principle that reasonable valuation classifications and methods must still produce uniform and proportionate results not exceeding actual value.",
+      "plain_language": "Different property types can be valued with different methods, but the resulting values still have to fit Nebraska's uniformity and actual-value requirements.",
+      "semantic_tags": ["case_law", "classification", "uniformity", "actual_value", "valuation_methods"],
+      "facts": [
+        { "predicate": "rule", "object": "Reasonable classifications and different valuation methods must be correlated to uniform, proportionate, non-excessive values." }
+      ],
+      "relationships": [
+        { "type": "interprets", "target_id": "concept_uniformity_proportionality", "note": "Links method choice to constitutional equality." },
+        { "type": "related_concept", "target_id": "concept_valuation_approaches", "note": "Valuation method choice cannot defeat uniformity." }
+      ],
+      "source_refs": [
+        { "source_id": "case_kearney_convention_v_buffalo_vlex", "locator": "case summary", "citation": "Kearney Convention Ctr., Inc. v. Buffalo Cty. Bd. of Equal., 216 Neb. 292 (1984), secondary text via vLex." }
+      ],
+      "confidence": "medium",
+      "review_status": "secondary_case_source_needs_official_review"
+    },
+    {
+      "id": "case_lancaster_county_boe_v_moser",
+      "object_type": "case",
+      "canonical_term": "Lancaster County Board of Equalization v. Moser",
+      "aliases": ["Moser", "Lancaster County v. Moser"],
+      "category": "uniformity_burden_case",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "case_law",
+      "summary": "Nebraska Supreme Court decision addressing the high burden for an equalization claim based on comparison to another property's erroneous undervaluation.",
+      "plain_language": "Pointing to one neighbor's mistake is usually not enough; the taxpayer must prove a grossly excessive value caused by intentional conduct or failure of a plain legal duty, not a mere judgment error.",
+      "semantic_tags": ["case_law", "uniformity", "burden_of_proof", "grossly_excessive", "plain_legal_duty", "agricultural_land"],
+      "facts": [
+        { "predicate": "burden", "object": "clear_and_convincing_evidence" },
+        { "predicate": "distinguishes", "object": "systematic intentional/failure-of-duty error from mere error of judgment" }
+      ],
+      "relationships": [
+        { "type": "interprets", "target_id": "concept_uniformity_proportionality", "note": "Defines evidentiary burden for equalization relief." },
+        { "type": "related_workflow", "target_id": "workflow_boe_protest_hearing", "note": "Relevant to evidence quality in protest hearing." },
+        { "type": "related_concept", "target_id": "concept_greenbelt_special_valuation", "note": "Facts involved agricultural land subclassification." }
+      ],
+      "source_refs": [
+        { "source_id": "case_moser_official", "locator": "312 Neb. 757", "citation": "Lancaster Cty. Bd. of Equal. v. Moser, 312 Neb. 757 (2022)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "case_lincoln_tel_v_county_board",
+      "object_type": "case",
+      "canonical_term": "Lincoln Telephone & Telegraph Co. v. County Board",
+      "aliases": ["Lincoln Tel. & Tel.", "LT&T"],
+      "category": "substantial_compliance_case",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "case_law",
+      "summary": "Nebraska case authority discussing substantial compliance with equalization and uniformity where designed or manifest departures from rules are avoided.",
+      "plain_language": "Nebraska courts recognize that assessment is approximate, but intentional or major departures from equalization rules can matter.",
+      "semantic_tags": ["case_law", "substantial_compliance", "uniformity", "personal_property", "assessment_approximation"],
+      "facts": [
+        { "predicate": "rule_theme", "object": "substantial_compliance_with_uniformity" }
+      ],
+      "relationships": [
+        { "type": "interprets", "target_id": "concept_uniformity_proportionality", "note": "Adds substantial-compliance context." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Case involved tangible personal property comparison." }
+      ],
+      "source_refs": [
+        { "source_id": "case_lincoln_tel_justia", "locator": "case text", "citation": "Lincoln Tel. & Tel. Co. v. County Board, Nebraska Supreme Court text via Justia." }
+      ],
+      "confidence": "medium",
+      "review_status": "secondary_case_source_needs_official_review"
+    },
+    {
+      "id": "concept_actual_value",
+      "object_type": "concept",
+      "canonical_term": "Actual Value",
+      "aliases": ["market value", "taxable market value", "full value"],
+      "category": "valuation_foundation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_concept",
+      "summary": "Nebraska's core real-property valuation concept: actual value is market value in the ordinary course of trade for taxation purposes.",
+      "plain_language": "The assessor is trying to estimate what the property would sell for in an ordinary market, as of the assessment date, subject to Nebraska law.",
+      "semantic_tags": ["actual_value", "market_value", "assessment", "valuation", "tax_base"],
+      "facts": [
+        { "predicate": "defined_by", "object": "statute_ne_77_112_actual_value" },
+        { "predicate": "used_by", "object": ["statute_ne_77_1301_assessment_of_real_property", "workflow_real_property_annual_assessment_cycle"] }
+      ],
+      "relationships": [
+        { "type": "defined_by", "target_id": "statute_ne_77_112_actual_value", "note": "Statutory definition." },
+        { "type": "measured_by", "target_id": "concept_sales_ratio", "note": "Ratio studies compare assessed/appraised value to sale prices as market indicators." },
+        { "type": "distinguished_from", "target_id": "concept_tax_bill", "note": "Actual value is not the same as tax due." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_112", "locator": "§ 77-112", "citation": "Neb. Rev. Stat. § 77-112." },
+        { "source_id": "ne_dor_pad_faq", "locator": "Property assessment FAQs", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_assessed_value",
+      "object_type": "concept",
+      "canonical_term": "Assessed Value",
+      "aliases": ["assessment", "assessor's value", "valuation notice value"],
+      "category": "valuation_foundation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_concept",
+      "summary": "Value placed on property for assessment purposes before levy application and credits; generally tied to actual value except where Nebraska law provides a different assessment basis.",
+      "plain_language": "This is the value number on the assessment side of the tax system; it is not the tax bill.",
+      "semantic_tags": ["assessed_value", "valuation_notice", "tax_base", "assessment"],
+      "facts": [
+        { "predicate": "feeds", "object": "workflow_levy_setting_tax_statement_cycle" },
+        { "predicate": "can_be_protested_via", "object": "workflow_valuation_notice_to_protest" }
+      ],
+      "relationships": [
+        { "type": "based_on", "target_id": "concept_actual_value", "note": "General real-property basis." },
+        { "type": "used_in", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Combined with levy to compute taxes." },
+        { "type": "subject_to", "target_id": "workflow_valuation_notice_to_protest", "note": "Protest path for disputed valuation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "Property assessment FAQs", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1301", "locator": "§ 77-1301", "citation": "Neb. Rev. Stat. § 77-1301." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_assessment_date",
+      "object_type": "concept",
+      "canonical_term": "Assessment Date",
+      "aliases": ["January 1 valuation date", "lien date", "assessment as of January 1"],
+      "category": "assessment_calendar",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_concept",
+      "summary": "Nebraska real and personal property assessment is anchored to January 1 at 12:01 a.m. for listing and valuation unless a specific statute provides otherwise.",
+      "plain_language": "The yearly value question is normally: what was the property as of January 1?",
+      "semantic_tags": ["assessment_date", "january_1", "valuation_date", "calendar", "deadline"],
+      "facts": [
+        { "predicate": "date", "object": "January 1 12:01 a.m." }
+      ],
+      "dates": [
+        { "date": "annual", "month_day": "01-01", "time": "12:01", "description": "Assessment of real and personal property." }
+      ],
+      "relationships": [
+        { "type": "implemented_by", "target_id": "deadline_jan1_assessment_date", "note": "Calendar deadline object." },
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Cycle starts with January 1 status/value." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1301_assessment_of_real_property", "note": "Real property list and value statute." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "Jan. 1 entries", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." },
+        { "source_id": "ne_leg_77_1301", "locator": "§ 77-1301", "citation": "Neb. Rev. Stat. § 77-1301." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_cama",
+      "object_type": "cama",
+      "canonical_term": "Computer-Assisted Mass Appraisal",
+      "aliases": ["CAMA", "mass appraisal system"],
+      "category": "data_system",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "professional_practice",
+      "summary": "CAMA is the assessment-office data and modeling environment used to maintain property characteristics, stratify property, and support mass appraisal estimates.",
+      "plain_language": "CAMA is the assessor's structured property database plus valuation modeling tools.",
+      "semantic_tags": ["cama", "mass_appraisal", "property_records", "data_quality", "valuation_models"],
+      "facts": [
+        { "predicate": "requires", "object": ["property_characteristics", "location_data", "quality_condition_codes", "sales_data"] }
+      ],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_cama_data_maintenance", "note": "Operational workflow for data upkeep." },
+        { "type": "related_standard", "target_id": "standard_iaao_mass_appraisal", "note": "IAAO mass appraisal standard includes data and system expectations." },
+        { "type": "contains", "target_id": "concept_property_record", "note": "Property record is core CAMA unit." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "property characteristics and GIS/CAMA discussion", "citation": "IAAO, Standard on Mass Appraisal of Real Property." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 50 Assessment Process", "citation": "Nebraska DOR PAD, Title 350 regulations index." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_pdf_deep_extraction"
+    },
+    {
+      "id": "concept_cod",
+      "object_type": "metric",
+      "canonical_term": "Coefficient of Dispersion",
+      "aliases": ["COD"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "General assessment; used in Nebraska PAD ratio context",
+      "legal_hierarchy": "iaao_standard_metric",
+      "summary": "Ratio-study uniformity statistic measuring average percentage dispersion of ratios around the median ratio.",
+      "plain_language": "COD shows how tightly individual assessment ratios cluster around the typical ratio. Lower usually means more uniform within the tested group.",
+      "semantic_tags": ["cod", "ratio_study", "uniformity", "horizontal_equity", "dispersion"],
+      "facts": [
+        { "predicate": "measures", "object": "horizontal_uniformity" },
+        { "predicate": "sensitive_to", "object": "property_type_and_market_heterogeneity" }
+      ],
+      "thresholds": [
+        { "type": "iaao_guidance", "value": "varies_by_property_type", "note": "IAAO Ratio Study Standard gives COD ranges by property type and market homogeneity." }
+      ],
+      "relationships": [
+        { "type": "defined_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "IAAO ratio study metric." },
+        { "type": "related_concept", "target_id": "concept_horizontal_equity", "note": "COD is a common horizontal equity statistic." },
+        { "type": "related_concept", "target_id": "concept_median_ratio", "note": "COD is centered on median ratio." },
+        { "type": "contrasted_with", "target_id": "concept_prd", "note": "PRD addresses vertical equity signals rather than general dispersion." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio study uniformity standards", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "iaao_glossary", "locator": "COD glossary entry", "citation": "IAAO, Glossary for Property Appraisal and Assessment." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_confidence_interval",
+      "object_type": "concept",
+      "canonical_term": "Confidence Interval",
+      "aliases": ["CI", "statistical confidence interval"],
+      "category": "statistical_method",
+      "jurisdiction": "General assessment; used in ratio studies",
+      "legal_hierarchy": "statistical_method",
+      "summary": "Statistical interval used to express uncertainty around an estimated ratio-study statistic or level indicator.",
+      "plain_language": "A confidence interval says the data give a range, not just one exact answer.",
+      "semantic_tags": ["statistics", "confidence_interval", "ratio_study", "sample", "uncertainty"],
+      "facts": [
+        { "predicate": "depends_on", "object": ["sample_size", "variance", "study_design"] }
+      ],
+      "relationships": [
+        { "type": "related_concept", "target_id": "concept_sample_adequacy", "note": "Sample adequacy affects reliability." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Ratio study interpretation should consider uncertainty." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio study design and interpretation", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_standard_section_extraction"
+    },
+    {
+      "id": "concept_cost_approach",
+      "object_type": "valuation",
+      "canonical_term": "Cost Approach",
+      "aliases": ["replacement cost approach", "cost less depreciation"],
+      "category": "valuation_approach",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Valuation approach that estimates value from land value plus depreciated improvement cost; commonly relevant to newer improvements, special-use property, or where market/income evidence is limited.",
+      "plain_language": "Estimate the land, estimate what the building would cost, subtract depreciation, then reconcile with market evidence.",
+      "semantic_tags": ["cost_approach", "valuation", "depreciation", "land_table", "improvement_modeling"],
+      "facts": [
+        { "predicate": "components", "object": ["land_value", "replacement_or_reproduction_cost", "depreciation"] }
+      ],
+      "relationships": [
+        { "type": "part_of", "target_id": "concept_valuation_approaches", "note": "One of the major appraisal approaches." },
+        { "type": "uses", "target_id": "concept_depreciation", "note": "Improvement cost is adjusted for depreciation." },
+        { "type": "uses", "target_id": "concept_land_table", "note": "Land component often comes from land schedules/tables." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_court_case_summaries_history", "locator": "valuation approaches discussion", "citation": "Nebraska DOR PAD, Court Case Summaries History." },
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "valuation methods", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_manual_review"
+    },
+    {
+      "id": "concept_depreciation",
+      "object_type": "cama",
+      "canonical_term": "Depreciation",
+      "aliases": ["physical depreciation", "functional obsolescence", "economic obsolescence"],
+      "category": "cama_valuation_component",
+      "jurisdiction": "General assessment; used in Nebraska valuation practice",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Adjustment to improvement cost or value for loss in utility, condition, age, functional inadequacy, or external market factors.",
+      "plain_language": "Depreciation is how the system accounts for a building not being worth the same as brand-new cost.",
+      "semantic_tags": ["depreciation", "cost_approach", "condition", "quality", "cama"],
+      "relationships": [
+        { "type": "used_by", "target_id": "concept_cost_approach", "note": "Cost approach depends on depreciation." },
+        { "type": "related_concept", "target_id": "concept_quality_condition", "note": "Condition and quality influence depreciation modeling." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "property characteristics and valuation models", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_pdf_deep_extraction"
+    },
+    {
+      "id": "concept_effective_tax_rate",
+      "object_type": "tax",
+      "canonical_term": "Effective Tax Rate",
+      "aliases": ["taxes divided by market value", "effective property tax burden"],
+      "category": "public_tax_explanation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "derived_metric",
+      "summary": "A derived burden measure comparing property taxes to property value; useful for taxpayer explanations and regressivity/incidence analysis.",
+      "plain_language": "It answers: what share of the property's value is paid as tax for the year?",
+      "semantic_tags": ["effective_tax_rate", "tax_burden", "public_guidance", "incidence", "regressivity"],
+      "facts": [
+        { "predicate": "formula", "object": "taxes_paid_or_levied / property_value" }
+      ],
+      "relationships": [
+        { "type": "related_concept", "target_id": "concept_tax_bill", "note": "Tax bill is numerator source." },
+        { "type": "related_research", "target_id": "research_berry_reassessing_property_tax", "note": "Effective burden is central to regressivity analysis." }
+      ],
+      "source_refs": [
+        { "source_id": "berry_reassessing_property_tax", "locator": "abstract and methods", "citation": "Christopher R. Berry, Reassessing the Property Tax (2021)." },
+        { "source_id": "ne_dor_pad_faq", "locator": "assessment and tax collection FAQs", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_formula_review"
+    },
+    {
+      "id": "concept_equalization",
+      "object_type": "equalization",
+      "canonical_term": "Equalization",
+      "aliases": ["assessment equalization", "statewide equalization", "county equalization"],
+      "category": "assessment_governance",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitutional_statutory_process",
+      "summary": "Process of aligning assessment levels and treatment so property is valued uniformly and proportionately under Nebraska constitutional and statutory requirements.",
+      "plain_language": "Equalization is the correction layer that tries to make similarly situated property carry a fair share of the tax base.",
+      "semantic_tags": ["equalization", "uniformity", "county_board_equalization", "terc", "pad"],
+      "facts": [
+        { "predicate": "operates_at", "object": ["county_board", "statewide_terc_pad_context"] }
+      ],
+      "relationships": [
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_uniformity", "note": "Constitutional uniformity and proportionality." },
+        { "type": "implemented_by", "target_id": "workflow_ratio_study_equalization", "note": "Ratio-study workflow supports equalization review." },
+        { "type": "implemented_by", "target_id": "workflow_boe_protest_hearing", "note": "County board can correct over/under valuation in protest/equalization session." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-1", "citation": "Neb. Const. art. VIII, § 1." },
+        { "source_id": "ne_leg_77_1504", "locator": "§ 77-1504", "citation": "Neb. Rev. Stat. § 77-1504." },
+        { "source_id": "terc_about", "locator": "primary powers and duties", "citation": "Nebraska TERC, About Us." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_greenbelt_special_valuation",
+      "object_type": "valuation",
+      "canonical_term": "Agricultural and Horticultural Land Special Valuation",
+      "aliases": ["greenbelt", "special valuation", "ag land special value"],
+      "category": "agricultural_valuation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_program",
+      "summary": "Nebraska special valuation program for qualifying agricultural or horticultural land, distinct from ordinary market/actual-value treatment.",
+      "plain_language": "Some qualifying agricultural or horticultural land can be assessed under a special valuation framework rather than the same basis as ordinary real property.",
+      "semantic_tags": ["greenbelt", "agricultural_land", "special_valuation", "classification", "valuation"],
+      "facts": [
+        { "predicate": "governed_by", "object": ["statute_ne_77_1359_greenbelt", "standard_ne_title350_ch14_agricultural_land"] }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1359_greenbelt", "note": "Special valuation statute." },
+        { "type": "related_case", "target_id": "case_lancaster_county_boe_v_moser", "note": "Moser involved agricultural land valuation/equalization dispute." },
+        { "type": "exception_or_variant_of", "target_id": "concept_actual_value", "note": "Different statutory treatment from general real-property actual value." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1359", "locator": "§ 77-1359", "citation": "Neb. Rev. Stat. § 77-1359." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 14", "citation": "Nebraska DOR PAD, Title 350 Chapter 14 index entry." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_statute_deep_extraction"
+    },
+    {
+      "id": "concept_horizontal_equity",
+      "object_type": "concept",
+      "canonical_term": "Horizontal Equity",
+      "aliases": ["horizontal uniformity", "uniformity among similar properties"],
+      "category": "equity_concept",
+      "jurisdiction": "General assessment; Nebraska constitutional relevance",
+      "legal_hierarchy": "assessment_theory",
+      "summary": "Assessment equity principle that similar properties should be assessed similarly relative to market value.",
+      "plain_language": "Similar properties should receive similar assessment treatment.",
+      "semantic_tags": ["horizontal_equity", "uniformity", "cod", "similar_properties"],
+      "relationships": [
+        { "type": "measured_by", "target_id": "concept_cod", "note": "COD is a standard dispersion metric." },
+        { "type": "related_to", "target_id": "concept_uniformity_proportionality", "note": "Maps appraisal theory to Nebraska legal requirement." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Ratio studies evaluate uniformity." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "appraisal uniformity", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-1", "citation": "Neb. Const. art. VIII, § 1." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_homestead_exemption",
+      "object_type": "tax",
+      "canonical_term": "Homestead Exemption",
+      "aliases": ["Nebraska homestead exemption", "homestead tax relief"],
+      "category": "tax_relief",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_tax_relief",
+      "summary": "Nebraska statutory property tax relief program for qualifying owner-occupants, administered under the homestead exemption statutes and PAD calendar/guidance.",
+      "plain_language": "Homestead exemption can reduce property tax burden for eligible homeowners, but it is different from proving the assessed value is wrong.",
+      "semantic_tags": ["homestead_exemption", "tax_relief", "eligibility", "owner_occupant", "assessment_calendar"],
+      "facts": [
+        { "predicate": "governed_by", "object": "statute_ne_77_3501_3530_homestead" },
+        { "predicate": "distinguished_from", "object": "valuation_protest" }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_3501_3530_homestead", "note": "Homestead statutory range." },
+        { "type": "constitutional_context", "target_id": "const_ne_article_viii_exemptions", "note": "Exemption/classification authority context." },
+        { "type": "related_relief", "target_id": "concept_property_tax_credit", "note": "Different relief mechanism." },
+        { "type": "contrasted_with", "target_id": "workflow_valuation_notice_to_protest", "note": "Exemption eligibility is separate from contesting value." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_3501_3530_homestead", "locator": "§§ 77-3501 to 77-3530", "citation": "Neb. Rev. Stat. §§ 77-3501 to 77-3530." },
+        { "source_id": "ne_dor_pad_calendars", "locator": "Homestead Exemption Calendar", "citation": "Nebraska DOR PAD, PAD Calendars." },
+        { "source_id": "ne_dor_pad_faq", "locator": "homestead/property assessment FAQ references", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_homestead_calendar_extraction"
+    },
+    {
+      "id": "concept_income_approach",
+      "object_type": "valuation",
+      "canonical_term": "Income Approach",
+      "aliases": ["income capitalization approach", "discounted cash flow", "DCF"],
+      "category": "valuation_approach",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Valuation approach that derives value from income-producing capacity; Nebraska law specifically references income approach and discounted cash-flow analysis for certain commonly owned vacant subdivision lots.",
+      "plain_language": "For income-producing property, value can be estimated from income. Nebraska also has a specific statute for certain subdivision lots.",
+      "semantic_tags": ["income_approach", "discounted_cash_flow", "valuation", "subdivision_lots", "terc"],
+      "facts": [
+        { "predicate": "statutory_specific_use", "object": "certain vacant or unimproved lots in same subdivision/tax district held for sale or resale" }
+      ],
+      "relationships": [
+        { "type": "part_of", "target_id": "concept_valuation_approaches", "note": "One major appraisal approach." },
+        { "type": "governed_by", "target_id": "statute_ne_77_1314_income_approach", "note": "Nebraska-specific statutory instruction." },
+        { "type": "related_concept", "target_id": "concept_actual_value", "note": "Approach should estimate actual value." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1314", "locator": "§ 77-1314", "citation": "Neb. Rev. Stat. § 77-1314." },
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "valuation methods", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_land_table",
+      "object_type": "cama",
+      "canonical_term": "Land Table",
+      "aliases": ["land schedule", "land valuation table"],
+      "category": "cama_valuation_component",
+      "jurisdiction": "General assessment; used in Nebraska valuation practice",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Structured schedule used to value land units by market area, use, size, location, or other land attributes.",
+      "plain_language": "A land table is how the assessor's system turns land characteristics into a land value estimate.",
+      "semantic_tags": ["land_table", "cama", "land_value", "market_area", "valuation_model"],
+      "relationships": [
+        { "type": "used_by", "target_id": "concept_cost_approach", "note": "Cost approach includes land value." },
+        { "type": "related_concept", "target_id": "concept_market_area", "note": "Land tables are often market-area sensitive." },
+        { "type": "contained_in", "target_id": "concept_cama", "note": "CAMA systems maintain land schedules." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "property characteristics and valuation models", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_county_manual_ingestion"
+    },
+    {
+      "id": "concept_level_of_value",
+      "object_type": "metric",
+      "canonical_term": "Level of Value",
+      "aliases": ["LOV", "LOA", "level of assessment", "assessment level"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "statistical_assessment_concept",
+      "summary": "Overall relationship between assessed/appraised values and market value for a studied class, commonly represented by median or other ratio-study level measures.",
+      "plain_language": "Level of value asks whether a class is generally assessed at, below, or above the target percentage of market value.",
+      "semantic_tags": ["level_of_value", "loa", "lov", "median_ratio", "ratio_study", "equalization"],
+      "facts": [
+        { "predicate": "commonly_measured_by", "object": "median_ratio" }
+      ],
+      "relationships": [
+        { "type": "measured_by", "target_id": "concept_median_ratio", "note": "Median is a common level statistic." },
+        { "type": "related_metric", "target_id": "concept_weighted_mean_ratio", "note": "Weighted mean supports PRD and aggregate burden analysis." },
+        { "type": "used_in", "target_id": "pad_reports_opinions_methodology", "note": "PAD R&O uses indicated level of value by class/county." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Level informs equalization." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "appraisal level discussion", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_2025_annual_report", "locator": "levels of value tables", "citation": "Nebraska DOR PAD, 2025 Annual Report." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_requires_pad_ro_ingestion"
+    },
+    {
+      "id": "concept_market_area",
+      "object_type": "valuation",
+      "canonical_term": "Market Area",
+      "aliases": ["submarket", "economic area"],
+      "category": "stratification",
+      "jurisdiction": "General assessment; used in Nebraska mass appraisal",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Geographic or economic segment where properties compete in a similar market and share valuation influences.",
+      "plain_language": "A market area groups properties that buyers tend to compare with one another.",
+      "semantic_tags": ["market_area", "location", "stratification", "neighborhood", "mass_appraisal"],
+      "relationships": [
+        { "type": "related_concept", "target_id": "concept_neighborhood", "note": "Neighborhood coding is often a local implementation of market segmentation." },
+        { "type": "used_by", "target_id": "concept_stratification", "note": "Market areas can define ratio-study strata." },
+        { "type": "used_by", "target_id": "concept_sales_comparison_approach", "note": "Comparable sale selection often considers market area." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "location data and market area discussion", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_county_manual_ingestion"
+    },
+    {
+      "id": "concept_mean_ratio",
+      "object_type": "metric",
+      "canonical_term": "Mean Ratio",
+      "aliases": ["average ratio", "arithmetic mean ratio"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "General assessment; used in ratio studies",
+      "legal_hierarchy": "statistical_metric",
+      "summary": "Arithmetic average of assessment ratios; useful but more sensitive to extreme ratios than the median.",
+      "plain_language": "The mean ratio is the ordinary average of all ratios in the group.",
+      "semantic_tags": ["mean_ratio", "ratio_study", "statistics", "assessment_level"],
+      "relationships": [
+        { "type": "related_metric", "target_id": "concept_median_ratio", "note": "Median is less affected by outliers." },
+        { "type": "related_metric", "target_id": "concept_weighted_mean_ratio", "note": "Weighted mean accounts for price/value weights." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Ratio-study statistic." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio statistics", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_median_ratio",
+      "object_type": "metric",
+      "canonical_term": "Median Ratio",
+      "aliases": ["median assessment ratio", "median sales ratio"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "statistical_metric",
+      "summary": "Middle assessment ratio in an ordered ratio-study sample; commonly used to indicate appraisal level because it is less influenced by outliers.",
+      "plain_language": "If you sort all assessment ratios, the median is the middle one.",
+      "semantic_tags": ["median_ratio", "ratio_study", "level_of_value", "sales_ratio"],
+      "facts": [
+        { "predicate": "indicates", "object": "typical assessment level" }
+      ],
+      "relationships": [
+        { "type": "measures", "target_id": "concept_level_of_value", "note": "Common level measure." },
+        { "type": "basis_for", "target_id": "concept_cod", "note": "COD is dispersion around median." },
+        { "type": "computed_from", "target_id": "concept_sales_ratio", "note": "Uses ordered sale ratios." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "level measures", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_2025_annual_report", "locator": "levels of value tables", "citation": "Nebraska DOR PAD, 2025 Annual Report." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_neighborhood",
+      "object_type": "cama",
+      "canonical_term": "Neighborhood Coding",
+      "aliases": ["neighborhood", "neighborhood code", "model neighborhood"],
+      "category": "cama_data_element",
+      "jurisdiction": "General assessment; used in county CAMA systems",
+      "legal_hierarchy": "valuation_method",
+      "summary": "CAMA/location code grouping properties with similar market influences for modeling, review, and comparable-sale selection.",
+      "plain_language": "Neighborhood codes help the assessor compare a property to the right local market.",
+      "semantic_tags": ["neighborhood", "cama", "location", "market_area", "stratification"],
+      "relationships": [
+        { "type": "implementation_of", "target_id": "concept_market_area", "note": "Neighborhood is a local coding form of market segmentation." },
+        { "type": "used_by", "target_id": "concept_sales_comparison_approach", "note": "Comparable sales should be market-relevant." },
+        { "type": "quality_controlled_by", "target_id": "workflow_cama_data_maintenance", "note": "Neighborhood assignment must be maintained." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "location data", "citation": "IAAO, Standard on Mass Appraisal of Real Property." },
+        { "source_id": "lancaster_county_property_valuation_protests", "locator": "supporting documentation guidance", "citation": "Lancaster County, Property Valuation Protests." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_county_manual_ingestion"
+    },
+    {
+      "id": "concept_personal_property",
+      "object_type": "concept",
+      "canonical_term": "Taxable Personal Property",
+      "aliases": ["business personal property", "depreciable tangible personal property"],
+      "category": "property_type",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_concept",
+      "summary": "Nebraska taxable personal property generally refers to depreciable tangible personal property with Nebraska net book value greater than zero, subject to statutory exemptions and filing rules.",
+      "plain_language": "Business equipment and similar depreciable tangible property may need to be reported even though licensed vehicles, livestock, and some other property are excluded.",
+      "semantic_tags": ["personal_property", "business_personal_property", "may_1", "assessment", "exemptions"],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1201_personal_property_assessment", "note": "Personal property assessment statute." },
+        { "type": "deadline", "target_id": "deadline_may1_personal_property_return", "note": "Personal property return due date." },
+        { "type": "contrasted_with", "target_id": "concept_actual_value", "note": "Personal property may use net book/depreciation framework." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "taxable personal property FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1201", "locator": "§ 77-1201", "citation": "Neb. Rev. Stat. § 77-1201." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_prb",
+      "object_type": "metric",
+      "canonical_term": "Price-Related Bias",
+      "aliases": ["PRB", "coefficient of price-related bias"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "General assessment; used in IAAO ratio studies",
+      "legal_hierarchy": "iaao_standard_metric",
+      "summary": "Ratio-study vertical-equity statistic estimating whether assessment ratios systematically change as property values change.",
+      "plain_language": "PRB checks whether higher-value properties tend to be assessed at lower or higher percentages than lower-value properties.",
+      "semantic_tags": ["prb", "vertical_equity", "regressivity", "ratio_study", "bias"],
+      "facts": [
+        { "predicate": "measures", "object": "price_related_bias_in_ratios" }
+      ],
+      "relationships": [
+        { "type": "defined_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "IAAO ratio study metric." },
+        { "type": "related_concept", "target_id": "concept_vertical_equity", "note": "Direct vertical-equity statistic." },
+        { "type": "related_concept", "target_id": "concept_regressivity", "note": "Negative or positive patterns may indicate regressivity/progressivity depending on ratio orientation." },
+        { "type": "contrasted_with", "target_id": "concept_prd", "note": "PRD is a descriptive ratio of means; PRB is regression-oriented." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "vertical equity and PRB discussion", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "iaao_glossary", "locator": "PRB glossary entry", "citation": "IAAO, Glossary for Property Appraisal and Assessment." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_prd",
+      "object_type": "metric",
+      "canonical_term": "Price-Related Differential",
+      "aliases": ["PRD"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "General assessment; used in IAAO ratio studies",
+      "legal_hierarchy": "iaao_standard_metric",
+      "summary": "Vertical-equity indicator calculated as mean ratio divided by weighted mean ratio; values materially above or below 1 can suggest regressivity or progressivity patterns.",
+      "plain_language": "PRD compares a simple average ratio to a value-weighted ratio to see whether lower- and higher-priced properties are treated differently.",
+      "semantic_tags": ["prd", "vertical_equity", "regressivity", "ratio_study", "weighted_mean"],
+      "facts": [
+        { "predicate": "formula", "object": "mean_ratio / weighted_mean_ratio" },
+        { "predicate": "interpretation", "object": "above_1_can_signal_regressivity_when_low_value_properties_have_higher_ratios" }
+      ],
+      "thresholds": [
+        { "type": "iaao_general_guidance", "min": 0.98, "max": 1.03, "note": "Common IAAO acceptable PRD range referenced in ratio-study practice; verify jurisdiction-specific application before legal use." }
+      ],
+      "relationships": [
+        { "type": "defined_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "IAAO ratio study standard." },
+        { "type": "uses", "target_id": "concept_mean_ratio", "note": "Numerator." },
+        { "type": "uses", "target_id": "concept_weighted_mean_ratio", "note": "Denominator." },
+        { "type": "indicates", "target_id": "concept_vertical_equity", "note": "Vertical equity signal." },
+        { "type": "related_research", "target_id": "research_lincoln_vertical_inequality_measures", "note": "Research cautions about vertical inequity measures." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "vertical equity statistics", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "lincoln_vertical_inequality_measures", "locator": "working paper abstract", "citation": "Lincoln Institute, Measures of Vertical Inequality in Assessments." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_property_record",
+      "object_type": "cama",
+      "canonical_term": "Property Record",
+      "aliases": ["parcel record", "property characteristics record", "assessment record"],
+      "category": "cama_data_element",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "administrative_record",
+      "summary": "Structured record of parcel identity, land, improvement, location, use, quality, condition, ownership, and valuation data used by an assessment office.",
+      "plain_language": "The property record is the assessor's factual data file for the parcel.",
+      "semantic_tags": ["property_record", "parcel", "cama", "data_quality", "property_characteristics"],
+      "relationships": [
+        { "type": "contained_in", "target_id": "concept_cama", "note": "CAMA stores and maintains property records." },
+        { "type": "quality_controlled_by", "target_id": "workflow_cama_data_maintenance", "note": "Data integrity workflow." },
+        { "type": "supports", "target_id": "workflow_valuation_notice_to_protest", "note": "Record errors can be evidence in valuation discussions/protests." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "property characteristics data", "citation": "IAAO, Standard on Mass Appraisal of Real Property." },
+        { "source_id": "lancaster_county_property_valuation_protests", "locator": "supporting documentation guidance", "citation": "Lancaster County, Property Valuation Protests." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_county_record_schema_ingestion"
+    },
+    {
+      "id": "concept_property_tax_credit",
+      "object_type": "tax",
+      "canonical_term": "Nebraska Property Tax Credit",
+      "aliases": ["Form PTC credit", "Property Tax Incentive Act credit", "community college property tax credit", "school district property tax credit"],
+      "category": "tax_relief",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_tax_credit",
+      "summary": "Nebraska refundable income tax credit and related property-tax relief framework for qualifying school district and community college property taxes, with eligibility varying by tax year.",
+      "plain_language": "Some Nebraska property taxes may create a state income tax credit, but the qualifying taxes and years matter.",
+      "semantic_tags": ["property_tax_credit", "form_ptc", "ptcx", "school_district_tax", "community_college_tax", "tax_relief"],
+      "facts": [
+        { "predicate": "governed_by", "object": "statute_ne_77_6701_6706_property_tax_incentive" },
+        { "predicate": "claim_form", "object": "Form PTC or PTCX depending on year/status" }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_6701_6706_property_tax_incentive", "note": "Property Tax Incentive Act." },
+        { "type": "related_form", "target_id": "form_ptc_property_tax_credit", "note": "Credit computation form." },
+        { "type": "distinguished_from", "target_id": "concept_tax_bill", "note": "Credits may reduce/refund burden but are not the same as assessment value." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_property_tax_credit_general_info", "locator": "overview", "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information." },
+        { "source_id": "ne_leg_77_6701_6706_property_tax_incentive", "locator": "§§ 77-6701 to 77-6706", "citation": "Neb. Rev. Stat. §§ 77-6701 to 77-6706." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_quality_condition",
+      "object_type": "cama",
+      "canonical_term": "Quality and Condition Coding",
+      "aliases": ["quality code", "condition code", "effective age"],
+      "category": "cama_data_element",
+      "jurisdiction": "General assessment; used in county CAMA systems",
+      "legal_hierarchy": "valuation_method",
+      "summary": "CAMA data elements describing construction quality, condition, effective age, and physical/functional state of improvements.",
+      "plain_language": "Quality and condition codes are how the assessor's database describes how well-built and how worn a structure is.",
+      "semantic_tags": ["quality", "condition", "effective_age", "cama", "depreciation"],
+      "relationships": [
+        { "type": "influences", "target_id": "concept_depreciation", "note": "Quality and condition affect depreciation estimates." },
+        { "type": "contained_in", "target_id": "concept_property_record", "note": "Property record should preserve characteristic data." },
+        { "type": "supports", "target_id": "concept_cost_approach", "note": "Improvement valuation needs quality/condition." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "important residential property characteristics", "citation": "IAAO, Standard on Mass Appraisal of Real Property." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_regressivity",
+      "object_type": "concept",
+      "canonical_term": "Assessment Regressivity",
+      "aliases": ["regressive assessment", "vertical inequity", "price-related regressivity"],
+      "category": "equity_concept",
+      "jurisdiction": "General assessment; Nebraska analytical relevance",
+      "legal_hierarchy": "assessment_theory",
+      "summary": "Pattern where lower-priced properties are assessed at higher percentages of market value than higher-priced properties, shifting relative tax burden downward.",
+      "plain_language": "Regressivity means lower-value homes carry a higher assessment percentage than higher-value homes.",
+      "semantic_tags": ["regressivity", "vertical_equity", "prd", "prb", "tax_incidence", "fairness"],
+      "facts": [
+        { "predicate": "detected_by", "object": ["prd", "prb", "value_decile_analysis", "suits_index_or_other_research_methods"] }
+      ],
+      "relationships": [
+        { "type": "measured_by", "target_id": "concept_prd", "note": "PRD can signal vertical inequity." },
+        { "type": "measured_by", "target_id": "concept_prb", "note": "PRB directly estimates price-related bias." },
+        { "type": "related_concept", "target_id": "concept_vertical_equity", "note": "Regressivity is a vertical equity failure mode." },
+        { "type": "grounded_by", "target_id": "research_berry_reassessing_property_tax", "note": "Major empirical regressivity research." },
+        { "type": "grounded_by", "target_id": "research_mcmillen_singh_assessment_regressivity", "note": "Incidence and homestead interaction research." }
+      ],
+      "source_refs": [
+        { "source_id": "berry_reassessing_property_tax", "locator": "abstract", "citation": "Christopher R. Berry, Reassessing the Property Tax (2021)." },
+        { "source_id": "mcmillen_singh_assessment_regressivity", "locator": "abstract", "citation": "McMillen & Singh, Assessment Regressivity and Property Taxation (2019/2020)." },
+        { "source_id": "iaao_ratio_study_standard", "locator": "vertical equity", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_research_snippets"
+    },
+    {
+      "id": "concept_sales_chasing",
+      "object_type": "concept",
+      "canonical_term": "Sales Chasing",
+      "aliases": ["selective reappraisal of sold properties", "chasing sales"],
+      "category": "assessment_quality_risk",
+      "jurisdiction": "General assessment; Nebraska ratio-study relevance",
+      "legal_hierarchy": "professional_standard_risk",
+      "summary": "Practice risk where sold properties are selectively adjusted to sale price while unsold properties are not similarly reviewed, potentially invalidating ratio studies and creating inequity.",
+      "plain_language": "Sales chasing is treating sold properties differently just because they sold.",
+      "semantic_tags": ["sales_chasing", "ratio_study", "sales_validation", "equity", "quality_control"],
+      "relationships": [
+        { "type": "risk_to", "target_id": "workflow_sales_file_to_ratio_study", "note": "Can bias sale sample and ratio study." },
+        { "type": "related_concept", "target_id": "concept_uniformity_proportionality", "note": "Selective treatment can create unequal assessment." },
+        { "type": "addressed_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "IAAO standard discusses sales validation and study integrity." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "sales validation and ratio study integrity", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_standard_section_extraction"
+    },
+    {
+      "id": "concept_sales_comparison_approach",
+      "object_type": "valuation",
+      "canonical_term": "Sales Comparison Approach",
+      "aliases": ["market approach", "comparable sales approach", "comps"],
+      "category": "valuation_approach",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "valuation_method",
+      "summary": "Valuation approach estimating property value from sales of comparable properties adjusted for relevant differences.",
+      "plain_language": "Find similar sold properties, adjust for differences, and use them to support a market value estimate.",
+      "semantic_tags": ["sales_comparison", "market_approach", "comparable_sales", "valuation", "protest_evidence"],
+      "relationships": [
+        { "type": "part_of", "target_id": "concept_valuation_approaches", "note": "One major appraisal approach." },
+        { "type": "uses", "target_id": "concept_valid_sale", "note": "Comparable sales should be valid market indicators." },
+        { "type": "uses", "target_id": "concept_market_area", "note": "Market area affects comparability." },
+        { "type": "supports", "target_id": "workflow_valuation_notice_to_protest", "note": "Recent arms-length comparable sales can support protest evidence." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_court_case_summaries_history", "locator": "valuation approaches discussion", "citation": "Nebraska DOR PAD, Court Case Summaries History." },
+        { "source_id": "lancaster_county_property_valuation_protests", "locator": "supporting documentation examples", "citation": "Lancaster County, Property Valuation Protests." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_manual_review"
+    },
+    {
+      "id": "concept_sales_ratio",
+      "object_type": "metric",
+      "canonical_term": "Sales Ratio",
+      "aliases": ["assessment ratio", "appraisal ratio", "assessed-to-sale ratio"],
+      "category": "ratio_study_foundation",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "statistical_metric",
+      "summary": "Ratio formed by dividing assessed or appraised value by a sale price that has been validated and adjusted as needed for ratio-study use.",
+      "plain_language": "A sales ratio compares the assessor's value to what the property sold for.",
+      "semantic_tags": ["sales_ratio", "assessment_ratio", "ratio_study", "valid_sale", "market_value"],
+      "facts": [
+        { "predicate": "formula", "object": "assessed_or_appraised_value / sale_price" },
+        { "predicate": "requires", "object": "valid_market_sale" }
+      ],
+      "relationships": [
+        { "type": "computed_from", "target_id": "concept_valid_sale", "note": "Sale must be screened/validated." },
+        { "type": "basis_for", "target_id": "concept_median_ratio", "note": "Median ratio computed from sales ratios." },
+        { "type": "basis_for", "target_id": "concept_cod", "note": "COD computed from sales ratio dispersion." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Core ratio-study unit." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio formation and market value discussion", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "concept_sample_adequacy",
+      "object_type": "concept",
+      "canonical_term": "Sample Adequacy",
+      "aliases": ["adequate sample", "sample size", "representative sales sample"],
+      "category": "statistical_method",
+      "jurisdiction": "General assessment; used in ratio studies",
+      "legal_hierarchy": "statistical_method",
+      "summary": "Whether the sale sample is large, representative, and reliable enough to support level and uniformity conclusions for a class or stratum.",
+      "plain_language": "A ratio study is only as reliable as the sales data behind it.",
+      "semantic_tags": ["sample_adequacy", "ratio_study", "statistics", "sales_validation", "confidence_interval"],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_ratio_study_equalization", "note": "Adequacy affects equalization reliability." },
+        { "type": "related_concept", "target_id": "concept_confidence_interval", "note": "Sample quality affects uncertainty." },
+        { "type": "related_concept", "target_id": "concept_stratification", "note": "More strata can reduce sample size." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "study design and samples", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_standard_section_extraction"
+    },
+    {
+      "id": "concept_stratification",
+      "object_type": "concept",
+      "canonical_term": "Stratification",
+      "aliases": ["strata", "stratified analysis", "valuation group stratification"],
+      "category": "ratio_study_method",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "statistical_method",
+      "summary": "Dividing properties or sales into meaningful groups by property type, location, value range, market area, valuation group, or other characteristics for analysis.",
+      "plain_language": "Stratification keeps unlike properties from being mixed in a way that hides problems.",
+      "semantic_tags": ["stratification", "ratio_study", "valuation_group", "market_area", "property_type"],
+      "relationships": [
+        { "type": "uses", "target_id": "concept_market_area", "note": "Market area can define strata." },
+        { "type": "uses", "target_id": "concept_valuation_group", "note": "Nebraska/PAD workflow may use valuation groups." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Core ratio-study design choice." },
+        { "type": "tradeoff_with", "target_id": "concept_sample_adequacy", "note": "More granular strata may reduce sample size." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "stratification discussion", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Reports and Opinions / Sales File chapters", "citation": "Nebraska DOR PAD, Title 350 regulations index." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_pad_ro_ingestion"
+    },
+    {
+      "id": "concept_tax_bill",
+      "object_type": "tax",
+      "canonical_term": "Property Tax Bill",
+      "aliases": ["tax statement", "property taxes due", "real estate taxes"],
+      "category": "tax_collection",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_workflow_result",
+      "summary": "Tax amount produced after assessed values are certified, levies are set by authorized taxing authorities/county board workflow, and statements are delivered for treasurer collection.",
+      "plain_language": "Your value is only one part of the bill. Levy rates, local budgets, credits, and exemptions also affect taxes due.",
+      "semantic_tags": ["tax_bill", "levy", "tax_statement", "treasurer", "assessment_vs_tax"],
+      "facts": [
+        { "predicate": "depends_on", "object": ["assessed_value", "levy", "credits", "exemptions", "taxing_subdivisions"] }
+      ],
+      "relationships": [
+        { "type": "computed_after", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Tax statement follows levy/tax-list process." },
+        { "type": "distinguished_from", "target_id": "concept_assessed_value", "note": "Tax bill is not the assessed value." },
+        { "type": "explained_by", "target_id": "public_guidance_assessment_vs_taxes", "note": "Public explanation object." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "tax list and delinquency FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1601", "locator": "§ 77-1601", "citation": "Neb. Rev. Stat. § 77-1601." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_uniformity_proportionality",
+      "object_type": "concept",
+      "canonical_term": "Uniformity and Proportionality",
+      "aliases": ["uniform and proportionate taxation", "uniformity clause", "constitutional uniformity"],
+      "category": "constitutional_assessment_principle",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitutional_concept",
+      "summary": "Nebraska constitutional requirement that real property taxes be levied by valuation uniformly and proportionately, except where the Constitution or Legislature permits different treatment.",
+      "plain_language": "The tax base must treat comparable property evenhandedly under Nebraska's constitutional framework.",
+      "semantic_tags": ["uniformity", "proportionality", "constitution", "equalization", "property_tax"],
+      "facts": [
+        { "predicate": "constitutional_anchor", "object": "Nebraska Constitution Article VIII" }
+      ],
+      "relationships": [
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_uniformity", "note": "Article VIII-1." },
+        { "type": "implemented_by", "target_id": "concept_equalization", "note": "Equalization operationalizes uniformity." },
+        { "type": "tested_by", "target_id": "workflow_ratio_study_equalization", "note": "Ratio studies provide aggregate evidence." },
+        { "type": "interpreted_by", "target_id": "case_lancaster_county_boe_v_moser", "note": "Case law on proof burden." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-1", "citation": "Neb. Const. art. VIII, § 1." },
+        { "source_id": "case_moser_official", "locator": "312 Neb. 757", "citation": "Lancaster Cty. Bd. of Equal. v. Moser, 312 Neb. 757 (2022)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_valid_sale",
+      "object_type": "concept",
+      "canonical_term": "Valid Sale",
+      "aliases": ["qualified sale", "usable sale", "arms-length sale"],
+      "category": "sales_file_concept",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "administrative_professional_concept",
+      "summary": "Sale screened and qualified as a reliable market indicator for appraisal, comparable-sale analysis, or ratio-study use.",
+      "plain_language": "Not every sale is a good market signal. Sales must be screened before they are used.",
+      "semantic_tags": ["valid_sale", "sales_file", "arms_length", "ratio_study", "comparable_sales"],
+      "facts": [
+        { "predicate": "feeds", "object": ["concept_sales_ratio", "concept_sales_comparison_approach"] }
+      ],
+      "relationships": [
+        { "type": "required_by", "target_id": "concept_sales_ratio", "note": "Ratio study requires valid sales." },
+        { "type": "managed_by", "target_id": "workflow_sales_file_to_ratio_study", "note": "Sales file workflow qualifies sales." },
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch12_sales_file", "note": "Nebraska Sales File regulation chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "sales validation guidelines", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_title350_ch12_extraction"
+    },
+    {
+      "id": "concept_valuation_approaches",
+      "object_type": "valuation",
+      "canonical_term": "Valuation Approaches",
+      "aliases": ["three approaches to value", "appraisal approaches"],
+      "category": "valuation_framework",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "valuation_method_framework",
+      "summary": "Market/sales comparison, cost, and income approaches are valuation frameworks used to estimate actual value, selected and reconciled according to property type and available evidence.",
+      "plain_language": "Assessors can use different accepted methods, but the result must still estimate taxable value under Nebraska law.",
+      "semantic_tags": ["valuation_approaches", "sales_comparison", "cost_approach", "income_approach", "actual_value"],
+      "relationships": [
+        { "type": "includes", "target_id": "concept_sales_comparison_approach", "note": "Market approach." },
+        { "type": "includes", "target_id": "concept_cost_approach", "note": "Cost approach." },
+        { "type": "includes", "target_id": "concept_income_approach", "note": "Income approach." },
+        { "type": "must_support", "target_id": "concept_actual_value", "note": "Approaches should support actual value." },
+        { "type": "bounded_by", "target_id": "concept_uniformity_proportionality", "note": "Methods must produce uniform/proportionate results." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_court_case_summaries_history", "locator": "valuation approaches discussion", "citation": "Nebraska DOR PAD, Court Case Summaries History." },
+        { "source_id": "case_kearney_convention_v_buffalo_vlex", "locator": "case summary", "citation": "Kearney Convention Ctr. v. Buffalo Cty. Bd. of Equal., secondary text via vLex." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_case_summary_extraction"
+    },
+    {
+      "id": "concept_valuation_group",
+      "object_type": "valuation",
+      "canonical_term": "Valuation Group",
+      "aliases": ["assessment group", "model group", "class/stratum"],
+      "category": "pad_ratio_study_context",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "pad_methodology_concept",
+      "summary": "Grouping of properties used for valuation, ratio-study analysis, or Reports and Opinions review; exact definitions should be extracted from PAD R&O and Title 350 materials.",
+      "plain_language": "A valuation group is a bucket of properties analyzed together.",
+      "semantic_tags": ["valuation_group", "stratification", "pad_ro", "ratio_study", "equalization"],
+      "relationships": [
+        { "type": "used_by", "target_id": "concept_stratification", "note": "Valuation groups can serve as strata." },
+        { "type": "used_in", "target_id": "pad_reports_opinions_methodology", "note": "PAD R&O ingestion should refine group taxonomy." },
+        { "type": "used_in", "target_id": "workflow_ratio_study_equalization", "note": "Analysis grouping." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Reports and Opinions chapter index", "citation": "Nebraska DOR PAD, Title 350 regulations index." },
+        { "source_id": "ne_dor_2025_annual_report", "locator": "levels of value/statistical tables", "citation": "Nebraska DOR PAD, 2025 Annual Report." }
+      ],
+      "confidence": "low",
+      "review_status": "seeded_placeholder_requires_pad_ro_json"
+    },
+    {
+      "id": "concept_value_vs_tax",
+      "object_type": "public_guidance",
+      "canonical_term": "Value Versus Taxes",
+      "aliases": ["assessment versus taxes", "valuation versus tax bill", "value does not equal tax"],
+      "category": "taxpayer_explanation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Assessment value and property tax due are related but distinct: value establishes a tax-base share, while levies, budgets, exemptions, and credits determine the final tax bill.",
+      "plain_language": "The assessor estimates value. Local taxing bodies set budgets/levies. The treasurer collects the taxes.",
+      "semantic_tags": ["public_guidance", "assessment_vs_tax", "levy", "tax_bill", "taxpayer_question"],
+      "relationships": [
+        { "type": "distinguishes", "target_id": "concept_assessed_value", "note": "Value side." },
+        { "type": "distinguishes", "target_id": "concept_tax_bill", "note": "Tax due side." },
+        { "type": "explained_by", "target_id": "public_guidance_assessment_vs_taxes", "note": "Public guidance object." },
+        { "type": "workflow", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Explains how taxes are generated." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "property assessment FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1601", "locator": "§ 77-1601", "citation": "Neb. Rev. Stat. § 77-1601." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "concept_vertical_equity",
+      "object_type": "concept",
+      "canonical_term": "Vertical Equity",
+      "aliases": ["vertical uniformity", "equity across value ranges", "price-related equity"],
+      "category": "equity_concept",
+      "jurisdiction": "General assessment; Nebraska analytical relevance",
+      "legal_hierarchy": "assessment_theory",
+      "summary": "Assessment equity principle that lower- and higher-value properties should not be systematically assessed at different percentages of market value.",
+      "plain_language": "A low-value home and a high-value home should not be assessed at systematically different percentages just because of price level.",
+      "semantic_tags": ["vertical_equity", "prd", "prb", "regressivity", "ratio_study"],
+      "relationships": [
+        { "type": "measured_by", "target_id": "concept_prd", "note": "PRD is a vertical-equity indicator." },
+        { "type": "measured_by", "target_id": "concept_prb", "note": "PRB is a vertical-equity statistic." },
+        { "type": "failure_mode", "target_id": "concept_regressivity", "note": "Regressivity is a vertical inequity pattern." },
+        { "type": "researched_by", "target_id": "research_lincoln_vertical_inequality_measures", "note": "Research on measure limitations." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "vertical equity", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "lincoln_vertical_inequality_measures", "locator": "abstract", "citation": "Lincoln Institute, Measures of Vertical Inequality in Assessments." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_and_research_snippets"
+    },
+    {
+      "id": "concept_weighted_mean_ratio",
+      "object_type": "metric",
+      "canonical_term": "Weighted Mean Ratio",
+      "aliases": ["aggregate ratio", "value-weighted ratio"],
+      "category": "ratio_study_metric",
+      "jurisdiction": "General assessment; used in ratio studies",
+      "legal_hierarchy": "statistical_metric",
+      "summary": "Ratio of total assessed/appraised value to total sale price for the sample, giving more influence to higher-value sales.",
+      "plain_language": "The weighted mean ratio is the total assessed value divided by total sale price for the whole sample.",
+      "semantic_tags": ["weighted_mean_ratio", "ratio_study", "prd", "aggregate_ratio", "statistics"],
+      "facts": [
+        { "predicate": "formula", "object": "sum(assessed_or_appraised_values) / sum(sale_prices)" }
+      ],
+      "relationships": [
+        { "type": "used_by", "target_id": "concept_prd", "note": "PRD denominator." },
+        { "type": "related_metric", "target_id": "concept_mean_ratio", "note": "PRD compares mean and weighted mean." },
+        { "type": "related_metric", "target_id": "concept_level_of_value", "note": "Alternative aggregate level view." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio statistics", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "const_ne_article_viii_exemptions",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII Exemptions and Classification",
+      "aliases": ["Article VIII-2", "property tax exemptions"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Constitutional source for exemptions and classification authority in Nebraska property taxation.",
+      "plain_language": "Exemptions and different property classes must have constitutional/statutory authority.",
+      "semantic_tags": ["constitution", "article_viii", "exemptions", "classification", "taxation"],
+      "relationships": [
+        { "type": "related_concept", "target_id": "concept_homestead_exemption", "note": "Homestead is a statutory relief program with constitutional context." },
+        { "type": "related_concept", "target_id": "concept_personal_property", "note": "Personal property treatment is constitutionally/statutorily framed." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-2", "citation": "Neb. Const. art. VIII, § 2." },
+        { "source_id": "ne_dor_pad_statutes_page", "locator": "Article VIII property assessment provisions", "citation": "Nebraska DOR PAD, Property Assessment Statutes." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_constitution_section_extraction"
+    },
+    {
+      "id": "const_ne_article_viii_state_property_tax_prohibition",
+      "object_type": "constitution",
+      "canonical_term": "State Property Tax Prohibition",
+      "aliases": ["Article VIII-1A", "state property tax prohibition"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Nebraska constitutional provision prohibiting levy of property tax for state purposes.",
+      "plain_language": "Nebraska property taxes are local, not a state property tax for state purposes.",
+      "semantic_tags": ["constitution", "state_property_tax", "local_tax", "article_viii"],
+      "relationships": [
+        { "type": "context_for", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Property tax levy workflow is local-government oriented." },
+        { "type": "related_public_guidance", "target_id": "public_guidance_assessment_vs_taxes", "note": "Helps explain state versus local roles." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_statutes_page", "locator": "Article VIII-1A entry", "citation": "Nebraska DOR PAD, Property Assessment Statutes." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_constitution_section_extraction"
+    },
+    {
+      "id": "const_ne_article_viii_uniformity",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII Uniformity Clause",
+      "aliases": ["Article VIII-1", "uniformity clause", "taxation uniformly and proportionately"],
+      "category": "constitutional_taxation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "constitution",
+      "summary": "Constitutional anchor requiring real property taxes to be levied by valuation uniformly and proportionately, subject to permitted exceptions.",
+      "plain_language": "Nebraska's property tax system is constitutionally built around uniform and proportionate valuation.",
+      "semantic_tags": ["constitution", "article_viii", "uniformity", "proportionality", "property_tax"],
+      "relationships": [
+        { "type": "defines_authority_for", "target_id": "concept_uniformity_proportionality", "note": "Canonical constitutional concept." },
+        { "type": "supports", "target_id": "concept_equalization", "note": "Equalization operationalizes constitutional requirement." },
+        { "type": "interpreted_by", "target_id": "case_lancaster_county_boe_v_moser", "note": "Case law burden context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii", "locator": "Article VIII-1", "citation": "Neb. Const. art. VIII, § 1." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "crosswalk_assessment_to_tax_cycle",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessment-to-Tax Cycle Crosswalk",
+      "aliases": ["value to taxes crosswalk", "assessment levy collection chain"],
+      "category": "workflow_crosswalk",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "semantic_crosswalk",
+      "summary": "Connects valuation, protest/equalization, levy setting, tax statement creation, and collection into one traversable chain.",
+      "plain_language": "This crosswalk tells the AI what stage a question belongs to: value, appeal, levy, bill, or collection.",
+      "semantic_tags": ["crosswalk", "assessment_cycle", "levy", "tax_statement", "collection"],
+      "facts": [
+        { "predicate": "sequence", "object": ["assessment", "notice", "protest", "equalization", "levy", "tax_list", "treasurer_collection"] }
+      ],
+      "relationships": [
+        { "type": "stage", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Assessment stage." },
+        { "type": "stage", "target_id": "workflow_valuation_notice_to_protest", "note": "Protest stage." },
+        { "type": "stage", "target_id": "workflow_boe_protest_hearing", "note": "Equalization stage." },
+        { "type": "stage", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy and tax statement stage." },
+        { "type": "explains", "target_id": "concept_value_vs_tax", "note": "Public explanation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "calendar sequence", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." },
+        { "source_id": "ne_dor_pad_faq", "locator": "assessment and tax collection FAQs", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "crosswalk_legal_hierarchy",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessment Legal Hierarchy Crosswalk",
+      "aliases": ["source hierarchy", "authority hierarchy"],
+      "category": "authority_crosswalk",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "semantic_crosswalk",
+      "summary": "Ranks source categories for retrieval: constitution, statute, regulation, agency guidance, tribunal/case law, professional standards, county practice, research, commentary.",
+      "plain_language": "When sources conflict, the AI should know which authority level is higher and when a source is merely guidance or research.",
+      "semantic_tags": ["legal_hierarchy", "source_priority", "constitution", "statute", "regulation", "guidance"],
+      "facts": [
+        { "predicate": "hierarchy_order", "object": ["constitution", "statute", "regulation", "case_law", "agency_guidance", "professional_standard", "local_practice", "research"] }
+      ],
+      "relationships": [
+        { "type": "prioritizes", "target_id": "const_ne_article_viii_uniformity", "note": "Constitutional anchor." },
+        { "type": "prioritizes", "target_id": "statute_ne_77_112_actual_value", "note": "Statutory definition." },
+        { "type": "prioritizes", "target_id": "standard_ne_title350_ch50_assessment_process", "note": "Regulatory layer." },
+        { "type": "contextualizes", "target_id": "standard_iaao_ratio_studies_2013", "note": "Professional standard, not Nebraska law by itself." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_statutes_page", "locator": "source index", "citation": "Nebraska DOR PAD, Property Assessment Statutes." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 regulations", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." },
+        { "source_id": "iaao_ratio_study_standard", "locator": "professional standard", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_ontology_rule"
+    },
+    {
+      "id": "crosswalk_ratio_metrics",
+      "object_type": "crosswalk",
+      "canonical_term": "Ratio Study Metrics Crosswalk",
+      "aliases": ["COD PRD PRB crosswalk", "ratio metric ontology"],
+      "category": "metric_crosswalk",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "semantic_crosswalk",
+      "summary": "Maps level, uniformity, vertical-equity, and reliability metrics used in assessment ratio studies.",
+      "plain_language": "This tells the AI which statistic answers which kind of ratio-study question.",
+      "semantic_tags": ["crosswalk", "ratio_study", "cod", "prd", "prb", "median_ratio"],
+      "relationships": [
+        { "type": "level_metric", "target_id": "concept_median_ratio", "note": "Typical assessment level." },
+        { "type": "level_metric", "target_id": "concept_level_of_value", "note": "Canonical level concept." },
+        { "type": "uniformity_metric", "target_id": "concept_cod", "note": "Horizontal dispersion." },
+        { "type": "vertical_metric", "target_id": "concept_prd", "note": "Vertical equity indicator." },
+        { "type": "vertical_metric", "target_id": "concept_prb", "note": "Price-related bias." },
+        { "type": "reliability_concept", "target_id": "concept_sample_adequacy", "note": "Reliability context." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "ratio study statistics", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "deadline_jan1_assessment_date",
+      "object_type": "deadline",
+      "canonical_term": "January 1 Assessment Date",
+      "aliases": ["Jan 1 12:01 a.m.", "valuation date"],
+      "category": "assessment_calendar",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_deadline",
+      "summary": "Real and personal property are listed and valued as of January 1 at 12:01 a.m. under the PAD calendar and relevant statutes.",
+      "plain_language": "January 1 is the annual snapshot date.",
+      "semantic_tags": ["deadline", "january_1", "assessment_date", "real_property", "personal_property"],
+      "dates": [
+        { "date": "annual", "month_day": "01-01", "time": "12:01", "description": "Assessment date for real and personal property." }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "concept_assessment_date", "note": "Deadline expression of assessment date." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1301_assessment_of_real_property", "note": "Real property." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1201_personal_property_assessment", "note": "Personal property." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "Jan 1 12:01 a.m. entries", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_june30_real_property_protest",
+      "object_type": "deadline",
+      "canonical_term": "June 30 Real Property Protest Deadline",
+      "aliases": ["protest deadline", "Form 422 deadline"],
+      "category": "protest_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_deadline",
+      "summary": "Real property valuation protests must generally be filed after completion of the assessment roll and on or before June 30.",
+      "plain_language": "For the regular annual protest, file by June 30.",
+      "semantic_tags": ["deadline", "june_30", "protest", "form_422", "county_board_equalization"],
+      "dates": [
+        { "date": "annual", "month_day": "06-30", "description": "Regular real property valuation protest filing deadline." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1502_protests", "note": "Protest filing statute." },
+        { "type": "part_of", "target_id": "workflow_valuation_notice_to_protest", "note": "Filing deadline." },
+        { "type": "uses_form", "target_id": "form_422_property_valuation_protest", "note": "DOR protest form." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502", "citation": "Neb. Rev. Stat. § 77-1502." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "filing period", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_july25_boe_decision_session",
+      "object_type": "deadline",
+      "canonical_term": "July 25 County Board Equalization Session Deadline",
+      "aliases": ["BOE July 25", "county board protest decision deadline"],
+      "category": "protest_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_deadline",
+      "summary": "County board equalization/protest action generally occurs by July 25, with statutory extension variants where adopted.",
+      "plain_language": "The county board usually finishes regular protest decisions by July 25, unless an extension rule applies.",
+      "semantic_tags": ["deadline", "july_25", "boe", "protest", "equalization"],
+      "dates": [
+        { "date": "annual", "month_day": "07-25", "description": "Regular county board equalization/protest session endpoint." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1504_boe_powers_decision", "note": "County board powers/duties." },
+        { "type": "part_of", "target_id": "workflow_boe_protest_hearing", "note": "Hearing and decision workflow." },
+        { "type": "precedes", "target_id": "workflow_terc_appeal", "note": "Appeal follows county board action." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1504", "locator": "§ 77-1504", "citation": "Neb. Rev. Stat. § 77-1504." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "county board deadline", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_may1_personal_property_return",
+      "object_type": "deadline",
+      "canonical_term": "May 1 Personal Property Return Deadline",
+      "aliases": ["personal property return due date", "May 1 return"],
+      "category": "personal_property_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_deadline",
+      "summary": "Taxable personal property filers generally file the Nebraska Personal Property Return with the county assessor on or before May 1.",
+      "plain_language": "Business personal property returns are generally due May 1.",
+      "semantic_tags": ["deadline", "may_1", "personal_property", "return", "county_assessor"],
+      "dates": [
+        { "date": "annual", "month_day": "05-01", "description": "Personal property return deadline." }
+      ],
+      "relationships": [
+        { "type": "applies_to", "target_id": "concept_personal_property", "note": "Personal property filing." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1201_personal_property_assessment", "note": "Personal property assessment." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "taxable personal property FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "May entries", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_oct20_county_tax_levy",
+      "object_type": "deadline",
+      "canonical_term": "October 20 County Tax Levy Deadline",
+      "aliases": ["levy deadline", "county board levy by October 20"],
+      "category": "levy_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_deadline",
+      "summary": "County board of equalization annually levies necessary taxes for the current year on or before October 20 if within legal limits.",
+      "plain_language": "By October 20, the county board sets the legal levy amounts needed for tax statements.",
+      "semantic_tags": ["deadline", "october_20", "levy", "county_board_equalization", "tax_request"],
+      "dates": [
+        { "date": "annual", "month_day": "10-20", "description": "County tax levy deadline." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1601_county_tax_levy", "note": "County levy statute." },
+        { "type": "part_of", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy setting workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1601", "locator": "§ 77-1601", "citation": "Neb. Rev. Stat. § 77-1601." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_tax_delinquency_standard_counties",
+      "object_type": "deadline",
+      "canonical_term": "Standard County Real Property Tax Delinquency Dates",
+      "aliases": ["May 1 and September 1 delinquency", "real estate tax delinquency"],
+      "category": "tax_collection_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_collection_timeline",
+      "summary": "For most Nebraska counties, first-half real property taxes become delinquent May 1 and second-half taxes become delinquent September 1.",
+      "plain_language": "Outside Douglas, Lancaster, and Sarpy counties, the usual delinquency dates are May 1 and September 1.",
+      "semantic_tags": ["deadline", "delinquency", "tax_collection", "county_treasurer", "real_property_tax"],
+      "dates": [
+        { "date": "annual", "month_day": "05-01", "description": "First half delinquent in standard counties." },
+        { "date": "annual", "month_day": "09-01", "description": "Second half delinquent in standard counties." }
+      ],
+      "relationships": [
+        { "type": "part_of", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Collection endpoint." },
+        { "type": "contrasted_with", "target_id": "deadline_tax_delinquency_douglas_lancaster_sarpy", "note": "Three-county alternate dates." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "tax delinquency FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "object_type": "deadline",
+      "canonical_term": "Douglas, Lancaster, and Sarpy Real Property Tax Delinquency Dates",
+      "aliases": ["April 1 and August 1 delinquency", "three county delinquency exception"],
+      "category": "tax_collection_deadline",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_collection_timeline",
+      "summary": "In Douglas, Lancaster, and Sarpy counties, first-half real property taxes become delinquent April 1 and second-half taxes become delinquent August 1.",
+      "plain_language": "The three largest counties have earlier delinquency dates: April 1 and August 1.",
+      "semantic_tags": ["deadline", "delinquency", "douglas", "lancaster", "sarpy", "tax_collection"],
+      "dates": [
+        { "date": "annual", "month_day": "04-01", "description": "First half delinquent in Douglas, Lancaster, and Sarpy counties." },
+        { "date": "annual", "month_day": "08-01", "description": "Second half delinquent in Douglas, Lancaster, and Sarpy counties." }
+      ],
+      "relationships": [
+        { "type": "part_of", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Collection endpoint." },
+        { "type": "contrasted_with", "target_id": "deadline_tax_delinquency_standard_counties", "note": "Standard county dates." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "tax delinquency FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "form_422_property_valuation_protest",
+      "object_type": "form",
+      "canonical_term": "Property Valuation Protest Form 422/422A",
+      "aliases": ["Form 422", "Form 422A", "valuation protest form"],
+      "category": "protest_form",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "pad_form",
+      "summary": "Nebraska form family used to file a property valuation protest with the county board of equalization/county clerk workflow.",
+      "plain_language": "This is the form used to start a formal property value protest.",
+      "semantic_tags": ["form_422", "valuation_protest", "county_clerk", "boe", "june_30"],
+      "facts": [
+        { "predicate": "required_content", "object": ["property_description", "requested_value", "reasons", "signature"] }
+      ],
+      "relationships": [
+        { "type": "used_in", "target_id": "workflow_valuation_notice_to_protest", "note": "Formal protest filing." },
+        { "type": "deadline", "target_id": "deadline_june30_real_property_protest", "note": "Regular annual filing deadline." },
+        { "type": "governed_by", "target_id": "statute_ne_77_1502_protests", "note": "Required protest content/dismissal rule." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_form_422a", "locator": "form PDF", "citation": "Nebraska DOR PAD, Property Valuation Protest Form 422A." },
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502", "citation": "Neb. Rev. Stat. § 77-1502." },
+        { "source_id": "frontier_county_property_valuation_protests", "locator": "Protest form guidance", "citation": "Frontier County, Property Valuation Protests." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_and_county_sources"
+    },
+    {
+      "id": "form_ptc_property_tax_credit",
+      "object_type": "form",
+      "canonical_term": "Nebraska Property Tax Credit Form PTC",
+      "aliases": ["Form PTC", "PTCX", "Nebraska Property Tax Credit form"],
+      "category": "tax_credit_form",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "tax_form",
+      "summary": "Nebraska income tax form used to claim qualifying property tax credits; amended PTCX may apply where a prior-year credit was not claimed.",
+      "plain_language": "Use the correct year's PTC/PTCX process to claim eligible property tax credits.",
+      "semantic_tags": ["form_ptc", "ptcx", "property_tax_credit", "income_tax", "tax_relief"],
+      "relationships": [
+        { "type": "claims", "target_id": "concept_property_tax_credit", "note": "Tax credit program." },
+        { "type": "governed_by", "target_id": "statute_ne_77_6701_6706_property_tax_incentive", "note": "Property Tax Incentive Act." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_property_tax_credit_general_info", "locator": "overview/form discussion", "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information." },
+        { "source_id": "ne_dor_pad_property_tax_credit_faq", "locator": "Form PTC FAQ", "citation": "Nebraska DOR, Nebraska Property Tax Credit FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "pad_assessor_certification",
+      "object_type": "pad",
+      "canonical_term": "Nebraska Assessor Certification and Education",
+      "aliases": ["assessor certification", "deputy assessor exam", "PAD education"],
+      "category": "assessor_operations",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "pad_guidance",
+      "summary": "PAD education/certification ecosystem for county assessors and deputy assessors, including examinations, education calendar, and recertification regulations.",
+      "plain_language": "Nebraska assessors have a PAD-administered certification and education framework.",
+      "semantic_tags": ["assessor_certification", "education", "pad", "exam", "recertification"],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Qualified assessor role." },
+        { "type": "related_regulation", "target_id": "standard_ne_title350_ch71_certification", "note": "Education/certification regulation chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_assessor_certification", "locator": "assessor page", "citation": "Nebraska DOR PAD, Assessor Certification & Education." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 71", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "pad_reports_opinions_methodology",
+      "object_type": "pad",
+      "canonical_term": "PAD Reports and Opinions Methodology",
+      "aliases": ["R&O methodology", "Reports and Opinions", "Property Tax Administrator Reports and Opinions"],
+      "category": "statewide_equalization_methodology",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "pad_methodology",
+      "summary": "PAD methodology domain for annual Reports and Opinions of the Property Tax Administrator, including level-of-value and statistical review by county/class.",
+      "plain_language": "PAD's Reports and Opinions are where county assessment quality is evaluated for statewide equalization.",
+      "semantic_tags": ["pad_ro", "reports_opinions", "level_of_value", "ratio_study", "equalization", "county_statistics"],
+      "relationships": [
+        { "type": "uses", "target_id": "concept_level_of_value", "note": "Core R&O output." },
+        { "type": "uses", "target_id": "concept_stratification", "note": "Class/group analysis." },
+        { "type": "supports", "target_id": "workflow_ratio_study_equalization", "note": "Statewide equalization evidence." },
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch17_reports_opinions", "note": "Title 350 Reports and Opinions regulation chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Title 350 Chapter 17", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." },
+        { "source_id": "ne_dor_2025_annual_report", "locator": "levels of value/statistical tables", "citation": "Nebraska DOR PAD, 2025 Annual Report." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_multi_year_ro_json"
+    },
+    {
+      "id": "pad_statewide_equalization",
+      "object_type": "equalization",
+      "canonical_term": "Statewide Equalization",
+      "aliases": ["state equalization", "TERC statewide equalization", "PAD equalization review"],
+      "category": "statewide_equalization",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "administrative_process",
+      "summary": "Nebraska statewide process for reviewing and equalizing assessed values across counties/classes, informed by PAD analysis and TERC authority.",
+      "plain_language": "Statewide equalization looks beyond one parcel to whether counties/classes are at acceptable assessment levels.",
+      "semantic_tags": ["statewide_equalization", "terc", "pad", "ratio_study", "level_of_value"],
+      "relationships": [
+        { "type": "uses", "target_id": "pad_reports_opinions_methodology", "note": "PAD R&O evidence." },
+        { "type": "uses", "target_id": "workflow_ratio_study_equalization", "note": "Ratio-study workflow." },
+        { "type": "grounded_in", "target_id": "concept_equalization", "note": "Equalization concept." }
+      ],
+      "source_refs": [
+        { "source_id": "terc_about", "locator": "primary powers and duties", "citation": "Nebraska TERC, About Us." },
+        { "source_id": "ne_dor_pad_purpose", "locator": "PAD functions", "citation": "Nebraska DOR PAD, Purpose." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_terc_rules_and_ro_ingestion"
+    },
+    {
+      "id": "public_guidance_assessment_vs_taxes",
+      "object_type": "public_guidance",
+      "canonical_term": "Assessment Is Not the Tax Bill",
+      "aliases": ["value versus taxes explanation", "why did taxes change", "assessment versus levy"],
+      "category": "taxpayer_explanation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Taxpayer-facing distinction: assessors value property; budgets and levies from taxing subdivisions determine tax rates; treasurers collect the resulting tax.",
+      "plain_language": "A higher value can affect taxes, but your tax bill also depends on what schools, cities, counties, and other local entities levy.",
+      "semantic_tags": ["taxpayer_guidance", "assessment_vs_tax", "levy", "budget", "tax_bill"],
+      "relationships": [
+        { "type": "explains", "target_id": "concept_value_vs_tax", "note": "Canonical concept." },
+        { "type": "distinguishes", "target_id": "concept_assessed_value", "note": "Assessment role." },
+        { "type": "distinguishes", "target_id": "concept_tax_bill", "note": "Tax collection result." },
+        { "type": "uses_workflow", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy/tax statement process." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "property assessment FAQs", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_auditor_budget_faq", "locator": "budget/tax request FAQ", "citation": "Nebraska Auditor of Public Accounts, Budget FAQ." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "research_berry_reassessing_property_tax",
+      "object_type": "research",
+      "canonical_term": "Berry - Reassessing the Property Tax",
+      "aliases": ["Christopher Berry regressivity paper", "Reassessing the Property Tax"],
+      "category": "assessment_regressivity_research",
+      "jurisdiction": "United States",
+      "legal_hierarchy": "academic_research",
+      "summary": "Empirical research finding widespread residential assessment regressivity and attributing much of the pattern to data/model limitations rather than explicit policy choices alone.",
+      "plain_language": "Berry's work is a major source for the claim that low-value homes are often overassessed relative to high-value homes.",
+      "semantic_tags": ["research", "berry", "regressivity", "mass_appraisal_limits", "property_tax_incidence"],
+      "relationships": [
+        { "type": "grounds", "target_id": "concept_regressivity", "note": "Major empirical research source." },
+        { "type": "related_metric", "target_id": "concept_effective_tax_rate", "note": "Burden analysis." },
+        { "type": "related_concept", "target_id": "concept_vertical_equity", "note": "Vertical equity theory." }
+      ],
+      "source_refs": [
+        { "source_id": "berry_reassessing_property_tax", "locator": "SSRN abstract", "citation": "Christopher R. Berry, Reassessing the Property Tax (Mar. 9, 2021)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_research_snippet"
+    },
+    {
+      "id": "research_lincoln_vertical_inequality_measures",
+      "object_type": "research",
+      "canonical_term": "Lincoln Institute - Measures of Vertical Inequality in Assessments",
+      "aliases": ["Measures of Vertical Inequality", "vertical inequality measures"],
+      "category": "assessment_regressivity_research",
+      "jurisdiction": "United States",
+      "legal_hierarchy": "academic_research",
+      "summary": "Research source evaluating conventional vertical inequity measures such as PRD and regression-based measures, including cautions about bias and alternative measures.",
+      "plain_language": "This source warns that measuring regressivity is technically tricky; some methods can imply regressivity even when it is not present.",
+      "semantic_tags": ["research", "vertical_inequality", "prd", "regression_bias", "suits_index"],
+      "relationships": [
+        { "type": "contextualizes", "target_id": "concept_prd", "note": "Cautions about vertical measure interpretation." },
+        { "type": "contextualizes", "target_id": "concept_vertical_equity", "note": "Measurement theory." },
+        { "type": "related_to", "target_id": "concept_regressivity", "note": "Regressivity measurement." }
+      ],
+      "source_refs": [
+        { "source_id": "lincoln_vertical_inequality_measures", "locator": "working paper abstract", "citation": "Lincoln Institute of Land Policy, Measures of Vertical Inequality in Assessments." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_from_research_snippet"
+    },
+    {
+      "id": "research_mcmillen_singh_assessment_regressivity",
+      "object_type": "research",
+      "canonical_term": "McMillen and Singh - Assessment Regressivity and Property Taxation",
+      "aliases": ["Assessment Regressivity and Property Taxation"],
+      "category": "assessment_regressivity_research",
+      "jurisdiction": "United States",
+      "legal_hierarchy": "academic_research",
+      "summary": "Research connecting assessment regressivity to property tax incidence and showing how assessment patterns can offset or reverse statutory progressivity.",
+      "plain_language": "Even if a tax relief design is progressive on paper, regressive assessments can change who actually bears the burden.",
+      "semantic_tags": ["research", "assessment_regressivity", "tax_incidence", "homestead_exemptions", "income"],
+      "relationships": [
+        { "type": "grounds", "target_id": "concept_regressivity", "note": "Incidence-focused regressivity source." },
+        { "type": "related_concept", "target_id": "concept_homestead_exemption", "note": "Research discusses homestead effects." },
+        { "type": "related_metric", "target_id": "concept_effective_tax_rate", "note": "Burden analysis." }
+      ],
+      "source_refs": [
+        { "source_id": "mcmillen_singh_assessment_regressivity", "locator": "abstract", "citation": "Daniel McMillen & Ruchi Singh, Assessment Regressivity and Property Taxation, J. Real Estate Finance & Econ. (2019/2020)." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_from_research_snippet"
+    },
+    {
+      "id": "standard_iaao_assessment_appeal",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Assessment Appeal",
+      "aliases": ["Assessment Appeal Standard"],
+      "category": "appeal_standard",
+      "jurisdiction": "International/professional",
+      "legal_hierarchy": "iaao_standard",
+      "summary": "Professional standard for assessment appeal systems, evidence, review procedures, and taxpayer access principles.",
+      "plain_language": "IAAO gives professional guidance for fair assessment appeal systems.",
+      "semantic_tags": ["iaao", "appeals", "evidence", "taxpayer_rights", "assessment_review"],
+      "relationships": [
+        { "type": "context_for", "target_id": "workflow_terc_appeal", "note": "Professional appeal principles." },
+        { "type": "context_for", "target_id": "workflow_boe_protest_hearing", "note": "Local appeal/protest principles." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_assessment_appeal_standard", "locator": "standard PDF", "citation": "IAAO, Standard on Assessment Appeal (2016)." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_standard_extraction"
+    },
+    {
+      "id": "standard_iaao_mass_appraisal",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Mass Appraisal of Real Property",
+      "aliases": ["Mass Appraisal Standard"],
+      "category": "mass_appraisal_standard",
+      "jurisdiction": "International/professional",
+      "legal_hierarchy": "iaao_standard",
+      "summary": "Professional standard for mass appraisal systems, data collection, valuation modeling, GIS/CAMA, quality assurance, and property characteristics maintenance.",
+      "plain_language": "IAAO's mass appraisal standard is the professional baseline for how assessors build and maintain valuation systems.",
+      "semantic_tags": ["iaao", "mass_appraisal", "cama", "property_characteristics", "valuation_modeling"],
+      "relationships": [
+        { "type": "supports", "target_id": "concept_cama", "note": "CAMA/data system concepts." },
+        { "type": "supports", "target_id": "workflow_cama_data_maintenance", "note": "Operational data maintenance." },
+        { "type": "supports", "target_id": "concept_valuation_approaches", "note": "Valuation methods." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "standard PDF", "citation": "IAAO, Standard on Mass Appraisal of Real Property (2025)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "standard_iaao_ratio_studies_2013",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Ratio Studies 2013",
+      "aliases": ["Standard on Ratio Studies", "Ratio Study Standard"],
+      "category": "ratio_study_standard",
+      "jurisdiction": "International/professional",
+      "legal_hierarchy": "iaao_standard",
+      "summary": "IAAO standard for designing, validating, interpreting, and using sales ratio studies for appraisal level, uniformity, equalization, and oversight.",
+      "plain_language": "This is the professional source behind concepts like COD, PRD, PRB, sales validation, and ratio-study interpretation.",
+      "semantic_tags": ["iaao", "ratio_study", "cod", "prd", "prb", "sales_validation", "equalization"],
+      "relationships": [
+        { "type": "defines", "target_id": "concept_sales_ratio", "note": "Ratio formation." },
+        { "type": "defines", "target_id": "concept_cod", "note": "Uniformity metric." },
+        { "type": "defines", "target_id": "concept_prd", "note": "Vertical equity metric." },
+        { "type": "defines", "target_id": "concept_prb", "note": "Price-related bias." },
+        { "type": "supports", "target_id": "workflow_ratio_study_equalization", "note": "Ratio-study workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "standard PDF", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "iaao_ratio_study_exposure_draft_2026", "locator": "exposure draft page status note", "citation": "IAAO, Ratio Studies Exposure Draft page (2026)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "standard_ne_title350_ch12_sales_file",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 12 Sales File",
+      "aliases": ["Sales File regulation", "Nebraska Sales File"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska Property Assessment regulation chapter governing sales file domain; future ingestion should extract sale qualification, coding, and maintenance requirements.",
+      "plain_language": "This is the Nebraska regulation area for how sales data is maintained and used.",
+      "semantic_tags": ["title_350", "sales_file", "valid_sale", "ratio_study", "regulation"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_valid_sale", "note": "Sale qualification." },
+        { "type": "governs", "target_id": "workflow_sales_file_to_ratio_study", "note": "Sales data workflow." },
+        { "type": "supports", "target_id": "concept_sales_ratio", "note": "Sales are ratio denominator." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Chapter 12", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch14_agricultural_land",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 14 Agricultural and Horticultural Land Assessment",
+      "aliases": ["Agricultural Land regulation", "Horticultural Land regulation"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska regulation chapter for agricultural and horticultural land assessment.",
+      "plain_language": "This is a regulation source for how agricultural and horticultural land is assessed.",
+      "semantic_tags": ["title_350", "agricultural_land", "horticultural_land", "greenbelt", "regulation"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_greenbelt_special_valuation", "note": "Agricultural/horticultural valuation domain." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 14", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch17_reports_opinions",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 17 Reports and Opinions",
+      "aliases": ["Reports and Opinions regulation", "R&O regulation"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska regulation chapter governing Reports and Opinions of the Property Tax Administrator.",
+      "plain_language": "This is the regulation home for PAD's annual Reports and Opinions process.",
+      "semantic_tags": ["title_350", "reports_opinions", "pad_ro", "ratio_study", "equalization"],
+      "relationships": [
+        { "type": "governs", "target_id": "pad_reports_opinions_methodology", "note": "R&O methodology domain." },
+        { "type": "supports", "target_id": "pad_statewide_equalization", "note": "Statewide equalization evidence." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 17", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch50_assessment_process",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 50 Assessment Process",
+      "aliases": ["Assessment Process regulation"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska regulation chapter covering assessment process domain; future extraction should normalize inspection, assessment, notice, and record requirements.",
+      "plain_language": "This is a key regulation source for how assessment work is supposed to happen.",
+      "semantic_tags": ["title_350", "assessment_process", "inspection", "records", "regulation"],
+      "relationships": [
+        { "type": "governs", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Annual assessment process." },
+        { "type": "supports", "target_id": "workflow_cama_data_maintenance", "note": "Data/record maintenance." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 50", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch65_reporting_due_dates",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 65 Reporting Requirements and Due Dates",
+      "aliases": ["Reporting due dates regulation"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska regulation chapter for reporting requirements and due dates relevant to PAD/county reporting workflows.",
+      "plain_language": "This regulation chapter is a source for county reporting deadlines to PAD.",
+      "semantic_tags": ["title_350", "reporting", "due_dates", "county_reports", "regulation"],
+      "relationships": [
+        { "type": "context_for", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Reporting due dates are part of annual assessment operations." },
+        { "type": "context_for", "target_id": "pad_reports_opinions_methodology", "note": "R&O depends on county reports/data." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 65", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "standard_ne_title350_ch71_certification",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 71 Education, Certification, and Recertification",
+      "aliases": ["Assessor certification regulation", "education regulation"],
+      "category": "nebraska_regulation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "regulation",
+      "summary": "Nebraska regulation chapter for education, certification, and recertification of assessor personnel.",
+      "plain_language": "This regulation chapter governs assessor certification/education requirements.",
+      "semantic_tags": ["title_350", "assessor_certification", "education", "recertification"],
+      "relationships": [
+        { "type": "governs", "target_id": "pad_assessor_certification", "note": "Certification workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 71", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_regulation_extraction"
+    },
+    {
+      "id": "statute_ne_13_501_budget_act",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Budget Act",
+      "aliases": ["Neb. Rev. Stat. §§ 13-501 to 13-522", "Budget Act"],
+      "category": "budget_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska statutory framework for political subdivision budgets, filing, hearings, and public fund reporting; levy workflow depends on adopted budgets and tax requests.",
+      "plain_language": "Local budgets are a separate legal step before levy and tax bills.",
+      "semantic_tags": ["budget_act", "political_subdivision", "property_tax_request", "levy", "county_clerk"],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Budget/tax request feeds levy." },
+        { "type": "related_deadline", "target_id": "deadline_oct20_county_tax_levy", "note": "Budget and tax request precede levy." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_13_501_13_522_budget_act", "locator": "§§ 13-501 to 13-522", "citation": "Neb. Rev. Stat. §§ 13-501 to 13-522." },
+        { "source_id": "ne_auditor_budget_faq", "locator": "Budget FAQ", "citation": "Nebraska Auditor of Public Accounts, Budget FAQ." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_budget_statute_extraction"
+    },
+    {
+      "id": "statute_ne_77_112_actual_value",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-112 Actual Value",
+      "aliases": ["77-112", "actual value statute"],
+      "category": "definition_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Defines actual value of real property for taxation as market value in the ordinary course of trade.",
+      "plain_language": "Nebraska law ties real property taxable value to market value.",
+      "semantic_tags": ["statute", "actual_value", "market_value", "definition", "valuation"],
+      "relationships": [
+        { "type": "defines", "target_id": "concept_actual_value", "note": "Core definition." },
+        { "type": "supports", "target_id": "concept_valuation_approaches", "note": "Valuation approaches estimate actual value." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_112", "locator": "§ 77-112", "citation": "Neb. Rev. Stat. § 77-112." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_1201_personal_property_assessment",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1201 Personal Property Assessment",
+      "aliases": ["77-1201", "personal property assessment statute"],
+      "category": "assessment_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statutory source for assessment of personal property as of the annual assessment date.",
+      "plain_language": "Personal property has its own assessment statute and filing workflow.",
+      "semantic_tags": ["statute", "personal_property", "assessment_date", "county_assessor"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_personal_property", "note": "Personal property concept." },
+        { "type": "deadline", "target_id": "deadline_jan1_assessment_date", "note": "Assessment date." },
+        { "type": "deadline", "target_id": "deadline_may1_personal_property_return", "note": "Return deadline from FAQ/calendar context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1201", "locator": "§ 77-1201", "citation": "Neb. Rev. Stat. § 77-1201." },
+        { "source_id": "ne_dor_pad_faq", "locator": "taxable personal property FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_requires_statute_text_review"
+    },
+    {
+      "id": "statute_ne_77_1301_assessment_of_real_property",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
+      "aliases": ["77-1301", "real property assessment statute"],
+      "category": "assessment_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statutory basis for county assessor listing and valuing real property as part of the annual assessment process.",
+      "plain_language": "County assessors list and value real property annually.",
+      "semantic_tags": ["statute", "real_property", "assessment_date", "county_assessor", "list_and_value"],
+      "relationships": [
+        { "type": "governs", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Annual assessment workflow." },
+        { "type": "deadline", "target_id": "deadline_jan1_assessment_date", "note": "Assessment date." },
+        { "type": "uses", "target_id": "concept_actual_value", "note": "Real property value basis." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1301", "locator": "§ 77-1301", "citation": "Neb. Rev. Stat. § 77-1301." },
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "Jan 1 real property entry", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_1314_income_approach",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1314 County Assessor Use of Income Approach",
+      "aliases": ["77-1314", "discounted cash-flow statute"],
+      "category": "valuation_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska statute requiring the income approach, including discounted cash-flow analysis, for certain commonly owned vacant or unimproved subdivision lots held for sale/resale, with TERC process if another method is asserted.",
+      "plain_language": "For a specific kind of subdivision-lot situation, Nebraska law points the assessor to income/DCF analysis unless a statutory process supports another technique.",
+      "semantic_tags": ["statute", "income_approach", "discounted_cash_flow", "vacant_lots", "terc"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_income_approach", "note": "Nebraska-specific use case." },
+        { "type": "related_workflow", "target_id": "workflow_terc_appeal", "note": "TERC appears in statutory process." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1314", "locator": "§ 77-1314", "citation": "Neb. Rev. Stat. § 77-1314." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_1315_assessment_roll",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1315 Real Property Assessment Roll",
+      "aliases": ["77-1315", "assessment roll statute"],
+      "category": "assessment_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statutory assessment-roll source tied to completion of real property assessment roll and protest timing.",
+      "plain_language": "The assessment roll is the official roll that anchors later notice and protest steps.",
+      "semantic_tags": ["statute", "assessment_roll", "notice", "protest_timing", "county_assessor"],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Assessment roll step." },
+        { "type": "triggers_or_precedes", "target_id": "workflow_valuation_notice_to_protest", "note": "Protests follow roll completion." },
+        { "type": "related_deadline", "target_id": "deadline_june30_real_property_protest", "note": "Protest timing references roll completion." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1315", "locator": "§ 77-1315", "citation": "Neb. Rev. Stat. § 77-1315." },
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502", "citation": "Neb. Rev. Stat. § 77-1502." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_statute_text_review"
+    },
+    {
+      "id": "statute_ne_77_1359_greenbelt",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1359 Agricultural and Horticultural Land Special Valuation",
+      "aliases": ["77-1359", "greenbelt statute", "special valuation statute"],
+      "category": "agricultural_valuation_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statutory source for Nebraska agricultural and horticultural land special valuation.",
+      "plain_language": "This is a core statute for greenbelt/special valuation treatment.",
+      "semantic_tags": ["statute", "greenbelt", "agricultural_land", "special_valuation"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_greenbelt_special_valuation", "note": "Special valuation program." },
+        { "type": "related_regulation", "target_id": "standard_ne_title350_ch14_agricultural_land", "note": "Regulation chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1359", "locator": "§ 77-1359", "citation": "Neb. Rev. Stat. § 77-1359." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_statute_text_review"
+    },
+    {
+      "id": "statute_ne_77_1502_protests",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1502 Board Protests",
+      "aliases": ["77-1502", "protest filing statute"],
+      "category": "protest_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Primary statute governing protest filing with the county board of equalization, including timing and required content.",
+      "plain_language": "This statute tells taxpayers what must be in the protest and when it must be filed.",
+      "semantic_tags": ["statute", "protest", "june_30", "form_422", "county_board_equalization"],
+      "relationships": [
+        { "type": "governs", "target_id": "workflow_valuation_notice_to_protest", "note": "Protest filing workflow." },
+        { "type": "sets_deadline", "target_id": "deadline_june30_real_property_protest", "note": "Annual protest deadline." },
+        { "type": "requires", "target_id": "form_422_property_valuation_protest", "note": "Protest form/content." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502", "citation": "Neb. Rev. Stat. § 77-1502." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_1504_boe_powers_decision",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1504 Equalization of Property; Protest Procedure",
+      "aliases": ["77-1504", "BOE protest decision statute"],
+      "category": "equalization_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statutory source for county board of equalization powers and duties to consider and correct current-year real property overvaluation or undervaluation and provide decisions/appeal path.",
+      "plain_language": "This statute governs what the county board does with valuation protests.",
+      "semantic_tags": ["statute", "boe", "equalization", "protest_hearing", "terc_appeal"],
+      "relationships": [
+        { "type": "governs", "target_id": "workflow_boe_protest_hearing", "note": "County board hearing workflow." },
+        { "type": "sets_deadline", "target_id": "deadline_july25_boe_decision_session", "note": "Regular session deadline." },
+        { "type": "precedes", "target_id": "workflow_terc_appeal", "note": "Appeal follows BOE decision." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1504", "locator": "§ 77-1504", "citation": "Neb. Rev. Stat. § 77-1504." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_1601_county_tax_levy",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1601 County Tax Levy",
+      "aliases": ["77-1601", "county levy statute"],
+      "category": "levy_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statute requiring the county board of equalization to levy necessary current-year taxes on or before October 20, including authorized tax requests, and providing clerical-error correction procedure.",
+      "plain_language": "This is the statute for the county board's annual levy action.",
+      "semantic_tags": ["statute", "levy", "october_20", "county_board_equalization", "tax_request"],
+      "relationships": [
+        { "type": "governs", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy workflow." },
+        { "type": "sets_deadline", "target_id": "deadline_oct20_county_tax_levy", "note": "Annual levy deadline." },
+        { "type": "related_statute", "target_id": "statute_ne_77_3442_levy_limits", "note": "Tax request and levy limits." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1601", "locator": "§ 77-1601", "citation": "Neb. Rev. Stat. § 77-1601." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "statute_ne_77_3442_levy_limits",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-3442 Property Tax Levy Limits",
+      "aliases": ["77-3442", "levy limit statute"],
+      "category": "levy_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska levy-limit statute relevant to political subdivisions and authorized property tax requests.",
+      "plain_language": "Local tax requests and levies have statutory limits and procedures.",
+      "semantic_tags": ["statute", "levy_limits", "tax_request", "political_subdivision", "budget"],
+      "relationships": [
+        { "type": "constrains", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy setting must stay within legal limits." },
+        { "type": "related_statute", "target_id": "statute_ne_77_1601_county_tax_levy", "note": "County levy statute references tax requests." },
+        { "type": "related_statute", "target_id": "statute_ne_13_501_budget_act", "note": "Budget/tax request context." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_3442", "locator": "§ 77-3442", "citation": "Neb. Rev. Stat. § 77-3442." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_statute_text_review"
+    },
+    {
+      "id": "statute_ne_77_3501_3530_homestead",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. §§ 77-3501 to 77-3530 Homestead Exemption",
+      "aliases": ["homestead statutes", "77-3501 to 77-3530"],
+      "category": "tax_relief_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska statutory range governing homestead exemption eligibility and administration.",
+      "plain_language": "Homestead exemption is a statutory relief program, separate from protesting market value.",
+      "semantic_tags": ["statute", "homestead_exemption", "tax_relief", "eligibility"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_homestead_exemption", "note": "Homestead exemption concept." },
+        { "type": "related_concept", "target_id": "concept_property_tax_credit", "note": "Both are tax-relief concepts but use different mechanisms." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_3501_3530_homestead", "locator": "§§ 77-3501 to 77-3530", "citation": "Neb. Rev. Stat. §§ 77-3501 to 77-3530." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_statute_range_extraction"
+    },
+    {
+      "id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Property Tax Incentive Act",
+      "aliases": ["Neb. Rev. Stat. §§ 77-6701 to 77-6706", "PTIA"],
+      "category": "tax_credit_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska statutory framework for refundable credits tied to qualifying school district and community college property taxes paid.",
+      "plain_language": "This is the statute behind Nebraska's Form PTC property tax credit program.",
+      "semantic_tags": ["statute", "property_tax_incentive_act", "property_tax_credit", "school_district_tax", "community_college_tax"],
+      "relationships": [
+        { "type": "governs", "target_id": "concept_property_tax_credit", "note": "Property tax credit concept." },
+        { "type": "implemented_by", "target_id": "form_ptc_property_tax_credit", "note": "Credit form." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_6701_6706_property_tax_incentive", "locator": "§§ 77-6701 to 77-6706", "citation": "Neb. Rev. Stat. §§ 77-6701 to 77-6706." },
+        { "source_id": "ne_dor_pad_property_tax_credit_general_info", "locator": "general information", "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "workflow_boe_protest_hearing",
+      "object_type": "workflow",
+      "canonical_term": "County Board of Equalization Protest Hearing Workflow",
+      "aliases": ["BOE hearing", "county board protest", "valuation protest hearing"],
+      "category": "protest_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_workflow",
+      "summary": "Workflow for county board review of filed protests, assessor/referee reporting, hearing, board decision, notice, and potential TERC appeal.",
+      "plain_language": "After a protest is filed, the county board considers evidence and issues a decision that can be appealed.",
+      "semantic_tags": ["workflow", "boe", "protest", "hearing", "decision", "terc_appeal"],
+      "steps": [
+        { "order": 1, "step": "Receive filed protest with required property description, requested value, reasons, and signature." },
+        { "order": 2, "step": "Assessor/referee prepares report and recommendation if applicable." },
+        { "order": 3, "step": "County board hears or considers protest evidence." },
+        { "order": 4, "step": "Board decides current-year assessed value and mails notice." },
+        { "order": 5, "step": "Aggrieved party may appeal to TERC under applicable deadline." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1504_boe_powers_decision", "note": "Board powers/duties." },
+        { "type": "follows", "target_id": "workflow_valuation_notice_to_protest", "note": "Filed protest starts board workflow." },
+        { "type": "precedes", "target_id": "workflow_terc_appeal", "note": "TERC appeal may follow." },
+        { "type": "evidence_context", "target_id": "case_lancaster_county_boe_v_moser", "note": "Equalization proof burden." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1504", "locator": "§ 77-1504", "citation": "Neb. Rev. Stat. § 77-1504." },
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502 report requirements", "citation": "Neb. Rev. Stat. § 77-1502." },
+        { "source_id": "sarpy_county_form_422", "locator": "county guidance", "citation": "Sarpy County, Form 422 - Property Valuation Protest." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_and_county_sources"
+    },
+    {
+      "id": "workflow_cama_data_maintenance",
+      "object_type": "workflow",
+      "canonical_term": "CAMA Data Maintenance Workflow",
+      "aliases": ["property record maintenance", "data integrity workflow", "inspection/update workflow"],
+      "category": "assessor_operations",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "professional_operational_workflow",
+      "summary": "Operational workflow for maintaining property characteristics, location, quality/condition, land, improvement, sale, and valuation data in a CAMA system.",
+      "plain_language": "Good assessments depend on keeping parcel data current and auditable.",
+      "semantic_tags": ["workflow", "cama", "data_quality", "property_records", "inspection", "audit_log"],
+      "steps": [
+        { "order": 1, "step": "Collect or verify property characteristics." },
+        { "order": 2, "step": "Update property record fields and coding." },
+        { "order": 3, "step": "Maintain sales, land, improvement, quality, and condition data." },
+        { "order": 4, "step": "Run review/quality-control checks before valuation and notices." },
+        { "order": 5, "step": "Preserve audit/change history for defensibility." }
+      ],
+      "relationships": [
+        { "type": "uses", "target_id": "concept_cama", "note": "System context." },
+        { "type": "maintains", "target_id": "concept_property_record", "note": "Record unit." },
+        { "type": "maintains", "target_id": "concept_quality_condition", "note": "Key data fields." },
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Assessment accuracy." },
+        { "type": "contextualized_by", "target_id": "standard_iaao_mass_appraisal", "note": "Professional standard." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_mass_appraisal_standard", "locator": "property characteristics data", "citation": "IAAO, Standard on Mass Appraisal of Real Property." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 50 Assessment Process", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_county_process_manuals"
+    },
+    {
+      "id": "workflow_levy_setting_tax_statement_cycle",
+      "object_type": "workflow",
+      "canonical_term": "Levy Setting and Tax Statement Cycle",
+      "aliases": ["budget levy tax cycle", "tax statement workflow", "county levy workflow"],
+      "category": "levy_tax_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_workflow",
+      "summary": "Workflow connecting political subdivision budgets/tax requests, county board levy action, tax list creation, county treasurer tax statements, and collection/delinquency dates.",
+      "plain_language": "Values become taxes only after local budgets and levies are applied.",
+      "semantic_tags": ["workflow", "levy", "budget", "tax_statement", "treasurer", "tax_request"],
+      "steps": [
+        { "order": 1, "step": "Political subdivisions adopt/file budgets and property tax requests." },
+        { "order": 2, "step": "County board of equalization levies necessary taxes by statutory deadline." },
+        { "order": 3, "step": "Assessment/tax records and tax list are prepared/transcribed." },
+        { "order": 4, "step": "County treasurer collects real property taxes." },
+        { "order": 5, "step": "Delinquency dates apply by county category." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1601_county_tax_levy", "note": "County levy statute." },
+        { "type": "constrained_by", "target_id": "statute_ne_77_3442_levy_limits", "note": "Levy limits/tax requests." },
+        { "type": "informed_by", "target_id": "statute_ne_13_501_budget_act", "note": "Budget Act." },
+        { "type": "deadline", "target_id": "deadline_oct20_county_tax_levy", "note": "Levy deadline." },
+        { "type": "produces", "target_id": "concept_tax_bill", "note": "Tax statement/tax due." },
+        { "type": "explains", "target_id": "concept_value_vs_tax", "note": "Public distinction." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1601", "locator": "§ 77-1601", "citation": "Neb. Rev. Stat. § 77-1601." },
+        { "source_id": "ne_auditor_budget_faq", "locator": "budget and property tax request FAQ", "citation": "Nebraska Auditor of Public Accounts, Budget FAQ." },
+        { "source_id": "ne_dor_pad_faq", "locator": "tax list/delinquency FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "workflow_ratio_study_equalization",
+      "object_type": "workflow",
+      "canonical_term": "Ratio Study and Equalization Workflow",
+      "aliases": ["sales ratio study workflow", "PAD equalization statistics workflow"],
+      "category": "ratio_study_workflow",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "statistical_administrative_workflow",
+      "summary": "Workflow for using qualified sales to compute ratios, level, uniformity, and vertical-equity statistics that inform assessment quality review and equalization.",
+      "plain_language": "A ratio study checks whether assessments line up with market sales for groups of properties.",
+      "semantic_tags": ["workflow", "ratio_study", "equalization", "sales_file", "cod", "prd", "prb"],
+      "steps": [
+        { "order": 1, "step": "Collect and validate sales." },
+        { "order": 2, "step": "Stratify by property class, market area, valuation group, or other relevant criteria." },
+        { "order": 3, "step": "Compute sales ratios and level metrics." },
+        { "order": 4, "step": "Compute uniformity and vertical-equity metrics." },
+        { "order": 5, "step": "Interpret results for equalization, model review, or oversight." }
+      ],
+      "relationships": [
+        { "type": "uses", "target_id": "workflow_sales_file_to_ratio_study", "note": "Sales file input." },
+        { "type": "uses", "target_id": "concept_sales_ratio", "note": "Core ratio unit." },
+        { "type": "uses", "target_id": "concept_median_ratio", "note": "Level statistic." },
+        { "type": "uses", "target_id": "concept_cod", "note": "Uniformity statistic." },
+        { "type": "uses", "target_id": "concept_prd", "note": "Vertical indicator." },
+        { "type": "uses", "target_id": "concept_prb", "note": "Vertical statistic." },
+        { "type": "supports", "target_id": "concept_equalization", "note": "Equalization evidence." },
+        { "type": "contextualized_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "Professional standard." }
+      ],
+      "source_refs": [
+        { "source_id": "iaao_ratio_study_standard", "locator": "scope, uses, and statistics", "citation": "IAAO, Standard on Ratio Studies (2013)." },
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 17 Reports and Opinions; Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_standard_snippet"
+    },
+    {
+      "id": "workflow_real_property_annual_assessment_cycle",
+      "object_type": "workflow",
+      "canonical_term": "Annual Real Property Assessment Cycle",
+      "aliases": ["assessment calendar", "annual assessment workflow", "real property assessment workflow"],
+      "category": "assessment_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_pad_workflow",
+      "summary": "Annual Nebraska workflow for listing, valuing, updating, noticing, and certifying real property assessment values.",
+      "plain_language": "Each year starts with the January 1 property snapshot and moves through assessor updates, notices, protests, equalization, and tax-list steps.",
+      "semantic_tags": ["workflow", "annual_assessment", "real_property", "calendar", "notice", "protest"],
+      "steps": [
+        { "order": 1, "step": "List and value real property as of January 1." },
+        { "order": 2, "step": "Update/revise assessment roll during statutory calendar window." },
+        { "order": 3, "step": "Send valuation change notices where required." },
+        { "order": 4, "step": "Handle taxpayer protests during June filing period." },
+        { "order": 5, "step": "Finalize values for levy/tax-list workflow." }
+      ],
+      "relationships": [
+        { "type": "starts_with", "target_id": "deadline_jan1_assessment_date", "note": "Assessment date." },
+        { "type": "governed_by", "target_id": "statute_ne_77_1301_assessment_of_real_property", "note": "Real property assessment statute." },
+        { "type": "uses", "target_id": "concept_actual_value", "note": "Value basis." },
+        { "type": "feeds", "target_id": "workflow_valuation_notice_to_protest", "note": "Notice/protest stage." },
+        { "type": "feeds", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Final value feeds levy/tax statements." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "assessment calendar entries", "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar." },
+        { "source_id": "ne_dor_pad_faq", "locator": "assessment roll update FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1301", "locator": "§ 77-1301", "citation": "Neb. Rev. Stat. § 77-1301." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "workflow_sales_file_to_ratio_study",
+      "object_type": "workflow",
+      "canonical_term": "Sales File to Ratio Study Workflow",
+      "aliases": ["sales qualification workflow", "sales validation workflow"],
+      "category": "ratio_study_workflow",
+      "jurisdiction": "Nebraska PAD / IAAO context",
+      "legal_hierarchy": "administrative_statistical_workflow",
+      "summary": "Workflow moving recorded sales through validation/qualification into ratio-study datasets used for level, uniformity, and equalization analysis.",
+      "plain_language": "Sales are screened before they become evidence in a ratio study.",
+      "semantic_tags": ["workflow", "sales_file", "valid_sale", "ratio_study", "sales_validation"],
+      "steps": [
+        { "order": 1, "step": "Collect sales records." },
+        { "order": 2, "step": "Screen for arms-length/market validity and required adjustments." },
+        { "order": 3, "step": "Code sale usability and property characteristics." },
+        { "order": 4, "step": "Assign sales to classes/strata/valuation groups." },
+        { "order": 5, "step": "Compute ratios and study statistics." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch12_sales_file", "note": "Nebraska sales file regulation." },
+        { "type": "contextualized_by", "target_id": "standard_iaao_ratio_studies_2013", "note": "Sales validation guidance." },
+        { "type": "produces", "target_id": "concept_valid_sale", "note": "Qualified sale input." },
+        { "type": "feeds", "target_id": "workflow_ratio_study_equalization", "note": "Ratio study workflow." },
+        { "type": "risk", "target_id": "concept_sales_chasing", "note": "Integrity risk." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_regs_page", "locator": "Chapter 12 Sales File", "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350." },
+        { "source_id": "iaao_ratio_study_standard", "locator": "sales validation", "citation": "IAAO, Standard on Ratio Studies (2013)." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_requires_title350_ch12_extraction"
+    },
+    {
+      "id": "workflow_terc_appeal",
+      "object_type": "workflow",
+      "canonical_term": "TERC Appeal Workflow",
+      "aliases": ["Tax Equalization and Review Commission appeal", "state appeal"],
+      "category": "appeal_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "administrative_tribunal_workflow",
+      "summary": "Workflow for appealing county board of equalization valuation, assessment, or taxation decisions to the Nebraska Tax Equalization and Review Commission.",
+      "plain_language": "After the county board decision, eligible parties can appeal to TERC by the applicable deadline.",
+      "semantic_tags": ["workflow", "terc", "appeal", "county_board_equalization", "valuation_protest"],
+      "steps": [
+        { "order": 1, "step": "Receive county board decision/notice." },
+        { "order": 2, "step": "Determine appeal eligibility and deadline." },
+        { "order": 3, "step": "File TERC appeal petition and required materials." },
+        { "order": 4, "step": "Proceed through TERC review/hearing process." },
+        { "order": 5, "step": "Commission decision may be subject to judicial review under applicable law." }
+      ],
+      "relationships": [
+        { "type": "follows", "target_id": "workflow_boe_protest_hearing", "note": "County board decision is prerequisite for regular protest appeal." },
+        { "type": "authority", "target_id": "pad_statewide_equalization", "note": "TERC also has statewide equalization role." },
+        { "type": "contextualized_by", "target_id": "standard_iaao_assessment_appeal", "note": "Professional appeal principles." }
+      ],
+      "source_refs": [
+        { "source_id": "terc_appeal_process", "locator": "appeal process page", "citation": "Nebraska TERC, Appeal Process." },
+        { "source_id": "terc_about", "locator": "primary powers and duties", "citation": "Nebraska TERC, About Us." },
+        { "source_id": "ne_leg_77_1504", "locator": "appeal timing", "citation": "Neb. Rev. Stat. § 77-1504." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_source_snippet"
+    },
+    {
+      "id": "workflow_valuation_notice_to_protest",
+      "object_type": "workflow",
+      "canonical_term": "Valuation Notice to Protest Workflow",
+      "aliases": ["notice and protest workflow", "taxpayer protest workflow"],
+      "category": "protest_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_workflow",
+      "summary": "Taxpayer workflow from valuation notice or assessment roll review through filing a timely real property valuation protest with required content and evidence.",
+      "plain_language": "If you disagree with value, gather evidence and file the protest by the deadline with the county clerk/board workflow.",
+      "semantic_tags": ["workflow", "valuation_notice", "protest", "form_422", "evidence", "june_30"],
+      "steps": [
+        { "order": 1, "step": "Review valuation notice/property record." },
+        { "order": 2, "step": "Identify issue: market value, data error, classification, or equalization." },
+        { "order": 3, "step": "Gather evidence such as recent arms-length sales, appraisal, income/cost data, or record corrections." },
+        { "order": 4, "step": "File Form 422/422A with required requested value, reasons, property description, and signature by deadline." },
+        { "order": 5, "step": "Proceed to county board protest hearing/review." }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1502_protests", "note": "Filing content and deadline." },
+        { "type": "deadline", "target_id": "deadline_june30_real_property_protest", "note": "Regular annual protest deadline." },
+        { "type": "uses_form", "target_id": "form_422_property_valuation_protest", "note": "Formal protest form." },
+        { "type": "follows", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Notice/assessment stage." },
+        { "type": "precedes", "target_id": "workflow_boe_protest_hearing", "note": "Filed protest goes to board." },
+        { "type": "evidence_uses", "target_id": "concept_sales_comparison_approach", "note": "Comparable sales evidence." },
+        { "type": "evidence_uses", "target_id": "concept_property_record", "note": "Property record/data error evidence." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1502", "locator": "§ 77-1502", "citation": "Neb. Rev. Stat. § 77-1502." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "filing and evidence guidance", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." },
+        { "source_id": "lancaster_county_property_valuation_protests", "locator": "supporting documentation", "citation": "Lancaster County, Property Valuation Protests." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_and_county_sources"
+    }
+  ],
+  "gap_analysis": [
+    {
+      "area": "PAD Reports and Opinions",
+      "status": "weakly_sourced_seed_only",
+      "risk": "Current objects identify methodology domain but do not yet parse county/year-specific R&O tables, indicated levels, statistical profiles, or valuation-group notes.",
+      "recommended_acquisition": "Ingest multi-year PAD R&O JSON/PDF tables and normalize county/class/valuation-group observations."
+    },
+    {
+      "area": "Title 350 regulation chapters",
+      "status": "registry_seeded_not_extracted",
+      "risk": "Regulation objects currently point to chapter sources without full section-level requirements.",
+      "recommended_acquisition": "Extract chapter text for Chapters 10, 12, 14, 17, 50, 65, 71, 80, 90, and 91 into section-level regulation objects."
+    },
+    {
+      "area": "County manuals and local practices",
+      "status": "sampled",
+      "risk": "Only representative county protest pages are seeded; county-specific assessor manuals, BOE rules, and local CAMA coding practices are not normalized.",
+      "recommended_acquisition": "Prioritize Douglas, Lancaster, Sarpy, and rural county assessor manuals/protest packets."
+    },
+    {
+      "area": "Case law",
+      "status": "partial",
+      "risk": "Key cases are seeded, but several entries rely on secondary case text pending official opinion extraction.",
+      "recommended_acquisition": "Use Nebraska Judicial Branch ePublication search to replace secondary sources and extract holdings/rules by issue."
+    },
+    {
+      "area": "Levy and budget process",
+      "status": "foundational",
+      "risk": "Budget Act and levy statutes are linked, but detailed Property Tax Request Act, postcard/joint hearing, levy allocation, and school-credit interactions need deeper extraction.",
+      "recommended_acquisition": "Ingest Auditor budget instructions/forms, Property Tax Request Act statutes, and current DOR directives."
+    },
+    {
+      "area": "Existing provided datasets",
+      "status": "not_yet_ingested",
+      "risk": "No PAD R&O JSON, CTL history, levy history, property tax credit data, glossary data, valuation-group data, or county statistical history has been linked into canonical objects yet.",
+      "recommended_acquisition": "Add /data/imports and deterministic transforms preserving stable IDs and dataset provenance."
+    }
+  ],
+  "future_ingestion_targets": [
+    "Multi-year Nebraska PAD Reports and Opinions JSON",
+    "CTL history JSON",
+    "County statistical history tables from PAD annual reports",
+    "Levy history and taxing subdivision datasets",
+    "Property tax credit lookup/program data",
+    "Assessor calendar structured data",
+    "Valuation group data",
+    "IAAO glossary extracted term-by-term",
+    "County BOE protest packets and assessor manuals",
+    "Nebraska Judicial Branch official opinions for all assessment/equalization cases"
+  ]
+}

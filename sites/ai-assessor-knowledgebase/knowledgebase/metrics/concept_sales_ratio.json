@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_sales_ratio",
+  "object_type": "metric",
+  "canonical_term": "Sales Ratio",
+  "aliases": [
+    "assessment ratio",
+    "appraisal ratio",
+    "assessed-to-sale ratio"
+  ],
+  "category": "ratio_study_foundation",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "statistical_metric",
+  "summary": "Ratio formed by dividing assessed or appraised value by a sale price that has been validated and adjusted as needed for ratio-study use.",
+  "plain_language": "A sales ratio compares the assessor's value to what the property sold for.",
+  "semantic_tags": [
+    "sales_ratio",
+    "assessment_ratio",
+    "ratio_study",
+    "valid_sale",
+    "market_value"
+  ],
+  "facts": [
+    {
+      "predicate": "formula",
+      "object": "assessed_or_appraised_value / sale_price"
+    },
+    {
+      "predicate": "requires",
+      "object": "valid_market_sale"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "computed_from",
+      "target_id": "concept_valid_sale",
+      "note": "Sale must be screened/validated."
+    },
+    {
+      "type": "basis_for",
+      "target_id": "concept_median_ratio",
+      "note": "Median ratio computed from sales ratios."
+    },
+    {
+      "type": "basis_for",
+      "target_id": "concept_cod",
+      "note": "COD computed from sales ratio dispersion."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Core ratio-study unit."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio formation and market value discussion",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

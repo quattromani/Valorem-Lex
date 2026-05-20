@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1502_protests",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1502 Board Protests",
+  "aliases": [
+    "77-1502",
+    "protest filing statute"
+  ],
+  "category": "protest_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Primary statute governing protest filing with the county board of equalization, including timing and required content.",
+  "plain_language": "This statute tells taxpayers what must be in the protest and when it must be filed.",
+  "semantic_tags": [
+    "statute",
+    "protest",
+    "june_30",
+    "form_422",
+    "county_board_equalization"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest filing workflow."
+    },
+    {
+      "type": "sets_deadline",
+      "target_id": "deadline_june30_real_property_protest",
+      "note": "Annual protest deadline."
+    },
+    {
+      "type": "requires",
+      "target_id": "form_422_property_valuation_protest",
+      "note": "Protest form/content."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1201_personal_property_assessment",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1201 Personal Property Assessment",
+  "aliases": [
+    "77-1201",
+    "personal property assessment statute"
+  ],
+  "category": "assessment_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statutory source for assessment of personal property as of the annual assessment date.",
+  "plain_language": "Personal property has its own assessment statute and filing workflow.",
+  "semantic_tags": [
+    "statute",
+    "personal_property",
+    "assessment_date",
+    "county_assessor"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_personal_property",
+      "note": "Personal property concept."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_may1_personal_property_return",
+      "note": "Return deadline from FAQ/calendar context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1201",
+      "locator": "§ 77-1201",
+      "citation": "Neb. Rev. Stat. § 77-1201."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "taxable personal property FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_requires_statute_text_review"
+}

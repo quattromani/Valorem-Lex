@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_valuation_group",
+  "object_type": "valuation",
+  "canonical_term": "Valuation Group",
+  "aliases": [
+    "assessment group",
+    "model group",
+    "class/stratum"
+  ],
+  "category": "pad_ratio_study_context",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "pad_methodology_concept",
+  "summary": "Grouping of properties used for valuation, ratio-study analysis, or Reports and Opinions review; exact definitions should be extracted from PAD R&O and Title 350 materials.",
+  "plain_language": "A valuation group is a bucket of properties analyzed together.",
+  "semantic_tags": [
+    "valuation_group",
+    "stratification",
+    "pad_ro",
+    "ratio_study",
+    "equalization"
+  ],
+  "relationships": [
+    {
+      "type": "used_by",
+      "target_id": "concept_stratification",
+      "note": "Valuation groups can serve as strata."
+    },
+    {
+      "type": "used_in",
+      "target_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O ingestion should refine group taxonomy."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Analysis grouping."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Reports and Opinions chapter index",
+      "citation": "Nebraska DOR PAD, Title 350 regulations index."
+    },
+    {
+      "source_id": "ne_dor_2025_annual_report",
+      "locator": "levels of value/statistical tables",
+      "citation": "Nebraska DOR PAD, 2025 Annual Report."
+    }
+  ],
+  "confidence": "low",
+  "review_status": "seeded_placeholder_requires_pad_ro_json"
+}

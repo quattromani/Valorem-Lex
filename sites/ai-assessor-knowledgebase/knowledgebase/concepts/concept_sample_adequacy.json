@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_sample_adequacy",
+  "object_type": "concept",
+  "canonical_term": "Sample Adequacy",
+  "aliases": [
+    "adequate sample",
+    "sample size",
+    "representative sales sample"
+  ],
+  "category": "statistical_method",
+  "jurisdiction": "General assessment; used in ratio studies",
+  "legal_hierarchy": "statistical_method",
+  "summary": "Whether the sale sample is large, representative, and reliable enough to support level and uniformity conclusions for a class or stratum.",
+  "plain_language": "A ratio study is only as reliable as the sales data behind it.",
+  "semantic_tags": [
+    "sample_adequacy",
+    "ratio_study",
+    "statistics",
+    "sales_validation",
+    "confidence_interval"
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Adequacy affects equalization reliability."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_confidence_interval",
+      "note": "Sample quality affects uncertainty."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_stratification",
+      "note": "More strata can reduce sample size."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "study design and samples",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_standard_section_extraction"
+}

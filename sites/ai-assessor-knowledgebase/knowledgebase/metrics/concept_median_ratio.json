@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_median_ratio",
+  "object_type": "metric",
+  "canonical_term": "Median Ratio",
+  "aliases": [
+    "median assessment ratio",
+    "median sales ratio"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "statistical_metric",
+  "summary": "Middle assessment ratio in an ordered ratio-study sample; commonly used to indicate appraisal level because it is less influenced by outliers.",
+  "plain_language": "If you sort all assessment ratios, the median is the middle one.",
+  "semantic_tags": [
+    "median_ratio",
+    "ratio_study",
+    "level_of_value",
+    "sales_ratio"
+  ],
+  "facts": [
+    {
+      "predicate": "indicates",
+      "object": "typical assessment level"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "measures",
+      "target_id": "concept_level_of_value",
+      "note": "Common level measure."
+    },
+    {
+      "type": "basis_for",
+      "target_id": "concept_cod",
+      "note": "COD is dispersion around median."
+    },
+    {
+      "type": "computed_from",
+      "target_id": "concept_sales_ratio",
+      "note": "Uses ordered sale ratios."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "level measures",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_2025_annual_report",
+      "locator": "levels of value tables",
+      "citation": "Nebraska DOR PAD, 2025 Annual Report."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

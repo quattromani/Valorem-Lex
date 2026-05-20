@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_real_property_annual_assessment_cycle",
+  "object_type": "workflow",
+  "canonical_term": "Annual Real Property Assessment Cycle",
+  "aliases": [
+    "assessment calendar",
+    "annual assessment workflow",
+    "real property assessment workflow"
+  ],
+  "category": "assessment_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_pad_workflow",
+  "summary": "Annual Nebraska workflow for listing, valuing, updating, noticing, and certifying real property assessment values.",
+  "plain_language": "Each year starts with the January 1 property snapshot and moves through assessor updates, notices, protests, equalization, and tax-list steps.",
+  "semantic_tags": [
+    "workflow",
+    "annual_assessment",
+    "real_property",
+    "calendar",
+    "notice",
+    "protest"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "List and value real property as of January 1."
+    },
+    {
+      "order": 2,
+      "step": "Update/revise assessment roll during statutory calendar window."
+    },
+    {
+      "order": 3,
+      "step": "Send valuation change notices where required."
+    },
+    {
+      "order": 4,
+      "step": "Handle taxpayer protests during June filing period."
+    },
+    {
+      "order": 5,
+      "step": "Finalize values for levy/tax-list workflow."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "starts_with",
+      "target_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property assessment statute."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_actual_value",
+      "note": "Value basis."
+    },
+    {
+      "type": "feeds",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Notice/protest stage."
+    },
+    {
+      "type": "feeds",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Final value feeds levy/tax statements."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "assessment calendar entries",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "assessment roll update FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1301",
+      "locator": "§ 77-1301",
+      "citation": "Neb. Rev. Stat. § 77-1301."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

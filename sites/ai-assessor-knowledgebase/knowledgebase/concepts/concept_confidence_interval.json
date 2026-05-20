@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_confidence_interval",
+  "object_type": "concept",
+  "canonical_term": "Confidence Interval",
+  "aliases": [
+    "CI",
+    "statistical confidence interval"
+  ],
+  "category": "statistical_method",
+  "jurisdiction": "General assessment; used in ratio studies",
+  "legal_hierarchy": "statistical_method",
+  "summary": "Statistical interval used to express uncertainty around an estimated ratio-study statistic or level indicator.",
+  "plain_language": "A confidence interval says the data give a range, not just one exact answer.",
+  "semantic_tags": [
+    "statistics",
+    "confidence_interval",
+    "ratio_study",
+    "sample",
+    "uncertainty"
+  ],
+  "facts": [
+    {
+      "predicate": "depends_on",
+      "object": [
+        "sample_size",
+        "variance",
+        "study_design"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "related_concept",
+      "target_id": "concept_sample_adequacy",
+      "note": "Sample adequacy affects reliability."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio study interpretation should consider uncertainty."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio study design and interpretation",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_standard_section_extraction"
+}

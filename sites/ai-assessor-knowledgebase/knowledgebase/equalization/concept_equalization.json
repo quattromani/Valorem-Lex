@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_equalization",
+  "object_type": "equalization",
+  "canonical_term": "Equalization",
+  "aliases": [
+    "assessment equalization",
+    "statewide equalization",
+    "county equalization"
+  ],
+  "category": "assessment_governance",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitutional_statutory_process",
+  "summary": "Process of aligning assessment levels and treatment so property is valued uniformly and proportionately under Nebraska constitutional and statutory requirements.",
+  "plain_language": "Equalization is the correction layer that tries to make similarly situated property carry a fair share of the tax base.",
+  "semantic_tags": [
+    "equalization",
+    "uniformity",
+    "county_board_equalization",
+    "terc",
+    "pad"
+  ],
+  "facts": [
+    {
+      "predicate": "operates_at",
+      "object": [
+        "county_board",
+        "statewide_terc_pad_context"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_uniformity",
+      "note": "Constitutional uniformity and proportionality."
+    },
+    {
+      "type": "implemented_by",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow supports equalization review."
+    },
+    {
+      "type": "implemented_by",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "County board can correct over/under valuation in protest/equalization session."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii",
+      "locator": "Article VIII-1",
+      "citation": "Neb. Const. art. VIII, § 1."
+    },
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "§ 77-1504",
+      "citation": "Neb. Rev. Stat. § 77-1504."
+    },
+    {
+      "source_id": "terc_about",
+      "locator": "primary powers and duties",
+      "citation": "Nebraska TERC, About Us."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_property_record",
+  "object_type": "cama",
+  "canonical_term": "Property Record",
+  "aliases": [
+    "parcel record",
+    "property characteristics record",
+    "assessment record"
+  ],
+  "category": "cama_data_element",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "administrative_record",
+  "summary": "Structured record of parcel identity, land, improvement, location, use, quality, condition, ownership, and valuation data used by an assessment office.",
+  "plain_language": "The property record is the assessor's factual data file for the parcel.",
+  "semantic_tags": [
+    "property_record",
+    "parcel",
+    "cama",
+    "data_quality",
+    "property_characteristics"
+  ],
+  "relationships": [
+    {
+      "type": "contained_in",
+      "target_id": "concept_cama",
+      "note": "CAMA stores and maintains property records."
+    },
+    {
+      "type": "quality_controlled_by",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Data integrity workflow."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Record errors can be evidence in valuation discussions/protests."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "property characteristics data",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "locator": "supporting documentation guidance",
+      "citation": "Lancaster County, Property Valuation Protests."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_county_record_schema_ingestion"
+}

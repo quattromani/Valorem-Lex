@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_level_of_value",
+  "object_type": "metric",
+  "canonical_term": "Level of Value",
+  "aliases": [
+    "LOV",
+    "LOA",
+    "level of assessment",
+    "assessment level"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "statistical_assessment_concept",
+  "summary": "Overall relationship between assessed/appraised values and market value for a studied class, commonly represented by median or other ratio-study level measures.",
+  "plain_language": "Level of value asks whether a class is generally assessed at, below, or above the target percentage of market value.",
+  "semantic_tags": [
+    "level_of_value",
+    "loa",
+    "lov",
+    "median_ratio",
+    "ratio_study",
+    "equalization"
+  ],
+  "facts": [
+    {
+      "predicate": "commonly_measured_by",
+      "object": "median_ratio"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "measured_by",
+      "target_id": "concept_median_ratio",
+      "note": "Median is a common level statistic."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_weighted_mean_ratio",
+      "note": "Weighted mean supports PRD and aggregate burden analysis."
+    },
+    {
+      "type": "used_in",
+      "target_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O uses indicated level of value by class/county."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Level informs equalization."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "appraisal level discussion",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_2025_annual_report",
+      "locator": "levels of value tables",
+      "citation": "Nebraska DOR PAD, 2025 Annual Report."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_requires_pad_ro_ingestion"
+}

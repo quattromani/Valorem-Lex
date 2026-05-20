@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_iaao_mass_appraisal",
+  "object_type": "iaao",
+  "canonical_term": "IAAO Standard on Mass Appraisal of Real Property",
+  "aliases": [
+    "Mass Appraisal Standard"
+  ],
+  "category": "mass_appraisal_standard",
+  "jurisdiction": "International/professional",
+  "legal_hierarchy": "iaao_standard",
+  "summary": "Professional standard for mass appraisal systems, data collection, valuation modeling, GIS/CAMA, quality assurance, and property characteristics maintenance.",
+  "plain_language": "IAAO's mass appraisal standard is the professional baseline for how assessors build and maintain valuation systems.",
+  "semantic_tags": [
+    "iaao",
+    "mass_appraisal",
+    "cama",
+    "property_characteristics",
+    "valuation_modeling"
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "concept_cama",
+      "note": "CAMA/data system concepts."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Operational data maintenance."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_valuation_approaches",
+      "note": "Valuation methods."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "standard PDF",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property (2025)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

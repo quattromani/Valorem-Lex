@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_ratio_study_equalization",
+  "object_type": "workflow",
+  "canonical_term": "Ratio Study and Equalization Workflow",
+  "aliases": [
+    "sales ratio study workflow",
+    "PAD equalization statistics workflow"
+  ],
+  "category": "ratio_study_workflow",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "statistical_administrative_workflow",
+  "summary": "Workflow for using qualified sales to compute ratios, level, uniformity, and vertical-equity statistics that inform assessment quality review and equalization.",
+  "plain_language": "A ratio study checks whether assessments line up with market sales for groups of properties.",
+  "semantic_tags": [
+    "workflow",
+    "ratio_study",
+    "equalization",
+    "sales_file",
+    "cod",
+    "prd",
+    "prb"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Collect and validate sales."
+    },
+    {
+      "order": 2,
+      "step": "Stratify by property class, market area, valuation group, or other relevant criteria."
+    },
+    {
+      "order": 3,
+      "step": "Compute sales ratios and level metrics."
+    },
+    {
+      "order": 4,
+      "step": "Compute uniformity and vertical-equity metrics."
+    },
+    {
+      "order": 5,
+      "step": "Interpret results for equalization, model review, or oversight."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "uses",
+      "target_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales file input."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_sales_ratio",
+      "note": "Core ratio unit."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_median_ratio",
+      "note": "Level statistic."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_cod",
+      "note": "Uniformity statistic."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_prd",
+      "note": "Vertical indicator."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_prb",
+      "note": "Vertical statistic."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_equalization",
+      "note": "Equalization evidence."
+    },
+    {
+      "type": "contextualized_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "Professional standard."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "scope, uses, and statistics",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 17 Reports and Opinions; Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

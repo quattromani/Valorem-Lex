@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_state_property_tax_prohibition",
+  "object_type": "constitution",
+  "canonical_term": "State Property Tax Prohibition",
+  "aliases": [
+    "Article VIII-1A",
+    "state property tax prohibition"
+  ],
+  "category": "constitutional_taxation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Nebraska constitutional provision prohibiting levy of property tax for state purposes.",
+  "plain_language": "Nebraska property taxes are local, not a state property tax for state purposes.",
+  "semantic_tags": [
+    "constitution",
+    "state_property_tax",
+    "local_tax",
+    "article_viii"
+  ],
+  "relationships": [
+    {
+      "type": "context_for",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Property tax levy workflow is local-government oriented."
+    },
+    {
+      "type": "related_public_guidance",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Helps explain state versus local roles."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_statutes_page",
+      "locator": "Article VIII-1A entry",
+      "citation": "Nebraska DOR PAD, Property Assessment Statutes."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_constitution_section_extraction"
+}

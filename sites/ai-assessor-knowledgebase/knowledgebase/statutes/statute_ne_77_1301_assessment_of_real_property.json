@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1301_assessment_of_real_property",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
+  "aliases": [
+    "77-1301",
+    "real property assessment statute"
+  ],
+  "category": "assessment_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statutory basis for county assessor listing and valuing real property as part of the annual assessment process.",
+  "plain_language": "County assessors list and value real property annually.",
+  "semantic_tags": [
+    "statute",
+    "real_property",
+    "assessment_date",
+    "county_assessor",
+    "list_and_value"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment workflow."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_jan1_assessment_date",
+      "note": "Assessment date."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_actual_value",
+      "note": "Real property value basis."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1301",
+      "locator": "§ 77-1301",
+      "citation": "Neb. Rev. Stat. § 77-1301."
+    },
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "Jan 1 real property entry",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

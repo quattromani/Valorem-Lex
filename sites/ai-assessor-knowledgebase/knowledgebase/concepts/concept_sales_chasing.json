@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_sales_chasing",
+  "object_type": "concept",
+  "canonical_term": "Sales Chasing",
+  "aliases": [
+    "selective reappraisal of sold properties",
+    "chasing sales"
+  ],
+  "category": "assessment_quality_risk",
+  "jurisdiction": "General assessment; Nebraska ratio-study relevance",
+  "legal_hierarchy": "professional_standard_risk",
+  "summary": "Practice risk where sold properties are selectively adjusted to sale price while unsold properties are not similarly reviewed, potentially invalidating ratio studies and creating inequity.",
+  "plain_language": "Sales chasing is treating sold properties differently just because they sold.",
+  "semantic_tags": [
+    "sales_chasing",
+    "ratio_study",
+    "sales_validation",
+    "equity",
+    "quality_control"
+  ],
+  "relationships": [
+    {
+      "type": "risk_to",
+      "target_id": "workflow_sales_file_to_ratio_study",
+      "note": "Can bias sale sample and ratio study."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Selective treatment can create unequal assessment."
+    },
+    {
+      "type": "addressed_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO standard discusses sales validation and study integrity."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "sales validation and ratio study integrity",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_standard_section_extraction"
+}

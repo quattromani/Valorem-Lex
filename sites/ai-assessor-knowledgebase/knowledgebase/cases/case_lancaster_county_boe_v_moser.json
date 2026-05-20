@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "case_lancaster_county_boe_v_moser",
+  "object_type": "case",
+  "canonical_term": "Lancaster County Board of Equalization v. Moser",
+  "aliases": [
+    "Moser",
+    "Lancaster County v. Moser"
+  ],
+  "category": "uniformity_burden_case",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "case_law",
+  "summary": "Nebraska Supreme Court decision addressing the high burden for an equalization claim based on comparison to another property's erroneous undervaluation.",
+  "plain_language": "Pointing to one neighbor's mistake is usually not enough; the taxpayer must prove a grossly excessive value caused by intentional conduct or failure of a plain legal duty, not a mere judgment error.",
+  "semantic_tags": [
+    "case_law",
+    "uniformity",
+    "burden_of_proof",
+    "grossly_excessive",
+    "plain_legal_duty",
+    "agricultural_land"
+  ],
+  "facts": [
+    {
+      "predicate": "burden",
+      "object": "clear_and_convincing_evidence"
+    },
+    {
+      "predicate": "distinguishes",
+      "object": "systematic intentional/failure-of-duty error from mere error of judgment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "interprets",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Defines evidentiary burden for equalization relief."
+    },
+    {
+      "type": "related_workflow",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Relevant to evidence quality in protest hearing."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_greenbelt_special_valuation",
+      "note": "Facts involved agricultural land subclassification."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "case_moser_official",
+      "locator": "312 Neb. 757",
+      "citation": "Lancaster Cty. Bd. of Equal. v. Moser, 312 Neb. 757 (2022)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

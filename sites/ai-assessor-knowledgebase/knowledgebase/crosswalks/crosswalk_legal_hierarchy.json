@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_legal_hierarchy",
+  "object_type": "crosswalk",
+  "canonical_term": "Assessment Legal Hierarchy Crosswalk",
+  "aliases": [
+    "source hierarchy",
+    "authority hierarchy"
+  ],
+  "category": "authority_crosswalk",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "semantic_crosswalk",
+  "summary": "Ranks source categories for retrieval: constitution, statute, regulation, agency guidance, tribunal/case law, professional standards, county practice, research, commentary.",
+  "plain_language": "When sources conflict, the AI should know which authority level is higher and when a source is merely guidance or research.",
+  "semantic_tags": [
+    "legal_hierarchy",
+    "source_priority",
+    "constitution",
+    "statute",
+    "regulation",
+    "guidance"
+  ],
+  "facts": [
+    {
+      "predicate": "hierarchy_order",
+      "object": [
+        "constitution",
+        "statute",
+        "regulation",
+        "case_law",
+        "agency_guidance",
+        "professional_standard",
+        "local_practice",
+        "research"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "prioritizes",
+      "target_id": "const_ne_article_viii_uniformity",
+      "note": "Constitutional anchor."
+    },
+    {
+      "type": "prioritizes",
+      "target_id": "statute_ne_77_112_actual_value",
+      "note": "Statutory definition."
+    },
+    {
+      "type": "prioritizes",
+      "target_id": "standard_ne_title350_ch50_assessment_process",
+      "note": "Regulatory layer."
+    },
+    {
+      "type": "contextualizes",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "Professional standard, not Nebraska law by itself."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_statutes_page",
+      "locator": "source index",
+      "citation": "Nebraska DOR PAD, Property Assessment Statutes."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 regulations",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    },
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "professional standard",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_ontology_rule"
+}

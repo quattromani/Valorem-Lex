@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_cama_data_maintenance",
+  "object_type": "workflow",
+  "canonical_term": "CAMA Data Maintenance Workflow",
+  "aliases": [
+    "property record maintenance",
+    "data integrity workflow",
+    "inspection/update workflow"
+  ],
+  "category": "assessor_operations",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "professional_operational_workflow",
+  "summary": "Operational workflow for maintaining property characteristics, location, quality/condition, land, improvement, sale, and valuation data in a CAMA system.",
+  "plain_language": "Good assessments depend on keeping parcel data current and auditable.",
+  "semantic_tags": [
+    "workflow",
+    "cama",
+    "data_quality",
+    "property_records",
+    "inspection",
+    "audit_log"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Collect or verify property characteristics."
+    },
+    {
+      "order": 2,
+      "step": "Update property record fields and coding."
+    },
+    {
+      "order": 3,
+      "step": "Maintain sales, land, improvement, quality, and condition data."
+    },
+    {
+      "order": 4,
+      "step": "Run review/quality-control checks before valuation and notices."
+    },
+    {
+      "order": 5,
+      "step": "Preserve audit/change history for defensibility."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "uses",
+      "target_id": "concept_cama",
+      "note": "System context."
+    },
+    {
+      "type": "maintains",
+      "target_id": "concept_property_record",
+      "note": "Record unit."
+    },
+    {
+      "type": "maintains",
+      "target_id": "concept_quality_condition",
+      "note": "Key data fields."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment accuracy."
+    },
+    {
+      "type": "contextualized_by",
+      "target_id": "standard_iaao_mass_appraisal",
+      "note": "Professional standard."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "property characteristics data",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 50 Assessment Process",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_county_process_manuals"
+}

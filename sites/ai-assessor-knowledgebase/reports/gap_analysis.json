@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "gaps": [
+    {
+      "area": "PAD Reports and Opinions",
+      "status": "weakly_sourced_seed_only",
+      "risk": "Current objects identify methodology domain but do not yet parse county/year-specific R&O tables, indicated levels, statistical profiles, or valuation-group notes.",
+      "recommended_acquisition": "Ingest multi-year PAD R&O JSON/PDF tables and normalize county/class/valuation-group observations."
+    },
+    {
+      "area": "Title 350 regulation chapters",
+      "status": "registry_seeded_not_extracted",
+      "risk": "Regulation objects currently point to chapter sources without full section-level requirements.",
+      "recommended_acquisition": "Extract chapter text for Chapters 10, 12, 14, 17, 50, 65, 71, 80, 90, and 91 into section-level regulation objects."
+    },
+    {
+      "area": "County manuals and local practices",
+      "status": "sampled",
+      "risk": "Only representative county protest pages are seeded; county-specific assessor manuals, BOE rules, and local CAMA coding practices are not normalized.",
+      "recommended_acquisition": "Prioritize Douglas, Lancaster, Sarpy, and rural county assessor manuals/protest packets."
+    },
+    {
+      "area": "Case law",
+      "status": "partial",
+      "risk": "Key cases are seeded, but several entries rely on secondary case text pending official opinion extraction.",
+      "recommended_acquisition": "Use Nebraska Judicial Branch ePublication search to replace secondary sources and extract holdings/rules by issue."
+    },
+    {
+      "area": "Levy and budget process",
+      "status": "foundational",
+      "risk": "Budget Act and levy statutes are linked, but detailed Property Tax Request Act, postcard/joint hearing, levy allocation, and school-credit interactions need deeper extraction.",
+      "recommended_acquisition": "Ingest Auditor budget instructions/forms, Property Tax Request Act statutes, and current DOR directives."
+    },
+    {
+      "area": "Existing provided datasets",
+      "status": "not_yet_ingested",
+      "risk": "No PAD R&O JSON, CTL history, levy history, property tax credit data, glossary data, valuation-group data, or county statistical history has been linked into canonical objects yet.",
+      "recommended_acquisition": "Add /data/imports and deterministic transforms preserving stable IDs and dataset provenance."
+    }
+  ],
+  "future_ingestion_targets": [
+    "Multi-year Nebraska PAD Reports and Opinions JSON",
+    "CTL history JSON",
+    "County statistical history tables from PAD annual reports",
+    "Levy history and taxing subdivision datasets",
+    "Property tax credit lookup/program data",
+    "Assessor calendar structured data",
+    "Valuation group data",
+    "IAAO glossary extracted term-by-term",
+    "County BOE protest packets and assessor manuals",
+    "Nebraska Judicial Branch official opinions for all assessment/equalization cases"
+  ]
+}

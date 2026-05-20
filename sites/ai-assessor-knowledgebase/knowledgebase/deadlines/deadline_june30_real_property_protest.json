@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_june30_real_property_protest",
+  "object_type": "deadline",
+  "canonical_term": "June 30 Real Property Protest Deadline",
+  "aliases": [
+    "protest deadline",
+    "Form 422 deadline"
+  ],
+  "category": "protest_deadline",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_deadline",
+  "summary": "Real property valuation protests must generally be filed after completion of the assessment roll and on or before June 30.",
+  "plain_language": "For the regular annual protest, file by June 30.",
+  "semantic_tags": [
+    "deadline",
+    "june_30",
+    "protest",
+    "form_422",
+    "county_board_equalization"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "06-30",
+      "description": "Regular real property valuation protest filing deadline."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1502_protests",
+      "note": "Protest filing statute."
+    },
+    {
+      "type": "part_of",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Filing deadline."
+    },
+    {
+      "type": "uses_form",
+      "target_id": "form_422_property_valuation_protest",
+      "note": "DOR protest form."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "filing period",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_uniformity_proportionality",
+  "object_type": "concept",
+  "canonical_term": "Uniformity and Proportionality",
+  "aliases": [
+    "uniform and proportionate taxation",
+    "uniformity clause",
+    "constitutional uniformity"
+  ],
+  "category": "constitutional_assessment_principle",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitutional_concept",
+  "summary": "Nebraska constitutional requirement that real property taxes be levied by valuation uniformly and proportionately, except where the Constitution or Legislature permits different treatment.",
+  "plain_language": "The tax base must treat comparable property evenhandedly under Nebraska's constitutional framework.",
+  "semantic_tags": [
+    "uniformity",
+    "proportionality",
+    "constitution",
+    "equalization",
+    "property_tax"
+  ],
+  "facts": [
+    {
+      "predicate": "constitutional_anchor",
+      "object": "Nebraska Constitution Article VIII"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_uniformity",
+      "note": "Article VIII-1."
+    },
+    {
+      "type": "implemented_by",
+      "target_id": "concept_equalization",
+      "note": "Equalization operationalizes uniformity."
+    },
+    {
+      "type": "tested_by",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio studies provide aggregate evidence."
+    },
+    {
+      "type": "interpreted_by",
+      "target_id": "case_lancaster_county_boe_v_moser",
+      "note": "Case law on proof burden."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii",
+      "locator": "Article VIII-1",
+      "citation": "Neb. Const. art. VIII, § 1."
+    },
+    {
+      "source_id": "case_moser_official",
+      "locator": "312 Neb. 757",
+      "citation": "Lancaster Cty. Bd. of Equal. v. Moser, 312 Neb. 757 (2022)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,839 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "source_count": 57,
+  "object_count": 96,
+  "sources_by_type": {
+    "working_paper": 2,
+    "case_law": 4,
+    "county_guidance": 4,
+    "standard": 3,
+    "glossary": 1,
+    "journal_article": 2,
+    "draft_standard": 1,
+    "agency_guidance": 7,
+    "constitution": 1,
+    "annual_report": 1,
+    "agency_data": 1,
+    "form": 1,
+    "calendar": 1,
+    "calendar_index": 1,
+    "case_summary": 1,
+    "faq": 2,
+    "agency_profile": 3,
+    "information_guide": 1,
+    "statute_index": 2,
+    "directive": 1,
+    "regulation_index_pdf": 1,
+    "regulation_pdf": 1,
+    "regulation_index": 1,
+    "case_law_repository": 1,
+    "statute_range": 3,
+    "statute": 10
+  },
+  "sources_by_legal_hierarchy": {
+    "academic_research": 3,
+    "case_law": 4,
+    "local_practice": 4,
+    "iaao_standard": 3,
+    "iaao_glossary": 1,
+    "research": 1,
+    "draft_standard": 1,
+    "agency_guidance": 6,
+    "constitution": 1,
+    "pad_report": 1,
+    "agency_data": 1,
+    "pad_form": 1,
+    "pad_guidance": 7,
+    "pad_case_summary": 1,
+    "statute_index": 2,
+    "agency_directive": 1,
+    "regulation": 3,
+    "case_law_repository": 1,
+    "statute": 13,
+    "administrative_tribunal": 1,
+    "administrative_tribunal_guidance": 1
+  },
+  "sources_by_authority": {
+    "Christopher R. Berry, University of Chicago": 1,
+    "Nebraska Supreme Court via Justia": 2,
+    "Nebraska Supreme Court via vLex": 1,
+    "Nebraska Supreme Court": 1,
+    "Frontier County, Nebraska": 1,
+    "International Association of Assessing Officers": 5,
+    "IAAO Research Exchange": 1,
+    "Lancaster County, Nebraska": 2,
+    "Lincoln Institute of Land Policy": 1,
+    "Journal of Real Estate Finance and Economics": 1,
+    "Nebraska Auditor of Public Accounts": 2,
+    "Nebraska Legislature": 15,
+    "Nebraska Department of Revenue Property Assessment Division": 14,
+    "Nebraska Department of Revenue": 6,
+    "Nebraska Judicial Branch": 1,
+    "Sarpy County, Nebraska": 1,
+    "Nebraska Tax Equalization and Review Commission": 2
+  },
+  "topics": {
+    "actual_value": 5,
+    "agricultural_land": 3,
+    "air_carriers": 1,
+    "annual_report": 1,
+    "appeal": 1,
+    "appeal_deadline": 1,
+    "appeals": 2,
+    "appraisal_terms": 1,
+    "assessed_value": 1,
+    "assessment": 1,
+    "assessment_calendar": 2,
+    "assessment_date": 3,
+    "assessment_information": 1,
+    "assessment_practices": 1,
+    "assessment_process": 3,
+    "assessment_regressivity": 3,
+    "assessment_review": 1,
+    "assessment_roll": 1,
+    "assessment_terms": 1,
+    "assessment_vs_tax": 1,
+    "assessor_certification": 1,
+    "boe": 1,
+    "budget": 1,
+    "budget_act": 3,
+    "budget_filing": 2,
+    "budget_forms": 1,
+    "burden_of_proof": 3,
+    "cama": 1,
+    "car_line_companies": 1,
+    "case_law": 2,
+    "centrally_assessed_property": 1,
+    "chapter_77": 2,
+    "classification": 1,
+    "clerical_error": 1,
+    "cod": 2,
+    "collection": 2,
+    "community_college_tax": 4,
+    "constitution_article_viii": 1,
+    "constitutional_authority": 1,
+    "county_assessor": 1,
+    "county_board_equalization": 7,
+    "county_clerk": 2,
+    "county_reports": 1,
+    "county_statistics": 1,
+    "county_treasurer": 2,
+    "court_of_appeals": 1,
+    "data_quality": 1,
+    "deadlines": 1,
+    "delinquent_taxes": 1,
+    "discounted_cash_flow": 1,
+    "dismissal": 1,
+    "education": 2,
+    "education_calendar": 1,
+    "electronic_filing": 1,
+    "eligibility": 1,
+    "equalization": 5,
+    "evidence": 3,
+    "exam": 1,
+    "exemptions": 1,
+    "exposure_draft": 1,
+    "filing": 1,
+    "form_403stc": 1,
+    "form_422": 4,
+    "form_ptc": 3,
+    "glossary": 1,
+    "greenbelt": 1,
+    "grossly_excessive": 1,
+    "homestead": 3,
+    "homestead_calendar": 1,
+    "homestead_exemption": 1,
+    "homestead_exemptions": 1,
+    "horticultural_land": 1,
+    "income_approach": 1,
+    "independent_review": 1,
+    "june_30": 1,
+    "level_of_value": 1,
+    "levels_of_value": 1,
+    "levy": 5,
+    "levy_limit": 1,
+    "levy_limits": 1,
+    "list_and_value": 1,
+    "look_up_tool": 1,
+    "market_value": 1,
+    "mass_appraisal": 1,
+    "mass_appraisal_limits": 1,
+    "notice": 1,
+    "official_opinions": 1,
+    "oversight_agencies": 1,
+    "pad_authority": 1,
+    "pad_sections": 1,
+    "personal_property": 4,
+    "petition": 1,
+    "policy_legal": 1,
+    "political_subdivision": 3,
+    "prb": 1,
+    "prd": 2,
+    "property_characteristics": 1,
+    "property_tax_administrator": 1,
+    "property_tax_credit": 3,
+    "property_tax_incentive": 1,
+    "property_tax_incentive_act": 1,
+    "property_tax_incidence": 2,
+    "property_tax_relief": 1,
+    "property_tax_request": 3,
+    "proportionality": 3,
+    "protest": 5,
+    "protest_hearing": 1,
+    "protest_timeline": 1,
+    "ptcx": 1,
+    "public_guidance": 1,
+    "public_service_entities": 1,
+    "qualified_taxes": 1,
+    "railroads": 1,
+    "ratio_studies": 3,
+    "ratio_study_terms": 1,
+    "real_property": 4,
+    "recertification": 1,
+    "refundable_credit": 2,
+    "regression_bias": 1,
+    "regulations": 2,
+    "reporting_due_dates": 1,
+    "reports_opinions": 2,
+    "revenue_taxation": 1,
+    "sales_file": 3,
+    "sales_validation": 1,
+    "school_district_property_tax_relief_credit": 1,
+    "school_district_tax": 3,
+    "special_valuation": 1,
+    "standard_revision": 1,
+    "statewide_equalization": 1,
+    "substantial_compliance": 1,
+    "suits_index": 1,
+    "supreme_court": 1,
+    "survey": 1,
+    "tax_collection": 2,
+    "tax_relief": 1,
+    "tax_request": 2,
+    "tax_sale": 1,
+    "taxable_personal_property": 1,
+    "taxation": 1,
+    "taxes_levied": 1,
+    "taxpayer_rights": 1,
+    "terc": 2,
+    "terc_appeal": 7,
+    "terc_representation": 1,
+    "title_350": 3,
+    "treasurer_calendar": 1,
+    "uniform_execution": 1,
+    "uniformity": 5,
+    "vacant_lots": 1,
+    "valuation": 1,
+    "valuation_approaches": 1,
+    "valuation_models": 1,
+    "valuation_protest": 3,
+    "value_notice": 1,
+    "vertical_equity": 2,
+    "vertical_inequality": 1
+  },
+  "source_usage": {
+    "berry_reassessing_property_tax": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_effective_tax_rate",
+        "concept_regressivity",
+        "research_berry_reassessing_property_tax"
+      ]
+    },
+    "case_gordman_justia": {
+      "object_count": 1,
+      "object_ids": [
+        "case_gordman_v_hall_county_boe"
+      ]
+    },
+    "case_kearney_convention_v_buffalo_vlex": {
+      "object_count": 2,
+      "object_ids": [
+        "case_kearney_convention_center_v_buffalo_county_boe",
+        "concept_valuation_approaches"
+      ]
+    },
+    "case_lincoln_tel_justia": {
+      "object_count": 1,
+      "object_ids": [
+        "case_lincoln_tel_v_county_board"
+      ]
+    },
+    "case_moser_official": {
+      "object_count": 2,
+      "object_ids": [
+        "case_lancaster_county_boe_v_moser",
+        "concept_uniformity_proportionality"
+      ]
+    },
+    "frontier_county_property_valuation_protests": {
+      "object_count": 1,
+      "object_ids": [
+        "form_422_property_valuation_protest"
+      ]
+    },
+    "iaao_assessment_appeal_standard": {
+      "object_count": 1,
+      "object_ids": [
+        "standard_iaao_assessment_appeal"
+      ]
+    },
+    "iaao_glossary": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_cod",
+        "concept_prb"
+      ]
+    },
+    "iaao_mass_appraisal_standard": {
+      "object_count": 11,
+      "object_ids": [
+        "concept_cama",
+        "concept_cost_approach",
+        "concept_depreciation",
+        "concept_income_approach",
+        "concept_land_table",
+        "concept_market_area",
+        "concept_neighborhood",
+        "concept_property_record",
+        "concept_quality_condition",
+        "standard_iaao_mass_appraisal",
+        "workflow_cama_data_maintenance"
+      ]
+    },
+    "iaao_ratio_study_exposure_draft_2026": {
+      "object_count": 1,
+      "object_ids": [
+        "standard_iaao_ratio_studies_2013"
+      ]
+    },
+    "iaao_ratio_study_standard": {
+      "object_count": 21,
+      "object_ids": [
+        "concept_cod",
+        "concept_confidence_interval",
+        "concept_horizontal_equity",
+        "concept_level_of_value",
+        "concept_mean_ratio",
+        "concept_median_ratio",
+        "concept_prb",
+        "concept_prd",
+        "concept_regressivity",
+        "concept_sales_chasing",
+        "concept_sales_ratio",
+        "concept_sample_adequacy",
+        "concept_stratification",
+        "concept_valid_sale",
+        "concept_vertical_equity",
+        "concept_weighted_mean_ratio",
+        "crosswalk_legal_hierarchy",
+        "crosswalk_ratio_metrics",
+        "standard_iaao_ratio_studies_2013",
+        "workflow_ratio_study_equalization",
+        "workflow_sales_file_to_ratio_study"
+      ]
+    },
+    "lancaster_county_property_valuation_protests": {
+      "object_count": 4,
+      "object_ids": [
+        "concept_neighborhood",
+        "concept_property_record",
+        "concept_sales_comparison_approach",
+        "workflow_valuation_notice_to_protest"
+      ]
+    },
+    "lincoln_vertical_inequality_measures": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_prd",
+        "concept_vertical_equity",
+        "research_lincoln_vertical_inequality_measures"
+      ]
+    },
+    "mcmillen_singh_assessment_regressivity": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_regressivity",
+        "research_mcmillen_singh_assessment_regressivity"
+      ]
+    },
+    "ne_auditor_budget_faq": {
+      "object_count": 3,
+      "object_ids": [
+        "public_guidance_assessment_vs_taxes",
+        "statute_ne_13_501_budget_act",
+        "workflow_levy_setting_tax_statement_cycle"
+      ]
+    },
+    "ne_const_article_viii": {
+      "object_count": 5,
+      "object_ids": [
+        "concept_equalization",
+        "concept_horizontal_equity",
+        "concept_uniformity_proportionality",
+        "const_ne_article_viii_exemptions",
+        "const_ne_article_viii_uniformity"
+      ]
+    },
+    "ne_dor_2025_annual_report": {
+      "object_count": 4,
+      "object_ids": [
+        "concept_level_of_value",
+        "concept_median_ratio",
+        "concept_valuation_group",
+        "pad_reports_opinions_methodology"
+      ]
+    },
+    "ne_dor_form_422a": {
+      "object_count": 1,
+      "object_ids": [
+        "form_422_property_valuation_protest"
+      ]
+    },
+    "ne_dor_main_calendar_pdf": {
+      "object_count": 6,
+      "object_ids": [
+        "concept_assessment_date",
+        "crosswalk_assessment_to_tax_cycle",
+        "deadline_jan1_assessment_date",
+        "deadline_may1_personal_property_return",
+        "statute_ne_77_1301_assessment_of_real_property",
+        "workflow_real_property_annual_assessment_cycle"
+      ]
+    },
+    "ne_dor_pad_assessor_certification": {
+      "object_count": 1,
+      "object_ids": [
+        "pad_assessor_certification"
+      ]
+    },
+    "ne_dor_pad_calendars": {
+      "object_count": 1,
+      "object_ids": [
+        "concept_homestead_exemption"
+      ]
+    },
+    "ne_dor_pad_court_case_summaries_history": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_cost_approach",
+        "concept_sales_comparison_approach",
+        "concept_valuation_approaches"
+      ]
+    },
+    "ne_dor_pad_faq": {
+      "object_count": 15,
+      "object_ids": [
+        "concept_actual_value",
+        "concept_assessed_value",
+        "concept_effective_tax_rate",
+        "concept_homestead_exemption",
+        "concept_personal_property",
+        "concept_tax_bill",
+        "concept_value_vs_tax",
+        "crosswalk_assessment_to_tax_cycle",
+        "deadline_may1_personal_property_return",
+        "deadline_tax_delinquency_douglas_lancaster_sarpy",
+        "deadline_tax_delinquency_standard_counties",
+        "public_guidance_assessment_vs_taxes",
+        "statute_ne_77_1201_personal_property_assessment",
+        "workflow_levy_setting_tax_statement_cycle",
+        "workflow_real_property_annual_assessment_cycle"
+      ]
+    },
+    "ne_dor_pad_property_tax_credit_faq": {
+      "object_count": 1,
+      "object_ids": [
+        "form_ptc_property_tax_credit"
+      ]
+    },
+    "ne_dor_pad_property_tax_credit_general_info": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_property_tax_credit",
+        "form_ptc_property_tax_credit",
+        "statute_ne_77_6701_6706_property_tax_incentive"
+      ]
+    },
+    "ne_dor_pad_purpose": {
+      "object_count": 1,
+      "object_ids": [
+        "pad_statewide_equalization"
+      ]
+    },
+    "ne_dor_pad_real_property_valuation_protest_guide": {
+      "object_count": 3,
+      "object_ids": [
+        "deadline_july25_boe_decision_session",
+        "deadline_june30_real_property_protest",
+        "workflow_valuation_notice_to_protest"
+      ]
+    },
+    "ne_dor_pad_statutes_page": {
+      "object_count": 3,
+      "object_ids": [
+        "const_ne_article_viii_exemptions",
+        "const_ne_article_viii_state_property_tax_prohibition",
+        "crosswalk_legal_hierarchy"
+      ]
+    },
+    "ne_dor_title350_fullset_pdf": {
+      "object_count": 1,
+      "object_ids": [
+        "standard_ne_title350_ch12_sales_file"
+      ]
+    },
+    "ne_dor_title350_regs_page": {
+      "object_count": 19,
+      "object_ids": [
+        "concept_cama",
+        "concept_greenbelt_special_valuation",
+        "concept_sales_chasing",
+        "concept_sales_ratio",
+        "concept_stratification",
+        "concept_valid_sale",
+        "concept_valuation_group",
+        "crosswalk_legal_hierarchy",
+        "pad_assessor_certification",
+        "pad_reports_opinions_methodology",
+        "standard_ne_title350_ch12_sales_file",
+        "standard_ne_title350_ch14_agricultural_land",
+        "standard_ne_title350_ch17_reports_opinions",
+        "standard_ne_title350_ch50_assessment_process",
+        "standard_ne_title350_ch65_reporting_due_dates",
+        "standard_ne_title350_ch71_certification",
+        "workflow_cama_data_maintenance",
+        "workflow_ratio_study_equalization",
+        "workflow_sales_file_to_ratio_study"
+      ]
+    },
+    "ne_leg_13_501_13_522_budget_act": {
+      "object_count": 1,
+      "object_ids": [
+        "statute_ne_13_501_budget_act"
+      ]
+    },
+    "ne_leg_77_112": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_actual_value",
+        "statute_ne_77_112_actual_value"
+      ]
+    },
+    "ne_leg_77_1201": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_personal_property",
+        "statute_ne_77_1201_personal_property_assessment"
+      ]
+    },
+    "ne_leg_77_1301": {
+      "object_count": 4,
+      "object_ids": [
+        "concept_assessed_value",
+        "concept_assessment_date",
+        "statute_ne_77_1301_assessment_of_real_property",
+        "workflow_real_property_annual_assessment_cycle"
+      ]
+    },
+    "ne_leg_77_1314": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_income_approach",
+        "statute_ne_77_1314_income_approach"
+      ]
+    },
+    "ne_leg_77_1315": {
+      "object_count": 1,
+      "object_ids": [
+        "statute_ne_77_1315_assessment_roll"
+      ]
+    },
+    "ne_leg_77_1359": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_greenbelt_special_valuation",
+        "statute_ne_77_1359_greenbelt"
+      ]
+    },
+    "ne_leg_77_1502": {
+      "object_count": 6,
+      "object_ids": [
+        "deadline_june30_real_property_protest",
+        "form_422_property_valuation_protest",
+        "statute_ne_77_1315_assessment_roll",
+        "statute_ne_77_1502_protests",
+        "workflow_boe_protest_hearing",
+        "workflow_valuation_notice_to_protest"
+      ]
+    },
+    "ne_leg_77_1504": {
+      "object_count": 5,
+      "object_ids": [
+        "concept_equalization",
+        "deadline_july25_boe_decision_session",
+        "statute_ne_77_1504_boe_powers_decision",
+        "workflow_boe_protest_hearing",
+        "workflow_terc_appeal"
+      ]
+    },
+    "ne_leg_77_1601": {
+      "object_count": 5,
+      "object_ids": [
+        "concept_tax_bill",
+        "concept_value_vs_tax",
+        "deadline_oct20_county_tax_levy",
+        "statute_ne_77_1601_county_tax_levy",
+        "workflow_levy_setting_tax_statement_cycle"
+      ]
+    },
+    "ne_leg_77_3442": {
+      "object_count": 1,
+      "object_ids": [
+        "statute_ne_77_3442_levy_limits"
+      ]
+    },
+    "ne_leg_77_3501_3530_homestead": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_homestead_exemption",
+        "statute_ne_77_3501_3530_homestead"
+      ]
+    },
+    "ne_leg_77_6701_6706_property_tax_incentive": {
+      "object_count": 2,
+      "object_ids": [
+        "concept_property_tax_credit",
+        "statute_ne_77_6701_6706_property_tax_incentive"
+      ]
+    },
+    "sarpy_county_form_422": {
+      "object_count": 1,
+      "object_ids": [
+        "workflow_boe_protest_hearing"
+      ]
+    },
+    "terc_about": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_equalization",
+        "pad_statewide_equalization",
+        "workflow_terc_appeal"
+      ]
+    },
+    "terc_appeal_process": {
+      "object_count": 1,
+      "object_ids": [
+        "workflow_terc_appeal"
+      ]
+    }
+  },
+  "sources_missing_publication_date": [
+    {
+      "source_id": "frontier_county_property_valuation_protests",
+      "title": "Property Valuation Protests",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "iaao_glossary",
+      "title": "Glossary for Property Appraisal and Assessment",
+      "publication_date_note": "No publication date stated on discovered IAAO download page."
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "title": "Property Valuation Protests",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "lancaster_county_protest_timeline",
+      "title": "Property Valuation Protest Timeline",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "lincoln_vertical_inequality_measures",
+      "title": "Measures of Vertical Inequality in Assessments",
+      "publication_date_note": "No publication date stated in discovered result."
+    },
+    {
+      "source_id": "ne_auditor_budget_faq",
+      "title": "Frequently Asked Questions - Budget Information",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_const_article_viii",
+      "title": "Nebraska Constitution Article VIII Revenue",
+      "publication_date_note": "Constitutional page does not state a publication date in discovered result."
+    },
+    {
+      "source_id": "ne_dor_form_422a",
+      "title": "Property Valuation Protest Form 422A",
+      "publication_date_note": "No publication date stated in discovered result."
+    },
+    {
+      "source_id": "ne_dor_pad_assessor_certification",
+      "title": "Assessor Certification & Education",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "title": "PAD Calendars",
+      "publication_date_note": "No publication date stated on discovered calendar index page."
+    },
+    {
+      "source_id": "ne_dor_pad_court_case_summaries_history",
+      "title": "PAD Court Case Summaries History",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "title": "Nebraska Property Assessment FAQs",
+      "publication_date_note": "No publication date stated on discovered FAQ page."
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_faq",
+      "title": "Nebraska Property Tax Credit FAQs",
+      "publication_date_note": "No publication date stated on discovered FAQ page."
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_general_info",
+      "title": "Nebraska Property Tax Credit General Information",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credits",
+      "title": "Nebraska Property Tax Credits",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_purpose",
+      "title": "Purpose of the Property Assessment Division",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "title": "Information Guide - Real Property Valuation Protest",
+      "publication_date_note": "No publication date stated in discovered result."
+    },
+    {
+      "source_id": "ne_dor_pad_sections",
+      "title": "Sections of the Property Assessment Division",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_state_assessed_property",
+      "title": "State Assessed Property",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_pad_statutes_page",
+      "title": "Property Assessment Statutes",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_dor_title350_chapters_pdf",
+      "title": "Title 350 Nebraska Administrative Code - List of Regulation Chapters",
+      "publication_date_note": "No publication date stated in discovered result."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "title": "Title 350 Nebraska Administrative Code",
+      "publication_date_note": "No publication date stated in discovered result."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "title": "Property Assessment Regulations - Title 350",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "ne_judicial_epublication_library",
+      "title": "Nebraska Appellate Courts Online Library",
+      "publication_date_note": "Repository page describes official online opinions but has no page publication date."
+    },
+    {
+      "source_id": "ne_leg_13_501_13_522_budget_act",
+      "title": "Nebraska Budget Act, Neb. Rev. Stat. §§ 13-501 to 13-522",
+      "publication_date_note": "Statute range page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_112",
+      "title": "Neb. Rev. Stat. § 77-112 Actual Value",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1201",
+      "title": "Neb. Rev. Stat. § 77-1201 Personal Property Assessment",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1301",
+      "title": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1314",
+      "title": "Neb. Rev. Stat. § 77-1314 County Assessor Income Approach",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1315",
+      "title": "Neb. Rev. Stat. § 77-1315 Real Property Assessment Roll",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1359",
+      "title": "Neb. Rev. Stat. § 77-1359 Agricultural and Horticultural Land Special Valuation",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1502",
+      "title": "Neb. Rev. Stat. § 77-1502 Board Protests",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1504",
+      "title": "Neb. Rev. Stat. § 77-1504 Equalization of Property; Protest Procedure",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1601",
+      "title": "Neb. Rev. Stat. § 77-1601 County Tax Levy",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_3442",
+      "title": "Neb. Rev. Stat. § 77-3442 Property Tax Levy Limits",
+      "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_3501_3530_homestead",
+      "title": "Neb. Rev. Stat. §§ 77-3501 to 77-3530 Homestead Exemption",
+      "publication_date_note": "Statute range page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_6701_6706_property_tax_incentive",
+      "title": "Neb. Rev. Stat. §§ 77-6701 to 77-6706 Nebraska Property Tax Incentive Act",
+      "publication_date_note": "Statute range page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_chapter77_index",
+      "title": "Nebraska Revised Statutes Chapter 77",
+      "publication_date_note": "Chapter index does not state publication date in discovered result."
+    },
+    {
+      "source_id": "sarpy_county_form_422",
+      "title": "Form 422 - Property Valuation Protest",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "terc_about",
+      "title": "About Us",
+      "publication_date_note": "No publication date stated on discovered page."
+    },
+    {
+      "source_id": "terc_appeal_process",
+      "title": "Appeal Process",
+      "publication_date_note": "No publication date stated on discovered page."
+    }
+  ]
+}

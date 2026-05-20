@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_valuation_approaches",
+  "object_type": "valuation",
+  "canonical_term": "Valuation Approaches",
+  "aliases": [
+    "three approaches to value",
+    "appraisal approaches"
+  ],
+  "category": "valuation_framework",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "valuation_method_framework",
+  "summary": "Market/sales comparison, cost, and income approaches are valuation frameworks used to estimate actual value, selected and reconciled according to property type and available evidence.",
+  "plain_language": "Assessors can use different accepted methods, but the result must still estimate taxable value under Nebraska law.",
+  "semantic_tags": [
+    "valuation_approaches",
+    "sales_comparison",
+    "cost_approach",
+    "income_approach",
+    "actual_value"
+  ],
+  "relationships": [
+    {
+      "type": "includes",
+      "target_id": "concept_sales_comparison_approach",
+      "note": "Market approach."
+    },
+    {
+      "type": "includes",
+      "target_id": "concept_cost_approach",
+      "note": "Cost approach."
+    },
+    {
+      "type": "includes",
+      "target_id": "concept_income_approach",
+      "note": "Income approach."
+    },
+    {
+      "type": "must_support",
+      "target_id": "concept_actual_value",
+      "note": "Approaches should support actual value."
+    },
+    {
+      "type": "bounded_by",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Methods must produce uniform/proportionate results."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_court_case_summaries_history",
+      "locator": "valuation approaches discussion",
+      "citation": "Nebraska DOR PAD, Court Case Summaries History."
+    },
+    {
+      "source_id": "case_kearney_convention_v_buffalo_vlex",
+      "locator": "case summary",
+      "citation": "Kearney Convention Ctr. v. Buffalo Cty. Bd. of Equal., secondary text via vLex."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_case_summary_extraction"
+}

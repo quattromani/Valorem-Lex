@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_cod",
+  "object_type": "metric",
+  "canonical_term": "Coefficient of Dispersion",
+  "aliases": [
+    "COD"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "General assessment; used in Nebraska PAD ratio context",
+  "legal_hierarchy": "iaao_standard_metric",
+  "summary": "Ratio-study uniformity statistic measuring average percentage dispersion of ratios around the median ratio.",
+  "plain_language": "COD shows how tightly individual assessment ratios cluster around the typical ratio. Lower usually means more uniform within the tested group.",
+  "semantic_tags": [
+    "cod",
+    "ratio_study",
+    "uniformity",
+    "horizontal_equity",
+    "dispersion"
+  ],
+  "facts": [
+    {
+      "predicate": "measures",
+      "object": "horizontal_uniformity"
+    },
+    {
+      "predicate": "sensitive_to",
+      "object": "property_type_and_market_heterogeneity"
+    }
+  ],
+  "thresholds": [
+    {
+      "type": "iaao_guidance",
+      "value": "varies_by_property_type",
+      "note": "IAAO Ratio Study Standard gives COD ranges by property type and market homogeneity."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "defined_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study metric."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_horizontal_equity",
+      "note": "COD is a common horizontal equity statistic."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_median_ratio",
+      "note": "COD is centered on median ratio."
+    },
+    {
+      "type": "contrasted_with",
+      "target_id": "concept_prd",
+      "note": "PRD addresses vertical equity signals rather than general dispersion."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio study uniformity standards",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "iaao_glossary",
+      "locator": "COD glossary entry",
+      "citation": "IAAO, Glossary for Property Appraisal and Assessment."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

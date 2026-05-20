@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_jan1_assessment_date",
+  "object_type": "deadline",
+  "canonical_term": "January 1 Assessment Date",
+  "aliases": [
+    "Jan 1 12:01 a.m.",
+    "valuation date"
+  ],
+  "category": "assessment_calendar",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_deadline",
+  "summary": "Real and personal property are listed and valued as of January 1 at 12:01 a.m. under the PAD calendar and relevant statutes.",
+  "plain_language": "January 1 is the annual snapshot date.",
+  "semantic_tags": [
+    "deadline",
+    "january_1",
+    "assessment_date",
+    "real_property",
+    "personal_property"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "01-01",
+      "time": "12:01",
+      "description": "Assessment date for real and personal property."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "concept_assessment_date",
+      "note": "Deadline expression of assessment date."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1301_assessment_of_real_property",
+      "note": "Real property."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "Jan 1 12:01 a.m. entries",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

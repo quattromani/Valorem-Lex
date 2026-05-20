@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_actual_value",
+  "object_type": "concept",
+  "canonical_term": "Actual Value",
+  "aliases": [
+    "market value",
+    "taxable market value",
+    "full value"
+  ],
+  "category": "valuation_foundation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_concept",
+  "summary": "Nebraska's core real-property valuation concept: actual value is market value in the ordinary course of trade for taxation purposes.",
+  "plain_language": "The assessor is trying to estimate what the property would sell for in an ordinary market, as of the assessment date, subject to Nebraska law.",
+  "semantic_tags": [
+    "actual_value",
+    "market_value",
+    "assessment",
+    "valuation",
+    "tax_base"
+  ],
+  "facts": [
+    {
+      "predicate": "defined_by",
+      "object": "statute_ne_77_112_actual_value"
+    },
+    {
+      "predicate": "used_by",
+      "object": [
+        "statute_ne_77_1301_assessment_of_real_property",
+        "workflow_real_property_annual_assessment_cycle"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "defined_by",
+      "target_id": "statute_ne_77_112_actual_value",
+      "note": "Statutory definition."
+    },
+    {
+      "type": "measured_by",
+      "target_id": "concept_sales_ratio",
+      "note": "Ratio studies compare assessed/appraised value to sale prices as market indicators."
+    },
+    {
+      "type": "distinguished_from",
+      "target_id": "concept_tax_bill",
+      "note": "Actual value is not the same as tax due."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_112",
+      "locator": "§ 77-112",
+      "citation": "Neb. Rev. Stat. § 77-112."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "Property assessment FAQs",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

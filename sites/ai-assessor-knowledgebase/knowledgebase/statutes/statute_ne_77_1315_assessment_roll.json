@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1315_assessment_roll",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1315 Real Property Assessment Roll",
+  "aliases": [
+    "77-1315",
+    "assessment roll statute"
+  ],
+  "category": "assessment_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statutory assessment-roll source tied to completion of real property assessment roll and protest timing.",
+  "plain_language": "The assessment roll is the official roll that anchors later notice and protest steps.",
+  "semantic_tags": [
+    "statute",
+    "assessment_roll",
+    "notice",
+    "protest_timing",
+    "county_assessor"
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment roll step."
+    },
+    {
+      "type": "triggers_or_precedes",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protests follow roll completion."
+    },
+    {
+      "type": "related_deadline",
+      "target_id": "deadline_june30_real_property_protest",
+      "note": "Protest timing references roll completion."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1315",
+      "locator": "§ 77-1315",
+      "citation": "Neb. Rev. Stat. § 77-1315."
+    },
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "§ 77-1502",
+      "citation": "Neb. Rev. Stat. § 77-1502."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_statute_text_review"
+}

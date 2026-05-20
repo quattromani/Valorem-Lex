@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_3442_levy_limits",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-3442 Property Tax Levy Limits",
+  "aliases": [
+    "77-3442",
+    "levy limit statute"
+  ],
+  "category": "levy_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska levy-limit statute relevant to political subdivisions and authorized property tax requests.",
+  "plain_language": "Local tax requests and levies have statutory limits and procedures.",
+  "semantic_tags": [
+    "statute",
+    "levy_limits",
+    "tax_request",
+    "political_subdivision",
+    "budget"
+  ],
+  "relationships": [
+    {
+      "type": "constrains",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy setting must stay within legal limits."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute references tax requests."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_13_501_budget_act",
+      "note": "Budget/tax request context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_3442",
+      "locator": "§ 77-3442",
+      "citation": "Neb. Rev. Stat. § 77-3442."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_statute_text_review"
+}

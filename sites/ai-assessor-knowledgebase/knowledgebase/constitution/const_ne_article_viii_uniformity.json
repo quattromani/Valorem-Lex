@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "const_ne_article_viii_uniformity",
+  "object_type": "constitution",
+  "canonical_term": "Nebraska Constitution Article VIII Uniformity Clause",
+  "aliases": [
+    "Article VIII-1",
+    "uniformity clause",
+    "taxation uniformly and proportionately"
+  ],
+  "category": "constitutional_taxation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "constitution",
+  "summary": "Constitutional anchor requiring real property taxes to be levied by valuation uniformly and proportionately, subject to permitted exceptions.",
+  "plain_language": "Nebraska's property tax system is constitutionally built around uniform and proportionate valuation.",
+  "semantic_tags": [
+    "constitution",
+    "article_viii",
+    "uniformity",
+    "proportionality",
+    "property_tax"
+  ],
+  "relationships": [
+    {
+      "type": "defines_authority_for",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Canonical constitutional concept."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_equalization",
+      "note": "Equalization operationalizes constitutional requirement."
+    },
+    {
+      "type": "interpreted_by",
+      "target_id": "case_lancaster_county_boe_v_moser",
+      "note": "Case law burden context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii",
+      "locator": "Article VIII-1",
+      "citation": "Neb. Const. art. VIII, § 1."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

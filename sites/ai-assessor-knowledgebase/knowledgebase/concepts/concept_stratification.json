@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_stratification",
+  "object_type": "concept",
+  "canonical_term": "Stratification",
+  "aliases": [
+    "strata",
+    "stratified analysis",
+    "valuation group stratification"
+  ],
+  "category": "ratio_study_method",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "statistical_method",
+  "summary": "Dividing properties or sales into meaningful groups by property type, location, value range, market area, valuation group, or other characteristics for analysis.",
+  "plain_language": "Stratification keeps unlike properties from being mixed in a way that hides problems.",
+  "semantic_tags": [
+    "stratification",
+    "ratio_study",
+    "valuation_group",
+    "market_area",
+    "property_type"
+  ],
+  "relationships": [
+    {
+      "type": "uses",
+      "target_id": "concept_market_area",
+      "note": "Market area can define strata."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_valuation_group",
+      "note": "Nebraska/PAD workflow may use valuation groups."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Core ratio-study design choice."
+    },
+    {
+      "type": "tradeoff_with",
+      "target_id": "concept_sample_adequacy",
+      "note": "More granular strata may reduce sample size."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "stratification discussion",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Reports and Opinions / Sales File chapters",
+      "citation": "Nebraska DOR PAD, Title 350 regulations index."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_pad_ro_ingestion"
+}

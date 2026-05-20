@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_iaao_assessment_appeal",
+  "object_type": "iaao",
+  "canonical_term": "IAAO Standard on Assessment Appeal",
+  "aliases": [
+    "Assessment Appeal Standard"
+  ],
+  "category": "appeal_standard",
+  "jurisdiction": "International/professional",
+  "legal_hierarchy": "iaao_standard",
+  "summary": "Professional standard for assessment appeal systems, evidence, review procedures, and taxpayer access principles.",
+  "plain_language": "IAAO gives professional guidance for fair assessment appeal systems.",
+  "semantic_tags": [
+    "iaao",
+    "appeals",
+    "evidence",
+    "taxpayer_rights",
+    "assessment_review"
+  ],
+  "relationships": [
+    {
+      "type": "context_for",
+      "target_id": "workflow_terc_appeal",
+      "note": "Professional appeal principles."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Local appeal/protest principles."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_assessment_appeal_standard",
+      "locator": "standard PDF",
+      "citation": "IAAO, Standard on Assessment Appeal (2016)."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_standard_extraction"
+}

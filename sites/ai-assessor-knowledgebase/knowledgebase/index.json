@@ -1,0 +1,1456 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "object_count": 96,
+  "source_count": 57,
+  "objects": [
+    {
+      "id": "case_gordman_v_hall_county_boe",
+      "object_type": "case",
+      "canonical_term": "Gordman Properties v. Hall County Board of Equalization",
+      "category": "uniformity_case",
+      "legal_hierarchy": "case_law",
+      "semantic_tags": [
+        "case_law",
+        "uniformity",
+        "actual_value",
+        "equalization",
+        "appeals"
+      ],
+      "path": "knowledgebase/cases/case_gordman_v_hall_county_boe.json"
+    },
+    {
+      "id": "case_kearney_convention_center_v_buffalo_county_boe",
+      "object_type": "case",
+      "canonical_term": "Kearney Convention Center v. Buffalo County Board of Equalization",
+      "category": "uniformity_case",
+      "legal_hierarchy": "case_law",
+      "semantic_tags": [
+        "case_law",
+        "classification",
+        "uniformity",
+        "actual_value",
+        "valuation_methods"
+      ],
+      "path": "knowledgebase/cases/case_kearney_convention_center_v_buffalo_county_boe.json"
+    },
+    {
+      "id": "case_lancaster_county_boe_v_moser",
+      "object_type": "case",
+      "canonical_term": "Lancaster County Board of Equalization v. Moser",
+      "category": "uniformity_burden_case",
+      "legal_hierarchy": "case_law",
+      "semantic_tags": [
+        "case_law",
+        "uniformity",
+        "burden_of_proof",
+        "grossly_excessive",
+        "plain_legal_duty",
+        "agricultural_land"
+      ],
+      "path": "knowledgebase/cases/case_lancaster_county_boe_v_moser.json"
+    },
+    {
+      "id": "case_lincoln_tel_v_county_board",
+      "object_type": "case",
+      "canonical_term": "Lincoln Telephone & Telegraph Co. v. County Board",
+      "category": "substantial_compliance_case",
+      "legal_hierarchy": "case_law",
+      "semantic_tags": [
+        "case_law",
+        "substantial_compliance",
+        "uniformity",
+        "personal_property",
+        "assessment_approximation"
+      ],
+      "path": "knowledgebase/cases/case_lincoln_tel_v_county_board.json"
+    },
+    {
+      "id": "concept_actual_value",
+      "object_type": "concept",
+      "canonical_term": "Actual Value",
+      "category": "valuation_foundation",
+      "legal_hierarchy": "statutory_concept",
+      "semantic_tags": [
+        "actual_value",
+        "market_value",
+        "assessment",
+        "valuation",
+        "tax_base"
+      ],
+      "path": "knowledgebase/concepts/concept_actual_value.json"
+    },
+    {
+      "id": "concept_assessed_value",
+      "object_type": "concept",
+      "canonical_term": "Assessed Value",
+      "category": "valuation_foundation",
+      "legal_hierarchy": "statutory_concept",
+      "semantic_tags": [
+        "assessed_value",
+        "valuation_notice",
+        "tax_base",
+        "assessment"
+      ],
+      "path": "knowledgebase/concepts/concept_assessed_value.json"
+    },
+    {
+      "id": "concept_assessment_date",
+      "object_type": "concept",
+      "canonical_term": "Assessment Date",
+      "category": "assessment_calendar",
+      "legal_hierarchy": "statutory_concept",
+      "semantic_tags": [
+        "assessment_date",
+        "january_1",
+        "valuation_date",
+        "calendar",
+        "deadline"
+      ],
+      "path": "knowledgebase/concepts/concept_assessment_date.json"
+    },
+    {
+      "id": "concept_cama",
+      "object_type": "cama",
+      "canonical_term": "Computer-Assisted Mass Appraisal",
+      "category": "data_system",
+      "legal_hierarchy": "professional_practice",
+      "semantic_tags": [
+        "cama",
+        "mass_appraisal",
+        "property_records",
+        "data_quality",
+        "valuation_models"
+      ],
+      "path": "knowledgebase/cama/concept_cama.json"
+    },
+    {
+      "id": "concept_cod",
+      "object_type": "metric",
+      "canonical_term": "Coefficient of Dispersion",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "iaao_standard_metric",
+      "semantic_tags": [
+        "cod",
+        "ratio_study",
+        "uniformity",
+        "horizontal_equity",
+        "dispersion"
+      ],
+      "path": "knowledgebase/metrics/concept_cod.json"
+    },
+    {
+      "id": "concept_confidence_interval",
+      "object_type": "concept",
+      "canonical_term": "Confidence Interval",
+      "category": "statistical_method",
+      "legal_hierarchy": "statistical_method",
+      "semantic_tags": [
+        "statistics",
+        "confidence_interval",
+        "ratio_study",
+        "sample",
+        "uncertainty"
+      ],
+      "path": "knowledgebase/concepts/concept_confidence_interval.json"
+    },
+    {
+      "id": "concept_cost_approach",
+      "object_type": "valuation",
+      "canonical_term": "Cost Approach",
+      "category": "valuation_approach",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "cost_approach",
+        "valuation",
+        "depreciation",
+        "land_table",
+        "improvement_modeling"
+      ],
+      "path": "knowledgebase/valuation/concept_cost_approach.json"
+    },
+    {
+      "id": "concept_depreciation",
+      "object_type": "cama",
+      "canonical_term": "Depreciation",
+      "category": "cama_valuation_component",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "depreciation",
+        "cost_approach",
+        "condition",
+        "quality",
+        "cama"
+      ],
+      "path": "knowledgebase/cama/concept_depreciation.json"
+    },
+    {
+      "id": "concept_effective_tax_rate",
+      "object_type": "tax",
+      "canonical_term": "Effective Tax Rate",
+      "category": "public_tax_explanation",
+      "legal_hierarchy": "derived_metric",
+      "semantic_tags": [
+        "effective_tax_rate",
+        "tax_burden",
+        "public_guidance",
+        "incidence",
+        "regressivity"
+      ],
+      "path": "knowledgebase/taxes/concept_effective_tax_rate.json"
+    },
+    {
+      "id": "concept_equalization",
+      "object_type": "equalization",
+      "canonical_term": "Equalization",
+      "category": "assessment_governance",
+      "legal_hierarchy": "constitutional_statutory_process",
+      "semantic_tags": [
+        "equalization",
+        "uniformity",
+        "county_board_equalization",
+        "terc",
+        "pad"
+      ],
+      "path": "knowledgebase/equalization/concept_equalization.json"
+    },
+    {
+      "id": "concept_greenbelt_special_valuation",
+      "object_type": "valuation",
+      "canonical_term": "Agricultural and Horticultural Land Special Valuation",
+      "category": "agricultural_valuation",
+      "legal_hierarchy": "statutory_program",
+      "semantic_tags": [
+        "greenbelt",
+        "agricultural_land",
+        "special_valuation",
+        "classification",
+        "valuation"
+      ],
+      "path": "knowledgebase/valuation/concept_greenbelt_special_valuation.json"
+    },
+    {
+      "id": "concept_homestead_exemption",
+      "object_type": "tax",
+      "canonical_term": "Homestead Exemption",
+      "category": "tax_relief",
+      "legal_hierarchy": "statutory_tax_relief",
+      "semantic_tags": [
+        "homestead_exemption",
+        "tax_relief",
+        "eligibility",
+        "owner_occupant",
+        "assessment_calendar"
+      ],
+      "path": "knowledgebase/taxes/concept_homestead_exemption.json"
+    },
+    {
+      "id": "concept_horizontal_equity",
+      "object_type": "concept",
+      "canonical_term": "Horizontal Equity",
+      "category": "equity_concept",
+      "legal_hierarchy": "assessment_theory",
+      "semantic_tags": [
+        "horizontal_equity",
+        "uniformity",
+        "cod",
+        "similar_properties"
+      ],
+      "path": "knowledgebase/concepts/concept_horizontal_equity.json"
+    },
+    {
+      "id": "concept_income_approach",
+      "object_type": "valuation",
+      "canonical_term": "Income Approach",
+      "category": "valuation_approach",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "income_approach",
+        "discounted_cash_flow",
+        "valuation",
+        "subdivision_lots",
+        "terc"
+      ],
+      "path": "knowledgebase/valuation/concept_income_approach.json"
+    },
+    {
+      "id": "concept_land_table",
+      "object_type": "cama",
+      "canonical_term": "Land Table",
+      "category": "cama_valuation_component",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "land_table",
+        "cama",
+        "land_value",
+        "market_area",
+        "valuation_model"
+      ],
+      "path": "knowledgebase/cama/concept_land_table.json"
+    },
+    {
+      "id": "concept_level_of_value",
+      "object_type": "metric",
+      "canonical_term": "Level of Value",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "statistical_assessment_concept",
+      "semantic_tags": [
+        "level_of_value",
+        "loa",
+        "lov",
+        "median_ratio",
+        "ratio_study",
+        "equalization"
+      ],
+      "path": "knowledgebase/metrics/concept_level_of_value.json"
+    },
+    {
+      "id": "concept_market_area",
+      "object_type": "valuation",
+      "canonical_term": "Market Area",
+      "category": "stratification",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "market_area",
+        "location",
+        "stratification",
+        "neighborhood",
+        "mass_appraisal"
+      ],
+      "path": "knowledgebase/valuation/concept_market_area.json"
+    },
+    {
+      "id": "concept_mean_ratio",
+      "object_type": "metric",
+      "canonical_term": "Mean Ratio",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "statistical_metric",
+      "semantic_tags": [
+        "mean_ratio",
+        "ratio_study",
+        "statistics",
+        "assessment_level"
+      ],
+      "path": "knowledgebase/metrics/concept_mean_ratio.json"
+    },
+    {
+      "id": "concept_median_ratio",
+      "object_type": "metric",
+      "canonical_term": "Median Ratio",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "statistical_metric",
+      "semantic_tags": [
+        "median_ratio",
+        "ratio_study",
+        "level_of_value",
+        "sales_ratio"
+      ],
+      "path": "knowledgebase/metrics/concept_median_ratio.json"
+    },
+    {
+      "id": "concept_neighborhood",
+      "object_type": "cama",
+      "canonical_term": "Neighborhood Coding",
+      "category": "cama_data_element",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "neighborhood",
+        "cama",
+        "location",
+        "market_area",
+        "stratification"
+      ],
+      "path": "knowledgebase/cama/concept_neighborhood.json"
+    },
+    {
+      "id": "concept_personal_property",
+      "object_type": "concept",
+      "canonical_term": "Taxable Personal Property",
+      "category": "property_type",
+      "legal_hierarchy": "statutory_concept",
+      "semantic_tags": [
+        "personal_property",
+        "business_personal_property",
+        "may_1",
+        "assessment",
+        "exemptions"
+      ],
+      "path": "knowledgebase/concepts/concept_personal_property.json"
+    },
+    {
+      "id": "concept_prb",
+      "object_type": "metric",
+      "canonical_term": "Price-Related Bias",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "iaao_standard_metric",
+      "semantic_tags": [
+        "prb",
+        "vertical_equity",
+        "regressivity",
+        "ratio_study",
+        "bias"
+      ],
+      "path": "knowledgebase/metrics/concept_prb.json"
+    },
+    {
+      "id": "concept_prd",
+      "object_type": "metric",
+      "canonical_term": "Price-Related Differential",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "iaao_standard_metric",
+      "semantic_tags": [
+        "prd",
+        "vertical_equity",
+        "regressivity",
+        "ratio_study",
+        "weighted_mean"
+      ],
+      "path": "knowledgebase/metrics/concept_prd.json"
+    },
+    {
+      "id": "concept_property_record",
+      "object_type": "cama",
+      "canonical_term": "Property Record",
+      "category": "cama_data_element",
+      "legal_hierarchy": "administrative_record",
+      "semantic_tags": [
+        "property_record",
+        "parcel",
+        "cama",
+        "data_quality",
+        "property_characteristics"
+      ],
+      "path": "knowledgebase/cama/concept_property_record.json"
+    },
+    {
+      "id": "concept_property_tax_credit",
+      "object_type": "tax",
+      "canonical_term": "Nebraska Property Tax Credit",
+      "category": "tax_relief",
+      "legal_hierarchy": "statutory_tax_credit",
+      "semantic_tags": [
+        "property_tax_credit",
+        "form_ptc",
+        "ptcx",
+        "school_district_tax",
+        "community_college_tax",
+        "tax_relief"
+      ],
+      "path": "knowledgebase/taxes/concept_property_tax_credit.json"
+    },
+    {
+      "id": "concept_quality_condition",
+      "object_type": "cama",
+      "canonical_term": "Quality and Condition Coding",
+      "category": "cama_data_element",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "quality",
+        "condition",
+        "effective_age",
+        "cama",
+        "depreciation"
+      ],
+      "path": "knowledgebase/cama/concept_quality_condition.json"
+    },
+    {
+      "id": "concept_regressivity",
+      "object_type": "concept",
+      "canonical_term": "Assessment Regressivity",
+      "category": "equity_concept",
+      "legal_hierarchy": "assessment_theory",
+      "semantic_tags": [
+        "regressivity",
+        "vertical_equity",
+        "prd",
+        "prb",
+        "tax_incidence",
+        "fairness"
+      ],
+      "path": "knowledgebase/concepts/concept_regressivity.json"
+    },
+    {
+      "id": "concept_sales_chasing",
+      "object_type": "concept",
+      "canonical_term": "Sales Chasing",
+      "category": "assessment_quality_risk",
+      "legal_hierarchy": "professional_standard_risk",
+      "semantic_tags": [
+        "sales_chasing",
+        "ratio_study",
+        "sales_validation",
+        "equity",
+        "quality_control"
+      ],
+      "path": "knowledgebase/concepts/concept_sales_chasing.json"
+    },
+    {
+      "id": "concept_sales_comparison_approach",
+      "object_type": "valuation",
+      "canonical_term": "Sales Comparison Approach",
+      "category": "valuation_approach",
+      "legal_hierarchy": "valuation_method",
+      "semantic_tags": [
+        "sales_comparison",
+        "market_approach",
+        "comparable_sales",
+        "valuation",
+        "protest_evidence"
+      ],
+      "path": "knowledgebase/valuation/concept_sales_comparison_approach.json"
+    },
+    {
+      "id": "concept_sales_ratio",
+      "object_type": "metric",
+      "canonical_term": "Sales Ratio",
+      "category": "ratio_study_foundation",
+      "legal_hierarchy": "statistical_metric",
+      "semantic_tags": [
+        "sales_ratio",
+        "assessment_ratio",
+        "ratio_study",
+        "valid_sale",
+        "market_value"
+      ],
+      "path": "knowledgebase/metrics/concept_sales_ratio.json"
+    },
+    {
+      "id": "concept_sample_adequacy",
+      "object_type": "concept",
+      "canonical_term": "Sample Adequacy",
+      "category": "statistical_method",
+      "legal_hierarchy": "statistical_method",
+      "semantic_tags": [
+        "sample_adequacy",
+        "ratio_study",
+        "statistics",
+        "sales_validation",
+        "confidence_interval"
+      ],
+      "path": "knowledgebase/concepts/concept_sample_adequacy.json"
+    },
+    {
+      "id": "concept_stratification",
+      "object_type": "concept",
+      "canonical_term": "Stratification",
+      "category": "ratio_study_method",
+      "legal_hierarchy": "statistical_method",
+      "semantic_tags": [
+        "stratification",
+        "ratio_study",
+        "valuation_group",
+        "market_area",
+        "property_type"
+      ],
+      "path": "knowledgebase/concepts/concept_stratification.json"
+    },
+    {
+      "id": "concept_tax_bill",
+      "object_type": "tax",
+      "canonical_term": "Property Tax Bill",
+      "category": "tax_collection",
+      "legal_hierarchy": "statutory_workflow_result",
+      "semantic_tags": [
+        "tax_bill",
+        "levy",
+        "tax_statement",
+        "treasurer",
+        "assessment_vs_tax"
+      ],
+      "path": "knowledgebase/taxes/concept_tax_bill.json"
+    },
+    {
+      "id": "concept_uniformity_proportionality",
+      "object_type": "concept",
+      "canonical_term": "Uniformity and Proportionality",
+      "category": "constitutional_assessment_principle",
+      "legal_hierarchy": "constitutional_concept",
+      "semantic_tags": [
+        "uniformity",
+        "proportionality",
+        "constitution",
+        "equalization",
+        "property_tax"
+      ],
+      "path": "knowledgebase/concepts/concept_uniformity_proportionality.json"
+    },
+    {
+      "id": "concept_valid_sale",
+      "object_type": "concept",
+      "canonical_term": "Valid Sale",
+      "category": "sales_file_concept",
+      "legal_hierarchy": "administrative_professional_concept",
+      "semantic_tags": [
+        "valid_sale",
+        "sales_file",
+        "arms_length",
+        "ratio_study",
+        "comparable_sales"
+      ],
+      "path": "knowledgebase/concepts/concept_valid_sale.json"
+    },
+    {
+      "id": "concept_valuation_approaches",
+      "object_type": "valuation",
+      "canonical_term": "Valuation Approaches",
+      "category": "valuation_framework",
+      "legal_hierarchy": "valuation_method_framework",
+      "semantic_tags": [
+        "valuation_approaches",
+        "sales_comparison",
+        "cost_approach",
+        "income_approach",
+        "actual_value"
+      ],
+      "path": "knowledgebase/valuation/concept_valuation_approaches.json"
+    },
+    {
+      "id": "concept_valuation_group",
+      "object_type": "valuation",
+      "canonical_term": "Valuation Group",
+      "category": "pad_ratio_study_context",
+      "legal_hierarchy": "pad_methodology_concept",
+      "semantic_tags": [
+        "valuation_group",
+        "stratification",
+        "pad_ro",
+        "ratio_study",
+        "equalization"
+      ],
+      "path": "knowledgebase/valuation/concept_valuation_group.json"
+    },
+    {
+      "id": "concept_value_vs_tax",
+      "object_type": "public_guidance",
+      "canonical_term": "Value Versus Taxes",
+      "category": "taxpayer_explanation",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "public_guidance",
+        "assessment_vs_tax",
+        "levy",
+        "tax_bill",
+        "taxpayer_question"
+      ],
+      "path": "knowledgebase/public_guidance/concept_value_vs_tax.json"
+    },
+    {
+      "id": "concept_vertical_equity",
+      "object_type": "concept",
+      "canonical_term": "Vertical Equity",
+      "category": "equity_concept",
+      "legal_hierarchy": "assessment_theory",
+      "semantic_tags": [
+        "vertical_equity",
+        "prd",
+        "prb",
+        "regressivity",
+        "ratio_study"
+      ],
+      "path": "knowledgebase/concepts/concept_vertical_equity.json"
+    },
+    {
+      "id": "concept_weighted_mean_ratio",
+      "object_type": "metric",
+      "canonical_term": "Weighted Mean Ratio",
+      "category": "ratio_study_metric",
+      "legal_hierarchy": "statistical_metric",
+      "semantic_tags": [
+        "weighted_mean_ratio",
+        "ratio_study",
+        "prd",
+        "aggregate_ratio",
+        "statistics"
+      ],
+      "path": "knowledgebase/metrics/concept_weighted_mean_ratio.json"
+    },
+    {
+      "id": "const_ne_article_viii_exemptions",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII Exemptions and Classification",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "exemptions",
+        "classification",
+        "taxation"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_exemptions.json"
+    },
+    {
+      "id": "const_ne_article_viii_state_property_tax_prohibition",
+      "object_type": "constitution",
+      "canonical_term": "State Property Tax Prohibition",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "state_property_tax",
+        "local_tax",
+        "article_viii"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_state_property_tax_prohibition.json"
+    },
+    {
+      "id": "const_ne_article_viii_uniformity",
+      "object_type": "constitution",
+      "canonical_term": "Nebraska Constitution Article VIII Uniformity Clause",
+      "category": "constitutional_taxation",
+      "legal_hierarchy": "constitution",
+      "semantic_tags": [
+        "constitution",
+        "article_viii",
+        "uniformity",
+        "proportionality",
+        "property_tax"
+      ],
+      "path": "knowledgebase/constitution/const_ne_article_viii_uniformity.json"
+    },
+    {
+      "id": "crosswalk_assessment_to_tax_cycle",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessment-to-Tax Cycle Crosswalk",
+      "category": "workflow_crosswalk",
+      "legal_hierarchy": "semantic_crosswalk",
+      "semantic_tags": [
+        "crosswalk",
+        "assessment_cycle",
+        "levy",
+        "tax_statement",
+        "collection"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_assessment_to_tax_cycle.json"
+    },
+    {
+      "id": "crosswalk_legal_hierarchy",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessment Legal Hierarchy Crosswalk",
+      "category": "authority_crosswalk",
+      "legal_hierarchy": "semantic_crosswalk",
+      "semantic_tags": [
+        "legal_hierarchy",
+        "source_priority",
+        "constitution",
+        "statute",
+        "regulation",
+        "guidance"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_legal_hierarchy.json"
+    },
+    {
+      "id": "crosswalk_ratio_metrics",
+      "object_type": "crosswalk",
+      "canonical_term": "Ratio Study Metrics Crosswalk",
+      "category": "metric_crosswalk",
+      "legal_hierarchy": "semantic_crosswalk",
+      "semantic_tags": [
+        "crosswalk",
+        "ratio_study",
+        "cod",
+        "prd",
+        "prb",
+        "median_ratio"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_ratio_metrics.json"
+    },
+    {
+      "id": "deadline_jan1_assessment_date",
+      "object_type": "deadline",
+      "canonical_term": "January 1 Assessment Date",
+      "category": "assessment_calendar",
+      "legal_hierarchy": "statutory_deadline",
+      "semantic_tags": [
+        "deadline",
+        "january_1",
+        "assessment_date",
+        "real_property",
+        "personal_property"
+      ],
+      "path": "knowledgebase/deadlines/deadline_jan1_assessment_date.json"
+    },
+    {
+      "id": "deadline_july25_boe_decision_session",
+      "object_type": "deadline",
+      "canonical_term": "July 25 County Board Equalization Session Deadline",
+      "category": "protest_deadline",
+      "legal_hierarchy": "statutory_deadline",
+      "semantic_tags": [
+        "deadline",
+        "july_25",
+        "boe",
+        "protest",
+        "equalization"
+      ],
+      "path": "knowledgebase/deadlines/deadline_july25_boe_decision_session.json"
+    },
+    {
+      "id": "deadline_june30_real_property_protest",
+      "object_type": "deadline",
+      "canonical_term": "June 30 Real Property Protest Deadline",
+      "category": "protest_deadline",
+      "legal_hierarchy": "statutory_deadline",
+      "semantic_tags": [
+        "deadline",
+        "june_30",
+        "protest",
+        "form_422",
+        "county_board_equalization"
+      ],
+      "path": "knowledgebase/deadlines/deadline_june30_real_property_protest.json"
+    },
+    {
+      "id": "deadline_may1_personal_property_return",
+      "object_type": "deadline",
+      "canonical_term": "May 1 Personal Property Return Deadline",
+      "category": "personal_property_deadline",
+      "legal_hierarchy": "statutory_deadline",
+      "semantic_tags": [
+        "deadline",
+        "may_1",
+        "personal_property",
+        "return",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/deadlines/deadline_may1_personal_property_return.json"
+    },
+    {
+      "id": "deadline_oct20_county_tax_levy",
+      "object_type": "deadline",
+      "canonical_term": "October 20 County Tax Levy Deadline",
+      "category": "levy_deadline",
+      "legal_hierarchy": "statutory_deadline",
+      "semantic_tags": [
+        "deadline",
+        "october_20",
+        "levy",
+        "county_board_equalization",
+        "tax_request"
+      ],
+      "path": "knowledgebase/deadlines/deadline_oct20_county_tax_levy.json"
+    },
+    {
+      "id": "deadline_tax_delinquency_douglas_lancaster_sarpy",
+      "object_type": "deadline",
+      "canonical_term": "Douglas, Lancaster, and Sarpy Real Property Tax Delinquency Dates",
+      "category": "tax_collection_deadline",
+      "legal_hierarchy": "statutory_collection_timeline",
+      "semantic_tags": [
+        "deadline",
+        "delinquency",
+        "douglas",
+        "lancaster",
+        "sarpy",
+        "tax_collection"
+      ],
+      "path": "knowledgebase/deadlines/deadline_tax_delinquency_douglas_lancaster_sarpy.json"
+    },
+    {
+      "id": "deadline_tax_delinquency_standard_counties",
+      "object_type": "deadline",
+      "canonical_term": "Standard County Real Property Tax Delinquency Dates",
+      "category": "tax_collection_deadline",
+      "legal_hierarchy": "statutory_collection_timeline",
+      "semantic_tags": [
+        "deadline",
+        "delinquency",
+        "tax_collection",
+        "county_treasurer",
+        "real_property_tax"
+      ],
+      "path": "knowledgebase/deadlines/deadline_tax_delinquency_standard_counties.json"
+    },
+    {
+      "id": "form_422_property_valuation_protest",
+      "object_type": "form",
+      "canonical_term": "Property Valuation Protest Form 422/422A",
+      "category": "protest_form",
+      "legal_hierarchy": "pad_form",
+      "semantic_tags": [
+        "form_422",
+        "valuation_protest",
+        "county_clerk",
+        "boe",
+        "june_30"
+      ],
+      "path": "knowledgebase/forms/form_422_property_valuation_protest.json"
+    },
+    {
+      "id": "form_ptc_property_tax_credit",
+      "object_type": "form",
+      "canonical_term": "Nebraska Property Tax Credit Form PTC",
+      "category": "tax_credit_form",
+      "legal_hierarchy": "tax_form",
+      "semantic_tags": [
+        "form_ptc",
+        "ptcx",
+        "property_tax_credit",
+        "income_tax",
+        "tax_relief"
+      ],
+      "path": "knowledgebase/forms/form_ptc_property_tax_credit.json"
+    },
+    {
+      "id": "pad_assessor_certification",
+      "object_type": "pad",
+      "canonical_term": "Nebraska Assessor Certification and Education",
+      "category": "assessor_operations",
+      "legal_hierarchy": "pad_guidance",
+      "semantic_tags": [
+        "assessor_certification",
+        "education",
+        "pad",
+        "exam",
+        "recertification"
+      ],
+      "path": "knowledgebase/pad/pad_assessor_certification.json"
+    },
+    {
+      "id": "pad_reports_opinions_methodology",
+      "object_type": "pad",
+      "canonical_term": "PAD Reports and Opinions Methodology",
+      "category": "statewide_equalization_methodology",
+      "legal_hierarchy": "pad_methodology",
+      "semantic_tags": [
+        "pad_ro",
+        "reports_opinions",
+        "level_of_value",
+        "ratio_study",
+        "equalization",
+        "county_statistics"
+      ],
+      "path": "knowledgebase/pad/pad_reports_opinions_methodology.json"
+    },
+    {
+      "id": "pad_statewide_equalization",
+      "object_type": "equalization",
+      "canonical_term": "Statewide Equalization",
+      "category": "statewide_equalization",
+      "legal_hierarchy": "administrative_process",
+      "semantic_tags": [
+        "statewide_equalization",
+        "terc",
+        "pad",
+        "ratio_study",
+        "level_of_value"
+      ],
+      "path": "knowledgebase/equalization/pad_statewide_equalization.json"
+    },
+    {
+      "id": "public_guidance_assessment_vs_taxes",
+      "object_type": "public_guidance",
+      "canonical_term": "Assessment Is Not the Tax Bill",
+      "category": "taxpayer_explanation",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "taxpayer_guidance",
+        "assessment_vs_tax",
+        "levy",
+        "budget",
+        "tax_bill"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_assessment_vs_taxes.json"
+    },
+    {
+      "id": "research_berry_reassessing_property_tax",
+      "object_type": "research",
+      "canonical_term": "Berry - Reassessing the Property Tax",
+      "category": "assessment_regressivity_research",
+      "legal_hierarchy": "academic_research",
+      "semantic_tags": [
+        "research",
+        "berry",
+        "regressivity",
+        "mass_appraisal_limits",
+        "property_tax_incidence"
+      ],
+      "path": "knowledgebase/research/research_berry_reassessing_property_tax.json"
+    },
+    {
+      "id": "research_lincoln_vertical_inequality_measures",
+      "object_type": "research",
+      "canonical_term": "Lincoln Institute - Measures of Vertical Inequality in Assessments",
+      "category": "assessment_regressivity_research",
+      "legal_hierarchy": "academic_research",
+      "semantic_tags": [
+        "research",
+        "vertical_inequality",
+        "prd",
+        "regression_bias",
+        "suits_index"
+      ],
+      "path": "knowledgebase/research/research_lincoln_vertical_inequality_measures.json"
+    },
+    {
+      "id": "research_mcmillen_singh_assessment_regressivity",
+      "object_type": "research",
+      "canonical_term": "McMillen and Singh - Assessment Regressivity and Property Taxation",
+      "category": "assessment_regressivity_research",
+      "legal_hierarchy": "academic_research",
+      "semantic_tags": [
+        "research",
+        "assessment_regressivity",
+        "tax_incidence",
+        "homestead_exemptions",
+        "income"
+      ],
+      "path": "knowledgebase/research/research_mcmillen_singh_assessment_regressivity.json"
+    },
+    {
+      "id": "standard_iaao_assessment_appeal",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Assessment Appeal",
+      "category": "appeal_standard",
+      "legal_hierarchy": "iaao_standard",
+      "semantic_tags": [
+        "iaao",
+        "appeals",
+        "evidence",
+        "taxpayer_rights",
+        "assessment_review"
+      ],
+      "path": "knowledgebase/iaao/standard_iaao_assessment_appeal.json"
+    },
+    {
+      "id": "standard_iaao_mass_appraisal",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Mass Appraisal of Real Property",
+      "category": "mass_appraisal_standard",
+      "legal_hierarchy": "iaao_standard",
+      "semantic_tags": [
+        "iaao",
+        "mass_appraisal",
+        "cama",
+        "property_characteristics",
+        "valuation_modeling"
+      ],
+      "path": "knowledgebase/iaao/standard_iaao_mass_appraisal.json"
+    },
+    {
+      "id": "standard_iaao_ratio_studies_2013",
+      "object_type": "iaao",
+      "canonical_term": "IAAO Standard on Ratio Studies 2013",
+      "category": "ratio_study_standard",
+      "legal_hierarchy": "iaao_standard",
+      "semantic_tags": [
+        "iaao",
+        "ratio_study",
+        "cod",
+        "prd",
+        "prb",
+        "sales_validation",
+        "equalization"
+      ],
+      "path": "knowledgebase/iaao/standard_iaao_ratio_studies_2013.json"
+    },
+    {
+      "id": "standard_ne_title350_ch12_sales_file",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 12 Sales File",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "sales_file",
+        "valid_sale",
+        "ratio_study",
+        "regulation"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch12_sales_file.json"
+    },
+    {
+      "id": "standard_ne_title350_ch14_agricultural_land",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 14 Agricultural and Horticultural Land Assessment",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "agricultural_land",
+        "horticultural_land",
+        "greenbelt",
+        "regulation"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch14_agricultural_land.json"
+    },
+    {
+      "id": "standard_ne_title350_ch17_reports_opinions",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 17 Reports and Opinions",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "reports_opinions",
+        "pad_ro",
+        "ratio_study",
+        "equalization"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch17_reports_opinions.json"
+    },
+    {
+      "id": "standard_ne_title350_ch50_assessment_process",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 50 Assessment Process",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "assessment_process",
+        "inspection",
+        "records",
+        "regulation"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch50_assessment_process.json"
+    },
+    {
+      "id": "standard_ne_title350_ch65_reporting_due_dates",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 65 Reporting Requirements and Due Dates",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "reporting",
+        "due_dates",
+        "county_reports",
+        "regulation"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch65_reporting_due_dates.json"
+    },
+    {
+      "id": "standard_ne_title350_ch71_certification",
+      "object_type": "standard",
+      "canonical_term": "Title 350 Chapter 71 Education, Certification, and Recertification",
+      "category": "nebraska_regulation",
+      "legal_hierarchy": "regulation",
+      "semantic_tags": [
+        "title_350",
+        "assessor_certification",
+        "education",
+        "recertification"
+      ],
+      "path": "knowledgebase/standards/standard_ne_title350_ch71_certification.json"
+    },
+    {
+      "id": "statute_ne_13_501_budget_act",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Budget Act",
+      "category": "budget_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "budget_act",
+        "political_subdivision",
+        "property_tax_request",
+        "levy",
+        "county_clerk"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_13_501_budget_act.json"
+    },
+    {
+      "id": "statute_ne_77_112_actual_value",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-112 Actual Value",
+      "category": "definition_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "actual_value",
+        "market_value",
+        "definition",
+        "valuation"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_112_actual_value.json"
+    },
+    {
+      "id": "statute_ne_77_1201_personal_property_assessment",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1201 Personal Property Assessment",
+      "category": "assessment_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "personal_property",
+        "assessment_date",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1201_personal_property_assessment.json"
+    },
+    {
+      "id": "statute_ne_77_1301_assessment_of_real_property",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
+      "category": "assessment_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "real_property",
+        "assessment_date",
+        "county_assessor",
+        "list_and_value"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1301_assessment_of_real_property.json"
+    },
+    {
+      "id": "statute_ne_77_1314_income_approach",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1314 County Assessor Use of Income Approach",
+      "category": "valuation_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "income_approach",
+        "discounted_cash_flow",
+        "vacant_lots",
+        "terc"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1314_income_approach.json"
+    },
+    {
+      "id": "statute_ne_77_1315_assessment_roll",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1315 Real Property Assessment Roll",
+      "category": "assessment_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "assessment_roll",
+        "notice",
+        "protest_timing",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1315_assessment_roll.json"
+    },
+    {
+      "id": "statute_ne_77_1359_greenbelt",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1359 Agricultural and Horticultural Land Special Valuation",
+      "category": "agricultural_valuation_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "greenbelt",
+        "agricultural_land",
+        "special_valuation"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1359_greenbelt.json"
+    },
+    {
+      "id": "statute_ne_77_1502_protests",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1502 Board Protests",
+      "category": "protest_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "protest",
+        "june_30",
+        "form_422",
+        "county_board_equalization"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1502_protests.json"
+    },
+    {
+      "id": "statute_ne_77_1504_boe_powers_decision",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1504 Equalization of Property; Protest Procedure",
+      "category": "equalization_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "boe",
+        "equalization",
+        "protest_hearing",
+        "terc_appeal"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1504_boe_powers_decision.json"
+    },
+    {
+      "id": "statute_ne_77_1601_county_tax_levy",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-1601 County Tax Levy",
+      "category": "levy_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "levy",
+        "october_20",
+        "county_board_equalization",
+        "tax_request"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1601_county_tax_levy.json"
+    },
+    {
+      "id": "statute_ne_77_3442_levy_limits",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. § 77-3442 Property Tax Levy Limits",
+      "category": "levy_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "levy_limits",
+        "tax_request",
+        "political_subdivision",
+        "budget"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_3442_levy_limits.json"
+    },
+    {
+      "id": "statute_ne_77_3501_3530_homestead",
+      "object_type": "statute",
+      "canonical_term": "Neb. Rev. Stat. §§ 77-3501 to 77-3530 Homestead Exemption",
+      "category": "tax_relief_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "homestead_exemption",
+        "tax_relief",
+        "eligibility"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_3501_3530_homestead.json"
+    },
+    {
+      "id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Property Tax Incentive Act",
+      "category": "tax_credit_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "property_tax_incentive_act",
+        "property_tax_credit",
+        "school_district_tax",
+        "community_college_tax"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_6701_6706_property_tax_incentive.json"
+    },
+    {
+      "id": "workflow_boe_protest_hearing",
+      "object_type": "workflow",
+      "canonical_term": "County Board of Equalization Protest Hearing Workflow",
+      "category": "protest_workflow",
+      "legal_hierarchy": "statutory_workflow",
+      "semantic_tags": [
+        "workflow",
+        "boe",
+        "protest",
+        "hearing",
+        "decision",
+        "terc_appeal"
+      ],
+      "path": "knowledgebase/workflows/workflow_boe_protest_hearing.json"
+    },
+    {
+      "id": "workflow_cama_data_maintenance",
+      "object_type": "workflow",
+      "canonical_term": "CAMA Data Maintenance Workflow",
+      "category": "assessor_operations",
+      "legal_hierarchy": "professional_operational_workflow",
+      "semantic_tags": [
+        "workflow",
+        "cama",
+        "data_quality",
+        "property_records",
+        "inspection",
+        "audit_log"
+      ],
+      "path": "knowledgebase/workflows/workflow_cama_data_maintenance.json"
+    },
+    {
+      "id": "workflow_levy_setting_tax_statement_cycle",
+      "object_type": "workflow",
+      "canonical_term": "Levy Setting and Tax Statement Cycle",
+      "category": "levy_tax_workflow",
+      "legal_hierarchy": "statutory_workflow",
+      "semantic_tags": [
+        "workflow",
+        "levy",
+        "budget",
+        "tax_statement",
+        "treasurer",
+        "tax_request"
+      ],
+      "path": "knowledgebase/workflows/workflow_levy_setting_tax_statement_cycle.json"
+    },
+    {
+      "id": "workflow_ratio_study_equalization",
+      "object_type": "workflow",
+      "canonical_term": "Ratio Study and Equalization Workflow",
+      "category": "ratio_study_workflow",
+      "legal_hierarchy": "statistical_administrative_workflow",
+      "semantic_tags": [
+        "workflow",
+        "ratio_study",
+        "equalization",
+        "sales_file",
+        "cod",
+        "prd",
+        "prb"
+      ],
+      "path": "knowledgebase/workflows/workflow_ratio_study_equalization.json"
+    },
+    {
+      "id": "workflow_real_property_annual_assessment_cycle",
+      "object_type": "workflow",
+      "canonical_term": "Annual Real Property Assessment Cycle",
+      "category": "assessment_workflow",
+      "legal_hierarchy": "statutory_pad_workflow",
+      "semantic_tags": [
+        "workflow",
+        "annual_assessment",
+        "real_property",
+        "calendar",
+        "notice",
+        "protest"
+      ],
+      "path": "knowledgebase/workflows/workflow_real_property_annual_assessment_cycle.json"
+    },
+    {
+      "id": "workflow_sales_file_to_ratio_study",
+      "object_type": "workflow",
+      "canonical_term": "Sales File to Ratio Study Workflow",
+      "category": "ratio_study_workflow",
+      "legal_hierarchy": "administrative_statistical_workflow",
+      "semantic_tags": [
+        "workflow",
+        "sales_file",
+        "valid_sale",
+        "ratio_study",
+        "sales_validation"
+      ],
+      "path": "knowledgebase/workflows/workflow_sales_file_to_ratio_study.json"
+    },
+    {
+      "id": "workflow_terc_appeal",
+      "object_type": "workflow",
+      "canonical_term": "TERC Appeal Workflow",
+      "category": "appeal_workflow",
+      "legal_hierarchy": "administrative_tribunal_workflow",
+      "semantic_tags": [
+        "workflow",
+        "terc",
+        "appeal",
+        "county_board_equalization",
+        "valuation_protest"
+      ],
+      "path": "knowledgebase/workflows/workflow_terc_appeal.json"
+    },
+    {
+      "id": "workflow_valuation_notice_to_protest",
+      "object_type": "workflow",
+      "canonical_term": "Valuation Notice to Protest Workflow",
+      "category": "protest_workflow",
+      "legal_hierarchy": "statutory_workflow",
+      "semantic_tags": [
+        "workflow",
+        "valuation_notice",
+        "protest",
+        "form_422",
+        "evidence",
+        "june_30"
+      ],
+      "path": "knowledgebase/workflows/workflow_valuation_notice_to_protest.json"
+    }
+  ]
+}

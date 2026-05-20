@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_personal_property",
+  "object_type": "concept",
+  "canonical_term": "Taxable Personal Property",
+  "aliases": [
+    "business personal property",
+    "depreciable tangible personal property"
+  ],
+  "category": "property_type",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_concept",
+  "summary": "Nebraska taxable personal property generally refers to depreciable tangible personal property with Nebraska net book value greater than zero, subject to statutory exemptions and filing rules.",
+  "plain_language": "Business equipment and similar depreciable tangible property may need to be reported even though licensed vehicles, livestock, and some other property are excluded.",
+  "semantic_tags": [
+    "personal_property",
+    "business_personal_property",
+    "may_1",
+    "assessment",
+    "exemptions"
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1201_personal_property_assessment",
+      "note": "Personal property assessment statute."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_may1_personal_property_return",
+      "note": "Personal property return due date."
+    },
+    {
+      "type": "contrasted_with",
+      "target_id": "concept_actual_value",
+      "note": "Personal property may use net book/depreciation framework."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "taxable personal property FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1201",
+      "locator": "§ 77-1201",
+      "citation": "Neb. Rev. Stat. § 77-1201."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

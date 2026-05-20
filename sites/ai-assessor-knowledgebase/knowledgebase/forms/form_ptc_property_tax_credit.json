@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "form_ptc_property_tax_credit",
+  "object_type": "form",
+  "canonical_term": "Nebraska Property Tax Credit Form PTC",
+  "aliases": [
+    "Form PTC",
+    "PTCX",
+    "Nebraska Property Tax Credit form"
+  ],
+  "category": "tax_credit_form",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "tax_form",
+  "summary": "Nebraska income tax form used to claim qualifying property tax credits; amended PTCX may apply where a prior-year credit was not claimed.",
+  "plain_language": "Use the correct year's PTC/PTCX process to claim eligible property tax credits.",
+  "semantic_tags": [
+    "form_ptc",
+    "ptcx",
+    "property_tax_credit",
+    "income_tax",
+    "tax_relief"
+  ],
+  "relationships": [
+    {
+      "type": "claims",
+      "target_id": "concept_property_tax_credit",
+      "note": "Tax credit program."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "note": "Property Tax Incentive Act."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_general_info",
+      "locator": "overview/form discussion",
+      "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information."
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_faq",
+      "locator": "Form PTC FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Tax Credit FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

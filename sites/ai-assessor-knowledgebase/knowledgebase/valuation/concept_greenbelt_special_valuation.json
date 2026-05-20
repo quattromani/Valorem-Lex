@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_greenbelt_special_valuation",
+  "object_type": "valuation",
+  "canonical_term": "Agricultural and Horticultural Land Special Valuation",
+  "aliases": [
+    "greenbelt",
+    "special valuation",
+    "ag land special value"
+  ],
+  "category": "agricultural_valuation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_program",
+  "summary": "Nebraska special valuation program for qualifying agricultural or horticultural land, distinct from ordinary market/actual-value treatment.",
+  "plain_language": "Some qualifying agricultural or horticultural land can be assessed under a special valuation framework rather than the same basis as ordinary real property.",
+  "semantic_tags": [
+    "greenbelt",
+    "agricultural_land",
+    "special_valuation",
+    "classification",
+    "valuation"
+  ],
+  "facts": [
+    {
+      "predicate": "governed_by",
+      "object": [
+        "statute_ne_77_1359_greenbelt",
+        "standard_ne_title350_ch14_agricultural_land"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1359_greenbelt",
+      "note": "Special valuation statute."
+    },
+    {
+      "type": "related_case",
+      "target_id": "case_lancaster_county_boe_v_moser",
+      "note": "Moser involved agricultural land valuation/equalization dispute."
+    },
+    {
+      "type": "exception_or_variant_of",
+      "target_id": "concept_actual_value",
+      "note": "Different statutory treatment from general real-property actual value."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1359",
+      "locator": "§ 77-1359",
+      "citation": "Neb. Rev. Stat. § 77-1359."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 14",
+      "citation": "Nebraska DOR PAD, Title 350 Chapter 14 index entry."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_statute_deep_extraction"
+}

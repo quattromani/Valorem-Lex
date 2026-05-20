@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "pad_statewide_equalization",
+  "object_type": "equalization",
+  "canonical_term": "Statewide Equalization",
+  "aliases": [
+    "state equalization",
+    "TERC statewide equalization",
+    "PAD equalization review"
+  ],
+  "category": "statewide_equalization",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "administrative_process",
+  "summary": "Nebraska statewide process for reviewing and equalizing assessed values across counties/classes, informed by PAD analysis and TERC authority.",
+  "plain_language": "Statewide equalization looks beyond one parcel to whether counties/classes are at acceptable assessment levels.",
+  "semantic_tags": [
+    "statewide_equalization",
+    "terc",
+    "pad",
+    "ratio_study",
+    "level_of_value"
+  ],
+  "relationships": [
+    {
+      "type": "uses",
+      "target_id": "pad_reports_opinions_methodology",
+      "note": "PAD R&O evidence."
+    },
+    {
+      "type": "uses",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio-study workflow."
+    },
+    {
+      "type": "grounded_in",
+      "target_id": "concept_equalization",
+      "note": "Equalization concept."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "terc_about",
+      "locator": "primary powers and duties",
+      "citation": "Nebraska TERC, About Us."
+    },
+    {
+      "source_id": "ne_dor_pad_purpose",
+      "locator": "PAD functions",
+      "citation": "Nebraska DOR PAD, Purpose."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_terc_rules_and_ro_ingestion"
+}

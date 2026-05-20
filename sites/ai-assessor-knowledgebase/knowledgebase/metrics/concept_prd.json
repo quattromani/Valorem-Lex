@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_prd",
+  "object_type": "metric",
+  "canonical_term": "Price-Related Differential",
+  "aliases": [
+    "PRD"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "General assessment; used in IAAO ratio studies",
+  "legal_hierarchy": "iaao_standard_metric",
+  "summary": "Vertical-equity indicator calculated as mean ratio divided by weighted mean ratio; values materially above or below 1 can suggest regressivity or progressivity patterns.",
+  "plain_language": "PRD compares a simple average ratio to a value-weighted ratio to see whether lower- and higher-priced properties are treated differently.",
+  "semantic_tags": [
+    "prd",
+    "vertical_equity",
+    "regressivity",
+    "ratio_study",
+    "weighted_mean"
+  ],
+  "facts": [
+    {
+      "predicate": "formula",
+      "object": "mean_ratio / weighted_mean_ratio"
+    },
+    {
+      "predicate": "interpretation",
+      "object": "above_1_can_signal_regressivity_when_low_value_properties_have_higher_ratios"
+    }
+  ],
+  "thresholds": [
+    {
+      "type": "iaao_general_guidance",
+      "min": 0.98,
+      "max": 1.03,
+      "note": "Common IAAO acceptable PRD range referenced in ratio-study practice; verify jurisdiction-specific application before legal use."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "defined_by",
+      "target_id": "standard_iaao_ratio_studies_2013",
+      "note": "IAAO ratio study standard."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_mean_ratio",
+      "note": "Numerator."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_weighted_mean_ratio",
+      "note": "Denominator."
+    },
+    {
+      "type": "indicates",
+      "target_id": "concept_vertical_equity",
+      "note": "Vertical equity signal."
+    },
+    {
+      "type": "related_research",
+      "target_id": "research_lincoln_vertical_inequality_measures",
+      "note": "Research cautions about vertical inequity measures."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "vertical equity statistics",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "lincoln_vertical_inequality_measures",
+      "locator": "working paper abstract",
+      "citation": "Lincoln Institute, Measures of Vertical Inequality in Assessments."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

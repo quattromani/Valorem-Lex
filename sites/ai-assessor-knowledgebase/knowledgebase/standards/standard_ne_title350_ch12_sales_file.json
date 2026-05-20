@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch12_sales_file",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 12 Sales File",
+  "aliases": [
+    "Sales File regulation",
+    "Nebraska Sales File"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska Property Assessment regulation chapter governing sales file domain; future ingestion should extract sale qualification, coding, and maintenance requirements.",
+  "plain_language": "This is the Nebraska regulation area for how sales data is maintained and used.",
+  "semantic_tags": [
+    "title_350",
+    "sales_file",
+    "valid_sale",
+    "ratio_study",
+    "regulation"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_valid_sale",
+      "note": "Sale qualification."
+    },
+    {
+      "type": "governs",
+      "target_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales data workflow."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_sales_ratio",
+      "note": "Sales are ratio denominator."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Chapter 12",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

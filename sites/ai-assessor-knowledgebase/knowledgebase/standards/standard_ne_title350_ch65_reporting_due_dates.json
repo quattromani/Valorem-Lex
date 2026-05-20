@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch65_reporting_due_dates",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 65 Reporting Requirements and Due Dates",
+  "aliases": [
+    "Reporting due dates regulation"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska regulation chapter for reporting requirements and due dates relevant to PAD/county reporting workflows.",
+  "plain_language": "This regulation chapter is a source for county reporting deadlines to PAD.",
+  "semantic_tags": [
+    "title_350",
+    "reporting",
+    "due_dates",
+    "county_reports",
+    "regulation"
+  ],
+  "relationships": [
+    {
+      "type": "context_for",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Reporting due dates are part of annual assessment operations."
+    },
+    {
+      "type": "context_for",
+      "target_id": "pad_reports_opinions_methodology",
+      "note": "R&O depends on county reports/data."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 65",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

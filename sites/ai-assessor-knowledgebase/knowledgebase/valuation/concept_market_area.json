@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_market_area",
+  "object_type": "valuation",
+  "canonical_term": "Market Area",
+  "aliases": [
+    "submarket",
+    "economic area"
+  ],
+  "category": "stratification",
+  "jurisdiction": "General assessment; used in Nebraska mass appraisal",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Geographic or economic segment where properties compete in a similar market and share valuation influences.",
+  "plain_language": "A market area groups properties that buyers tend to compare with one another.",
+  "semantic_tags": [
+    "market_area",
+    "location",
+    "stratification",
+    "neighborhood",
+    "mass_appraisal"
+  ],
+  "relationships": [
+    {
+      "type": "related_concept",
+      "target_id": "concept_neighborhood",
+      "note": "Neighborhood coding is often a local implementation of market segmentation."
+    },
+    {
+      "type": "used_by",
+      "target_id": "concept_stratification",
+      "note": "Market areas can define ratio-study strata."
+    },
+    {
+      "type": "used_by",
+      "target_id": "concept_sales_comparison_approach",
+      "note": "Comparable sale selection often considers market area."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "location data and market area discussion",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_county_manual_ingestion"
+}

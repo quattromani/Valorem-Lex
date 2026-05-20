@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_horizontal_equity",
+  "object_type": "concept",
+  "canonical_term": "Horizontal Equity",
+  "aliases": [
+    "horizontal uniformity",
+    "uniformity among similar properties"
+  ],
+  "category": "equity_concept",
+  "jurisdiction": "General assessment; Nebraska constitutional relevance",
+  "legal_hierarchy": "assessment_theory",
+  "summary": "Assessment equity principle that similar properties should be assessed similarly relative to market value.",
+  "plain_language": "Similar properties should receive similar assessment treatment.",
+  "semantic_tags": [
+    "horizontal_equity",
+    "uniformity",
+    "cod",
+    "similar_properties"
+  ],
+  "relationships": [
+    {
+      "type": "measured_by",
+      "target_id": "concept_cod",
+      "note": "COD is a standard dispersion metric."
+    },
+    {
+      "type": "related_to",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Maps appraisal theory to Nebraska legal requirement."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Ratio studies evaluate uniformity."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "appraisal uniformity",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_const_article_viii",
+      "locator": "Article VIII-1",
+      "citation": "Neb. Const. art. VIII, § 1."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

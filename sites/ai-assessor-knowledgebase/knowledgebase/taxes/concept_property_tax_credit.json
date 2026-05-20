@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_property_tax_credit",
+  "object_type": "tax",
+  "canonical_term": "Nebraska Property Tax Credit",
+  "aliases": [
+    "Form PTC credit",
+    "Property Tax Incentive Act credit",
+    "community college property tax credit",
+    "school district property tax credit"
+  ],
+  "category": "tax_relief",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_tax_credit",
+  "summary": "Nebraska refundable income tax credit and related property-tax relief framework for qualifying school district and community college property taxes, with eligibility varying by tax year.",
+  "plain_language": "Some Nebraska property taxes may create a state income tax credit, but the qualifying taxes and years matter.",
+  "semantic_tags": [
+    "property_tax_credit",
+    "form_ptc",
+    "ptcx",
+    "school_district_tax",
+    "community_college_tax",
+    "tax_relief"
+  ],
+  "facts": [
+    {
+      "predicate": "governed_by",
+      "object": "statute_ne_77_6701_6706_property_tax_incentive"
+    },
+    {
+      "predicate": "claim_form",
+      "object": "Form PTC or PTCX depending on year/status"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_6701_6706_property_tax_incentive",
+      "note": "Property Tax Incentive Act."
+    },
+    {
+      "type": "related_form",
+      "target_id": "form_ptc_property_tax_credit",
+      "note": "Credit computation form."
+    },
+    {
+      "type": "distinguished_from",
+      "target_id": "concept_tax_bill",
+      "note": "Credits may reduce/refund burden but are not the same as assessment value."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_general_info",
+      "locator": "overview",
+      "citation": "Nebraska DOR, Nebraska Property Tax Credit General Information."
+    },
+    {
+      "source_id": "ne_leg_77_6701_6706_property_tax_incentive",
+      "locator": "§§ 77-6701 to 77-6706",
+      "citation": "Neb. Rev. Stat. §§ 77-6701 to 77-6706."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

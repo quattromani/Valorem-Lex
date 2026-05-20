@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "research_lincoln_vertical_inequality_measures",
+  "object_type": "research",
+  "canonical_term": "Lincoln Institute - Measures of Vertical Inequality in Assessments",
+  "aliases": [
+    "Measures of Vertical Inequality",
+    "vertical inequality measures"
+  ],
+  "category": "assessment_regressivity_research",
+  "jurisdiction": "United States",
+  "legal_hierarchy": "academic_research",
+  "summary": "Research source evaluating conventional vertical inequity measures such as PRD and regression-based measures, including cautions about bias and alternative measures.",
+  "plain_language": "This source warns that measuring regressivity is technically tricky; some methods can imply regressivity even when it is not present.",
+  "semantic_tags": [
+    "research",
+    "vertical_inequality",
+    "prd",
+    "regression_bias",
+    "suits_index"
+  ],
+  "relationships": [
+    {
+      "type": "contextualizes",
+      "target_id": "concept_prd",
+      "note": "Cautions about vertical measure interpretation."
+    },
+    {
+      "type": "contextualizes",
+      "target_id": "concept_vertical_equity",
+      "note": "Measurement theory."
+    },
+    {
+      "type": "related_to",
+      "target_id": "concept_regressivity",
+      "note": "Regressivity measurement."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "lincoln_vertical_inequality_measures",
+      "locator": "working paper abstract",
+      "citation": "Lincoln Institute of Land Policy, Measures of Vertical Inequality in Assessments."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_from_research_snippet"
+}

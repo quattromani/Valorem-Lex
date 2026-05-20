@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_tax_bill",
+  "object_type": "tax",
+  "canonical_term": "Property Tax Bill",
+  "aliases": [
+    "tax statement",
+    "property taxes due",
+    "real estate taxes"
+  ],
+  "category": "tax_collection",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_workflow_result",
+  "summary": "Tax amount produced after assessed values are certified, levies are set by authorized taxing authorities/county board workflow, and statements are delivered for treasurer collection.",
+  "plain_language": "Your value is only one part of the bill. Levy rates, local budgets, credits, and exemptions also affect taxes due.",
+  "semantic_tags": [
+    "tax_bill",
+    "levy",
+    "tax_statement",
+    "treasurer",
+    "assessment_vs_tax"
+  ],
+  "facts": [
+    {
+      "predicate": "depends_on",
+      "object": [
+        "assessed_value",
+        "levy",
+        "credits",
+        "exemptions",
+        "taxing_subdivisions"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "computed_after",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Tax statement follows levy/tax-list process."
+    },
+    {
+      "type": "distinguished_from",
+      "target_id": "concept_assessed_value",
+      "note": "Tax bill is not the assessed value."
+    },
+    {
+      "type": "explained_by",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Public explanation object."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "tax list and delinquency FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1601",
+      "locator": "§ 77-1601",
+      "citation": "Neb. Rev. Stat. § 77-1601."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

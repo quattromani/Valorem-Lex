@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "standard_ne_title350_ch14_agricultural_land",
+  "object_type": "standard",
+  "canonical_term": "Title 350 Chapter 14 Agricultural and Horticultural Land Assessment",
+  "aliases": [
+    "Agricultural Land regulation",
+    "Horticultural Land regulation"
+  ],
+  "category": "nebraska_regulation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "regulation",
+  "summary": "Nebraska regulation chapter for agricultural and horticultural land assessment.",
+  "plain_language": "This is a regulation source for how agricultural and horticultural land is assessed.",
+  "semantic_tags": [
+    "title_350",
+    "agricultural_land",
+    "horticultural_land",
+    "greenbelt",
+    "regulation"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_greenbelt_special_valuation",
+      "note": "Agricultural/horticultural valuation domain."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Chapter 14",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_regulation_extraction"
+}

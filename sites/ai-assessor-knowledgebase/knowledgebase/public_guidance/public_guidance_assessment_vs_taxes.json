@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "public_guidance_assessment_vs_taxes",
+  "object_type": "public_guidance",
+  "canonical_term": "Assessment Is Not the Tax Bill",
+  "aliases": [
+    "value versus taxes explanation",
+    "why did taxes change",
+    "assessment versus levy"
+  ],
+  "category": "taxpayer_explanation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Taxpayer-facing distinction: assessors value property; budgets and levies from taxing subdivisions determine tax rates; treasurers collect the resulting tax.",
+  "plain_language": "A higher value can affect taxes, but your tax bill also depends on what schools, cities, counties, and other local entities levy.",
+  "semantic_tags": [
+    "taxpayer_guidance",
+    "assessment_vs_tax",
+    "levy",
+    "budget",
+    "tax_bill"
+  ],
+  "relationships": [
+    {
+      "type": "explains",
+      "target_id": "concept_value_vs_tax",
+      "note": "Canonical concept."
+    },
+    {
+      "type": "distinguishes",
+      "target_id": "concept_assessed_value",
+      "note": "Assessment role."
+    },
+    {
+      "type": "distinguishes",
+      "target_id": "concept_tax_bill",
+      "note": "Tax collection result."
+    },
+    {
+      "type": "uses_workflow",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy/tax statement process."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "property assessment FAQs",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_auditor_budget_faq",
+      "locator": "budget/tax request FAQ",
+      "citation": "Nebraska Auditor of Public Accounts, Budget FAQ."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_valid_sale",
+  "object_type": "concept",
+  "canonical_term": "Valid Sale",
+  "aliases": [
+    "qualified sale",
+    "usable sale",
+    "arms-length sale"
+  ],
+  "category": "sales_file_concept",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "administrative_professional_concept",
+  "summary": "Sale screened and qualified as a reliable market indicator for appraisal, comparable-sale analysis, or ratio-study use.",
+  "plain_language": "Not every sale is a good market signal. Sales must be screened before they are used.",
+  "semantic_tags": [
+    "valid_sale",
+    "sales_file",
+    "arms_length",
+    "ratio_study",
+    "comparable_sales"
+  ],
+  "facts": [
+    {
+      "predicate": "feeds",
+      "object": [
+        "concept_sales_ratio",
+        "concept_sales_comparison_approach"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "required_by",
+      "target_id": "concept_sales_ratio",
+      "note": "Ratio study requires valid sales."
+    },
+    {
+      "type": "managed_by",
+      "target_id": "workflow_sales_file_to_ratio_study",
+      "note": "Sales file workflow qualifies sales."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch12_sales_file",
+      "note": "Nebraska Sales File regulation chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "sales validation guidelines",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 12 Sales File",
+      "citation": "Nebraska DOR PAD, Title 350 Chapter 12 index entry."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_title350_ch12_extraction"
+}

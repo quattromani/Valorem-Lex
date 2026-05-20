@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_homestead_exemption",
+  "object_type": "tax",
+  "canonical_term": "Homestead Exemption",
+  "aliases": [
+    "Nebraska homestead exemption",
+    "homestead tax relief"
+  ],
+  "category": "tax_relief",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_tax_relief",
+  "summary": "Nebraska statutory property tax relief program for qualifying owner-occupants, administered under the homestead exemption statutes and PAD calendar/guidance.",
+  "plain_language": "Homestead exemption can reduce property tax burden for eligible homeowners, but it is different from proving the assessed value is wrong.",
+  "semantic_tags": [
+    "homestead_exemption",
+    "tax_relief",
+    "eligibility",
+    "owner_occupant",
+    "assessment_calendar"
+  ],
+  "facts": [
+    {
+      "predicate": "governed_by",
+      "object": "statute_ne_77_3501_3530_homestead"
+    },
+    {
+      "predicate": "distinguished_from",
+      "object": "valuation_protest"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_3501_3530_homestead",
+      "note": "Homestead statutory range."
+    },
+    {
+      "type": "constitutional_context",
+      "target_id": "const_ne_article_viii_exemptions",
+      "note": "Exemption/classification authority context."
+    },
+    {
+      "type": "related_relief",
+      "target_id": "concept_property_tax_credit",
+      "note": "Different relief mechanism."
+    },
+    {
+      "type": "contrasted_with",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Exemption eligibility is separate from contesting value."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_3501_3530_homestead",
+      "locator": "§§ 77-3501 to 77-3530",
+      "citation": "Neb. Rev. Stat. §§ 77-3501 to 77-3530."
+    },
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "locator": "Homestead Exemption Calendar",
+      "citation": "Nebraska DOR PAD, PAD Calendars."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "homestead/property assessment FAQ references",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_homestead_calendar_extraction"
+}

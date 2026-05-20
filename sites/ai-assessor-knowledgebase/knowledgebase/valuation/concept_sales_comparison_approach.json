@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_sales_comparison_approach",
+  "object_type": "valuation",
+  "canonical_term": "Sales Comparison Approach",
+  "aliases": [
+    "market approach",
+    "comparable sales approach",
+    "comps"
+  ],
+  "category": "valuation_approach",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Valuation approach estimating property value from sales of comparable properties adjusted for relevant differences.",
+  "plain_language": "Find similar sold properties, adjust for differences, and use them to support a market value estimate.",
+  "semantic_tags": [
+    "sales_comparison",
+    "market_approach",
+    "comparable_sales",
+    "valuation",
+    "protest_evidence"
+  ],
+  "relationships": [
+    {
+      "type": "part_of",
+      "target_id": "concept_valuation_approaches",
+      "note": "One major appraisal approach."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_valid_sale",
+      "note": "Comparable sales should be valid market indicators."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_market_area",
+      "note": "Market area affects comparability."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Recent arms-length comparable sales can support protest evidence."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_court_case_summaries_history",
+      "locator": "valuation approaches discussion",
+      "citation": "Nebraska DOR PAD, Court Case Summaries History."
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "locator": "supporting documentation examples",
+      "citation": "Lancaster County, Property Valuation Protests."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_manual_review"
+}

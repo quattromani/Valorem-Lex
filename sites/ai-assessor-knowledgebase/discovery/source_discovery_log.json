@@ -1,0 +1,782 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "discovered_source_count": 57,
+  "saturation_notes": [
+    "Searches repeatedly returned the Nebraska DOR PAD legal-information hub, Chapter 77 statutes, PAD calendars, protest guidance, and county protest pages.",
+    "County-level results became duplicative around Form 422, June protest timing, evidence requirements, and TERC appeal routing.",
+    "IAAO results converged on the 2013 Ratio Study Standard, 2025 Mass Appraisal Standard, 2016 Assessment Appeal Standard, glossary, and 2025/2026 ratio-study exposure drafts.",
+    "Research results converged on Berry, Lincoln Institute working papers, and assessment-regressivity literature."
+  ],
+  "discovered_sources": [
+    {
+      "source_id": "berry_reassessing_property_tax",
+      "title": "Reassessing the Property Tax",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3800536",
+      "source_type": "working_paper",
+      "legal_hierarchy": "academic_research",
+      "topics": [
+        "assessment_regressivity",
+        "vertical_equity",
+        "property_tax_incidence",
+        "mass_appraisal_limits"
+      ]
+    },
+    {
+      "source_id": "case_gordman_justia",
+      "title": "Gordman Properties v. Hall County Board of Equalization",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/1987/231-39.html",
+      "source_type": "case_law",
+      "legal_hierarchy": "case_law",
+      "topics": [
+        "uniformity",
+        "actual_value",
+        "equalization",
+        "burden_of_proof"
+      ]
+    },
+    {
+      "source_id": "case_kearney_convention_v_buffalo_vlex",
+      "title": "Kearney Convention Center, Inc. v. Buffalo County Board of Equalization",
+      "url": "https://case-law.vlex.com/vid/kearney-convention-center-inc-888332263",
+      "source_type": "case_law",
+      "legal_hierarchy": "case_law",
+      "topics": [
+        "uniformity",
+        "proportionality",
+        "classification",
+        "actual_value"
+      ]
+    },
+    {
+      "source_id": "case_lincoln_tel_justia",
+      "title": "Lincoln Telephone & Telegraph Co. v. County Board",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/1981/43343-1.html",
+      "source_type": "case_law",
+      "legal_hierarchy": "case_law",
+      "topics": [
+        "substantial_compliance",
+        "uniformity",
+        "proportionality",
+        "personal_property"
+      ]
+    },
+    {
+      "source_id": "case_moser_official",
+      "title": "Lancaster County Board of Equalization v. Moser",
+      "url": "https://www.nebraska.gov/apps-courts-epub/public/viewOpinion?docId=N00008969PUB",
+      "source_type": "case_law",
+      "legal_hierarchy": "case_law",
+      "topics": [
+        "uniformity",
+        "burden_of_proof",
+        "grossly_excessive",
+        "equalization",
+        "agricultural_land"
+      ]
+    },
+    {
+      "source_id": "frontier_county_property_valuation_protests",
+      "title": "Property Valuation Protests",
+      "url": "https://frontiercounty.ne.gov/county-assessor/property-valuation-protests/",
+      "source_type": "county_guidance",
+      "legal_hierarchy": "local_practice",
+      "topics": [
+        "protest",
+        "form_422",
+        "county_board_equalization",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "iaao_assessment_appeal_standard",
+      "title": "Standard on Assessment Appeal",
+      "url": "https://www.iaao.org/wp-content/uploads/Assessment_Appeal_2016.pdf",
+      "source_type": "standard",
+      "legal_hierarchy": "iaao_standard",
+      "topics": [
+        "appeals",
+        "assessment_review",
+        "taxpayer_rights",
+        "evidence"
+      ]
+    },
+    {
+      "source_id": "iaao_glossary",
+      "title": "Glossary for Property Appraisal and Assessment",
+      "url": "https://iaao-psl1290.rd.net/publications-list/glossary/",
+      "source_type": "glossary",
+      "legal_hierarchy": "iaao_glossary",
+      "topics": [
+        "glossary",
+        "appraisal_terms",
+        "ratio_study_terms",
+        "assessment_terms"
+      ]
+    },
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "title": "Standard on Mass Appraisal of Real Property",
+      "url": "https://www.iaao.org/wp-content/uploads/Standard_on_Mass_Appraisal.pdf",
+      "source_type": "standard",
+      "legal_hierarchy": "iaao_standard",
+      "topics": [
+        "mass_appraisal",
+        "cama",
+        "property_characteristics",
+        "valuation_models",
+        "data_quality"
+      ]
+    },
+    {
+      "source_id": "iaao_ratio_practices_2022",
+      "title": "Ratio Study Practices in the United States, Canada, and the World: Results of the 2022 Survey",
+      "url": "https://researchexchange.iaao.org/jptaa/vol20/iss1/5/",
+      "source_type": "journal_article",
+      "legal_hierarchy": "research",
+      "topics": [
+        "ratio_studies",
+        "oversight_agencies",
+        "assessment_practices",
+        "survey"
+      ]
+    },
+    {
+      "source_id": "iaao_ratio_study_exposure_draft_2026",
+      "title": "Ratio Studies Exposure Draft",
+      "url": "https://www.iaao.org/about/board-of-directors/governing-documents/ratio-studies-exposure-draft/",
+      "source_type": "draft_standard",
+      "legal_hierarchy": "draft_standard",
+      "topics": [
+        "ratio_studies",
+        "vertical_equity",
+        "standard_revision",
+        "exposure_draft"
+      ]
+    },
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "title": "Standard on Ratio Studies",
+      "url": "https://www.iaao.org/wp-content/uploads/Standard_on_Ratio_Studies.pdf",
+      "source_type": "standard",
+      "legal_hierarchy": "iaao_standard",
+      "topics": [
+        "ratio_studies",
+        "cod",
+        "prd",
+        "prb",
+        "level_of_value",
+        "sales_validation",
+        "equalization"
+      ]
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "title": "Property Valuation Protests",
+      "url": "https://www.lancaster.ne.gov/408/Property-Valuation-Protests",
+      "source_type": "county_guidance",
+      "legal_hierarchy": "local_practice",
+      "topics": [
+        "protest",
+        "county_clerk",
+        "electronic_filing",
+        "evidence",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "lancaster_county_protest_timeline",
+      "title": "Property Valuation Protest Timeline",
+      "url": "https://www.lancaster.ne.gov/428/Property-Valuation-Protest-Timeline",
+      "source_type": "county_guidance",
+      "legal_hierarchy": "local_practice",
+      "topics": [
+        "protest_timeline",
+        "value_notice",
+        "county_board_equalization",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "lincoln_vertical_inequality_measures",
+      "title": "Measures of Vertical Inequality in Assessments",
+      "url": "https://www.lincolninst.edu/publications/working-papers/measures-vertical-inequality-in-assessments/",
+      "source_type": "working_paper",
+      "legal_hierarchy": "academic_research",
+      "topics": [
+        "vertical_inequality",
+        "prd",
+        "regression_bias",
+        "suits_index",
+        "assessment_regressivity"
+      ]
+    },
+    {
+      "source_id": "mcmillen_singh_assessment_regressivity",
+      "title": "Assessment Regressivity and Property Taxation",
+      "url": "https://link.springer.com/article/10.1007/s11146-019-09715-x",
+      "source_type": "journal_article",
+      "legal_hierarchy": "academic_research",
+      "topics": [
+        "assessment_regressivity",
+        "property_tax_incidence",
+        "homestead_exemptions",
+        "cod"
+      ]
+    },
+    {
+      "source_id": "ne_auditor_budget_faq",
+      "title": "Frequently Asked Questions - Budget Information",
+      "url": "https://auditors.nebraska.gov/Budget_Info/Budget_FAQ.html",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "budget_act",
+        "property_tax_request",
+        "county_clerk",
+        "levy",
+        "budget_filing"
+      ]
+    },
+    {
+      "source_id": "ne_auditor_budget_forms_2025_2026",
+      "title": "2025-2026 Budget Forms and Information",
+      "url": "https://auditors.nebraska.gov/Budget_Info/B2025-2026/2025-2026_Budget_Forms_and_Info.html",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "budget_forms",
+        "political_subdivision",
+        "property_tax_request",
+        "levy_limit"
+      ]
+    },
+    {
+      "source_id": "ne_const_article_viii",
+      "title": "Nebraska Constitution Article VIII Revenue",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=VIII-1",
+      "source_type": "constitution",
+      "legal_hierarchy": "constitution",
+      "topics": [
+        "uniformity",
+        "proportionality",
+        "taxation",
+        "constitutional_authority",
+        "exemptions"
+      ]
+    },
+    {
+      "source_id": "ne_dor_2025_annual_report",
+      "title": "2025 Annual Report - Property Assessment Division",
+      "url": "https://revenue.nebraska.gov/PAD/2025-annual-report-property-assessment-division",
+      "source_type": "annual_report",
+      "legal_hierarchy": "pad_report",
+      "topics": [
+        "annual_report",
+        "assessed_value",
+        "taxes_levied",
+        "levels_of_value",
+        "county_statistics"
+      ]
+    },
+    {
+      "source_id": "ne_dor_delinquent_real_property_list",
+      "title": "Nebraska Delinquent Real Property List",
+      "url": "https://revenue.nebraska.gov/PAD/delinquent_real_prop/delinquent_list.html",
+      "source_type": "agency_data",
+      "legal_hierarchy": "agency_data",
+      "topics": [
+        "delinquent_taxes",
+        "county_treasurer",
+        "tax_sale",
+        "collection"
+      ]
+    },
+    {
+      "source_id": "ne_dor_form_422a",
+      "title": "Property Valuation Protest Form 422A",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/pad/forms/422A_Property_Valuation_Protest.pdf",
+      "source_type": "form",
+      "legal_hierarchy": "pad_form",
+      "topics": [
+        "form_422",
+        "valuation_protest",
+        "county_board_equalization",
+        "appeal"
+      ]
+    },
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "title": "Property Assessment and Taxation Calendar",
+      "url": "https://www.revenue.nebraska.gov/PAD/calendars/main_calendar.pdf",
+      "source_type": "calendar",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "assessment_calendar",
+        "deadlines",
+        "assessment_date",
+        "levy",
+        "tax_collection"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_assessor_certification",
+      "title": "Assessor Certification & Education",
+      "url": "https://revenue.nebraska.gov/PAD/assessor",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "assessor_certification",
+        "education",
+        "recertification",
+        "exam"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "title": "PAD Calendars",
+      "url": "https://revenue.nebraska.gov/PAD/legal-information/pad-calendars",
+      "source_type": "calendar_index",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "assessment_calendar",
+        "county_reports",
+        "treasurer_calendar",
+        "homestead_calendar",
+        "education_calendar"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_court_case_summaries_history",
+      "title": "PAD Court Case Summaries History",
+      "url": "https://revenue.nebraska.gov/PAD/legal-information/pad-court-case-summaries-history",
+      "source_type": "case_summary",
+      "legal_hierarchy": "pad_case_summary",
+      "topics": [
+        "case_law",
+        "actual_value",
+        "burden_of_proof",
+        "valuation_approaches"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "title": "Nebraska Property Assessment FAQs",
+      "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/nebraska-property-assessment-faqs",
+      "source_type": "faq",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "public_guidance",
+        "actual_value",
+        "assessment_vs_tax",
+        "protest",
+        "tax_collection",
+        "personal_property"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_faq",
+      "title": "Nebraska Property Tax Credit FAQs",
+      "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/nebraska-property-tax-credit-faqs",
+      "source_type": "faq",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "property_tax_credit",
+        "qualified_taxes",
+        "form_ptc",
+        "ptcx",
+        "community_college_tax"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credit_general_info",
+      "title": "Nebraska Property Tax Credit General Information",
+      "url": "https://revenue.nebraska.gov/about/nebraska-income-tax-credit-school-district-taxes-paid-nebraska-property-tax-incentive-act-0",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "property_tax_credit",
+        "form_ptc",
+        "refundable_credit",
+        "school_district_tax",
+        "community_college_tax"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_property_tax_credits",
+      "title": "Nebraska Property Tax Credits",
+      "url": "https://revenue.nebraska.gov/about/nebraska-property-tax-credits",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "property_tax_credit",
+        "form_ptc",
+        "look_up_tool",
+        "school_district_tax",
+        "community_college_tax"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_purpose",
+      "title": "Purpose of the Property Assessment Division",
+      "url": "https://revenue.nebraska.gov/PAD/about/purpose",
+      "source_type": "agency_profile",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "pad_authority",
+        "uniform_execution",
+        "assessment_information",
+        "homestead"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "title": "Information Guide - Real Property Valuation Protest",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/pad/info/Real_Property_Valuation_Protest_Info_Guide.pdf",
+      "source_type": "information_guide",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "valuation_protest",
+        "form_422",
+        "evidence",
+        "boe",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_sections",
+      "title": "Sections of the Property Assessment Division",
+      "url": "https://revenue.nebraska.gov/PAD/about/sections",
+      "source_type": "agency_profile",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "pad_sections",
+        "property_tax_administrator",
+        "policy_legal",
+        "education",
+        "terc_representation"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_state_assessed_property",
+      "title": "State Assessed Property",
+      "url": "https://revenue.nebraska.gov/PAD/state-assessed-property",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "pad_guidance",
+      "topics": [
+        "centrally_assessed_property",
+        "public_service_entities",
+        "railroads",
+        "air_carriers",
+        "car_line_companies"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_statutes_page",
+      "title": "Property Assessment Statutes",
+      "url": "https://revenue.nebraska.gov/PAD/legal-information/statutes",
+      "source_type": "statute_index",
+      "legal_hierarchy": "statute_index",
+      "topics": [
+        "chapter_77",
+        "constitution_article_viii",
+        "budget_act",
+        "levy",
+        "homestead",
+        "property_tax_incentive"
+      ]
+    },
+    {
+      "source_id": "ne_dor_school_district_property_tax_relief_directive_25_4",
+      "title": "Directive 25-4 School District Property Tax Relief Credit",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/Dir_25-4_School_District_Property_Tax_Relief_Credit%20%28SDPTRC%29.pdf",
+      "source_type": "directive",
+      "legal_hierarchy": "agency_directive",
+      "topics": [
+        "school_district_property_tax_relief_credit",
+        "property_tax_relief",
+        "county_treasurer",
+        "form_403stc"
+      ]
+    },
+    {
+      "source_id": "ne_dor_title350_chapters_pdf",
+      "title": "Title 350 Nebraska Administrative Code - List of Regulation Chapters",
+      "url": "https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/legal/regs/pad/List_of_REG_Chapters.pdf",
+      "source_type": "regulation_index_pdf",
+      "legal_hierarchy": "regulation",
+      "topics": [
+        "title_350",
+        "regulations",
+        "real_property",
+        "sales_file",
+        "reports_opinions",
+        "assessment_process"
+      ]
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "title": "Title 350 Nebraska Administrative Code",
+      "url": "https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/legal/regs/pad/REGS_web_fullset.pdf",
+      "source_type": "regulation_pdf",
+      "legal_hierarchy": "regulation",
+      "topics": [
+        "title_350",
+        "regulations",
+        "assessment_process",
+        "sales_file",
+        "personal_property",
+        "homestead"
+      ]
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "title": "Property Assessment Regulations - Title 350",
+      "url": "https://revenue.nebraska.gov/PAD/legal-information/regulations-title-350",
+      "source_type": "regulation_index",
+      "legal_hierarchy": "regulation",
+      "topics": [
+        "title_350",
+        "real_property",
+        "agricultural_land",
+        "sales_file",
+        "reports_opinions",
+        "assessment_process",
+        "reporting_due_dates"
+      ]
+    },
+    {
+      "source_id": "ne_judicial_epublication_library",
+      "title": "Nebraska Appellate Courts Online Library",
+      "url": "https://www.nebraska.gov/apps-courts-epub/public/",
+      "source_type": "case_law_repository",
+      "legal_hierarchy": "case_law_repository",
+      "topics": [
+        "case_law",
+        "official_opinions",
+        "supreme_court",
+        "court_of_appeals"
+      ]
+    },
+    {
+      "source_id": "ne_leg_13_501_13_522_budget_act",
+      "title": "Nebraska Budget Act, Neb. Rev. Stat. §§ 13-501 to 13-522",
+      "url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=13-501&end_section=13-522",
+      "source_type": "statute_range",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "budget_act",
+        "political_subdivision",
+        "budget_filing",
+        "property_tax_request"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_112",
+      "title": "Neb. Rev. Stat. § 77-112 Actual Value",
+      "url": "https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-112",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "actual_value",
+        "market_value",
+        "valuation"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1201",
+      "title": "Neb. Rev. Stat. § 77-1201 Personal Property Assessment",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1201",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "personal_property",
+        "assessment_date",
+        "taxable_personal_property"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1301",
+      "title": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1301",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "real_property",
+        "assessment_date",
+        "list_and_value"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1314",
+      "title": "Neb. Rev. Stat. § 77-1314 County Assessor Income Approach",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1314",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "income_approach",
+        "discounted_cash_flow",
+        "vacant_lots",
+        "terc"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1315",
+      "title": "Neb. Rev. Stat. § 77-1315 Real Property Assessment Roll",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1315",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "assessment_roll",
+        "real_property",
+        "county_assessor",
+        "notice"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1359",
+      "title": "Neb. Rev. Stat. § 77-1359 Agricultural and Horticultural Land Special Valuation",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1359",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "agricultural_land",
+        "horticultural_land",
+        "special_valuation",
+        "greenbelt"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1502",
+      "title": "Neb. Rev. Stat. § 77-1502 Board Protests",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1502",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "protest",
+        "county_board_equalization",
+        "june_30",
+        "dismissal"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1504",
+      "title": "Neb. Rev. Stat. § 77-1504 Equalization of Property; Protest Procedure",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1504",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "equalization",
+        "county_board_equalization",
+        "protest_hearing",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1601",
+      "title": "Neb. Rev. Stat. § 77-1601 County Tax Levy",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1601",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "levy",
+        "county_board_equalization",
+        "tax_request",
+        "clerical_error"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_3442",
+      "title": "Neb. Rev. Stat. § 77-3442 Property Tax Levy Limits",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3442",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "levy_limits",
+        "political_subdivision",
+        "tax_request",
+        "budget"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_3501_3530_homestead",
+      "title": "Neb. Rev. Stat. §§ 77-3501 to 77-3530 Homestead Exemption",
+      "url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=77-3501&end_section=77-3530",
+      "source_type": "statute_range",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "homestead_exemption",
+        "tax_relief",
+        "eligibility",
+        "filing"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_6701_6706_property_tax_incentive",
+      "title": "Neb. Rev. Stat. §§ 77-6701 to 77-6706 Nebraska Property Tax Incentive Act",
+      "url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=77-6701&end_section=77-6706",
+      "source_type": "statute_range",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "property_tax_incentive_act",
+        "refundable_credit",
+        "school_district_tax",
+        "community_college_tax"
+      ]
+    },
+    {
+      "source_id": "ne_leg_chapter77_index",
+      "title": "Nebraska Revised Statutes Chapter 77",
+      "url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=77",
+      "source_type": "statute_index",
+      "legal_hierarchy": "statute_index",
+      "topics": [
+        "chapter_77",
+        "revenue_taxation",
+        "assessment",
+        "equalization",
+        "levy",
+        "collection"
+      ]
+    },
+    {
+      "source_id": "sarpy_county_form_422",
+      "title": "Form 422 - Property Valuation Protest",
+      "url": "https://www.sarpy.gov/770/Form-422---Property-Valuation-Protest",
+      "source_type": "county_guidance",
+      "legal_hierarchy": "local_practice",
+      "topics": [
+        "form_422",
+        "protest",
+        "independent_review",
+        "terc_appeal"
+      ]
+    },
+    {
+      "source_id": "terc_about",
+      "title": "About Us",
+      "url": "https://terc.nebraska.gov/about-us",
+      "source_type": "agency_profile",
+      "legal_hierarchy": "administrative_tribunal",
+      "topics": [
+        "terc",
+        "appeals",
+        "statewide_equalization",
+        "county_board_equalization"
+      ]
+    },
+    {
+      "source_id": "terc_appeal_process",
+      "title": "Appeal Process",
+      "url": "https://terc.nebraska.gov/appeal-process",
+      "source_type": "agency_guidance",
+      "legal_hierarchy": "administrative_tribunal_guidance",
+      "topics": [
+        "terc_appeal",
+        "valuation_protest",
+        "appeal_deadline",
+        "petition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_112_actual_value",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-112 Actual Value",
+  "aliases": [
+    "77-112",
+    "actual value statute"
+  ],
+  "category": "definition_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Defines actual value of real property for taxation as market value in the ordinary course of trade.",
+  "plain_language": "Nebraska law ties real property taxable value to market value.",
+  "semantic_tags": [
+    "statute",
+    "actual_value",
+    "market_value",
+    "definition",
+    "valuation"
+  ],
+  "relationships": [
+    {
+      "type": "defines",
+      "target_id": "concept_actual_value",
+      "note": "Core definition."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_valuation_approaches",
+      "note": "Valuation approaches estimate actual value."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_112",
+      "locator": "§ 77-112",
+      "citation": "Neb. Rev. Stat. § 77-112."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

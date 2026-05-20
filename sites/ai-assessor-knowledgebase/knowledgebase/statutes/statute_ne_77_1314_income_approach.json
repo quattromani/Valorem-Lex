@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1314_income_approach",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1314 County Assessor Use of Income Approach",
+  "aliases": [
+    "77-1314",
+    "discounted cash-flow statute"
+  ],
+  "category": "valuation_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska statute requiring the income approach, including discounted cash-flow analysis, for certain commonly owned vacant or unimproved subdivision lots held for sale/resale, with TERC process if another method is asserted.",
+  "plain_language": "For a specific kind of subdivision-lot situation, Nebraska law points the assessor to income/DCF analysis unless a statutory process supports another technique.",
+  "semantic_tags": [
+    "statute",
+    "income_approach",
+    "discounted_cash_flow",
+    "vacant_lots",
+    "terc"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "concept_income_approach",
+      "note": "Nebraska-specific use case."
+    },
+    {
+      "type": "related_workflow",
+      "target_id": "workflow_terc_appeal",
+      "note": "TERC appears in statutory process."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1314",
+      "locator": "§ 77-1314",
+      "citation": "Neb. Rev. Stat. § 77-1314."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

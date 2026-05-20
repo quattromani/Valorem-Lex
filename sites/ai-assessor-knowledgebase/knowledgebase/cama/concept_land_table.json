@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_land_table",
+  "object_type": "cama",
+  "canonical_term": "Land Table",
+  "aliases": [
+    "land schedule",
+    "land valuation table"
+  ],
+  "category": "cama_valuation_component",
+  "jurisdiction": "General assessment; used in Nebraska valuation practice",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Structured schedule used to value land units by market area, use, size, location, or other land attributes.",
+  "plain_language": "A land table is how the assessor's system turns land characteristics into a land value estimate.",
+  "semantic_tags": [
+    "land_table",
+    "cama",
+    "land_value",
+    "market_area",
+    "valuation_model"
+  ],
+  "relationships": [
+    {
+      "type": "used_by",
+      "target_id": "concept_cost_approach",
+      "note": "Cost approach includes land value."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_market_area",
+      "note": "Land tables are often market-area sensitive."
+    },
+    {
+      "type": "contained_in",
+      "target_id": "concept_cama",
+      "note": "CAMA systems maintain land schedules."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "property characteristics and valuation models",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_county_manual_ingestion"
+}

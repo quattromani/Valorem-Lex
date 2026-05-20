@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_quality_condition",
+  "object_type": "cama",
+  "canonical_term": "Quality and Condition Coding",
+  "aliases": [
+    "quality code",
+    "condition code",
+    "effective age"
+  ],
+  "category": "cama_data_element",
+  "jurisdiction": "General assessment; used in county CAMA systems",
+  "legal_hierarchy": "valuation_method",
+  "summary": "CAMA data elements describing construction quality, condition, effective age, and physical/functional state of improvements.",
+  "plain_language": "Quality and condition codes are how the assessor's database describes how well-built and how worn a structure is.",
+  "semantic_tags": [
+    "quality",
+    "condition",
+    "effective_age",
+    "cama",
+    "depreciation"
+  ],
+  "relationships": [
+    {
+      "type": "influences",
+      "target_id": "concept_depreciation",
+      "note": "Quality and condition affect depreciation estimates."
+    },
+    {
+      "type": "contained_in",
+      "target_id": "concept_property_record",
+      "note": "Property record should preserve characteristic data."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_cost_approach",
+      "note": "Improvement valuation needs quality/condition."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "important residential property characteristics",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

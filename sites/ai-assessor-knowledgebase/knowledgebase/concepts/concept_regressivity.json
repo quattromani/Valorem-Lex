@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_regressivity",
+  "object_type": "concept",
+  "canonical_term": "Assessment Regressivity",
+  "aliases": [
+    "regressive assessment",
+    "vertical inequity",
+    "price-related regressivity"
+  ],
+  "category": "equity_concept",
+  "jurisdiction": "General assessment; Nebraska analytical relevance",
+  "legal_hierarchy": "assessment_theory",
+  "summary": "Pattern where lower-priced properties are assessed at higher percentages of market value than higher-priced properties, shifting relative tax burden downward.",
+  "plain_language": "Regressivity means lower-value homes carry a higher assessment percentage than higher-value homes.",
+  "semantic_tags": [
+    "regressivity",
+    "vertical_equity",
+    "prd",
+    "prb",
+    "tax_incidence",
+    "fairness"
+  ],
+  "facts": [
+    {
+      "predicate": "detected_by",
+      "object": [
+        "prd",
+        "prb",
+        "value_decile_analysis",
+        "suits_index_or_other_research_methods"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "measured_by",
+      "target_id": "concept_prd",
+      "note": "PRD can signal vertical inequity."
+    },
+    {
+      "type": "measured_by",
+      "target_id": "concept_prb",
+      "note": "PRB directly estimates price-related bias."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_vertical_equity",
+      "note": "Regressivity is a vertical equity failure mode."
+    },
+    {
+      "type": "grounded_by",
+      "target_id": "research_berry_reassessing_property_tax",
+      "note": "Major empirical regressivity research."
+    },
+    {
+      "type": "grounded_by",
+      "target_id": "research_mcmillen_singh_assessment_regressivity",
+      "note": "Incidence and homestead interaction research."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "berry_reassessing_property_tax",
+      "locator": "abstract",
+      "citation": "Christopher R. Berry, Reassessing the Property Tax (2021)."
+    },
+    {
+      "source_id": "mcmillen_singh_assessment_regressivity",
+      "locator": "abstract",
+      "citation": "McMillen & Singh, Assessment Regressivity and Property Taxation (2019/2020)."
+    },
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "vertical equity",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_research_snippets"
+}

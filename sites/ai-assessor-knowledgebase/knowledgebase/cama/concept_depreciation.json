@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_depreciation",
+  "object_type": "cama",
+  "canonical_term": "Depreciation",
+  "aliases": [
+    "physical depreciation",
+    "functional obsolescence",
+    "economic obsolescence"
+  ],
+  "category": "cama_valuation_component",
+  "jurisdiction": "General assessment; used in Nebraska valuation practice",
+  "legal_hierarchy": "valuation_method",
+  "summary": "Adjustment to improvement cost or value for loss in utility, condition, age, functional inadequacy, or external market factors.",
+  "plain_language": "Depreciation is how the system accounts for a building not being worth the same as brand-new cost.",
+  "semantic_tags": [
+    "depreciation",
+    "cost_approach",
+    "condition",
+    "quality",
+    "cama"
+  ],
+  "relationships": [
+    {
+      "type": "used_by",
+      "target_id": "concept_cost_approach",
+      "note": "Cost approach depends on depreciation."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_quality_condition",
+      "note": "Condition and quality influence depreciation modeling."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "property characteristics and valuation models",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_pdf_deep_extraction"
+}

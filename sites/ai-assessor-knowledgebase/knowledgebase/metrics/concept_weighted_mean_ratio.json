@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_weighted_mean_ratio",
+  "object_type": "metric",
+  "canonical_term": "Weighted Mean Ratio",
+  "aliases": [
+    "aggregate ratio",
+    "value-weighted ratio"
+  ],
+  "category": "ratio_study_metric",
+  "jurisdiction": "General assessment; used in ratio studies",
+  "legal_hierarchy": "statistical_metric",
+  "summary": "Ratio of total assessed/appraised value to total sale price for the sample, giving more influence to higher-value sales.",
+  "plain_language": "The weighted mean ratio is the total assessed value divided by total sale price for the whole sample.",
+  "semantic_tags": [
+    "weighted_mean_ratio",
+    "ratio_study",
+    "prd",
+    "aggregate_ratio",
+    "statistics"
+  ],
+  "facts": [
+    {
+      "predicate": "formula",
+      "object": "sum(assessed_or_appraised_values) / sum(sale_prices)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "used_by",
+      "target_id": "concept_prd",
+      "note": "PRD denominator."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_mean_ratio",
+      "note": "PRD compares mean and weighted mean."
+    },
+    {
+      "type": "related_metric",
+      "target_id": "concept_level_of_value",
+      "note": "Alternative aggregate level view."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio statistics",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

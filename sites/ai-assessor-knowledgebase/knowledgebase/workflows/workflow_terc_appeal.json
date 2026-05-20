@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_terc_appeal",
+  "object_type": "workflow",
+  "canonical_term": "TERC Appeal Workflow",
+  "aliases": [
+    "Tax Equalization and Review Commission appeal",
+    "state appeal"
+  ],
+  "category": "appeal_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "administrative_tribunal_workflow",
+  "summary": "Workflow for appealing county board of equalization valuation, assessment, or taxation decisions to the Nebraska Tax Equalization and Review Commission.",
+  "plain_language": "After the county board decision, eligible parties can appeal to TERC by the applicable deadline.",
+  "semantic_tags": [
+    "workflow",
+    "terc",
+    "appeal",
+    "county_board_equalization",
+    "valuation_protest"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Receive county board decision/notice."
+    },
+    {
+      "order": 2,
+      "step": "Determine appeal eligibility and deadline."
+    },
+    {
+      "order": 3,
+      "step": "File TERC appeal petition and required materials."
+    },
+    {
+      "order": 4,
+      "step": "Proceed through TERC review/hearing process."
+    },
+    {
+      "order": 5,
+      "step": "Commission decision may be subject to judicial review under applicable law."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "follows",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "County board decision is prerequisite for regular protest appeal."
+    },
+    {
+      "type": "authority",
+      "target_id": "pad_statewide_equalization",
+      "note": "TERC also has statewide equalization role."
+    },
+    {
+      "type": "contextualized_by",
+      "target_id": "standard_iaao_assessment_appeal",
+      "note": "Professional appeal principles."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process page",
+      "citation": "Nebraska TERC, Appeal Process."
+    },
+    {
+      "source_id": "terc_about",
+      "locator": "primary powers and duties",
+      "citation": "Nebraska TERC, About Us."
+    },
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "appeal timing",
+      "citation": "Neb. Rev. Stat. § 77-1504."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "workflow_levy_setting_tax_statement_cycle",
+  "object_type": "workflow",
+  "canonical_term": "Levy Setting and Tax Statement Cycle",
+  "aliases": [
+    "budget levy tax cycle",
+    "tax statement workflow",
+    "county levy workflow"
+  ],
+  "category": "levy_tax_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_workflow",
+  "summary": "Workflow connecting political subdivision budgets/tax requests, county board levy action, tax list creation, county treasurer tax statements, and collection/delinquency dates.",
+  "plain_language": "Values become taxes only after local budgets and levies are applied.",
+  "semantic_tags": [
+    "workflow",
+    "levy",
+    "budget",
+    "tax_statement",
+    "treasurer",
+    "tax_request"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Political subdivisions adopt/file budgets and property tax requests."
+    },
+    {
+      "order": 2,
+      "step": "County board of equalization levies necessary taxes by statutory deadline."
+    },
+    {
+      "order": 3,
+      "step": "Assessment/tax records and tax list are prepared/transcribed."
+    },
+    {
+      "order": 4,
+      "step": "County treasurer collects real property taxes."
+    },
+    {
+      "order": 5,
+      "step": "Delinquency dates apply by county category."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute."
+    },
+    {
+      "type": "constrained_by",
+      "target_id": "statute_ne_77_3442_levy_limits",
+      "note": "Levy limits/tax requests."
+    },
+    {
+      "type": "informed_by",
+      "target_id": "statute_ne_13_501_budget_act",
+      "note": "Budget Act."
+    },
+    {
+      "type": "deadline",
+      "target_id": "deadline_oct20_county_tax_levy",
+      "note": "Levy deadline."
+    },
+    {
+      "type": "produces",
+      "target_id": "concept_tax_bill",
+      "note": "Tax statement/tax due."
+    },
+    {
+      "type": "explains",
+      "target_id": "concept_value_vs_tax",
+      "note": "Public distinction."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1601",
+      "locator": "§ 77-1601",
+      "citation": "Neb. Rev. Stat. § 77-1601."
+    },
+    {
+      "source_id": "ne_auditor_budget_faq",
+      "locator": "budget and property tax request FAQ",
+      "citation": "Nebraska Auditor of Public Accounts, Budget FAQ."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "tax list/delinquency FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

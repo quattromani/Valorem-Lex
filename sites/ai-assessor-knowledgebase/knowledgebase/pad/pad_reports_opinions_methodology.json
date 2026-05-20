@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "pad_reports_opinions_methodology",
+  "object_type": "pad",
+  "canonical_term": "PAD Reports and Opinions Methodology",
+  "aliases": [
+    "R&O methodology",
+    "Reports and Opinions",
+    "Property Tax Administrator Reports and Opinions"
+  ],
+  "category": "statewide_equalization_methodology",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "pad_methodology",
+  "summary": "PAD methodology domain for annual Reports and Opinions of the Property Tax Administrator, including level-of-value and statistical review by county/class.",
+  "plain_language": "PAD's Reports and Opinions are where county assessment quality is evaluated for statewide equalization.",
+  "semantic_tags": [
+    "pad_ro",
+    "reports_opinions",
+    "level_of_value",
+    "ratio_study",
+    "equalization",
+    "county_statistics"
+  ],
+  "relationships": [
+    {
+      "type": "uses",
+      "target_id": "concept_level_of_value",
+      "note": "Core R&O output."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_stratification",
+      "note": "Class/group analysis."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Statewide equalization evidence."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch17_reports_opinions",
+      "note": "Title 350 Reports and Opinions regulation chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 17",
+      "citation": "Nebraska DOR PAD, Property Assessment Regulations - Title 350."
+    },
+    {
+      "source_id": "ne_dor_2025_annual_report",
+      "locator": "levels of value/statistical tables",
+      "citation": "Nebraska DOR PAD, 2025 Annual Report."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_multi_year_ro_json"
+}

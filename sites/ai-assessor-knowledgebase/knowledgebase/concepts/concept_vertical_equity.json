@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_vertical_equity",
+  "object_type": "concept",
+  "canonical_term": "Vertical Equity",
+  "aliases": [
+    "vertical uniformity",
+    "equity across value ranges",
+    "price-related equity"
+  ],
+  "category": "equity_concept",
+  "jurisdiction": "General assessment; Nebraska analytical relevance",
+  "legal_hierarchy": "assessment_theory",
+  "summary": "Assessment equity principle that lower- and higher-value properties should not be systematically assessed at different percentages of market value.",
+  "plain_language": "A low-value home and a high-value home should not be assessed at systematically different percentages just because of price level.",
+  "semantic_tags": [
+    "vertical_equity",
+    "prd",
+    "prb",
+    "regressivity",
+    "ratio_study"
+  ],
+  "relationships": [
+    {
+      "type": "measured_by",
+      "target_id": "concept_prd",
+      "note": "PRD is a vertical-equity indicator."
+    },
+    {
+      "type": "measured_by",
+      "target_id": "concept_prb",
+      "note": "PRB is a vertical-equity statistic."
+    },
+    {
+      "type": "failure_mode",
+      "target_id": "concept_regressivity",
+      "note": "Regressivity is a vertical inequity pattern."
+    },
+    {
+      "type": "researched_by",
+      "target_id": "research_lincoln_vertical_inequality_measures",
+      "note": "Research on measure limitations."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "vertical equity",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    },
+    {
+      "source_id": "lincoln_vertical_inequality_measures",
+      "locator": "abstract",
+      "citation": "Lincoln Institute, Measures of Vertical Inequality in Assessments."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_and_research_snippets"
+}

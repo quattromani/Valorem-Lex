@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_cama",
+  "object_type": "cama",
+  "canonical_term": "Computer-Assisted Mass Appraisal",
+  "aliases": [
+    "CAMA",
+    "mass appraisal system"
+  ],
+  "category": "data_system",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "professional_practice",
+  "summary": "CAMA is the assessment-office data and modeling environment used to maintain property characteristics, stratify property, and support mass appraisal estimates.",
+  "plain_language": "CAMA is the assessor's structured property database plus valuation modeling tools.",
+  "semantic_tags": [
+    "cama",
+    "mass_appraisal",
+    "property_records",
+    "data_quality",
+    "valuation_models"
+  ],
+  "facts": [
+    {
+      "predicate": "requires",
+      "object": [
+        "property_characteristics",
+        "location_data",
+        "quality_condition_codes",
+        "sales_data"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Operational workflow for data upkeep."
+    },
+    {
+      "type": "related_standard",
+      "target_id": "standard_iaao_mass_appraisal",
+      "note": "IAAO mass appraisal standard includes data and system expectations."
+    },
+    {
+      "type": "contains",
+      "target_id": "concept_property_record",
+      "note": "Property record is core CAMA unit."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "property characteristics and GIS/CAMA discussion",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    },
+    {
+      "source_id": "ne_dor_title350_regs_page",
+      "locator": "Title 350 Chapter 50 Assessment Process",
+      "citation": "Nebraska DOR PAD, Title 350 regulations index."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_pdf_deep_extraction"
+}

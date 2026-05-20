@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1601_county_tax_levy",
+  "object_type": "statute",
+  "canonical_term": "Neb. Rev. Stat. § 77-1601 County Tax Levy",
+  "aliases": [
+    "77-1601",
+    "county levy statute"
+  ],
+  "category": "levy_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statute requiring the county board of equalization to levy necessary current-year taxes on or before October 20, including authorized tax requests, and providing clerical-error correction procedure.",
+  "plain_language": "This is the statute for the county board's annual levy action.",
+  "semantic_tags": [
+    "statute",
+    "levy",
+    "october_20",
+    "county_board_equalization",
+    "tax_request"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy workflow."
+    },
+    {
+      "type": "sets_deadline",
+      "target_id": "deadline_oct20_county_tax_levy",
+      "note": "Annual levy deadline."
+    },
+    {
+      "type": "related_statute",
+      "target_id": "statute_ne_77_3442_levy_limits",
+      "note": "Tax request and levy limits."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1601",
+      "locator": "§ 77-1601",
+      "citation": "Neb. Rev. Stat. § 77-1601."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

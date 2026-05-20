@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_ratio_metrics",
+  "object_type": "crosswalk",
+  "canonical_term": "Ratio Study Metrics Crosswalk",
+  "aliases": [
+    "COD PRD PRB crosswalk",
+    "ratio metric ontology"
+  ],
+  "category": "metric_crosswalk",
+  "jurisdiction": "Nebraska PAD / IAAO context",
+  "legal_hierarchy": "semantic_crosswalk",
+  "summary": "Maps level, uniformity, vertical-equity, and reliability metrics used in assessment ratio studies.",
+  "plain_language": "This tells the AI which statistic answers which kind of ratio-study question.",
+  "semantic_tags": [
+    "crosswalk",
+    "ratio_study",
+    "cod",
+    "prd",
+    "prb",
+    "median_ratio"
+  ],
+  "relationships": [
+    {
+      "type": "level_metric",
+      "target_id": "concept_median_ratio",
+      "note": "Typical assessment level."
+    },
+    {
+      "type": "level_metric",
+      "target_id": "concept_level_of_value",
+      "note": "Canonical level concept."
+    },
+    {
+      "type": "uniformity_metric",
+      "target_id": "concept_cod",
+      "note": "Horizontal dispersion."
+    },
+    {
+      "type": "vertical_metric",
+      "target_id": "concept_prd",
+      "note": "Vertical equity indicator."
+    },
+    {
+      "type": "vertical_metric",
+      "target_id": "concept_prb",
+      "note": "Price-related bias."
+    },
+    {
+      "type": "reliability_concept",
+      "target_id": "concept_sample_adequacy",
+      "note": "Reliability context."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_ratio_study_standard",
+      "locator": "ratio study statistics",
+      "citation": "IAAO, Standard on Ratio Studies (2013)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_standard_snippet"
+}

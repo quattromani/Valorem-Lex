@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "case_gordman_v_hall_county_boe",
+  "object_type": "case",
+  "canonical_term": "Gordman Properties v. Hall County Board of Equalization",
+  "aliases": [
+    "Gordman",
+    "Gordman Properties"
+  ],
+  "category": "uniformity_case",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "case_law",
+  "summary": "Nebraska case authority for using county board proceedings to challenge actual value, uniformity, or both.",
+  "plain_language": "A taxpayer can argue that a property is valued too high, unequally valued compared with similar property, or both.",
+  "semantic_tags": [
+    "case_law",
+    "uniformity",
+    "actual_value",
+    "equalization",
+    "appeals"
+  ],
+  "facts": [
+    {
+      "predicate": "supports_issue_types",
+      "object": [
+        "actual_value",
+        "uniformity_and_proportionality"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "interprets",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Grounds equalization challenge taxonomy."
+    },
+    {
+      "type": "related_workflow",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Protest hearing may include actual value and equalization arguments."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "case_gordman_justia",
+      "locator": "case summary",
+      "citation": "Gordman Props. v. Hall Cty. Bd. of Equal., 1987 Neb. Supreme Court text via Justia."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "secondary_case_source_needs_official_review"
+}

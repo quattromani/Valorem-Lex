@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_effective_tax_rate",
+  "object_type": "tax",
+  "canonical_term": "Effective Tax Rate",
+  "aliases": [
+    "taxes divided by market value",
+    "effective property tax burden"
+  ],
+  "category": "public_tax_explanation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "derived_metric",
+  "summary": "A derived burden measure comparing property taxes to property value; useful for taxpayer explanations and regressivity/incidence analysis.",
+  "plain_language": "It answers: what share of the property's value is paid as tax for the year?",
+  "semantic_tags": [
+    "effective_tax_rate",
+    "tax_burden",
+    "public_guidance",
+    "incidence",
+    "regressivity"
+  ],
+  "facts": [
+    {
+      "predicate": "formula",
+      "object": "taxes_paid_or_levied / property_value"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "related_concept",
+      "target_id": "concept_tax_bill",
+      "note": "Tax bill is numerator source."
+    },
+    {
+      "type": "related_research",
+      "target_id": "research_berry_reassessing_property_tax",
+      "note": "Effective burden is central to regressivity analysis."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "berry_reassessing_property_tax",
+      "locator": "abstract and methods",
+      "citation": "Christopher R. Berry, Reassessing the Property Tax (2021)."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "assessment and tax collection FAQs",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_formula_review"
+}

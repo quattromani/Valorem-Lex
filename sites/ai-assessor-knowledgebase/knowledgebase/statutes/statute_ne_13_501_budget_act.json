@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_13_501_budget_act",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Budget Act",
+  "aliases": [
+    "Neb. Rev. Stat. §§ 13-501 to 13-522",
+    "Budget Act"
+  ],
+  "category": "budget_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska statutory framework for political subdivision budgets, filing, hearings, and public fund reporting; levy workflow depends on adopted budgets and tax requests.",
+  "plain_language": "Local budgets are a separate legal step before levy and tax bills.",
+  "semantic_tags": [
+    "budget_act",
+    "political_subdivision",
+    "property_tax_request",
+    "levy",
+    "county_clerk"
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Budget/tax request feeds levy."
+    },
+    {
+      "type": "related_deadline",
+      "target_id": "deadline_oct20_county_tax_levy",
+      "note": "Budget and tax request precede levy."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_13_501_13_522_budget_act",
+      "locator": "§§ 13-501 to 13-522",
+      "citation": "Neb. Rev. Stat. §§ 13-501 to 13-522."
+    },
+    {
+      "source_id": "ne_auditor_budget_faq",
+      "locator": "Budget FAQ",
+      "citation": "Nebraska Auditor of Public Accounts, Budget FAQ."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_budget_statute_extraction"
+}

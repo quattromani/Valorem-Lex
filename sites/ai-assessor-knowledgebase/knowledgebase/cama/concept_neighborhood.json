@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_neighborhood",
+  "object_type": "cama",
+  "canonical_term": "Neighborhood Coding",
+  "aliases": [
+    "neighborhood",
+    "neighborhood code",
+    "model neighborhood"
+  ],
+  "category": "cama_data_element",
+  "jurisdiction": "General assessment; used in county CAMA systems",
+  "legal_hierarchy": "valuation_method",
+  "summary": "CAMA/location code grouping properties with similar market influences for modeling, review, and comparable-sale selection.",
+  "plain_language": "Neighborhood codes help the assessor compare a property to the right local market.",
+  "semantic_tags": [
+    "neighborhood",
+    "cama",
+    "location",
+    "market_area",
+    "stratification"
+  ],
+  "relationships": [
+    {
+      "type": "implementation_of",
+      "target_id": "concept_market_area",
+      "note": "Neighborhood is a local coding form of market segmentation."
+    },
+    {
+      "type": "used_by",
+      "target_id": "concept_sales_comparison_approach",
+      "note": "Comparable sales should be market-relevant."
+    },
+    {
+      "type": "quality_controlled_by",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Neighborhood assignment must be maintained."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "iaao_mass_appraisal_standard",
+      "locator": "location data",
+      "citation": "IAAO, Standard on Mass Appraisal of Real Property."
+    },
+    {
+      "source_id": "lancaster_county_property_valuation_protests",
+      "locator": "supporting documentation guidance",
+      "citation": "Lancaster County, Property Valuation Protests."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_requires_county_manual_ingestion"
+}

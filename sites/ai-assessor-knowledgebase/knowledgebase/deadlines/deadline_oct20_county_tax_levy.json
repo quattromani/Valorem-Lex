@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "deadline_oct20_county_tax_levy",
+  "object_type": "deadline",
+  "canonical_term": "October 20 County Tax Levy Deadline",
+  "aliases": [
+    "levy deadline",
+    "county board levy by October 20"
+  ],
+  "category": "levy_deadline",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_deadline",
+  "summary": "County board of equalization annually levies necessary taxes for the current year on or before October 20 if within legal limits.",
+  "plain_language": "By October 20, the county board sets the legal levy amounts needed for tax statements.",
+  "semantic_tags": [
+    "deadline",
+    "october_20",
+    "levy",
+    "county_board_equalization",
+    "tax_request"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "month_day": "10-20",
+      "description": "County tax levy deadline."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1601_county_tax_levy",
+      "note": "County levy statute."
+    },
+    {
+      "type": "part_of",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy setting workflow."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1601",
+      "locator": "§ 77-1601",
+      "citation": "Neb. Rev. Stat. § 77-1601."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}

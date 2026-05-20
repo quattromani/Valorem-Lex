@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_assessment_to_tax_cycle",
+  "object_type": "crosswalk",
+  "canonical_term": "Assessment-to-Tax Cycle Crosswalk",
+  "aliases": [
+    "value to taxes crosswalk",
+    "assessment levy collection chain"
+  ],
+  "category": "workflow_crosswalk",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "semantic_crosswalk",
+  "summary": "Connects valuation, protest/equalization, levy setting, tax statement creation, and collection into one traversable chain.",
+  "plain_language": "This crosswalk tells the AI what stage a question belongs to: value, appeal, levy, bill, or collection.",
+  "semantic_tags": [
+    "crosswalk",
+    "assessment_cycle",
+    "levy",
+    "tax_statement",
+    "collection"
+  ],
+  "facts": [
+    {
+      "predicate": "sequence",
+      "object": [
+        "assessment",
+        "notice",
+        "protest",
+        "equalization",
+        "levy",
+        "tax_list",
+        "treasurer_collection"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "stage",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Assessment stage."
+    },
+    {
+      "type": "stage",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest stage."
+    },
+    {
+      "type": "stage",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Equalization stage."
+    },
+    {
+      "type": "stage",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy and tax statement stage."
+    },
+    {
+      "type": "explains",
+      "target_id": "concept_value_vs_tax",
+      "note": "Public explanation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "calendar sequence",
+      "citation": "Nebraska DOR PAD, Property Assessment and Taxation Calendar."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "assessment and tax collection FAQs",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_source_snippet"
+}
