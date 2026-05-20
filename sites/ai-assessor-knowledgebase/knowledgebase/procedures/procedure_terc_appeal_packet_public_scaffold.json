@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_terc_appeal_packet_public_scaffold",
+  "object_type": "procedure",
+  "canonical_term": "TERC Appeal Packet Public Scaffold",
+  "aliases": [
+    "TERC packet scaffold",
+    "appeal preparation scaffold",
+    "TERC exhibit preparation"
+  ],
+  "category": "terc_preparation",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "administrative_tribunal_guidance",
+  "summary": "Public scaffold for preparing records and issue maps for a TERC appeal after a county board decision, excluding internal county templates until provided.",
+  "plain_language": "This is the appeal-prep shell: what decision is appealed, what record supports the value, and what must be preserved.",
+  "semantic_tags": [
+    "terc",
+    "appeal",
+    "evidence_packet",
+    "boe_decision",
+    "records_retention",
+    "internal_placeholder"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Confirm appealed decision, tax year, parcel, parties, and applicable appeal deadline."
+    },
+    {
+      "order": 2,
+      "step": "Preserve county board decision, valuation protest form, property record, valuation analysis, exhibits, and communication log."
+    },
+    {
+      "order": 3,
+      "step": "Identify issue theory: actual value, equalization, classification, exemption/special valuation, personal property, or procedural issue."
+    },
+    {
+      "order": 4,
+      "step": "Assemble evidence in a way that can be reused for informal single-commissioner or formal hearing context."
+    },
+    {
+      "order": 5,
+      "step": "Apply litigation/appeal hold to workpapers and supporting records through final appeal resolution and retention tail."
+    },
+    {
+      "order": 6,
+      "step": "Reserve internal inserts for exhibit labels, witness notes, stipulation review, hearing prep, and counsel/referee coordination."
+    }
+  ],
+  "internal_extension_points": [
+    {
+      "slot": "terc_exhibit_index_template",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "witness_and_staff_prep_notes",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "stipulation_review_workflow",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "appeal_status_tracker",
+      "status": "reserved_no_private_content"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "extends",
+      "target_id": "workflow_terc_appeal",
+      "note": "Detailed packet-prep layer."
+    },
+    {
+      "type": "follows",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE packet provides record foundation."
+    },
+    {
+      "type": "retained_under",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Appeal records hold."
+    },
+    {
+      "type": "contextualized_by",
+      "target_id": "standard_iaao_assessment_appeal",
+      "note": "Professional assessment appeal principles."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process page",
+      "citation": "Nebraska TERC, Appeal Process."
+    },
+    {
+      "source_id": "iaao_assessment_appeal_standard",
+      "locator": "standard PDF",
+      "citation": "IAAO, Standard on Assessment Appeal (2016)."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "appeal retention references",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

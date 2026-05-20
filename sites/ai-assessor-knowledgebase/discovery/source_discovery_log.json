@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "discovered_source_count": 73,
+  "discovered_source_count": 78,
   "saturation_notes": [
     "Searches repeatedly returned the Nebraska DOR PAD legal-information hub, Chapter 77 statutes, PAD calendars, protest guidance, and county protest pages.",
     "County-level results became duplicative around Form 422, June protest timing, evidence requirements, and TERC appeal routing.",
@@ -766,6 +766,19 @@
       ]
     },
     {
+      "source_id": "ne_leg_11_101_oath_of_office",
+      "title": "Neb. Rev. Stat. sec. 11-101 Oath of Office",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=11-101",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "oath_of_office",
+        "county_officer",
+        "bond",
+        "assessor_transition"
+      ]
+    },
+    {
       "source_id": "ne_leg_13_501_13_522_budget_act",
       "title": "Nebraska Budget Act, Neb. Rev. Stat. §§ 13-501 to 13-522",
       "url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=13-501&end_section=13-522",
@@ -776,6 +789,19 @@
         "political_subdivision",
         "budget_filing",
         "property_tax_request"
+      ]
+    },
+    {
+      "source_id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "title": "Neb. Rev. Stat. sec. 23-3205 County Assessor Oath and Bond",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=23-3205",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "county_assessor",
+        "oath_of_office",
+        "bond",
+        "assessor_transition"
       ]
     },
     {
@@ -812,6 +838,34 @@
         "real_property",
         "assessment_date",
         "list_and_value"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "title": "Neb. Rev. Stat. sec. 77-1311.03 County Assessor Systematic Inspection and Review",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311.03",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "systematic_inspection",
+        "field_review",
+        "six_year_cycle",
+        "uniformity",
+        "property_record_accuracy"
+      ]
+    },
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "title": "Neb. Rev. Stat. sec. 77-1311 County Assessor Duties",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "county_assessor",
+        "duties",
+        "assessment_roll",
+        "preliminary_value_meeting",
+        "records_review"
       ]
     },
     {
@@ -944,6 +998,20 @@
         "equalization",
         "levy",
         "collection"
+      ]
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "title": "Schedule 14 County Assessors",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/records-management/Schedule-14CountyAssessors.pdf",
+      "source_type": "records_retention_schedule",
+      "legal_hierarchy": "records_retention",
+      "topics": [
+        "records_retention",
+        "county_assessor",
+        "litigation_hold",
+        "record_disposition",
+        "appeal_records"
       ]
     },
     {

@@ -1,0 +1,874 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "sources": [
+    {
+      "id": "ne_leg_11_101_oath_of_office",
+      "title": "Neb. Rev. Stat. sec. 11-101 Oath of Office",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=11-101",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["oath_of_office", "county_officer", "bond", "assessor_transition"],
+      "notes": "General oath statute for state and political-subdivision officers."
+    },
+    {
+      "id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "title": "Neb. Rev. Stat. sec. 23-3205 County Assessor Oath and Bond",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=23-3205",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["county_assessor", "oath_of_office", "bond", "assessor_transition"],
+      "notes": "County assessor-specific oath and bond authority."
+    },
+    {
+      "id": "ne_leg_77_1311_county_assessor_duties",
+      "title": "Neb. Rev. Stat. sec. 77-1311 County Assessor Duties",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["county_assessor", "duties", "assessment_roll", "preliminary_value_meeting", "records_review"],
+      "notes": "Primary county assessor duty statute."
+    },
+    {
+      "id": "ne_leg_77_1311_03_systematic_inspection",
+      "title": "Neb. Rev. Stat. sec. 77-1311.03 County Assessor Systematic Inspection and Review",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311.03",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["systematic_inspection", "field_review", "six_year_cycle", "uniformity", "property_record_accuracy"],
+      "notes": "Inspection and review cycle source."
+    },
+    {
+      "id": "ne_sos_schedule14_county_assessors",
+      "title": "Schedule 14 County Assessors",
+      "source_type": "records_retention_schedule",
+      "issuing_authority": "Nebraska Secretary of State Records Management Division",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "records_retention",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/records-management/Schedule-14CountyAssessors.pdf",
+      "publication_date": "2022-08-22",
+      "publication_date_note": null,
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": ["records_retention", "county_assessor", "litigation_hold", "record_disposition", "appeal_records"],
+      "notes": "County assessor-specific records retention schedule; internal records disposition must be matched to this and the Local Agencies General Records Schedule."
+    }
+  ],
+  "objects": [
+    {
+      "id": "statute_ne_11_101_oath_of_office",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Oath of Office Statute",
+      "aliases": ["Neb. Rev. Stat. sec. 11-101", "oath of office"],
+      "category": "office_assumption_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "General Nebraska statute requiring covered officers to take and subscribe the statutory oath before entering duties, with filing/bond endorsement context.",
+      "plain_language": "Before acting in office, the required oath has to be handled correctly.",
+      "semantic_tags": ["statute", "oath_of_office", "county_officer", "transition"],
+      "relationships": [
+        { "type": "governs", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Transition checklist item." },
+        { "type": "paired_with", "target_id": "statute_ne_23_3205_assessor_oath_bond", "note": "County assessor-specific oath/bond statute." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_11_101_oath_of_office", "locator": "sec. 11-101", "citation": "Neb. Rev. Stat. sec. 11-101." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_statute"
+    },
+    {
+      "id": "statute_ne_23_3205_assessor_oath_bond",
+      "object_type": "statute",
+      "canonical_term": "County Assessor Oath and Bond",
+      "aliases": ["Neb. Rev. Stat. sec. 23-3205", "assessor bond", "assessor oath"],
+      "category": "office_assumption_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "County assessor-specific statute requiring oath and bond before entering duties of office.",
+      "plain_language": "The assessor transition is not just ceremonial; oath and bond are legal setup items.",
+      "semantic_tags": ["statute", "county_assessor", "oath", "bond", "transition"],
+      "relationships": [
+        { "type": "governs", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Transition checklist item." },
+        { "type": "paired_with", "target_id": "statute_ne_11_101_oath_of_office", "note": "General oath statute." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_23_3205_county_assessor_oath_bond", "locator": "sec. 23-3205", "citation": "Neb. Rev. Stat. sec. 23-3205." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_from_official_statute"
+    },
+    {
+      "id": "statute_ne_77_1311_county_assessor_duties",
+      "object_type": "statute",
+      "canonical_term": "County Assessor Duties",
+      "aliases": ["Neb. Rev. Stat. sec. 77-1311", "assessor general supervision", "assessor duties"],
+      "category": "assessor_duty_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Primary Nebraska statute assigning the county assessor general supervision and direction over county assessment, annual correction of real property assessment, record review, assessment roll preparation, and large-county preliminary meeting duties.",
+      "plain_language": "This is the main statute describing the assessor's operating responsibility over county assessment.",
+      "semantic_tags": ["statute", "county_assessor", "duties", "assessment_roll", "preliminary_meeting"],
+      "facts": [
+        { "predicate": "requires_general_supervision", "object": true },
+        { "predicate": "requires_annual_error_revision", "object": true },
+        { "predicate": "requires_assessment_roll_preparation", "object": true },
+        { "predicate": "large_county_preliminary_meeting_window", "object": "January 15 through March 1, if population threshold applies" }
+      ],
+      "relationships": [
+        { "type": "governs", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Duty inventory for first-year readiness." },
+        { "type": "governs", "target_id": "timeline_ne_assessor_operating_calendar_scaffold", "note": "Preliminary meeting and assessment-roll duties." },
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Annual assessment cycle." },
+        { "type": "context_for", "target_id": "procedure_board_packet_public_scaffold", "note": "Assessor duties shape BOE packet preparation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_county_assessor_duties", "locator": "sec. 77-1311", "citation": "Neb. Rev. Stat. sec. 77-1311." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_statute"
+    },
+    {
+      "id": "statute_ne_77_1311_03_systematic_inspection",
+      "object_type": "statute",
+      "canonical_term": "Systematic Inspection and Review Requirement",
+      "aliases": ["Neb. Rev. Stat. sec. 77-1311.03", "six-year inspection cycle", "field review requirement"],
+      "category": "assessor_duty_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Nebraska statute requiring systematic inspection and review of taxable real property by class or subclass for uniform and proportionate valuation and accurate property record data, with all parcels inspected and reviewed no less frequently than every six years.",
+      "plain_language": "Field review is not optional housekeeping; it supports uniformity and record accuracy on a recurring cycle.",
+      "semantic_tags": ["statute", "field_review", "systematic_inspection", "six_year_cycle", "uniformity", "property_record_accuracy"],
+      "facts": [
+        { "predicate": "deadline_regular_counties", "object": "on or before March 19" },
+        { "predicate": "deadline_large_counties", "object": "on or before March 25 if statutory population threshold applies" },
+        { "predicate": "cycle_floor", "object": "all parcels inspected and reviewed no less frequently than every six years" },
+        { "predicate": "purpose", "object": ["uniform_and_proportionate_valuation", "accurate_property_record_data"] }
+      ],
+      "relationships": [
+        { "type": "governs", "target_id": "procedure_field_review_public_law_scaffold", "note": "Field review legal scaffold." },
+        { "type": "supports", "target_id": "concept_property_record", "note": "Property record accuracy." },
+        { "type": "supports", "target_id": "concept_uniformity_proportionality", "note": "Uniform and proportionate valuation." },
+        { "type": "context_for", "target_id": "workflow_cama_data_maintenance", "note": "Field data updates CAMA/property records." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_03_systematic_inspection", "locator": "sec. 77-1311.03", "citation": "Neb. Rev. Stat. sec. 77-1311.03." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_official_statute"
+    },
+    {
+      "id": "concept_assessor_office_transition",
+      "object_type": "concept",
+      "canonical_term": "Assessor Office Transition",
+      "aliases": ["assuming assessor office", "new assessor readiness", "assessor first year"],
+      "category": "office_readiness",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Public-law transition concept covering legal prerequisites, authority map, calendar setup, records obligations, open statutory deadlines, and reserved internal workflow slots for a new county assessor.",
+      "plain_language": "This is the onboarding map for taking office without missing the boring-but-dangerous pieces.",
+      "semantic_tags": ["assessor_transition", "readiness", "oath", "bond", "certification", "calendar", "records"],
+      "relationships": [
+        { "type": "implemented_by", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Public-law transition checklist." },
+        { "type": "requires", "target_id": "pad_assessor_certification", "note": "Certification ecosystem." },
+        { "type": "requires", "target_id": "concept_records_retention_litigation_hold", "note": "Records obligations." },
+        { "type": "extended_by", "target_id": "crosswalk_internal_workflow_extension_points", "note": "Reserved private office inserts." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_23_3205_county_assessor_oath_bond", "locator": "sec. 23-3205", "citation": "Neb. Rev. Stat. sec. 23-3205." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 71", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 71." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "concept_assessor_reference_manual",
+      "object_type": "concept",
+      "canonical_term": "Nebraska Assessor Reference Manual",
+      "aliases": ["Assessor's Reference Manual", "assessor manual", "ARM"],
+      "category": "assessor_reference_source",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_guidance",
+      "summary": "Reference manual domain required by Title 350 Chapter 10 as a source used by county assessors in performing duties; actual manual content remains a future ingestion target.",
+      "plain_language": "The manual is one of the practical sources an assessor needs beside statutes and regulations.",
+      "semantic_tags": ["reference_manual", "title_350", "chapter_10", "field_review", "valuation"],
+      "relationships": [
+        { "type": "required_by", "target_id": "standard_ne_title350_ch10_real_property", "note": "Chapter 10 manual rule." },
+        { "type": "supports", "target_id": "procedure_field_review_public_law_scaffold", "note": "Manual content should ground field-review practice after ingestion." },
+        { "type": "future_ingestion_target_for", "target_id": "crosswalk_internal_workflow_extension_points", "note": "Manual-derived office practices may later be crosswalked to internal workflows." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "REG-10-004 Manuals", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10, REG-10-004." }
+      ],
+      "confidence": "medium",
+      "review_status": "source_catalogued_manual_content_pending"
+    },
+    {
+      "id": "concept_records_retention_litigation_hold",
+      "object_type": "concept",
+      "canonical_term": "Records Retention and Litigation Hold",
+      "aliases": ["assessor records retention", "appeal hold", "records disposition"],
+      "category": "records_governance",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "records_retention",
+      "summary": "Records governance concept requiring assessor records to be retained and disposed of under approved schedules, with pending legal action, audit, records requests, or appeals overriding ordinary disposition timing.",
+      "plain_language": "Do not throw away assessor records just because the normal retention period passed if an appeal, audit, request, or legal issue is still alive.",
+      "semantic_tags": ["records_retention", "litigation_hold", "appeal_records", "public_records", "schedule_14"],
+      "relationships": [
+        { "type": "implemented_by", "target_id": "procedure_records_retention_schedule14", "note": "Schedule 14 retention workflow." },
+        { "type": "context_for", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "Appeal records must be preserved through final resolution." },
+        { "type": "context_for", "target_id": "workflow_cama_data_maintenance", "note": "Property-record data is a retention and audit trail domain." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "instructions and item table", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors (Aug. 22, 2022)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_records_schedule"
+    },
+    {
+      "id": "concept_plan_of_assessment",
+      "object_type": "concept",
+      "canonical_term": "Assessor Plan of Assessment",
+      "aliases": ["three-year plan of assessment", "assessment plan", "plan of assessment report"],
+      "category": "assessment_planning",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Planning/report concept for assessor assessment actions, level, quality, and uniformity over a multi-year planning horizon, preserved as an assessor records series in Schedule 14.",
+      "plain_language": "This is where the office turns assessment strategy into a trackable plan rather than reacting parcel by parcel.",
+      "semantic_tags": ["plan_of_assessment", "three_year_plan", "uniformity", "county_board", "records_retention"],
+      "relationships": [
+        { "type": "implemented_by", "target_id": "procedure_plan_of_assessment_public_scaffold", "note": "Public-law planning scaffold." },
+        { "type": "supports", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Planning informs the annual roll." },
+        { "type": "supports", "target_id": "procedure_field_review_public_law_scaffold", "note": "Inspection/review priorities should align to plan." },
+        { "type": "retained_under", "target_id": "procedure_records_retention_schedule14", "note": "Schedule 14 retention item." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "Item 14-2 Assessor's Plan of Assessment Report", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_plan_content_pending"
+    },
+    {
+      "id": "procedure_assessor_assume_office_public_readiness",
+      "object_type": "procedure",
+      "canonical_term": "Assuming Office Public-Law Readiness Checklist",
+      "aliases": ["new assessor transition checklist", "first day assessor checklist", "assessor onboarding legal checklist"],
+      "category": "office_transition",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Source-grounded transition checklist for a newly certified Nebraska assessor, excluding internal county procedures and private paperwork until those materials are provided.",
+      "plain_language": "A first pass at what must be legally and operationally ready before the office starts moving under your name.",
+      "semantic_tags": ["assessor_transition", "oath", "bond", "certification", "calendar", "records", "internal_placeholder"],
+      "steps": [
+        { "order": 1, "step": "Confirm county assessor certificate status and recertification horizon." },
+        { "order": 2, "step": "Complete oath and bond prerequisites before entering duties." },
+        { "order": 3, "step": "Map statutory duty inventory: assessment roll, record review, real property revision, omitted property, preliminary meetings if applicable, and obedience to Tax Commissioner/TERC rules and orders." },
+        { "order": 4, "step": "Load the PAD calendar, county reports calendar, county clerk/BOE calendar, treasurer calendar, homestead calendar, and education calendar into a working command calendar." },
+        { "order": 5, "step": "Inventory open statutory deadlines, open appeals, pending BOE/TERC matters, pending valuation notices, pending exemptions, and reports due to PAD." },
+        { "order": 6, "step": "Apply Schedule 14 records-retention triage before disposing, archiving, or reorganizing inherited records." },
+        { "order": 7, "step": "Reserve internal extension points for CAMA access, parcel/deed workflow, sales validation, field-review packets, BOE packets, TERC exhibits, staff roles, and public-records intake." }
+      ],
+      "internal_extension_points": [
+        { "slot": "county_cama_permissions", "status": "reserved_no_private_content" },
+        { "slot": "staff_role_matrix", "status": "reserved_no_private_content" },
+        { "slot": "open_appeals_inventory", "status": "reserved_no_private_content" },
+        { "slot": "county_form_packet_inventory", "status": "reserved_no_private_content" },
+        { "slot": "vendor_and_gis_access_inventory", "status": "reserved_no_private_content" }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "concept_assessor_office_transition", "note": "Transition concept." },
+        { "type": "requires", "target_id": "statute_ne_11_101_oath_of_office", "note": "General oath statute." },
+        { "type": "requires", "target_id": "statute_ne_23_3205_assessor_oath_bond", "note": "Assessor oath/bond statute." },
+        { "type": "requires", "target_id": "pad_assessor_certification", "note": "Certification/education." },
+        { "type": "requires", "target_id": "timeline_ne_assessor_operating_calendar_scaffold", "note": "Calendar command center." },
+        { "type": "requires", "target_id": "procedure_records_retention_schedule14", "note": "Records retention triage." },
+        { "type": "extended_by", "target_id": "crosswalk_internal_workflow_extension_points", "note": "Reserved county-specific inserts." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_11_101_oath_of_office", "locator": "sec. 11-101", "citation": "Neb. Rev. Stat. sec. 11-101." },
+        { "source_id": "ne_leg_23_3205_county_assessor_oath_bond", "locator": "sec. 23-3205", "citation": "Neb. Rev. Stat. sec. 23-3205." },
+        { "source_id": "ne_leg_77_1311_county_assessor_duties", "locator": "sec. 77-1311", "citation": "Neb. Rev. Stat. sec. 77-1311." },
+        { "source_id": "ne_dor_pad_calendars", "locator": "PAD calendar index", "citation": "Nebraska DOR PAD, PAD Calendars." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "Schedule 14 instructions", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "procedure_records_retention_schedule14",
+      "object_type": "procedure",
+      "canonical_term": "Schedule 14 Assessor Records Retention Procedure",
+      "aliases": ["assessor records procedure", "records hold workflow", "Schedule 14 workflow"],
+      "category": "records_retention",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "records_retention",
+      "summary": "Procedure for routing assessor records through Schedule 14 retention, appeal/audit/request holds, state archives review where required, and documented disposition.",
+      "plain_language": "Before deleting, moving, or boxing inherited office records, classify them and check for appeals, audits, requests, and Schedule 14 retention rules.",
+      "semantic_tags": ["records_retention", "schedule_14", "appeal_hold", "audit_hold", "records_disposition"],
+      "steps": [
+        { "order": 1, "step": "Classify each record series under Schedule 14 or the Local Agencies General Records Schedule if Schedule 14 does not cover it." },
+        { "order": 2, "step": "Check for pending or ongoing appeal, legal action, audit, or records request before disposition." },
+        { "order": 3, "step": "Apply the longer or more specific retention rule when schedules overlap." },
+        { "order": 4, "step": "For records requiring State Archives review or transfer, contact State Archives before transfer/disposition." },
+        { "order": 5, "step": "Complete the required records disposition documentation for destroyed records." },
+        { "order": 6, "step": "Preserve internal chain-of-custody and CAMA/audit-log references through the final resolution date of any appeal." }
+      ],
+      "facts": [
+        { "predicate": "retention_example", "object": { "record": "assessment sales ratio studies", "schedule_item": "14-1", "retention": "5 years" } },
+        { "predicate": "retention_example", "object": { "record": "assessor plan of assessment report", "schedule_item": "14-2", "retention": "4 years after adoption of each new plan" } },
+        { "predicate": "retention_example", "object": { "record": "capitalization rate studies locally assessed", "schedule_item": "14-3", "retention": "5 years unless appeal pending, then 5 years after final appeal resolution" } }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "concept_records_retention_litigation_hold", "note": "Records governance concept." },
+        { "type": "context_for", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "Appeal evidence and workpapers retention." },
+        { "type": "context_for", "target_id": "procedure_plan_of_assessment_public_scaffold", "note": "Assessment plan retention." },
+        { "type": "context_for", "target_id": "workflow_cama_data_maintenance", "note": "Property record and audit trail retention." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "instructions; items 14-1 to 14-3", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_records_schedule"
+    },
+    {
+      "id": "procedure_field_review_public_law_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Field Review Public-Law Scaffold",
+      "aliases": ["property review scaffold", "field inspection scaffold", "systematic inspection scaffold"],
+      "category": "field_review",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Public-law scaffold for field review and systematic inspection, linking statutory six-year review, Title 350 recordkeeping, property record accuracy, and future county-specific field forms.",
+      "plain_language": "This is the source-grounded shape of field review before your county-specific inspection packet is added.",
+      "semantic_tags": ["field_review", "systematic_inspection", "property_record", "cama", "quality_condition", "internal_placeholder"],
+      "steps": [
+        { "order": 1, "step": "Identify the class/subclass, review area, or inspection route selected for systematic review." },
+        { "order": 2, "step": "Compare current property record data to observable facts, sales review notes, permits, GIS/deed changes, and prior record-card data." },
+        { "order": 3, "step": "Record data changes needed for land, improvements, quality, condition, use, occupancy, physical characteristics, and relevant valuation influences." },
+        { "order": 4, "step": "Document reasons for deviations from standard manuals, schedules, or tables where applicable." },
+        { "order": 5, "step": "Update CAMA/property record fields and preserve the workpaper or audit trail supporting the change." },
+        { "order": 6, "step": "Route taxpayer communication, access/refusal handling, photo policy, safety procedure, and county form packets through future internal workflow inserts." }
+      ],
+      "internal_extension_points": [
+        { "slot": "field_review_form", "status": "reserved_no_private_content" },
+        { "slot": "photo_policy", "status": "reserved_no_private_content" },
+        { "slot": "safety_and_access_protocol", "status": "reserved_no_private_content" },
+        { "slot": "quality_condition_coding_table", "status": "reserved_no_private_content" },
+        { "slot": "ag_soil_lvg_review_packet", "status": "reserved_no_private_content" },
+        { "slot": "commercial_income_expense_review_packet", "status": "reserved_no_private_content" }
+      ],
+      "relationships": [
+        { "type": "governed_by", "target_id": "statute_ne_77_1311_03_systematic_inspection", "note": "Systematic inspection requirement." },
+        { "type": "governed_by", "target_id": "standard_ne_title350_ch10_real_property", "note": "Real property regulation and recordkeeping." },
+        { "type": "uses", "target_id": "concept_assessor_reference_manual", "note": "Manual domain for field practice." },
+        { "type": "updates", "target_id": "concept_property_record", "note": "Field review updates property records." },
+        { "type": "updates", "target_id": "workflow_cama_data_maintenance", "note": "CAMA data maintenance." },
+        { "type": "related_concept", "target_id": "concept_quality_condition", "note": "Quality/condition coding." },
+        { "type": "related_concept", "target_id": "concept_valuation_approaches", "note": "Observed characteristics inform valuation method." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_03_systematic_inspection", "locator": "sec. 77-1311.03", "citation": "Neb. Rev. Stat. sec. 77-1311.03." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 10, REG-10-001 through REG-10-005", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "procedure_plan_of_assessment_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Plan of Assessment Public Scaffold",
+      "aliases": ["three-year plan scaffold", "assessment planning scaffold"],
+      "category": "assessment_planning",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Public scaffold for organizing the assessor's plan of assessment around assessment actions, level, quality, uniformity, field-review scheduling, and retention.",
+      "plain_language": "This is the shell for the plan you will later populate with county-specific review areas, model priorities, and staffing assumptions.",
+      "semantic_tags": ["plan_of_assessment", "three_year_plan", "uniformity", "field_review", "internal_placeholder"],
+      "steps": [
+        { "order": 1, "step": "Define classes/subclasses and review areas needing assessment action." },
+        { "order": 2, "step": "Tie each action to level, quality, uniformity, field review, sales review, or data-integrity objectives." },
+        { "order": 3, "step": "Map planned actions to the annual assessment calendar and six-year inspection cycle." },
+        { "order": 4, "step": "Preserve plan adoption, amendment, county board submission, and PAD submission records under Schedule 14." },
+        { "order": 5, "step": "Reserve internal inserts for county-specific neighborhoods, land tables, sales periods, CAMA reports, and staffing plans." }
+      ],
+      "internal_extension_points": [
+        { "slot": "county_review_area_schedule", "status": "reserved_no_private_content" },
+        { "slot": "neighborhood_and_market_area_map", "status": "reserved_no_private_content" },
+        { "slot": "model_update_priority_list", "status": "reserved_no_private_content" },
+        { "slot": "staffing_capacity_assumptions", "status": "reserved_no_private_content" }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "concept_plan_of_assessment", "note": "Planning concept." },
+        { "type": "supports", "target_id": "procedure_field_review_public_law_scaffold", "note": "Field review priorities." },
+        { "type": "supports", "target_id": "workflow_ratio_study_equalization", "note": "Level/quality/uniformity planning." },
+        { "type": "retained_under", "target_id": "procedure_records_retention_schedule14", "note": "Schedule 14 retention." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "Item 14-2 Assessor's Plan of Assessment Report", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." },
+        { "source_id": "ne_leg_77_1311_03_systematic_inspection", "locator": "sec. 77-1311.03", "citation": "Neb. Rev. Stat. sec. 77-1311.03." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "procedure_board_packet_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Board of Equalization Packet Public Scaffold",
+      "aliases": ["BOE packet scaffold", "board protest packet scaffold", "county board evidence packet"],
+      "category": "boe_preparation",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Source-grounded scaffold for preparing county board of equalization protest materials, preserving evidence, issue type, record-card facts, comparable support, and decision/appeal trace without adding internal county forms yet.",
+      "plain_language": "This is the outside skeleton for BOE packets before we add your county's actual templates.",
+      "semantic_tags": ["boe", "protest", "evidence_packet", "valuation", "equalization", "internal_placeholder"],
+      "steps": [
+        { "order": 1, "step": "Classify protest issue: actual value, equalization, classification/use, data error, exemption/special-value domain, or tax-not-value confusion." },
+        { "order": 2, "step": "Attach current property record, taxpayer statement, requested value, and assessor analysis." },
+        { "order": 3, "step": "Document sales/comps, income/cost support, data corrections, or reason evidence is insufficient." },
+        { "order": 4, "step": "Separate valuation evidence from levy/tax-bill concerns for board explanation." },
+        { "order": 5, "step": "Preserve board decision, notice, and appeal deadline trace for possible TERC appeal." },
+        { "order": 6, "step": "Reserve internal inserts for hearing scripts, referee workflows, packet numbering, and board agenda procedure." }
+      ],
+      "internal_extension_points": [
+        { "slot": "boe_packet_template", "status": "reserved_no_private_content" },
+        { "slot": "referee_report_template", "status": "reserved_no_private_content" },
+        { "slot": "board_hearing_script", "status": "reserved_no_private_content" },
+        { "slot": "decision_notice_tracking_sheet", "status": "reserved_no_private_content" }
+      ],
+      "relationships": [
+        { "type": "supports", "target_id": "workflow_boe_protest_hearing", "note": "BOE protest workflow." },
+        { "type": "precedes", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "TERC packet may follow BOE decision." },
+        { "type": "uses", "target_id": "form_422_property_valuation_protest", "note": "Protest form context." },
+        { "type": "distinguishes", "target_id": "public_guidance_assessment_vs_taxes", "note": "Value issue versus tax issue." },
+        { "type": "retained_under", "target_id": "procedure_records_retention_schedule14", "note": "Appeal/protest records retention." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1502", "locator": "protest filing", "citation": "Neb. Rev. Stat. sec. 77-1502." },
+        { "source_id": "ne_leg_77_1504", "locator": "board powers and appeal", "citation": "Neb. Rev. Stat. sec. 77-1504." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "protest guide", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "appeal-related retention guidance", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "procedure_terc_appeal_packet_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "TERC Appeal Packet Public Scaffold",
+      "aliases": ["TERC packet scaffold", "appeal preparation scaffold", "TERC exhibit preparation"],
+      "category": "terc_preparation",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "administrative_tribunal_guidance",
+      "summary": "Public scaffold for preparing records and issue maps for a TERC appeal after a county board decision, excluding internal county templates until provided.",
+      "plain_language": "This is the appeal-prep shell: what decision is appealed, what record supports the value, and what must be preserved.",
+      "semantic_tags": ["terc", "appeal", "evidence_packet", "boe_decision", "records_retention", "internal_placeholder"],
+      "steps": [
+        { "order": 1, "step": "Confirm appealed decision, tax year, parcel, parties, and applicable appeal deadline." },
+        { "order": 2, "step": "Preserve county board decision, valuation protest form, property record, valuation analysis, exhibits, and communication log." },
+        { "order": 3, "step": "Identify issue theory: actual value, equalization, classification, exemption/special valuation, personal property, or procedural issue." },
+        { "order": 4, "step": "Assemble evidence in a way that can be reused for informal single-commissioner or formal hearing context." },
+        { "order": 5, "step": "Apply litigation/appeal hold to workpapers and supporting records through final appeal resolution and retention tail." },
+        { "order": 6, "step": "Reserve internal inserts for exhibit labels, witness notes, stipulation review, hearing prep, and counsel/referee coordination." }
+      ],
+      "internal_extension_points": [
+        { "slot": "terc_exhibit_index_template", "status": "reserved_no_private_content" },
+        { "slot": "witness_and_staff_prep_notes", "status": "reserved_no_private_content" },
+        { "slot": "stipulation_review_workflow", "status": "reserved_no_private_content" },
+        { "slot": "appeal_status_tracker", "status": "reserved_no_private_content" }
+      ],
+      "relationships": [
+        { "type": "extends", "target_id": "workflow_terc_appeal", "note": "Detailed packet-prep layer." },
+        { "type": "follows", "target_id": "procedure_board_packet_public_scaffold", "note": "BOE packet provides record foundation." },
+        { "type": "retained_under", "target_id": "procedure_records_retention_schedule14", "note": "Appeal records hold." },
+        { "type": "contextualized_by", "target_id": "standard_iaao_assessment_appeal", "note": "Professional assessment appeal principles." }
+      ],
+      "source_refs": [
+        { "source_id": "terc_appeal_process", "locator": "appeal process page", "citation": "Nebraska TERC, Appeal Process." },
+        { "source_id": "iaao_assessment_appeal_standard", "locator": "standard PDF", "citation": "IAAO, Standard on Assessment Appeal (2016)." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "appeal retention references", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "public_scaffold_internal_details_pending"
+    },
+    {
+      "id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "object_type": "timeline",
+      "canonical_term": "Nebraska Assessor Operating Calendar Scaffold",
+      "aliases": ["assessor command calendar", "Nebraska assessment calendar scaffold", "first-year assessor calendar"],
+      "category": "assessment_calendar",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "pad_guidance",
+      "summary": "Structured calendar scaffold for assessor operations, aggregating PAD calendars, assessment date, roll revision, notices, protests, statewide equalization, certification, levy, homestead, personal property, and education calendar domains.",
+      "plain_language": "This is the calendar spine; the next pass should parse every PAD calendar PDF into date-specific objects.",
+      "semantic_tags": ["assessment_calendar", "pad_calendar", "january_1", "june_1", "june_30", "august_20", "levy", "homestead"],
+      "dates": [
+        { "date": "annual", "label": "January 1, 12:01 a.m.", "meaning": "Assessment date for taxable property." },
+        { "date": "annual", "label": "January 15 to March 1", "meaning": "Preliminary valuation meeting opportunity in counties meeting statutory population threshold." },
+        { "date": "annual", "label": "January 1 to March 19/March 25", "meaning": "Assessment roll update/revision window; March 25 date applies to counties meeting statutory population threshold." },
+        { "date": "annual", "label": "early April to May 15", "meaning": "TERC statewide equalization authority window described by DOR FAQ." },
+        { "date": "annual", "label": "May 1", "meaning": "Personal property return deadline." },
+        { "date": "annual", "label": "June 1", "meaning": "Real property valuation change notice deadline context." },
+        { "date": "annual", "label": "June 1 to June 30", "meaning": "Regular real property valuation protest filing period." },
+        { "date": "annual", "label": "August 10", "meaning": "Centrally assessed railroad/public service equalization certification context in DOR FAQ." },
+        { "date": "annual", "label": "August 20", "meaning": "County assessor total taxable value certification to local governments for rate setting." },
+        { "date": "annual", "label": "October 20", "meaning": "County board levy deadline context." }
+      ],
+      "relationships": [
+        { "type": "organizes", "target_id": "workflow_real_property_annual_assessment_cycle", "note": "Annual real property cycle." },
+        { "type": "organizes", "target_id": "workflow_boe_protest_hearing", "note": "Protest/BOE stage." },
+        { "type": "organizes", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "Levy/tax stage." },
+        { "type": "organizes", "target_id": "concept_homestead_exemption", "note": "Homestead calendar domain." },
+        { "type": "organizes", "target_id": "pad_assessor_certification", "note": "Education/certification calendar domain." },
+        { "type": "future_extracts", "target_id": "standard_ne_title350_ch65_reporting_due_dates", "note": "Reporting due dates require section-level extraction." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_calendars", "locator": "calendar index", "citation": "Nebraska DOR PAD, PAD Calendars." },
+        { "source_id": "ne_dor_main_calendar_pdf", "locator": "Property Assessment Main Calendar", "citation": "Nebraska DOR PAD, Property Assessment Main Calendar." },
+        { "source_id": "ne_dor_pad_faq", "locator": "assessment process FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_leg_77_1311_county_assessor_duties", "locator": "preliminary meeting window", "citation": "Neb. Rev. Stat. sec. 77-1311." }
+      ],
+      "confidence": "medium",
+      "review_status": "calendar_scaffold_requires_pdf_date_extraction"
+    },
+    {
+      "id": "public_guidance_taxpayer_question_bank_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Core Taxpayer Question Bank",
+      "aliases": ["taxpayer FAQ bank", "common assessment questions", "public Q&A"],
+      "category": "taxpayer_question_bank",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Compressed collection of common taxpayer questions routed to canonical concepts, workflows, statutes, and public-facing answer frames.",
+      "plain_language": "These are the questions taxpayers ask before they know the legal vocabulary.",
+      "semantic_tags": ["taxpayer_questions", "faq", "assessment_vs_tax", "protest", "homestead", "personal_property", "ag_land"],
+      "facts": [
+        { "predicate": "question", "object": { "q": "Why did my assessed value change?", "route_to": ["concept_actual_value", "workflow_real_property_annual_assessment_cycle"] } },
+        { "predicate": "question", "object": { "q": "Does a higher value mean my taxes go up by the same percentage?", "route_to": ["concept_value_vs_tax", "workflow_levy_setting_tax_statement_cycle"] } },
+        { "predicate": "question", "object": { "q": "What date is my property valued as of?", "route_to": ["concept_assessment_date", "deadline_jan1_assessment_date"] } },
+        { "predicate": "question", "object": { "q": "How do I protest value?", "route_to": ["workflow_valuation_notice_to_protest", "form_422_property_valuation_protest"] } },
+        { "predicate": "question", "object": { "q": "What evidence helps in a protest?", "route_to": ["procedure_board_packet_public_scaffold", "concept_sales_comparison_approach"] } },
+        { "predicate": "question", "object": { "q": "Can I protest taxes instead of value?", "route_to": ["public_guidance_assessment_vs_taxes", "concept_tax_bill"] } },
+        { "predicate": "question", "object": { "q": "Why is ag land assessed differently?", "route_to": ["concept_greenbelt_special_valuation", "standard_ne_title350_ch14_agricultural_land"] } },
+        { "predicate": "question", "object": { "q": "What is homestead exemption and when do I apply?", "route_to": ["concept_homestead_exemption", "timeline_ne_assessor_operating_calendar_scaffold"] } },
+        { "predicate": "question", "object": { "q": "Do I need to file personal property?", "route_to": ["concept_personal_property", "deadline_may1_personal_property_return"] } },
+        { "predicate": "question", "object": { "q": "What if my property record is wrong?", "route_to": ["concept_property_record", "procedure_field_review_public_law_scaffold"] } },
+        { "predicate": "question", "object": { "q": "Why is the assessor asking about income or expense on commercial property?", "route_to": ["concept_income_approach", "concept_valuation_approaches"] } },
+        { "predicate": "question", "object": { "q": "What happens after the county board decision?", "route_to": ["workflow_terc_appeal", "procedure_terc_appeal_packet_public_scaffold"] } }
+      ],
+      "relationships": [
+        { "type": "catalogued_in", "target_id": "crosswalk_public_question_bank", "note": "Question-bank crosswalk." },
+        { "type": "routes_to", "target_id": "public_guidance_assessment_vs_taxes", "note": "Most common value/tax confusion." },
+        { "type": "routes_to", "target_id": "workflow_valuation_notice_to_protest", "note": "Protest questions." },
+        { "type": "routes_to", "target_id": "procedure_board_packet_public_scaffold", "note": "Evidence questions." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "property assessment FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "valuation protest guide", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." },
+        { "source_id": "terc_appeal_process", "locator": "appeal process", "citation": "Nebraska TERC, Appeal Process." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_core_question_bank_expand_next"
+    },
+    {
+      "id": "public_guidance_board_member_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Board of Equalization and County Board Question Bank",
+      "aliases": ["BOE Q&A", "board of supervisors Q&A", "county board valuation questions"],
+      "category": "board_question_bank",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Core public-law Q&A frames for county board, board of supervisors, and board of equalization questions about valuation protests, equalization, evidence, taxes versus value, and appeal routing.",
+      "plain_language": "This helps board members stay in the right lane: value/equalization evidence, not general tax frustration.",
+      "semantic_tags": ["boe", "county_board", "board_of_supervisors", "valuation_protest", "equalization", "qna"],
+      "facts": [
+        { "predicate": "board_question", "object": { "q": "What is the board deciding in a valuation protest?", "answer_frame": "Current-year assessment/equalization issue for the described property, not the taxpayer's overall tax affordability." } },
+        { "predicate": "board_question", "object": { "q": "Can the board raise as well as lower value?", "answer_frame": "Route to board statutory powers and due process/notice requirements before answering from local facts." } },
+        { "predicate": "board_question", "object": { "q": "What evidence should matter?", "answer_frame": "Evidence tied to actual value, comparable properties, equalization, classification, property record accuracy, or a specific legal program." } },
+        { "predicate": "board_question", "object": { "q": "How should tax-bill complaints be handled?", "answer_frame": "Explain value versus levy/tax request mechanics and route levy questions to budget/taxing-subdivision context." } },
+        { "predicate": "board_question", "object": { "q": "What must be preserved for appeal?", "answer_frame": "Decision, notice, protest form, exhibits, property record, assessor analysis, board/referee report, and appeal deadline trace." } },
+        { "predicate": "board_question", "object": { "q": "What if a taxpayer presents a recent appraisal?", "answer_frame": "Treat it as evidence; compare effective date, property rights, scope, market period, and whether it addresses the assessment date and issue." } },
+        { "predicate": "board_question", "object": { "q": "What if a taxpayer says neighbors are lower?", "answer_frame": "Route to equalization: identify truly comparable parcels and whether equivalent characteristics receive equivalent treatment." } }
+      ],
+      "relationships": [
+        { "type": "supports", "target_id": "procedure_board_packet_public_scaffold", "note": "BOE packet and hearing support." },
+        { "type": "supports", "target_id": "workflow_boe_protest_hearing", "note": "County board protest workflow." },
+        { "type": "distinguishes", "target_id": "public_guidance_assessment_vs_taxes", "note": "Value/tax distinction." },
+        { "type": "prepares_for", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "Appeal record preservation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1504", "locator": "board powers and duties", "citation": "Neb. Rev. Stat. sec. 77-1504." },
+        { "source_id": "ne_dor_pad_faq", "locator": "assessment process and protest FAQ", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "terc_appeal_process", "locator": "appeal process", "citation": "Nebraska TERC, Appeal Process." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_core_question_bank_expand_next"
+    },
+    {
+      "id": "public_guidance_field_review_taxpayer_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Field Review Taxpayer Question Bank",
+      "aliases": ["inspection Q&A", "property review questions", "field appraiser taxpayer questions"],
+      "category": "field_review_question_bank",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Core public answer frames for taxpayer questions that arise during field review, property record correction, inspection, and property characteristic updates.",
+      "plain_language": "These questions show up at the door, in the driveway, or on the phone after a review notice.",
+      "semantic_tags": ["field_review", "inspection", "property_record", "taxpayer_questions", "data_quality"],
+      "facts": [
+        { "predicate": "field_question", "object": { "q": "Why is the assessor reviewing my property?", "route_to": ["statute_ne_77_1311_03_systematic_inspection", "concept_property_record"] } },
+        { "predicate": "field_question", "object": { "q": "What property characteristics affect value?", "route_to": ["concept_quality_condition", "concept_property_record", "concept_valuation_approaches"] } },
+        { "predicate": "field_question", "object": { "q": "What if my property record has the wrong square footage or condition?", "route_to": ["procedure_field_review_public_law_scaffold", "workflow_cama_data_maintenance"] } },
+        { "predicate": "field_question", "object": { "q": "Why did you take a photo or update a sketch?", "route_to": ["concept_property_record", "procedure_field_review_public_law_scaffold"] } },
+        { "predicate": "field_question", "object": { "q": "Does letting the assessor inspect mean my taxes automatically go up?", "route_to": ["concept_value_vs_tax", "concept_actual_value"] } },
+        { "predicate": "field_question", "object": { "q": "How do I challenge the value after field review?", "route_to": ["workflow_valuation_notice_to_protest", "form_422_property_valuation_protest"] } }
+      ],
+      "relationships": [
+        { "type": "supports", "target_id": "procedure_field_review_public_law_scaffold", "note": "Field review public answers." },
+        { "type": "routes_to", "target_id": "workflow_valuation_notice_to_protest", "note": "Protest route after valuation notice." },
+        { "type": "routes_to", "target_id": "public_guidance_assessment_vs_taxes", "note": "Tax impact explanation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_03_systematic_inspection", "locator": "sec. 77-1311.03", "citation": "Neb. Rev. Stat. sec. 77-1311.03." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 10 recordkeeping", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10." },
+        { "source_id": "ne_dor_pad_faq", "locator": "why valuations change", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_core_question_bank_expand_next"
+    },
+    {
+      "id": "public_guidance_terc_preparation_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "TERC Preparation Question Bank",
+      "aliases": ["TERC Q&A", "appeal prep Q&A", "valuation hearing questions"],
+      "category": "terc_question_bank",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "administrative_tribunal_guidance",
+      "summary": "Core Q&A frames for preparing taxpayers, assessors, and boards for the post-BOE TERC appeal stage.",
+      "plain_language": "This keeps the next-step appeal questions tied to evidence, deadlines, forms, and record preservation.",
+      "semantic_tags": ["terc", "appeal", "qna", "hearing", "evidence", "deadline"],
+      "facts": [
+        { "predicate": "terc_question", "object": { "q": "What do I file after a county board decision?", "answer_frame": "Use the TERC appeal form, required fee, and copy of the decision being appealed; verify current deadline for the tax year and county." } },
+        { "predicate": "terc_question", "object": { "q": "Can I use the county protest form as the TERC appeal?", "answer_frame": "No; TERC identifies its own appeal form as separate from the county board protest form." } },
+        { "predicate": "terc_question", "object": { "q": "What should the assessor preserve after a BOE decision?", "answer_frame": "Preserve decision, notices, protest, property record, evidence, exhibits, analysis, and communications under appeal hold." } },
+        { "predicate": "terc_question", "object": { "q": "Are hearings informal or formal?", "answer_frame": "TERC states hearings are informal unless a formal hearing is requested; procedure should be checked for the case type." } },
+        { "predicate": "terc_question", "object": { "q": "Can a TERC decision be appealed further?", "answer_frame": "TERC notes final Commission decisions may be appealed to the Nebraska Court of Appeals under the applicable statute." } }
+      ],
+      "relationships": [
+        { "type": "supports", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "Appeal prep scaffold." },
+        { "type": "supports", "target_id": "workflow_terc_appeal", "note": "TERC appeal workflow." },
+        { "type": "follows", "target_id": "workflow_boe_protest_hearing", "note": "Regular valuation appeal follows BOE decision." },
+        { "type": "retained_under", "target_id": "procedure_records_retention_schedule14", "note": "Appeal record preservation." }
+      ],
+      "source_refs": [
+        { "source_id": "terc_appeal_process", "locator": "appeal process page", "citation": "Nebraska TERC, Appeal Process." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "appeal-related retention guidance", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_core_question_bank_expand_next"
+    },
+    {
+      "id": "crosswalk_public_question_bank",
+      "object_type": "crosswalk",
+      "canonical_term": "Public Question Bank Crosswalk",
+      "aliases": ["Q&A crosswalk", "taxpayer and board question routing map"],
+      "category": "question_routing",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Crosswalk routing common taxpayer, board, field review, and TERC questions to canonical concepts, workflows, forms, statutes, and future expansion slots.",
+      "plain_language": "This tells LexValorum where a plain-English question belongs.",
+      "semantic_tags": ["question_bank", "semantic_routing", "taxpayer_questions", "board_questions", "field_review", "terc"],
+      "facts": [
+        { "predicate": "bank_status", "object": "core seeded; large expansion pending" },
+        { "predicate": "question_domain", "object": { "domain": "taxpayer", "object_id": "public_guidance_taxpayer_question_bank_core", "priority": "high" } },
+        { "predicate": "question_domain", "object": { "domain": "boe_and_board", "object_id": "public_guidance_board_member_qna_core", "priority": "high" } },
+        { "predicate": "question_domain", "object": { "domain": "field_review", "object_id": "public_guidance_field_review_taxpayer_qna_core", "priority": "high" } },
+        { "predicate": "question_domain", "object": { "domain": "terc_preparation", "object_id": "public_guidance_terc_preparation_qna_core", "priority": "high" } },
+        { "predicate": "future_question_domain", "object": "commercial appraisal basics" },
+        { "predicate": "future_question_domain", "object": "ag/farm/soil/LVG" },
+        { "predicate": "future_question_domain", "object": "homestead and exemptions" },
+        { "predicate": "future_question_domain", "object": "personal property and business assets" },
+        { "predicate": "future_question_domain", "object": "levy, budgets, tax statements, and credits" },
+        { "predicate": "future_question_domain", "object": "mobile homes, IOLL, mineral interests, and TIF" }
+      ],
+      "relationships": [
+        { "type": "catalogues", "target_id": "public_guidance_taxpayer_question_bank_core", "note": "Taxpayer Q&A core." },
+        { "type": "catalogues", "target_id": "public_guidance_board_member_qna_core", "note": "Board Q&A core." },
+        { "type": "catalogues", "target_id": "public_guidance_field_review_taxpayer_qna_core", "note": "Field review Q&A core." },
+        { "type": "catalogues", "target_id": "public_guidance_terc_preparation_qna_core", "note": "TERC prep Q&A core." },
+        { "type": "routes_to", "target_id": "crosswalk_assessment_to_tax_cycle", "note": "Stage routing." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_pad_faq", "locator": "FAQ page", "citation": "Nebraska DOR, Nebraska Property Assessment FAQs." },
+        { "source_id": "terc_appeal_process", "locator": "appeal process page", "citation": "Nebraska TERC, Appeal Process." },
+        { "source_id": "ne_dor_pad_real_property_valuation_protest_guide", "locator": "protest guide", "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide." }
+      ],
+      "confidence": "medium",
+      "review_status": "routing_core_seeded"
+    },
+    {
+      "id": "crosswalk_internal_workflow_extension_points",
+      "object_type": "crosswalk",
+      "canonical_term": "Internal Workflow Extension Points",
+      "aliases": ["private office workflow placeholders", "county-specific insert slots", "internal paperwork registry"],
+      "category": "internal_extension_registry",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "local_practice_placeholder",
+      "summary": "Reserved registry for future county-specific internal workflows, forms, packets, CAMA exports, staff procedures, and paperwork. This object intentionally stores no internal content yet.",
+      "plain_language": "This is where your real office workflows will plug in later, without contaminating the public-law knowledge layer.",
+      "semantic_tags": ["internal_placeholder", "county_specific", "workflow_extension", "forms", "cama", "paperwork"],
+      "facts": [
+        { "predicate": "contains_internal_content", "object": false },
+        { "predicate": "reserved_slot", "object": { "slot": "cama_permission_matrix", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "deed_transfer_and_parcel_split_workflow", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "sales_validation_codes_and_workflow", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "field_review_packet", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "commercial_income_expense_packet", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "ag_soil_lvg_packet", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "boe_packet_template", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "terc_exhibit_packet", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "homestead_exemption_intake", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "public_records_request_intake", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "records_disposition_log", "status": "empty" } },
+        { "predicate": "reserved_slot", "object": { "slot": "monthly_assessor_calendar_packet", "status": "empty" } }
+      ],
+      "relationships": [
+        { "type": "extends", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Transition private inserts." },
+        { "type": "extends", "target_id": "procedure_field_review_public_law_scaffold", "note": "Field review private inserts." },
+        { "type": "extends", "target_id": "procedure_board_packet_public_scaffold", "note": "BOE private inserts." },
+        { "type": "extends", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "TERC private inserts." },
+        { "type": "extends", "target_id": "procedure_records_retention_schedule14", "note": "Records private inserts." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_county_assessor_duties", "locator": "assessor duty framework", "citation": "Neb. Rev. Stat. sec. 77-1311." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapters 10, 50, 65, 71", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "records schedule", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "high",
+      "review_status": "intentional_empty_internal_placeholder"
+    },
+    {
+      "id": "crosswalk_assessor_first_year_readiness",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessor First-Year Readiness Crosswalk",
+      "aliases": ["new assessor readiness map", "first-year operating map"],
+      "category": "office_readiness",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "workflow_guidance",
+      "summary": "Crosswalk tying first-year assessor readiness domains to canonical statutes, timelines, public Q&A, records retention, field review, BOE, TERC, and internal extension points.",
+      "plain_language": "This is the dashboard map for what to build next before assuming office.",
+      "semantic_tags": ["first_year", "assessor_transition", "readiness", "field_review", "boe", "terc", "calendar", "records"],
+      "facts": [
+        { "predicate": "readiness_domain", "object": { "domain": "legal_entry", "objects": ["statute_ne_11_101_oath_of_office", "statute_ne_23_3205_assessor_oath_bond", "pad_assessor_certification"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "calendar_control", "objects": ["timeline_ne_assessor_operating_calendar_scaffold", "standard_ne_title350_ch65_reporting_due_dates"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "field_review", "objects": ["procedure_field_review_public_law_scaffold", "statute_ne_77_1311_03_systematic_inspection"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "records", "objects": ["concept_records_retention_litigation_hold", "procedure_records_retention_schedule14"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "public_communication", "objects": ["crosswalk_public_question_bank", "public_guidance_taxpayer_question_bank_core"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "boe_protest", "objects": ["procedure_board_packet_public_scaffold", "workflow_boe_protest_hearing"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "terc_appeal", "objects": ["procedure_terc_appeal_packet_public_scaffold", "workflow_terc_appeal"] } },
+        { "predicate": "readiness_domain", "object": { "domain": "internal_future", "objects": ["crosswalk_internal_workflow_extension_points"] } }
+      ],
+      "relationships": [
+        { "type": "catalogues", "target_id": "procedure_assessor_assume_office_public_readiness", "note": "Transition checklist." },
+        { "type": "catalogues", "target_id": "timeline_ne_assessor_operating_calendar_scaffold", "note": "Calendar scaffold." },
+        { "type": "catalogues", "target_id": "procedure_field_review_public_law_scaffold", "note": "Field review scaffold." },
+        { "type": "catalogues", "target_id": "procedure_records_retention_schedule14", "note": "Records retention." },
+        { "type": "catalogues", "target_id": "procedure_board_packet_public_scaffold", "note": "BOE preparation." },
+        { "type": "catalogues", "target_id": "procedure_terc_appeal_packet_public_scaffold", "note": "TERC preparation." },
+        { "type": "catalogues", "target_id": "crosswalk_public_question_bank", "note": "Public question routing." },
+        { "type": "catalogues", "target_id": "crosswalk_internal_workflow_extension_points", "note": "Future private inserts." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_77_1311_county_assessor_duties", "locator": "county assessor duties", "citation": "Neb. Rev. Stat. sec. 77-1311." },
+        { "source_id": "ne_dor_pad_calendars", "locator": "PAD Calendars", "citation": "Nebraska DOR PAD, PAD Calendars." },
+        { "source_id": "ne_sos_schedule14_county_assessors", "locator": "Schedule 14", "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors." }
+      ],
+      "confidence": "medium",
+      "review_status": "first_year_scaffold_seeded"
+    }
+  ],
+  "operational_readiness_coverage": {
+    "catalogued_phase": "public_operational_readiness_scaffold",
+    "internal_office_content_included": false,
+    "new_public_sources": 5,
+    "new_object_count": 22,
+    "readiness_domains": [
+      "assessor_transition",
+      "oath_and_bond",
+      "certification",
+      "assessor_duties",
+      "systematic_field_review",
+      "records_retention",
+      "plan_of_assessment",
+      "boe_packet_scaffold",
+      "terc_packet_scaffold",
+      "public_question_bank",
+      "calendar_scaffold",
+      "internal_extension_points"
+    ],
+    "reserved_internal_slots": [
+      "cama_permission_matrix",
+      "deed_transfer_and_parcel_split_workflow",
+      "sales_validation_codes_and_workflow",
+      "field_review_packet",
+      "commercial_income_expense_packet",
+      "ag_soil_lvg_packet",
+      "boe_packet_template",
+      "terc_exhibit_packet",
+      "homestead_exemption_intake",
+      "public_records_request_intake",
+      "records_disposition_log",
+      "monthly_assessor_calendar_packet"
+    ],
+    "known_limits": [
+      "No internal county forms, staff procedures, passwords, CAMA exports, vendor documents, or local packet templates have been added.",
+      "Calendar remains a scaffold until individual PAD calendar PDFs are parsed into date-level objects.",
+      "Public Q&A bank is seeded at core level and should be expanded into many atomized Q&A objects."
+    ]
+  },
+  "gap_analysis_additions": [
+    {
+      "gap": "Internal office workflows and paperwork are intentionally excluded, but extension points are now reserved.",
+      "risk": "The public-law scaffold can guide setup, but it will not reflect county-specific CAMA codes, staff routing, packet templates, or vendor procedures until those materials are ingested.",
+      "next_action": "After assuming office or obtaining authorized materials, import internal workflows into the reserved extension slots as private/county-specific objects."
+    },
+    {
+      "gap": "Public question bank is core-seeded but not yet exhaustive.",
+      "risk": "LexValorum can route common questions, but edge-case public Q&A still needs expansion by topic: commercial, ag/soil/LVG, personal property, exemptions, BOE evidence, TERC, levy/budget, and credits.",
+      "next_action": "Expand public Q&A into atomized objects with question patterns, short answer frames, legal caveats, and relationship targets."
+    },
+    {
+      "gap": "Records retention is scaffolded from Schedule 14 but not fully atomized item-by-item.",
+      "risk": "The system understands holds and sample retention categories, but cannot yet answer every Schedule 14 item with precision.",
+      "next_action": "Extract every Schedule 14 item into records-retention objects with retention period, trigger, hold exception, and related workflow."
+    }
+  ],
+  "future_ingestion_targets_additions": [
+    "Assessor internal workflow imports into reserved extension slots when authorized.",
+    "Full Schedule 14 item-by-item records retention extraction.",
+    "PAD calendar PDFs parsed into normalized date/deadline/timeline objects.",
+    "Large public Q&A corpus for taxpayers, BOE/board members, TERC preparation, field review, commercial appraisal, and agricultural/soil/LVG questions.",
+    "Nebraska Assessor Reference Manual discovery and extraction, if publicly available or provided."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_records_retention_schedule14",
+  "object_type": "procedure",
+  "canonical_term": "Schedule 14 Assessor Records Retention Procedure",
+  "aliases": [
+    "assessor records procedure",
+    "records hold workflow",
+    "Schedule 14 workflow"
+  ],
+  "category": "records_retention",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "records_retention",
+  "summary": "Procedure for routing assessor records through Schedule 14 retention, appeal/audit/request holds, state archives review where required, and documented disposition.",
+  "plain_language": "Before deleting, moving, or boxing inherited office records, classify them and check for appeals, audits, requests, and Schedule 14 retention rules.",
+  "semantic_tags": [
+    "records_retention",
+    "schedule_14",
+    "appeal_hold",
+    "audit_hold",
+    "records_disposition"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Classify each record series under Schedule 14 or the Local Agencies General Records Schedule if Schedule 14 does not cover it."
+    },
+    {
+      "order": 2,
+      "step": "Check for pending or ongoing appeal, legal action, audit, or records request before disposition."
+    },
+    {
+      "order": 3,
+      "step": "Apply the longer or more specific retention rule when schedules overlap."
+    },
+    {
+      "order": 4,
+      "step": "For records requiring State Archives review or transfer, contact State Archives before transfer/disposition."
+    },
+    {
+      "order": 5,
+      "step": "Complete the required records disposition documentation for destroyed records."
+    },
+    {
+      "order": 6,
+      "step": "Preserve internal chain-of-custody and CAMA/audit-log references through the final resolution date of any appeal."
+    }
+  ],
+  "facts": [
+    {
+      "predicate": "retention_example",
+      "object": {
+        "record": "assessment sales ratio studies",
+        "schedule_item": "14-1",
+        "retention": "5 years"
+      }
+    },
+    {
+      "predicate": "retention_example",
+      "object": {
+        "record": "assessor plan of assessment report",
+        "schedule_item": "14-2",
+        "retention": "4 years after adoption of each new plan"
+      }
+    },
+    {
+      "predicate": "retention_example",
+      "object": {
+        "record": "capitalization rate studies locally assessed",
+        "schedule_item": "14-3",
+        "retention": "5 years unless appeal pending, then 5 years after final appeal resolution"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "concept_records_retention_litigation_hold",
+      "note": "Records governance concept."
+    },
+    {
+      "type": "context_for",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal evidence and workpapers retention."
+    },
+    {
+      "type": "context_for",
+      "target_id": "procedure_plan_of_assessment_public_scaffold",
+      "note": "Assessment plan retention."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Property record and audit trail retention."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "instructions; items 14-1 to 14-3",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_records_schedule"
+}

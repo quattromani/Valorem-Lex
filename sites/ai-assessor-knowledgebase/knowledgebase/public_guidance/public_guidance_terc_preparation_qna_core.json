@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "public_guidance_terc_preparation_qna_core",
+  "object_type": "public_guidance",
+  "canonical_term": "TERC Preparation Question Bank",
+  "aliases": [
+    "TERC Q&A",
+    "appeal prep Q&A",
+    "valuation hearing questions"
+  ],
+  "category": "terc_question_bank",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "administrative_tribunal_guidance",
+  "summary": "Core Q&A frames for preparing taxpayers, assessors, and boards for the post-BOE TERC appeal stage.",
+  "plain_language": "This keeps the next-step appeal questions tied to evidence, deadlines, forms, and record preservation.",
+  "semantic_tags": [
+    "terc",
+    "appeal",
+    "qna",
+    "hearing",
+    "evidence",
+    "deadline"
+  ],
+  "facts": [
+    {
+      "predicate": "terc_question",
+      "object": {
+        "q": "What do I file after a county board decision?",
+        "answer_frame": "Use the TERC appeal form, required fee, and copy of the decision being appealed; verify current deadline for the tax year and county."
+      }
+    },
+    {
+      "predicate": "terc_question",
+      "object": {
+        "q": "Can I use the county protest form as the TERC appeal?",
+        "answer_frame": "No; TERC identifies its own appeal form as separate from the county board protest form."
+      }
+    },
+    {
+      "predicate": "terc_question",
+      "object": {
+        "q": "What should the assessor preserve after a BOE decision?",
+        "answer_frame": "Preserve decision, notices, protest, property record, evidence, exhibits, analysis, and communications under appeal hold."
+      }
+    },
+    {
+      "predicate": "terc_question",
+      "object": {
+        "q": "Are hearings informal or formal?",
+        "answer_frame": "TERC states hearings are informal unless a formal hearing is requested; procedure should be checked for the case type."
+      }
+    },
+    {
+      "predicate": "terc_question",
+      "object": {
+        "q": "Can a TERC decision be appealed further?",
+        "answer_frame": "TERC notes final Commission decisions may be appealed to the Nebraska Court of Appeals under the applicable statute."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal prep scaffold."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_terc_appeal",
+      "note": "TERC appeal workflow."
+    },
+    {
+      "type": "follows",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Regular valuation appeal follows BOE decision."
+    },
+    {
+      "type": "retained_under",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Appeal record preservation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process page",
+      "citation": "Nebraska TERC, Appeal Process."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "appeal-related retention guidance",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_core_question_bank_expand_next"
+}

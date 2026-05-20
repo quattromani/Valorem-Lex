@@ -1,0 +1,135 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "timeline_ne_assessor_operating_calendar_scaffold",
+  "object_type": "timeline",
+  "canonical_term": "Nebraska Assessor Operating Calendar Scaffold",
+  "aliases": [
+    "assessor command calendar",
+    "Nebraska assessment calendar scaffold",
+    "first-year assessor calendar"
+  ],
+  "category": "assessment_calendar",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "pad_guidance",
+  "summary": "Structured calendar scaffold for assessor operations, aggregating PAD calendars, assessment date, roll revision, notices, protests, statewide equalization, certification, levy, homestead, personal property, and education calendar domains.",
+  "plain_language": "This is the calendar spine; the next pass should parse every PAD calendar PDF into date-specific objects.",
+  "semantic_tags": [
+    "assessment_calendar",
+    "pad_calendar",
+    "january_1",
+    "june_1",
+    "june_30",
+    "august_20",
+    "levy",
+    "homestead"
+  ],
+  "dates": [
+    {
+      "date": "annual",
+      "label": "January 1, 12:01 a.m.",
+      "meaning": "Assessment date for taxable property."
+    },
+    {
+      "date": "annual",
+      "label": "January 15 to March 1",
+      "meaning": "Preliminary valuation meeting opportunity in counties meeting statutory population threshold."
+    },
+    {
+      "date": "annual",
+      "label": "January 1 to March 19/March 25",
+      "meaning": "Assessment roll update/revision window; March 25 date applies to counties meeting statutory population threshold."
+    },
+    {
+      "date": "annual",
+      "label": "early April to May 15",
+      "meaning": "TERC statewide equalization authority window described by DOR FAQ."
+    },
+    {
+      "date": "annual",
+      "label": "May 1",
+      "meaning": "Personal property return deadline."
+    },
+    {
+      "date": "annual",
+      "label": "June 1",
+      "meaning": "Real property valuation change notice deadline context."
+    },
+    {
+      "date": "annual",
+      "label": "June 1 to June 30",
+      "meaning": "Regular real property valuation protest filing period."
+    },
+    {
+      "date": "annual",
+      "label": "August 10",
+      "meaning": "Centrally assessed railroad/public service equalization certification context in DOR FAQ."
+    },
+    {
+      "date": "annual",
+      "label": "August 20",
+      "meaning": "County assessor total taxable value certification to local governments for rate setting."
+    },
+    {
+      "date": "annual",
+      "label": "October 20",
+      "meaning": "County board levy deadline context."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "organizes",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual real property cycle."
+    },
+    {
+      "type": "organizes",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "Protest/BOE stage."
+    },
+    {
+      "type": "organizes",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy/tax stage."
+    },
+    {
+      "type": "organizes",
+      "target_id": "concept_homestead_exemption",
+      "note": "Homestead calendar domain."
+    },
+    {
+      "type": "organizes",
+      "target_id": "pad_assessor_certification",
+      "note": "Education/certification calendar domain."
+    },
+    {
+      "type": "future_extracts",
+      "target_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Reporting due dates require section-level extraction."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "locator": "calendar index",
+      "citation": "Nebraska DOR PAD, PAD Calendars."
+    },
+    {
+      "source_id": "ne_dor_main_calendar_pdf",
+      "locator": "Property Assessment Main Calendar",
+      "citation": "Nebraska DOR PAD, Property Assessment Main Calendar."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "assessment process FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "locator": "preliminary meeting window",
+      "citation": "Neb. Rev. Stat. sec. 77-1311."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "calendar_scaffold_requires_pdf_date_extraction"
+}

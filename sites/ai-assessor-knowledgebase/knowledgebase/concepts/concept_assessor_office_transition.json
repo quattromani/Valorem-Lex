@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_assessor_office_transition",
+  "object_type": "concept",
+  "canonical_term": "Assessor Office Transition",
+  "aliases": [
+    "assuming assessor office",
+    "new assessor readiness",
+    "assessor first year"
+  ],
+  "category": "office_readiness",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Public-law transition concept covering legal prerequisites, authority map, calendar setup, records obligations, open statutory deadlines, and reserved internal workflow slots for a new county assessor.",
+  "plain_language": "This is the onboarding map for taking office without missing the boring-but-dangerous pieces.",
+  "semantic_tags": [
+    "assessor_transition",
+    "readiness",
+    "oath",
+    "bond",
+    "certification",
+    "calendar",
+    "records"
+  ],
+  "relationships": [
+    {
+      "type": "implemented_by",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Public-law transition checklist."
+    },
+    {
+      "type": "requires",
+      "target_id": "pad_assessor_certification",
+      "note": "Certification ecosystem."
+    },
+    {
+      "type": "requires",
+      "target_id": "concept_records_retention_litigation_hold",
+      "note": "Records obligations."
+    },
+    {
+      "type": "extended_by",
+      "target_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Reserved private office inserts."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "locator": "sec. 23-3205",
+      "citation": "Neb. Rev. Stat. sec. 23-3205."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 71",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 71."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

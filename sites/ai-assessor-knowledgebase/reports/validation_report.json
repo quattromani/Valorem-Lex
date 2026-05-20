@@ -2,10 +2,10 @@
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
   "status": "pass",
-  "object_count": 137,
-  "source_count": 73,
+  "object_count": 159,
+  "source_count": 78,
   "error_count": 0,
-  "warning_count": 57,
+  "warning_count": 61,
   "issues": [
     {
       "severity": "warning",
@@ -332,7 +332,23 @@
       "code": "publication_date_missing",
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
+        "source_id": "ne_leg_11_101_oath_of_office"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
         "source_id": "ne_leg_13_501_13_522_budget_act"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_23_3205_county_assessor_oath_bond"
       }
     },
     {
@@ -357,6 +373,22 @@
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
         "source_id": "ne_leg_77_1301"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1311_03_systematic_inspection"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_77_1311_county_assessor_duties"
       }
     },
     {

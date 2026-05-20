@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_internal_workflow_extension_points",
+  "object_type": "crosswalk",
+  "canonical_term": "Internal Workflow Extension Points",
+  "aliases": [
+    "private office workflow placeholders",
+    "county-specific insert slots",
+    "internal paperwork registry"
+  ],
+  "category": "internal_extension_registry",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "local_practice_placeholder",
+  "summary": "Reserved registry for future county-specific internal workflows, forms, packets, CAMA exports, staff procedures, and paperwork. This object intentionally stores no internal content yet.",
+  "plain_language": "This is where your real office workflows will plug in later, without contaminating the public-law knowledge layer.",
+  "semantic_tags": [
+    "internal_placeholder",
+    "county_specific",
+    "workflow_extension",
+    "forms",
+    "cama",
+    "paperwork"
+  ],
+  "facts": [
+    {
+      "predicate": "contains_internal_content",
+      "object": false
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "cama_permission_matrix",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "deed_transfer_and_parcel_split_workflow",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "sales_validation_codes_and_workflow",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "field_review_packet",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "commercial_income_expense_packet",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "ag_soil_lvg_packet",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "boe_packet_template",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "terc_exhibit_packet",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "homestead_exemption_intake",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "public_records_request_intake",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "records_disposition_log",
+        "status": "empty"
+      }
+    },
+    {
+      "predicate": "reserved_slot",
+      "object": {
+        "slot": "monthly_assessor_calendar_packet",
+        "status": "empty"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "extends",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition private inserts."
+    },
+    {
+      "type": "extends",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review private inserts."
+    },
+    {
+      "type": "extends",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE private inserts."
+    },
+    {
+      "type": "extends",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC private inserts."
+    },
+    {
+      "type": "extends",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Records private inserts."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "locator": "assessor duty framework",
+      "citation": "Neb. Rev. Stat. sec. 77-1311."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapters 10, 50, 65, 71",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "records schedule",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "intentional_empty_internal_placeholder"
+}

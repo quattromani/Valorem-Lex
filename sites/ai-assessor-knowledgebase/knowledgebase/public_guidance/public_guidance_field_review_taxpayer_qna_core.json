@@ -1,0 +1,123 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "public_guidance_field_review_taxpayer_qna_core",
+  "object_type": "public_guidance",
+  "canonical_term": "Field Review Taxpayer Question Bank",
+  "aliases": [
+    "inspection Q&A",
+    "property review questions",
+    "field appraiser taxpayer questions"
+  ],
+  "category": "field_review_question_bank",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Core public answer frames for taxpayer questions that arise during field review, property record correction, inspection, and property characteristic updates.",
+  "plain_language": "These questions show up at the door, in the driveway, or on the phone after a review notice.",
+  "semantic_tags": [
+    "field_review",
+    "inspection",
+    "property_record",
+    "taxpayer_questions",
+    "data_quality"
+  ],
+  "facts": [
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "Why is the assessor reviewing my property?",
+        "route_to": [
+          "statute_ne_77_1311_03_systematic_inspection",
+          "concept_property_record"
+        ]
+      }
+    },
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "What property characteristics affect value?",
+        "route_to": [
+          "concept_quality_condition",
+          "concept_property_record",
+          "concept_valuation_approaches"
+        ]
+      }
+    },
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "What if my property record has the wrong square footage or condition?",
+        "route_to": [
+          "procedure_field_review_public_law_scaffold",
+          "workflow_cama_data_maintenance"
+        ]
+      }
+    },
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "Why did you take a photo or update a sketch?",
+        "route_to": [
+          "concept_property_record",
+          "procedure_field_review_public_law_scaffold"
+        ]
+      }
+    },
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "Does letting the assessor inspect mean my taxes automatically go up?",
+        "route_to": [
+          "concept_value_vs_tax",
+          "concept_actual_value"
+        ]
+      }
+    },
+    {
+      "predicate": "field_question",
+      "object": {
+        "q": "How do I challenge the value after field review?",
+        "route_to": [
+          "workflow_valuation_notice_to_protest",
+          "form_422_property_valuation_protest"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review public answers."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest route after valuation notice."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Tax impact explanation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "locator": "sec. 77-1311.03",
+      "citation": "Neb. Rev. Stat. sec. 77-1311.03."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 10 recordkeeping",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "why valuations change",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_core_question_bank_expand_next"
+}

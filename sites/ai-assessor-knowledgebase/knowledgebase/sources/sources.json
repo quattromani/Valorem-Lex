@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
   "accessed_date": "2026-05-20",
-  "source_count": 73,
+  "source_count": 78,
   "sources": [
     {
       "id": "berry_reassessing_property_tax",
@@ -1153,6 +1153,26 @@
       "notes": "Repository for official Nebraska appellate opinions."
     },
     {
+      "id": "ne_leg_11_101_oath_of_office",
+      "title": "Neb. Rev. Stat. sec. 11-101 Oath of Office",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=11-101",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "oath_of_office",
+        "county_officer",
+        "bond",
+        "assessor_transition"
+      ],
+      "notes": "General oath statute for state and political-subdivision officers."
+    },
+    {
       "id": "ne_leg_13_501_13_522_budget_act",
       "title": "Nebraska Budget Act, Neb. Rev. Stat. §§ 13-501 to 13-522",
       "source_type": "statute_range",
@@ -1171,6 +1191,26 @@
         "property_tax_request"
       ],
       "notes": "Budget Act source for levy-adjacent workflow."
+    },
+    {
+      "id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "title": "Neb. Rev. Stat. sec. 23-3205 County Assessor Oath and Bond",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=23-3205",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "county_assessor",
+        "oath_of_office",
+        "bond",
+        "assessor_transition"
+      ],
+      "notes": "County assessor-specific oath and bond authority."
     },
     {
       "id": "ne_leg_77_112",
@@ -1228,6 +1268,48 @@
         "list_and_value"
       ],
       "notes": "Core real property assessment date and duty source."
+    },
+    {
+      "id": "ne_leg_77_1311_03_systematic_inspection",
+      "title": "Neb. Rev. Stat. sec. 77-1311.03 County Assessor Systematic Inspection and Review",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311.03",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "systematic_inspection",
+        "field_review",
+        "six_year_cycle",
+        "uniformity",
+        "property_record_accuracy"
+      ],
+      "notes": "Inspection and review cycle source."
+    },
+    {
+      "id": "ne_leg_77_1311_county_assessor_duties",
+      "title": "Neb. Rev. Stat. sec. 77-1311 County Assessor Duties",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-1311",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "county_assessor",
+        "duties",
+        "assessment_roll",
+        "preliminary_value_meeting",
+        "records_review"
+      ],
+      "notes": "Primary county assessor duty statute."
     },
     {
       "id": "ne_leg_77_1314",
@@ -1430,6 +1512,27 @@
         "collection"
       ],
       "notes": "Official Chapter 77 index."
+    },
+    {
+      "id": "ne_sos_schedule14_county_assessors",
+      "title": "Schedule 14 County Assessors",
+      "source_type": "records_retention_schedule",
+      "issuing_authority": "Nebraska Secretary of State Records Management Division",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "records_retention",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/records-management/Schedule-14CountyAssessors.pdf",
+      "publication_date": "2022-08-22",
+      "publication_date_note": null,
+      "accessed_date": "2026-05-20",
+      "status": "official",
+      "topics": [
+        "records_retention",
+        "county_assessor",
+        "litigation_hold",
+        "record_disposition",
+        "appeal_records"
+      ],
+      "notes": "County assessor-specific records retention schedule; internal records disposition must be matched to this and the Local Agencies General Records Schedule."
     },
     {
       "id": "sarpy_county_form_422",

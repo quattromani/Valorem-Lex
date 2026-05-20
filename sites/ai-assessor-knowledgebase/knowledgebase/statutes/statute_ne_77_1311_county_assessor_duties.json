@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1311_county_assessor_duties",
+  "object_type": "statute",
+  "canonical_term": "County Assessor Duties",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 77-1311",
+    "assessor general supervision",
+    "assessor duties"
+  ],
+  "category": "assessor_duty_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Primary Nebraska statute assigning the county assessor general supervision and direction over county assessment, annual correction of real property assessment, record review, assessment roll preparation, and large-county preliminary meeting duties.",
+  "plain_language": "This is the main statute describing the assessor's operating responsibility over county assessment.",
+  "semantic_tags": [
+    "statute",
+    "county_assessor",
+    "duties",
+    "assessment_roll",
+    "preliminary_meeting"
+  ],
+  "facts": [
+    {
+      "predicate": "requires_general_supervision",
+      "object": true
+    },
+    {
+      "predicate": "requires_annual_error_revision",
+      "object": true
+    },
+    {
+      "predicate": "requires_assessment_roll_preparation",
+      "object": true
+    },
+    {
+      "predicate": "large_county_preliminary_meeting_window",
+      "object": "January 15 through March 1, if population threshold applies"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Duty inventory for first-year readiness."
+    },
+    {
+      "type": "governs",
+      "target_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Preliminary meeting and assessment-roll duties."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment cycle."
+    },
+    {
+      "type": "context_for",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "Assessor duties shape BOE packet preparation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "locator": "sec. 77-1311",
+      "citation": "Neb. Rev. Stat. sec. 77-1311."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_statute"
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_board_packet_public_scaffold",
+  "object_type": "procedure",
+  "canonical_term": "Board of Equalization Packet Public Scaffold",
+  "aliases": [
+    "BOE packet scaffold",
+    "board protest packet scaffold",
+    "county board evidence packet"
+  ],
+  "category": "boe_preparation",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Source-grounded scaffold for preparing county board of equalization protest materials, preserving evidence, issue type, record-card facts, comparable support, and decision/appeal trace without adding internal county forms yet.",
+  "plain_language": "This is the outside skeleton for BOE packets before we add your county's actual templates.",
+  "semantic_tags": [
+    "boe",
+    "protest",
+    "evidence_packet",
+    "valuation",
+    "equalization",
+    "internal_placeholder"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Classify protest issue: actual value, equalization, classification/use, data error, exemption/special-value domain, or tax-not-value confusion."
+    },
+    {
+      "order": 2,
+      "step": "Attach current property record, taxpayer statement, requested value, and assessor analysis."
+    },
+    {
+      "order": 3,
+      "step": "Document sales/comps, income/cost support, data corrections, or reason evidence is insufficient."
+    },
+    {
+      "order": 4,
+      "step": "Separate valuation evidence from levy/tax-bill concerns for board explanation."
+    },
+    {
+      "order": 5,
+      "step": "Preserve board decision, notice, and appeal deadline trace for possible TERC appeal."
+    },
+    {
+      "order": 6,
+      "step": "Reserve internal inserts for hearing scripts, referee workflows, packet numbering, and board agenda procedure."
+    }
+  ],
+  "internal_extension_points": [
+    {
+      "slot": "boe_packet_template",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "referee_report_template",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "board_hearing_script",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "decision_notice_tracking_sheet",
+      "status": "reserved_no_private_content"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "BOE protest workflow."
+    },
+    {
+      "type": "precedes",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC packet may follow BOE decision."
+    },
+    {
+      "type": "uses",
+      "target_id": "form_422_property_valuation_protest",
+      "note": "Protest form context."
+    },
+    {
+      "type": "distinguishes",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Value issue versus tax issue."
+    },
+    {
+      "type": "retained_under",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Appeal/protest records retention."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1502",
+      "locator": "protest filing",
+      "citation": "Neb. Rev. Stat. sec. 77-1502."
+    },
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "board powers and appeal",
+      "citation": "Neb. Rev. Stat. sec. 77-1504."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "protest guide",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "appeal-related retention guidance",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

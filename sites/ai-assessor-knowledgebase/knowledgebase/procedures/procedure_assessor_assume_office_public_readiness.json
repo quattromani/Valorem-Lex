@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_assessor_assume_office_public_readiness",
+  "object_type": "procedure",
+  "canonical_term": "Assuming Office Public-Law Readiness Checklist",
+  "aliases": [
+    "new assessor transition checklist",
+    "first day assessor checklist",
+    "assessor onboarding legal checklist"
+  ],
+  "category": "office_transition",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Source-grounded transition checklist for a newly certified Nebraska assessor, excluding internal county procedures and private paperwork until those materials are provided.",
+  "plain_language": "A first pass at what must be legally and operationally ready before the office starts moving under your name.",
+  "semantic_tags": [
+    "assessor_transition",
+    "oath",
+    "bond",
+    "certification",
+    "calendar",
+    "records",
+    "internal_placeholder"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Confirm county assessor certificate status and recertification horizon."
+    },
+    {
+      "order": 2,
+      "step": "Complete oath and bond prerequisites before entering duties."
+    },
+    {
+      "order": 3,
+      "step": "Map statutory duty inventory: assessment roll, record review, real property revision, omitted property, preliminary meetings if applicable, and obedience to Tax Commissioner/TERC rules and orders."
+    },
+    {
+      "order": 4,
+      "step": "Load the PAD calendar, county reports calendar, county clerk/BOE calendar, treasurer calendar, homestead calendar, and education calendar into a working command calendar."
+    },
+    {
+      "order": 5,
+      "step": "Inventory open statutory deadlines, open appeals, pending BOE/TERC matters, pending valuation notices, pending exemptions, and reports due to PAD."
+    },
+    {
+      "order": 6,
+      "step": "Apply Schedule 14 records-retention triage before disposing, archiving, or reorganizing inherited records."
+    },
+    {
+      "order": 7,
+      "step": "Reserve internal extension points for CAMA access, parcel/deed workflow, sales validation, field-review packets, BOE packets, TERC exhibits, staff roles, and public-records intake."
+    }
+  ],
+  "internal_extension_points": [
+    {
+      "slot": "county_cama_permissions",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "staff_role_matrix",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "open_appeals_inventory",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "county_form_packet_inventory",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "vendor_and_gis_access_inventory",
+      "status": "reserved_no_private_content"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "concept_assessor_office_transition",
+      "note": "Transition concept."
+    },
+    {
+      "type": "requires",
+      "target_id": "statute_ne_11_101_oath_of_office",
+      "note": "General oath statute."
+    },
+    {
+      "type": "requires",
+      "target_id": "statute_ne_23_3205_assessor_oath_bond",
+      "note": "Assessor oath/bond statute."
+    },
+    {
+      "type": "requires",
+      "target_id": "pad_assessor_certification",
+      "note": "Certification/education."
+    },
+    {
+      "type": "requires",
+      "target_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Calendar command center."
+    },
+    {
+      "type": "requires",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Records retention triage."
+    },
+    {
+      "type": "extended_by",
+      "target_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Reserved county-specific inserts."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_11_101_oath_of_office",
+      "locator": "sec. 11-101",
+      "citation": "Neb. Rev. Stat. sec. 11-101."
+    },
+    {
+      "source_id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "locator": "sec. 23-3205",
+      "citation": "Neb. Rev. Stat. sec. 23-3205."
+    },
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "locator": "sec. 77-1311",
+      "citation": "Neb. Rev. Stat. sec. 77-1311."
+    },
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "locator": "PAD calendar index",
+      "citation": "Nebraska DOR PAD, PAD Calendars."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "Schedule 14 instructions",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

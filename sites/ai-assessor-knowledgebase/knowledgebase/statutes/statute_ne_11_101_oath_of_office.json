@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_11_101_oath_of_office",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Oath of Office Statute",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 11-101",
+    "oath of office"
+  ],
+  "category": "office_assumption_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "General Nebraska statute requiring covered officers to take and subscribe the statutory oath before entering duties, with filing/bond endorsement context.",
+  "plain_language": "Before acting in office, the required oath has to be handled correctly.",
+  "semantic_tags": [
+    "statute",
+    "oath_of_office",
+    "county_officer",
+    "transition"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist item."
+    },
+    {
+      "type": "paired_with",
+      "target_id": "statute_ne_23_3205_assessor_oath_bond",
+      "note": "County assessor-specific oath/bond statute."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_11_101_oath_of_office",
+      "locator": "sec. 11-101",
+      "citation": "Neb. Rev. Stat. sec. 11-101."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_statute"
+}

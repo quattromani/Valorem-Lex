@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_77_1311_03_systematic_inspection",
+  "object_type": "statute",
+  "canonical_term": "Systematic Inspection and Review Requirement",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 77-1311.03",
+    "six-year inspection cycle",
+    "field review requirement"
+  ],
+  "category": "assessor_duty_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Nebraska statute requiring systematic inspection and review of taxable real property by class or subclass for uniform and proportionate valuation and accurate property record data, with all parcels inspected and reviewed no less frequently than every six years.",
+  "plain_language": "Field review is not optional housekeeping; it supports uniformity and record accuracy on a recurring cycle.",
+  "semantic_tags": [
+    "statute",
+    "field_review",
+    "systematic_inspection",
+    "six_year_cycle",
+    "uniformity",
+    "property_record_accuracy"
+  ],
+  "facts": [
+    {
+      "predicate": "deadline_regular_counties",
+      "object": "on or before March 19"
+    },
+    {
+      "predicate": "deadline_large_counties",
+      "object": "on or before March 25 if statutory population threshold applies"
+    },
+    {
+      "predicate": "cycle_floor",
+      "object": "all parcels inspected and reviewed no less frequently than every six years"
+    },
+    {
+      "predicate": "purpose",
+      "object": [
+        "uniform_and_proportionate_valuation",
+        "accurate_property_record_data"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review legal scaffold."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_property_record",
+      "note": "Property record accuracy."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_uniformity_proportionality",
+      "note": "Uniform and proportionate valuation."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Field data updates CAMA/property records."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "locator": "sec. 77-1311.03",
+      "citation": "Neb. Rev. Stat. sec. 77-1311.03."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_official_statute"
+}

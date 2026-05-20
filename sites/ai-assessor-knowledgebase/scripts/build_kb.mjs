@@ -138,16 +138,30 @@ async function resetGeneratedTree() {
 async function main() {
   const sourceSeed = await readJson("data/seed/sources.seed.json");
   const knowledgeSeed = await readJson("data/seed/knowledge.seed.json");
-  const authorityCatalogSeed = await readOptionalJson("data/seed/authority_catalog.seed.json", {
-    sources: [],
-    objects: [],
-    gap_analysis_additions: [],
-    future_ingestion_targets_additions: []
-  });
-  const sources = [...sourceSeed.sources, ...(authorityCatalogSeed.sources ?? [])].sort((a, b) =>
+  const optionalSeedFiles = [
+    "data/seed/authority_catalog.seed.json",
+    "data/seed/operational_readiness.seed.json"
+  ];
+  const optionalSeeds = await Promise.all(
+    optionalSeedFiles.map((seedPath) =>
+      readOptionalJson(seedPath, {
+        sources: [],
+        objects: [],
+        gap_analysis_additions: [],
+        future_ingestion_targets_additions: []
+      })
+    )
+  );
+  const sources = [
+    ...sourceSeed.sources,
+    ...optionalSeeds.flatMap((seed) => seed.sources ?? [])
+  ].sort((a, b) =>
     a.id.localeCompare(b.id)
   );
-  const objects = [...knowledgeSeed.objects, ...(authorityCatalogSeed.objects ?? [])].sort((a, b) =>
+  const objects = [
+    ...knowledgeSeed.objects,
+    ...optionalSeeds.flatMap((seed) => seed.objects ?? [])
+  ].sort((a, b) =>
     a.id.localeCompare(b.id)
   );
 
@@ -254,18 +268,31 @@ async function main() {
   await writeJson("reports/gap_analysis.json", {
     schema_version: knowledgeSeed.schema_version,
     generated_at: stableGeneratedAt,
-    gaps: [...knowledgeSeed.gap_analysis, ...(authorityCatalogSeed.gap_analysis_additions ?? [])],
+    gaps: [
+      ...knowledgeSeed.gap_analysis,
+      ...optionalSeeds.flatMap((seed) => seed.gap_analysis_additions ?? [])
+    ],
     future_ingestion_targets: [
       ...knowledgeSeed.future_ingestion_targets,
-      ...(authorityCatalogSeed.future_ingestion_targets_additions ?? [])
+      ...optionalSeeds.flatMap((seed) => seed.future_ingestion_targets_additions ?? [])
     ]
   });
 
-  if (authorityCatalogSeed.authority_coverage) {
+  const authorityCatalogSeed = optionalSeeds.find((seed) => seed.authority_coverage);
+  if (authorityCatalogSeed?.authority_coverage) {
     await writeJson("reports/authority_coverage.json", {
       schema_version: knowledgeSeed.schema_version,
       generated_at: stableGeneratedAt,
       ...authorityCatalogSeed.authority_coverage
+    });
+  }
+
+  const operationalReadinessSeed = optionalSeeds.find((seed) => seed.operational_readiness_coverage);
+  if (operationalReadinessSeed?.operational_readiness_coverage) {
+    await writeJson("reports/operational_readiness_coverage.json", {
+      schema_version: knowledgeSeed.schema_version,
+      generated_at: stableGeneratedAt,
+      ...operationalReadinessSeed.operational_readiness_coverage
     });
   }
 
@@ -298,7 +325,7 @@ async function main() {
     seed_files: [
       "data/seed/sources.seed.json",
       "data/seed/knowledge.seed.json",
-      "data/seed/authority_catalog.seed.json"
+      ...optionalSeedFiles
     ],
     generated_object_count: objects.length,
     generated_source_count: sources.length,

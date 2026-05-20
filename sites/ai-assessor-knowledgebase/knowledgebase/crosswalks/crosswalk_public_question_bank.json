@@ -1,0 +1,132 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_public_question_bank",
+  "object_type": "crosswalk",
+  "canonical_term": "Public Question Bank Crosswalk",
+  "aliases": [
+    "Q&A crosswalk",
+    "taxpayer and board question routing map"
+  ],
+  "category": "question_routing",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Crosswalk routing common taxpayer, board, field review, and TERC questions to canonical concepts, workflows, forms, statutes, and future expansion slots.",
+  "plain_language": "This tells LexValorum where a plain-English question belongs.",
+  "semantic_tags": [
+    "question_bank",
+    "semantic_routing",
+    "taxpayer_questions",
+    "board_questions",
+    "field_review",
+    "terc"
+  ],
+  "facts": [
+    {
+      "predicate": "bank_status",
+      "object": "core seeded; large expansion pending"
+    },
+    {
+      "predicate": "question_domain",
+      "object": {
+        "domain": "taxpayer",
+        "object_id": "public_guidance_taxpayer_question_bank_core",
+        "priority": "high"
+      }
+    },
+    {
+      "predicate": "question_domain",
+      "object": {
+        "domain": "boe_and_board",
+        "object_id": "public_guidance_board_member_qna_core",
+        "priority": "high"
+      }
+    },
+    {
+      "predicate": "question_domain",
+      "object": {
+        "domain": "field_review",
+        "object_id": "public_guidance_field_review_taxpayer_qna_core",
+        "priority": "high"
+      }
+    },
+    {
+      "predicate": "question_domain",
+      "object": {
+        "domain": "terc_preparation",
+        "object_id": "public_guidance_terc_preparation_qna_core",
+        "priority": "high"
+      }
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "commercial appraisal basics"
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "ag/farm/soil/LVG"
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "homestead and exemptions"
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "personal property and business assets"
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "levy, budgets, tax statements, and credits"
+    },
+    {
+      "predicate": "future_question_domain",
+      "object": "mobile homes, IOLL, mineral interests, and TIF"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogues",
+      "target_id": "public_guidance_taxpayer_question_bank_core",
+      "note": "Taxpayer Q&A core."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "public_guidance_board_member_qna_core",
+      "note": "Board Q&A core."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "public_guidance_field_review_taxpayer_qna_core",
+      "note": "Field review Q&A core."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "public_guidance_terc_preparation_qna_core",
+      "note": "TERC prep Q&A core."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "crosswalk_assessment_to_tax_cycle",
+      "note": "Stage routing."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "FAQ page",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process page",
+      "citation": "Nebraska TERC, Appeal Process."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "protest guide",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "routing_core_seeded"
+}

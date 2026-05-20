@@ -1,0 +1,99 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_plan_of_assessment_public_scaffold",
+  "object_type": "procedure",
+  "canonical_term": "Plan of Assessment Public Scaffold",
+  "aliases": [
+    "three-year plan scaffold",
+    "assessment planning scaffold"
+  ],
+  "category": "assessment_planning",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Public scaffold for organizing the assessor's plan of assessment around assessment actions, level, quality, uniformity, field-review scheduling, and retention.",
+  "plain_language": "This is the shell for the plan you will later populate with county-specific review areas, model priorities, and staffing assumptions.",
+  "semantic_tags": [
+    "plan_of_assessment",
+    "three_year_plan",
+    "uniformity",
+    "field_review",
+    "internal_placeholder"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Define classes/subclasses and review areas needing assessment action."
+    },
+    {
+      "order": 2,
+      "step": "Tie each action to level, quality, uniformity, field review, sales review, or data-integrity objectives."
+    },
+    {
+      "order": 3,
+      "step": "Map planned actions to the annual assessment calendar and six-year inspection cycle."
+    },
+    {
+      "order": 4,
+      "step": "Preserve plan adoption, amendment, county board submission, and PAD submission records under Schedule 14."
+    },
+    {
+      "order": 5,
+      "step": "Reserve internal inserts for county-specific neighborhoods, land tables, sales periods, CAMA reports, and staffing plans."
+    }
+  ],
+  "internal_extension_points": [
+    {
+      "slot": "county_review_area_schedule",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "neighborhood_and_market_area_map",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "model_update_priority_list",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "staffing_capacity_assumptions",
+      "status": "reserved_no_private_content"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "concept_plan_of_assessment",
+      "note": "Planning concept."
+    },
+    {
+      "type": "supports",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review priorities."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_ratio_study_equalization",
+      "note": "Level/quality/uniformity planning."
+    },
+    {
+      "type": "retained_under",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "Item 14-2 Assessor's Plan of Assessment Report",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    },
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "locator": "sec. 77-1311.03",
+      "citation": "Neb. Rev. Stat. sec. 77-1311.03."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

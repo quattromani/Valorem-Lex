@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_plan_of_assessment",
+  "object_type": "concept",
+  "canonical_term": "Assessor Plan of Assessment",
+  "aliases": [
+    "three-year plan of assessment",
+    "assessment plan",
+    "plan of assessment report"
+  ],
+  "category": "assessment_planning",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Planning/report concept for assessor assessment actions, level, quality, and uniformity over a multi-year planning horizon, preserved as an assessor records series in Schedule 14.",
+  "plain_language": "This is where the office turns assessment strategy into a trackable plan rather than reacting parcel by parcel.",
+  "semantic_tags": [
+    "plan_of_assessment",
+    "three_year_plan",
+    "uniformity",
+    "county_board",
+    "records_retention"
+  ],
+  "relationships": [
+    {
+      "type": "implemented_by",
+      "target_id": "procedure_plan_of_assessment_public_scaffold",
+      "note": "Public-law planning scaffold."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Planning informs the annual roll."
+    },
+    {
+      "type": "supports",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Inspection/review priorities should align to plan."
+    },
+    {
+      "type": "retained_under",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention item."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "Item 14-2 Assessor's Plan of Assessment Report",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_plan_content_pending"
+}

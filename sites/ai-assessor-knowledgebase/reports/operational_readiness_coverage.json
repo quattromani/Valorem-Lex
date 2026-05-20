@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "catalogued_phase": "public_operational_readiness_scaffold",
+  "internal_office_content_included": false,
+  "new_public_sources": 5,
+  "new_object_count": 22,
+  "readiness_domains": [
+    "assessor_transition",
+    "oath_and_bond",
+    "certification",
+    "assessor_duties",
+    "systematic_field_review",
+    "records_retention",
+    "plan_of_assessment",
+    "boe_packet_scaffold",
+    "terc_packet_scaffold",
+    "public_question_bank",
+    "calendar_scaffold",
+    "internal_extension_points"
+  ],
+  "reserved_internal_slots": [
+    "cama_permission_matrix",
+    "deed_transfer_and_parcel_split_workflow",
+    "sales_validation_codes_and_workflow",
+    "field_review_packet",
+    "commercial_income_expense_packet",
+    "ag_soil_lvg_packet",
+    "boe_packet_template",
+    "terc_exhibit_packet",
+    "homestead_exemption_intake",
+    "public_records_request_intake",
+    "records_disposition_log",
+    "monthly_assessor_calendar_packet"
+  ],
+  "known_limits": [
+    "No internal county forms, staff procedures, passwords, CAMA exports, vendor documents, or local packet templates have been added.",
+    "Calendar remains a scaffold until individual PAD calendar PDFs are parsed into date-level objects.",
+    "Public Q&A bank is seeded at core level and should be expanded into many atomized Q&A objects."
+  ]
+}

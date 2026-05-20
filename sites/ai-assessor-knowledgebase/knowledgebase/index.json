@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "object_count": 137,
-  "source_count": 73,
+  "object_count": 159,
+  "source_count": 78,
   "objects": [
     {
       "id": "case_gordman_v_hall_county_boe",
@@ -108,6 +108,38 @@
         "deadline"
       ],
       "path": "knowledgebase/concepts/concept_assessment_date.json"
+    },
+    {
+      "id": "concept_assessor_office_transition",
+      "object_type": "concept",
+      "canonical_term": "Assessor Office Transition",
+      "category": "office_readiness",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "assessor_transition",
+        "readiness",
+        "oath",
+        "bond",
+        "certification",
+        "calendar",
+        "records"
+      ],
+      "path": "knowledgebase/concepts/concept_assessor_office_transition.json"
+    },
+    {
+      "id": "concept_assessor_reference_manual",
+      "object_type": "concept",
+      "canonical_term": "Nebraska Assessor Reference Manual",
+      "category": "assessor_reference_source",
+      "legal_hierarchy": "agency_guidance",
+      "semantic_tags": [
+        "reference_manual",
+        "title_350",
+        "chapter_10",
+        "field_review",
+        "valuation"
+      ],
+      "path": "knowledgebase/concepts/concept_assessor_reference_manual.json"
     },
     {
       "id": "concept_cama",
@@ -436,6 +468,21 @@
       "path": "knowledgebase/concepts/concept_personal_property.json"
     },
     {
+      "id": "concept_plan_of_assessment",
+      "object_type": "concept",
+      "canonical_term": "Assessor Plan of Assessment",
+      "category": "assessment_planning",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "plan_of_assessment",
+        "three_year_plan",
+        "uniformity",
+        "county_board",
+        "records_retention"
+      ],
+      "path": "knowledgebase/concepts/concept_plan_of_assessment.json"
+    },
+    {
       "id": "concept_prb",
       "object_type": "metric",
       "canonical_term": "Price-Related Bias",
@@ -510,6 +557,21 @@
         "depreciation"
       ],
       "path": "knowledgebase/cama/concept_quality_condition.json"
+    },
+    {
+      "id": "concept_records_retention_litigation_hold",
+      "object_type": "concept",
+      "canonical_term": "Records Retention and Litigation Hold",
+      "category": "records_governance",
+      "legal_hierarchy": "records_retention",
+      "semantic_tags": [
+        "records_retention",
+        "litigation_hold",
+        "appeal_records",
+        "public_records",
+        "schedule_14"
+      ],
+      "path": "knowledgebase/concepts/concept_records_retention_litigation_hold.json"
     },
     {
       "id": "concept_regressivity",
@@ -991,6 +1053,40 @@
       "path": "knowledgebase/crosswalks/crosswalk_assessment_to_tax_cycle.json"
     },
     {
+      "id": "crosswalk_assessor_first_year_readiness",
+      "object_type": "crosswalk",
+      "canonical_term": "Assessor First-Year Readiness Crosswalk",
+      "category": "office_readiness",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "first_year",
+        "assessor_transition",
+        "readiness",
+        "field_review",
+        "boe",
+        "terc",
+        "calendar",
+        "records"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_assessor_first_year_readiness.json"
+    },
+    {
+      "id": "crosswalk_internal_workflow_extension_points",
+      "object_type": "crosswalk",
+      "canonical_term": "Internal Workflow Extension Points",
+      "category": "internal_extension_registry",
+      "legal_hierarchy": "local_practice_placeholder",
+      "semantic_tags": [
+        "internal_placeholder",
+        "county_specific",
+        "workflow_extension",
+        "forms",
+        "cama",
+        "paperwork"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_internal_workflow_extension_points.json"
+    },
+    {
       "id": "crosswalk_legal_hierarchy",
       "object_type": "crosswalk",
       "canonical_term": "Assessment Legal Hierarchy Crosswalk",
@@ -1021,6 +1117,22 @@
         "amendments"
       ],
       "path": "knowledgebase/crosswalks/crosswalk_ne_const_article_viii_catalog.json"
+    },
+    {
+      "id": "crosswalk_public_question_bank",
+      "object_type": "crosswalk",
+      "canonical_term": "Public Question Bank Crosswalk",
+      "category": "question_routing",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "question_bank",
+        "semantic_routing",
+        "taxpayer_questions",
+        "board_questions",
+        "field_review",
+        "terc"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_public_question_bank.json"
     },
     {
       "id": "crosswalk_ratio_metrics",
@@ -1235,6 +1347,101 @@
       "path": "knowledgebase/equalization/pad_statewide_equalization.json"
     },
     {
+      "id": "procedure_assessor_assume_office_public_readiness",
+      "object_type": "procedure",
+      "canonical_term": "Assuming Office Public-Law Readiness Checklist",
+      "category": "office_transition",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "assessor_transition",
+        "oath",
+        "bond",
+        "certification",
+        "calendar",
+        "records",
+        "internal_placeholder"
+      ],
+      "path": "knowledgebase/procedures/procedure_assessor_assume_office_public_readiness.json"
+    },
+    {
+      "id": "procedure_board_packet_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Board of Equalization Packet Public Scaffold",
+      "category": "boe_preparation",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "boe",
+        "protest",
+        "evidence_packet",
+        "valuation",
+        "equalization",
+        "internal_placeholder"
+      ],
+      "path": "knowledgebase/procedures/procedure_board_packet_public_scaffold.json"
+    },
+    {
+      "id": "procedure_field_review_public_law_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Field Review Public-Law Scaffold",
+      "category": "field_review",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "field_review",
+        "systematic_inspection",
+        "property_record",
+        "cama",
+        "quality_condition",
+        "internal_placeholder"
+      ],
+      "path": "knowledgebase/procedures/procedure_field_review_public_law_scaffold.json"
+    },
+    {
+      "id": "procedure_plan_of_assessment_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "Plan of Assessment Public Scaffold",
+      "category": "assessment_planning",
+      "legal_hierarchy": "workflow_guidance",
+      "semantic_tags": [
+        "plan_of_assessment",
+        "three_year_plan",
+        "uniformity",
+        "field_review",
+        "internal_placeholder"
+      ],
+      "path": "knowledgebase/procedures/procedure_plan_of_assessment_public_scaffold.json"
+    },
+    {
+      "id": "procedure_records_retention_schedule14",
+      "object_type": "procedure",
+      "canonical_term": "Schedule 14 Assessor Records Retention Procedure",
+      "category": "records_retention",
+      "legal_hierarchy": "records_retention",
+      "semantic_tags": [
+        "records_retention",
+        "schedule_14",
+        "appeal_hold",
+        "audit_hold",
+        "records_disposition"
+      ],
+      "path": "knowledgebase/procedures/procedure_records_retention_schedule14.json"
+    },
+    {
+      "id": "procedure_terc_appeal_packet_public_scaffold",
+      "object_type": "procedure",
+      "canonical_term": "TERC Appeal Packet Public Scaffold",
+      "category": "terc_preparation",
+      "legal_hierarchy": "administrative_tribunal_guidance",
+      "semantic_tags": [
+        "terc",
+        "appeal",
+        "evidence_packet",
+        "boe_decision",
+        "records_retention",
+        "internal_placeholder"
+      ],
+      "path": "knowledgebase/procedures/procedure_terc_appeal_packet_public_scaffold.json"
+    },
+    {
       "id": "public_guidance_assessment_vs_taxes",
       "object_type": "public_guidance",
       "canonical_term": "Assessment Is Not the Tax Bill",
@@ -1248,6 +1455,70 @@
         "tax_bill"
       ],
       "path": "knowledgebase/public_guidance/public_guidance_assessment_vs_taxes.json"
+    },
+    {
+      "id": "public_guidance_board_member_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Board of Equalization and County Board Question Bank",
+      "category": "board_question_bank",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "boe",
+        "county_board",
+        "board_of_supervisors",
+        "valuation_protest",
+        "equalization",
+        "qna"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_board_member_qna_core.json"
+    },
+    {
+      "id": "public_guidance_field_review_taxpayer_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Field Review Taxpayer Question Bank",
+      "category": "field_review_question_bank",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "field_review",
+        "inspection",
+        "property_record",
+        "taxpayer_questions",
+        "data_quality"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_field_review_taxpayer_qna_core.json"
+    },
+    {
+      "id": "public_guidance_taxpayer_question_bank_core",
+      "object_type": "public_guidance",
+      "canonical_term": "Core Taxpayer Question Bank",
+      "category": "taxpayer_question_bank",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "taxpayer_questions",
+        "faq",
+        "assessment_vs_tax",
+        "protest",
+        "homestead",
+        "personal_property",
+        "ag_land"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_taxpayer_question_bank_core.json"
+    },
+    {
+      "id": "public_guidance_terc_preparation_qna_core",
+      "object_type": "public_guidance",
+      "canonical_term": "TERC Preparation Question Bank",
+      "category": "terc_question_bank",
+      "legal_hierarchy": "administrative_tribunal_guidance",
+      "semantic_tags": [
+        "terc",
+        "appeal",
+        "qna",
+        "hearing",
+        "evidence",
+        "deadline"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_terc_preparation_qna_core.json"
     },
     {
       "id": "research_berry_reassessing_property_tax",
@@ -1738,6 +2009,20 @@
       "path": "knowledgebase/standards/standard_ne_title350_ch93_proceedings_repealed.json"
     },
     {
+      "id": "statute_ne_11_101_oath_of_office",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Oath of Office Statute",
+      "category": "office_assumption_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "oath_of_office",
+        "county_officer",
+        "transition"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_11_101_oath_of_office.json"
+    },
+    {
       "id": "statute_ne_13_501_budget_act",
       "object_type": "statute",
       "canonical_term": "Nebraska Budget Act",
@@ -1751,6 +2036,21 @@
         "county_clerk"
       ],
       "path": "knowledgebase/statutes/statute_ne_13_501_budget_act.json"
+    },
+    {
+      "id": "statute_ne_23_3205_assessor_oath_bond",
+      "object_type": "statute",
+      "canonical_term": "County Assessor Oath and Bond",
+      "category": "office_assumption_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "county_assessor",
+        "oath",
+        "bond",
+        "transition"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_23_3205_assessor_oath_bond.json"
     },
     {
       "id": "statute_ne_77_112_actual_value",
@@ -1795,6 +2095,37 @@
         "list_and_value"
       ],
       "path": "knowledgebase/statutes/statute_ne_77_1301_assessment_of_real_property.json"
+    },
+    {
+      "id": "statute_ne_77_1311_03_systematic_inspection",
+      "object_type": "statute",
+      "canonical_term": "Systematic Inspection and Review Requirement",
+      "category": "assessor_duty_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "field_review",
+        "systematic_inspection",
+        "six_year_cycle",
+        "uniformity",
+        "property_record_accuracy"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1311_03_systematic_inspection.json"
+    },
+    {
+      "id": "statute_ne_77_1311_county_assessor_duties",
+      "object_type": "statute",
+      "canonical_term": "County Assessor Duties",
+      "category": "assessor_duty_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "county_assessor",
+        "duties",
+        "assessment_roll",
+        "preliminary_meeting"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_77_1311_county_assessor_duties.json"
     },
     {
       "id": "statute_ne_77_1314_income_approach",
@@ -1928,6 +2259,24 @@
         "community_college_tax"
       ],
       "path": "knowledgebase/statutes/statute_ne_77_6701_6706_property_tax_incentive.json"
+    },
+    {
+      "id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "object_type": "timeline",
+      "canonical_term": "Nebraska Assessor Operating Calendar Scaffold",
+      "category": "assessment_calendar",
+      "legal_hierarchy": "pad_guidance",
+      "semantic_tags": [
+        "assessment_calendar",
+        "pad_calendar",
+        "january_1",
+        "june_1",
+        "june_30",
+        "august_20",
+        "levy",
+        "homestead"
+      ],
+      "path": "knowledgebase/timelines/timeline_ne_assessor_operating_calendar_scaffold.json"
     },
     {
       "id": "workflow_boe_protest_hearing",

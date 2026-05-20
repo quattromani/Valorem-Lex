@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "public_guidance_taxpayer_question_bank_core",
+  "object_type": "public_guidance",
+  "canonical_term": "Core Taxpayer Question Bank",
+  "aliases": [
+    "taxpayer FAQ bank",
+    "common assessment questions",
+    "public Q&A"
+  ],
+  "category": "taxpayer_question_bank",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Compressed collection of common taxpayer questions routed to canonical concepts, workflows, statutes, and public-facing answer frames.",
+  "plain_language": "These are the questions taxpayers ask before they know the legal vocabulary.",
+  "semantic_tags": [
+    "taxpayer_questions",
+    "faq",
+    "assessment_vs_tax",
+    "protest",
+    "homestead",
+    "personal_property",
+    "ag_land"
+  ],
+  "facts": [
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Why did my assessed value change?",
+        "route_to": [
+          "concept_actual_value",
+          "workflow_real_property_annual_assessment_cycle"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Does a higher value mean my taxes go up by the same percentage?",
+        "route_to": [
+          "concept_value_vs_tax",
+          "workflow_levy_setting_tax_statement_cycle"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What date is my property valued as of?",
+        "route_to": [
+          "concept_assessment_date",
+          "deadline_jan1_assessment_date"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "How do I protest value?",
+        "route_to": [
+          "workflow_valuation_notice_to_protest",
+          "form_422_property_valuation_protest"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What evidence helps in a protest?",
+        "route_to": [
+          "procedure_board_packet_public_scaffold",
+          "concept_sales_comparison_approach"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Can I protest taxes instead of value?",
+        "route_to": [
+          "public_guidance_assessment_vs_taxes",
+          "concept_tax_bill"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Why is ag land assessed differently?",
+        "route_to": [
+          "concept_greenbelt_special_valuation",
+          "standard_ne_title350_ch14_agricultural_land"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What is homestead exemption and when do I apply?",
+        "route_to": [
+          "concept_homestead_exemption",
+          "timeline_ne_assessor_operating_calendar_scaffold"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Do I need to file personal property?",
+        "route_to": [
+          "concept_personal_property",
+          "deadline_may1_personal_property_return"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What if my property record is wrong?",
+        "route_to": [
+          "concept_property_record",
+          "procedure_field_review_public_law_scaffold"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Why is the assessor asking about income or expense on commercial property?",
+        "route_to": [
+          "concept_income_approach",
+          "concept_valuation_approaches"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What happens after the county board decision?",
+        "route_to": [
+          "workflow_terc_appeal",
+          "procedure_terc_appeal_packet_public_scaffold"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogued_in",
+      "target_id": "crosswalk_public_question_bank",
+      "note": "Question-bank crosswalk."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Most common value/tax confusion."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest questions."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "Evidence questions."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "property assessment FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "ne_dor_pad_real_property_valuation_protest_guide",
+      "locator": "valuation protest guide",
+      "citation": "Nebraska DOR PAD, Real Property Valuation Protest Information Guide."
+    },
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process",
+      "citation": "Nebraska TERC, Appeal Process."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_core_question_bank_expand_next"
+}

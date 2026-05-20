@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "crosswalk_assessor_first_year_readiness",
+  "object_type": "crosswalk",
+  "canonical_term": "Assessor First-Year Readiness Crosswalk",
+  "aliases": [
+    "new assessor readiness map",
+    "first-year operating map"
+  ],
+  "category": "office_readiness",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Crosswalk tying first-year assessor readiness domains to canonical statutes, timelines, public Q&A, records retention, field review, BOE, TERC, and internal extension points.",
+  "plain_language": "This is the dashboard map for what to build next before assuming office.",
+  "semantic_tags": [
+    "first_year",
+    "assessor_transition",
+    "readiness",
+    "field_review",
+    "boe",
+    "terc",
+    "calendar",
+    "records"
+  ],
+  "facts": [
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "legal_entry",
+        "objects": [
+          "statute_ne_11_101_oath_of_office",
+          "statute_ne_23_3205_assessor_oath_bond",
+          "pad_assessor_certification"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "calendar_control",
+        "objects": [
+          "timeline_ne_assessor_operating_calendar_scaffold",
+          "standard_ne_title350_ch65_reporting_due_dates"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "field_review",
+        "objects": [
+          "procedure_field_review_public_law_scaffold",
+          "statute_ne_77_1311_03_systematic_inspection"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "records",
+        "objects": [
+          "concept_records_retention_litigation_hold",
+          "procedure_records_retention_schedule14"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "public_communication",
+        "objects": [
+          "crosswalk_public_question_bank",
+          "public_guidance_taxpayer_question_bank_core"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "boe_protest",
+        "objects": [
+          "procedure_board_packet_public_scaffold",
+          "workflow_boe_protest_hearing"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "terc_appeal",
+        "objects": [
+          "procedure_terc_appeal_packet_public_scaffold",
+          "workflow_terc_appeal"
+        ]
+      }
+    },
+    {
+      "predicate": "readiness_domain",
+      "object": {
+        "domain": "internal_future",
+        "objects": [
+          "crosswalk_internal_workflow_extension_points"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "catalogues",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Calendar scaffold."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review scaffold."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Records retention."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE preparation."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC preparation."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "crosswalk_public_question_bank",
+      "note": "Public question routing."
+    },
+    {
+      "type": "catalogues",
+      "target_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Future private inserts."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "locator": "county assessor duties",
+      "citation": "Neb. Rev. Stat. sec. 77-1311."
+    },
+    {
+      "source_id": "ne_dor_pad_calendars",
+      "locator": "PAD Calendars",
+      "citation": "Nebraska DOR PAD, PAD Calendars."
+    },
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "Schedule 14",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "first_year_scaffold_seeded"
+}

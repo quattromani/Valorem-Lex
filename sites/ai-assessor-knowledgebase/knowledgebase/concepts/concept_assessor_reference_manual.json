@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_assessor_reference_manual",
+  "object_type": "concept",
+  "canonical_term": "Nebraska Assessor Reference Manual",
+  "aliases": [
+    "Assessor's Reference Manual",
+    "assessor manual",
+    "ARM"
+  ],
+  "category": "assessor_reference_source",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "agency_guidance",
+  "summary": "Reference manual domain required by Title 350 Chapter 10 as a source used by county assessors in performing duties; actual manual content remains a future ingestion target.",
+  "plain_language": "The manual is one of the practical sources an assessor needs beside statutes and regulations.",
+  "semantic_tags": [
+    "reference_manual",
+    "title_350",
+    "chapter_10",
+    "field_review",
+    "valuation"
+  ],
+  "relationships": [
+    {
+      "type": "required_by",
+      "target_id": "standard_ne_title350_ch10_real_property",
+      "note": "Chapter 10 manual rule."
+    },
+    {
+      "type": "supports",
+      "target_id": "procedure_field_review_public_law_scaffold",
+      "note": "Manual content should ground field-review practice after ingestion."
+    },
+    {
+      "type": "future_ingestion_target_for",
+      "target_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Manual-derived office practices may later be crosswalked to internal workflows."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "REG-10-004 Manuals",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10, REG-10-004."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "source_catalogued_manual_content_pending"
+}

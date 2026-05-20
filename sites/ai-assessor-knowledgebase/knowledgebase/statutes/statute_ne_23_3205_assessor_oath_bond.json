@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "statute_ne_23_3205_assessor_oath_bond",
+  "object_type": "statute",
+  "canonical_term": "County Assessor Oath and Bond",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 23-3205",
+    "assessor bond",
+    "assessor oath"
+  ],
+  "category": "office_assumption_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "County assessor-specific statute requiring oath and bond before entering duties of office.",
+  "plain_language": "The assessor transition is not just ceremonial; oath and bond are legal setup items.",
+  "semantic_tags": [
+    "statute",
+    "county_assessor",
+    "oath",
+    "bond",
+    "transition"
+  ],
+  "relationships": [
+    {
+      "type": "governs",
+      "target_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist item."
+    },
+    {
+      "type": "paired_with",
+      "target_id": "statute_ne_11_101_oath_of_office",
+      "note": "General oath statute."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "locator": "sec. 23-3205",
+      "citation": "Neb. Rev. Stat. sec. 23-3205."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_from_official_statute"
+}

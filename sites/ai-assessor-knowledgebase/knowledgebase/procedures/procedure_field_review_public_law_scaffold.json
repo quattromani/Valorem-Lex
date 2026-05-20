@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "procedure_field_review_public_law_scaffold",
+  "object_type": "procedure",
+  "canonical_term": "Field Review Public-Law Scaffold",
+  "aliases": [
+    "property review scaffold",
+    "field inspection scaffold",
+    "systematic inspection scaffold"
+  ],
+  "category": "field_review",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "workflow_guidance",
+  "summary": "Public-law scaffold for field review and systematic inspection, linking statutory six-year review, Title 350 recordkeeping, property record accuracy, and future county-specific field forms.",
+  "plain_language": "This is the source-grounded shape of field review before your county-specific inspection packet is added.",
+  "semantic_tags": [
+    "field_review",
+    "systematic_inspection",
+    "property_record",
+    "cama",
+    "quality_condition",
+    "internal_placeholder"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "step": "Identify the class/subclass, review area, or inspection route selected for systematic review."
+    },
+    {
+      "order": 2,
+      "step": "Compare current property record data to observable facts, sales review notes, permits, GIS/deed changes, and prior record-card data."
+    },
+    {
+      "order": 3,
+      "step": "Record data changes needed for land, improvements, quality, condition, use, occupancy, physical characteristics, and relevant valuation influences."
+    },
+    {
+      "order": 4,
+      "step": "Document reasons for deviations from standard manuals, schedules, or tables where applicable."
+    },
+    {
+      "order": 5,
+      "step": "Update CAMA/property record fields and preserve the workpaper or audit trail supporting the change."
+    },
+    {
+      "order": 6,
+      "step": "Route taxpayer communication, access/refusal handling, photo policy, safety procedure, and county form packets through future internal workflow inserts."
+    }
+  ],
+  "internal_extension_points": [
+    {
+      "slot": "field_review_form",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "photo_policy",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "safety_and_access_protocol",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "quality_condition_coding_table",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "ag_soil_lvg_review_packet",
+      "status": "reserved_no_private_content"
+    },
+    {
+      "slot": "commercial_income_expense_review_packet",
+      "status": "reserved_no_private_content"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "governed_by",
+      "target_id": "statute_ne_77_1311_03_systematic_inspection",
+      "note": "Systematic inspection requirement."
+    },
+    {
+      "type": "governed_by",
+      "target_id": "standard_ne_title350_ch10_real_property",
+      "note": "Real property regulation and recordkeeping."
+    },
+    {
+      "type": "uses",
+      "target_id": "concept_assessor_reference_manual",
+      "note": "Manual domain for field practice."
+    },
+    {
+      "type": "updates",
+      "target_id": "concept_property_record",
+      "note": "Field review updates property records."
+    },
+    {
+      "type": "updates",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "CAMA data maintenance."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_quality_condition",
+      "note": "Quality/condition coding."
+    },
+    {
+      "type": "related_concept",
+      "target_id": "concept_valuation_approaches",
+      "note": "Observed characteristics inform valuation method."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "locator": "sec. 77-1311.03",
+      "citation": "Neb. Rev. Stat. sec. 77-1311.03."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 10, REG-10-001 through REG-10-005",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 10."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "public_scaffold_internal_details_pending"
+}

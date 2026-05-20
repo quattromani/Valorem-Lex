@@ -5,9 +5,10 @@
   "seed_files": [
     "data/seed/sources.seed.json",
     "data/seed/knowledge.seed.json",
-    "data/seed/authority_catalog.seed.json"
+    "data/seed/authority_catalog.seed.json",
+    "data/seed/operational_readiness.seed.json"
   ],
-  "generated_object_count": 137,
-  "generated_source_count": 73,
-  "generated_edge_count": 449
+  "generated_object_count": 159,
+  "generated_source_count": 78,
+  "generated_edge_count": 545
 }

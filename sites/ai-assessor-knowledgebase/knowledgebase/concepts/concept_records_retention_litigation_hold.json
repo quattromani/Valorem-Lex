@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "concept_records_retention_litigation_hold",
+  "object_type": "concept",
+  "canonical_term": "Records Retention and Litigation Hold",
+  "aliases": [
+    "assessor records retention",
+    "appeal hold",
+    "records disposition"
+  ],
+  "category": "records_governance",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "records_retention",
+  "summary": "Records governance concept requiring assessor records to be retained and disposed of under approved schedules, with pending legal action, audit, records requests, or appeals overriding ordinary disposition timing.",
+  "plain_language": "Do not throw away assessor records just because the normal retention period passed if an appeal, audit, request, or legal issue is still alive.",
+  "semantic_tags": [
+    "records_retention",
+    "litigation_hold",
+    "appeal_records",
+    "public_records",
+    "schedule_14"
+  ],
+  "relationships": [
+    {
+      "type": "implemented_by",
+      "target_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention workflow."
+    },
+    {
+      "type": "context_for",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal records must be preserved through final resolution."
+    },
+    {
+      "type": "context_for",
+      "target_id": "workflow_cama_data_maintenance",
+      "note": "Property-record data is a retention and audit trail domain."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_sos_schedule14_county_assessors",
+      "locator": "instructions and item table",
+      "citation": "Nebraska Secretary of State Records Management Division, Schedule 14 County Assessors (Aug. 22, 2022)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_records_schedule"
+}

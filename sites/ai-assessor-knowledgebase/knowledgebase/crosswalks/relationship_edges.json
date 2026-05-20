@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "edge_count": 449,
+  "edge_count": 545,
   "edges": [
     {
       "from_id": "case_gordman_v_hall_county_boe",
@@ -110,6 +110,48 @@
       "relationship_type": "supports",
       "to_id": "workflow_real_property_annual_assessment_cycle",
       "note": "Cycle starts with January 1 status/value."
+    },
+    {
+      "from_id": "concept_assessor_office_transition",
+      "relationship_type": "extended_by",
+      "to_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Reserved private office inserts."
+    },
+    {
+      "from_id": "concept_assessor_office_transition",
+      "relationship_type": "implemented_by",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Public-law transition checklist."
+    },
+    {
+      "from_id": "concept_assessor_office_transition",
+      "relationship_type": "requires",
+      "to_id": "concept_records_retention_litigation_hold",
+      "note": "Records obligations."
+    },
+    {
+      "from_id": "concept_assessor_office_transition",
+      "relationship_type": "requires",
+      "to_id": "pad_assessor_certification",
+      "note": "Certification ecosystem."
+    },
+    {
+      "from_id": "concept_assessor_reference_manual",
+      "relationship_type": "future_ingestion_target_for",
+      "to_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Manual-derived office practices may later be crosswalked to internal workflows."
+    },
+    {
+      "from_id": "concept_assessor_reference_manual",
+      "relationship_type": "required_by",
+      "to_id": "standard_ne_title350_ch10_real_property",
+      "note": "Chapter 10 manual rule."
+    },
+    {
+      "from_id": "concept_assessor_reference_manual",
+      "relationship_type": "supports",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Manual content should ground field-review practice after ingestion."
     },
     {
       "from_id": "concept_cama",
@@ -484,6 +526,30 @@
       "note": "Personal property assessment statute."
     },
     {
+      "from_id": "concept_plan_of_assessment",
+      "relationship_type": "implemented_by",
+      "to_id": "procedure_plan_of_assessment_public_scaffold",
+      "note": "Public-law planning scaffold."
+    },
+    {
+      "from_id": "concept_plan_of_assessment",
+      "relationship_type": "retained_under",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention item."
+    },
+    {
+      "from_id": "concept_plan_of_assessment",
+      "relationship_type": "supports",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Inspection/review priorities should align to plan."
+    },
+    {
+      "from_id": "concept_plan_of_assessment",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Planning informs the annual roll."
+    },
+    {
       "from_id": "concept_prb",
       "relationship_type": "contrasted_with",
       "to_id": "concept_prd",
@@ -590,6 +656,24 @@
       "relationship_type": "supports",
       "to_id": "concept_cost_approach",
       "note": "Improvement valuation needs quality/condition."
+    },
+    {
+      "from_id": "concept_records_retention_litigation_hold",
+      "relationship_type": "context_for",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal records must be preserved through final resolution."
+    },
+    {
+      "from_id": "concept_records_retention_litigation_hold",
+      "relationship_type": "context_for",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Property-record data is a retention and audit trail domain."
+    },
+    {
+      "from_id": "concept_records_retention_litigation_hold",
+      "relationship_type": "implemented_by",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention workflow."
     },
     {
       "from_id": "concept_regressivity",
@@ -1174,6 +1258,84 @@
       "note": "Protest stage."
     },
     {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Future private inserts."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "crosswalk_public_question_bank",
+      "note": "Public question routing."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE preparation."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review scaffold."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Records retention."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC preparation."
+    },
+    {
+      "from_id": "crosswalk_assessor_first_year_readiness",
+      "relationship_type": "catalogues",
+      "to_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Calendar scaffold."
+    },
+    {
+      "from_id": "crosswalk_internal_workflow_extension_points",
+      "relationship_type": "extends",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition private inserts."
+    },
+    {
+      "from_id": "crosswalk_internal_workflow_extension_points",
+      "relationship_type": "extends",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE private inserts."
+    },
+    {
+      "from_id": "crosswalk_internal_workflow_extension_points",
+      "relationship_type": "extends",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review private inserts."
+    },
+    {
+      "from_id": "crosswalk_internal_workflow_extension_points",
+      "relationship_type": "extends",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Records private inserts."
+    },
+    {
+      "from_id": "crosswalk_internal_workflow_extension_points",
+      "relationship_type": "extends",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC private inserts."
+    },
+    {
       "from_id": "crosswalk_legal_hierarchy",
       "relationship_type": "contextualizes",
       "to_id": "standard_iaao_ratio_studies_2013",
@@ -1298,6 +1460,36 @@
       "relationship_type": "catalogues",
       "to_id": "const_ne_article_viii_uniformity",
       "note": "Article VIII-1."
+    },
+    {
+      "from_id": "crosswalk_public_question_bank",
+      "relationship_type": "catalogues",
+      "to_id": "public_guidance_board_member_qna_core",
+      "note": "Board Q&A core."
+    },
+    {
+      "from_id": "crosswalk_public_question_bank",
+      "relationship_type": "catalogues",
+      "to_id": "public_guidance_field_review_taxpayer_qna_core",
+      "note": "Field review Q&A core."
+    },
+    {
+      "from_id": "crosswalk_public_question_bank",
+      "relationship_type": "catalogues",
+      "to_id": "public_guidance_taxpayer_question_bank_core",
+      "note": "Taxpayer Q&A core."
+    },
+    {
+      "from_id": "crosswalk_public_question_bank",
+      "relationship_type": "catalogues",
+      "to_id": "public_guidance_terc_preparation_qna_core",
+      "note": "TERC prep Q&A core."
+    },
+    {
+      "from_id": "crosswalk_public_question_bank",
+      "relationship_type": "routes_to",
+      "to_id": "crosswalk_assessment_to_tax_cycle",
+      "note": "Stage routing."
     },
     {
       "from_id": "crosswalk_ratio_metrics",
@@ -1684,6 +1876,192 @@
       "note": "Ratio-study workflow."
     },
     {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "extended_by",
+      "to_id": "crosswalk_internal_workflow_extension_points",
+      "note": "Reserved county-specific inserts."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "implements",
+      "to_id": "concept_assessor_office_transition",
+      "note": "Transition concept."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "requires",
+      "to_id": "pad_assessor_certification",
+      "note": "Certification/education."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "requires",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Records retention triage."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "requires",
+      "to_id": "statute_ne_11_101_oath_of_office",
+      "note": "General oath statute."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "requires",
+      "to_id": "statute_ne_23_3205_assessor_oath_bond",
+      "note": "Assessor oath/bond statute."
+    },
+    {
+      "from_id": "procedure_assessor_assume_office_public_readiness",
+      "relationship_type": "requires",
+      "to_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Calendar command center."
+    },
+    {
+      "from_id": "procedure_board_packet_public_scaffold",
+      "relationship_type": "distinguishes",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Value issue versus tax issue."
+    },
+    {
+      "from_id": "procedure_board_packet_public_scaffold",
+      "relationship_type": "precedes",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "TERC packet may follow BOE decision."
+    },
+    {
+      "from_id": "procedure_board_packet_public_scaffold",
+      "relationship_type": "retained_under",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Appeal/protest records retention."
+    },
+    {
+      "from_id": "procedure_board_packet_public_scaffold",
+      "relationship_type": "supports",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "BOE protest workflow."
+    },
+    {
+      "from_id": "procedure_board_packet_public_scaffold",
+      "relationship_type": "uses",
+      "to_id": "form_422_property_valuation_protest",
+      "note": "Protest form context."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "governed_by",
+      "to_id": "standard_ne_title350_ch10_real_property",
+      "note": "Real property regulation and recordkeeping."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "governed_by",
+      "to_id": "statute_ne_77_1311_03_systematic_inspection",
+      "note": "Systematic inspection requirement."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "related_concept",
+      "to_id": "concept_quality_condition",
+      "note": "Quality/condition coding."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "related_concept",
+      "to_id": "concept_valuation_approaches",
+      "note": "Observed characteristics inform valuation method."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "updates",
+      "to_id": "concept_property_record",
+      "note": "Field review updates property records."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "updates",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "CAMA data maintenance."
+    },
+    {
+      "from_id": "procedure_field_review_public_law_scaffold",
+      "relationship_type": "uses",
+      "to_id": "concept_assessor_reference_manual",
+      "note": "Manual domain for field practice."
+    },
+    {
+      "from_id": "procedure_plan_of_assessment_public_scaffold",
+      "relationship_type": "implements",
+      "to_id": "concept_plan_of_assessment",
+      "note": "Planning concept."
+    },
+    {
+      "from_id": "procedure_plan_of_assessment_public_scaffold",
+      "relationship_type": "retained_under",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Schedule 14 retention."
+    },
+    {
+      "from_id": "procedure_plan_of_assessment_public_scaffold",
+      "relationship_type": "supports",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review priorities."
+    },
+    {
+      "from_id": "procedure_plan_of_assessment_public_scaffold",
+      "relationship_type": "supports",
+      "to_id": "workflow_ratio_study_equalization",
+      "note": "Level/quality/uniformity planning."
+    },
+    {
+      "from_id": "procedure_records_retention_schedule14",
+      "relationship_type": "context_for",
+      "to_id": "procedure_plan_of_assessment_public_scaffold",
+      "note": "Assessment plan retention."
+    },
+    {
+      "from_id": "procedure_records_retention_schedule14",
+      "relationship_type": "context_for",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal evidence and workpapers retention."
+    },
+    {
+      "from_id": "procedure_records_retention_schedule14",
+      "relationship_type": "context_for",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Property record and audit trail retention."
+    },
+    {
+      "from_id": "procedure_records_retention_schedule14",
+      "relationship_type": "implements",
+      "to_id": "concept_records_retention_litigation_hold",
+      "note": "Records governance concept."
+    },
+    {
+      "from_id": "procedure_terc_appeal_packet_public_scaffold",
+      "relationship_type": "contextualized_by",
+      "to_id": "standard_iaao_assessment_appeal",
+      "note": "Professional assessment appeal principles."
+    },
+    {
+      "from_id": "procedure_terc_appeal_packet_public_scaffold",
+      "relationship_type": "extends",
+      "to_id": "workflow_terc_appeal",
+      "note": "Detailed packet-prep layer."
+    },
+    {
+      "from_id": "procedure_terc_appeal_packet_public_scaffold",
+      "relationship_type": "follows",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE packet provides record foundation."
+    },
+    {
+      "from_id": "procedure_terc_appeal_packet_public_scaffold",
+      "relationship_type": "retained_under",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Appeal records hold."
+    },
+    {
       "from_id": "public_guidance_assessment_vs_taxes",
       "relationship_type": "distinguishes",
       "to_id": "concept_assessed_value",
@@ -1706,6 +2084,96 @@
       "relationship_type": "uses_workflow",
       "to_id": "workflow_levy_setting_tax_statement_cycle",
       "note": "Levy/tax statement process."
+    },
+    {
+      "from_id": "public_guidance_board_member_qna_core",
+      "relationship_type": "distinguishes",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Value/tax distinction."
+    },
+    {
+      "from_id": "public_guidance_board_member_qna_core",
+      "relationship_type": "prepares_for",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal record preservation."
+    },
+    {
+      "from_id": "public_guidance_board_member_qna_core",
+      "relationship_type": "supports",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE packet and hearing support."
+    },
+    {
+      "from_id": "public_guidance_board_member_qna_core",
+      "relationship_type": "supports",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "County board protest workflow."
+    },
+    {
+      "from_id": "public_guidance_field_review_taxpayer_qna_core",
+      "relationship_type": "routes_to",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Tax impact explanation."
+    },
+    {
+      "from_id": "public_guidance_field_review_taxpayer_qna_core",
+      "relationship_type": "routes_to",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest route after valuation notice."
+    },
+    {
+      "from_id": "public_guidance_field_review_taxpayer_qna_core",
+      "relationship_type": "supports",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review public answers."
+    },
+    {
+      "from_id": "public_guidance_taxpayer_question_bank_core",
+      "relationship_type": "catalogued_in",
+      "to_id": "crosswalk_public_question_bank",
+      "note": "Question-bank crosswalk."
+    },
+    {
+      "from_id": "public_guidance_taxpayer_question_bank_core",
+      "relationship_type": "routes_to",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "Evidence questions."
+    },
+    {
+      "from_id": "public_guidance_taxpayer_question_bank_core",
+      "relationship_type": "routes_to",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Most common value/tax confusion."
+    },
+    {
+      "from_id": "public_guidance_taxpayer_question_bank_core",
+      "relationship_type": "routes_to",
+      "to_id": "workflow_valuation_notice_to_protest",
+      "note": "Protest questions."
+    },
+    {
+      "from_id": "public_guidance_terc_preparation_qna_core",
+      "relationship_type": "follows",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Regular valuation appeal follows BOE decision."
+    },
+    {
+      "from_id": "public_guidance_terc_preparation_qna_core",
+      "relationship_type": "retained_under",
+      "to_id": "procedure_records_retention_schedule14",
+      "note": "Appeal record preservation."
+    },
+    {
+      "from_id": "public_guidance_terc_preparation_qna_core",
+      "relationship_type": "supports",
+      "to_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal prep scaffold."
+    },
+    {
+      "from_id": "public_guidance_terc_preparation_qna_core",
+      "relationship_type": "supports",
+      "to_id": "workflow_terc_appeal",
+      "note": "TERC appeal workflow."
     },
     {
       "from_id": "research_berry_reassessing_property_tax",
@@ -2242,6 +2710,18 @@
       "note": "Current proceedings chapter is Chapter 91."
     },
     {
+      "from_id": "statute_ne_11_101_oath_of_office",
+      "relationship_type": "governs",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist item."
+    },
+    {
+      "from_id": "statute_ne_11_101_oath_of_office",
+      "relationship_type": "paired_with",
+      "to_id": "statute_ne_23_3205_assessor_oath_bond",
+      "note": "County assessor-specific oath/bond statute."
+    },
+    {
       "from_id": "statute_ne_13_501_budget_act",
       "relationship_type": "related_deadline",
       "to_id": "deadline_oct20_county_tax_levy",
@@ -2252,6 +2732,18 @@
       "relationship_type": "supports",
       "to_id": "workflow_levy_setting_tax_statement_cycle",
       "note": "Budget/tax request feeds levy."
+    },
+    {
+      "from_id": "statute_ne_23_3205_assessor_oath_bond",
+      "relationship_type": "governs",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Transition checklist item."
+    },
+    {
+      "from_id": "statute_ne_23_3205_assessor_oath_bond",
+      "relationship_type": "paired_with",
+      "to_id": "statute_ne_11_101_oath_of_office",
+      "note": "General oath statute."
     },
     {
       "from_id": "statute_ne_77_112_actual_value",
@@ -2300,6 +2792,54 @@
       "relationship_type": "uses",
       "to_id": "concept_actual_value",
       "note": "Real property value basis."
+    },
+    {
+      "from_id": "statute_ne_77_1311_03_systematic_inspection",
+      "relationship_type": "context_for",
+      "to_id": "workflow_cama_data_maintenance",
+      "note": "Field data updates CAMA/property records."
+    },
+    {
+      "from_id": "statute_ne_77_1311_03_systematic_inspection",
+      "relationship_type": "governs",
+      "to_id": "procedure_field_review_public_law_scaffold",
+      "note": "Field review legal scaffold."
+    },
+    {
+      "from_id": "statute_ne_77_1311_03_systematic_inspection",
+      "relationship_type": "supports",
+      "to_id": "concept_property_record",
+      "note": "Property record accuracy."
+    },
+    {
+      "from_id": "statute_ne_77_1311_03_systematic_inspection",
+      "relationship_type": "supports",
+      "to_id": "concept_uniformity_proportionality",
+      "note": "Uniform and proportionate valuation."
+    },
+    {
+      "from_id": "statute_ne_77_1311_county_assessor_duties",
+      "relationship_type": "context_for",
+      "to_id": "procedure_board_packet_public_scaffold",
+      "note": "Assessor duties shape BOE packet preparation."
+    },
+    {
+      "from_id": "statute_ne_77_1311_county_assessor_duties",
+      "relationship_type": "governs",
+      "to_id": "procedure_assessor_assume_office_public_readiness",
+      "note": "Duty inventory for first-year readiness."
+    },
+    {
+      "from_id": "statute_ne_77_1311_county_assessor_duties",
+      "relationship_type": "governs",
+      "to_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "note": "Preliminary meeting and assessment-roll duties."
+    },
+    {
+      "from_id": "statute_ne_77_1311_county_assessor_duties",
+      "relationship_type": "supports",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual assessment cycle."
     },
     {
       "from_id": "statute_ne_77_1314_income_approach",
@@ -2438,6 +2978,42 @@
       "relationship_type": "implemented_by",
       "to_id": "form_ptc_property_tax_credit",
       "note": "Credit form."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "future_extracts",
+      "to_id": "standard_ne_title350_ch65_reporting_due_dates",
+      "note": "Reporting due dates require section-level extraction."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "organizes",
+      "to_id": "concept_homestead_exemption",
+      "note": "Homestead calendar domain."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "organizes",
+      "to_id": "pad_assessor_certification",
+      "note": "Education/certification calendar domain."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "organizes",
+      "to_id": "workflow_boe_protest_hearing",
+      "note": "Protest/BOE stage."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "organizes",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "Levy/tax stage."
+    },
+    {
+      "from_id": "timeline_ne_assessor_operating_calendar_scaffold",
+      "relationship_type": "organizes",
+      "to_id": "workflow_real_property_annual_assessment_cycle",
+      "note": "Annual real property cycle."
     },
     {
       "from_id": "workflow_boe_protest_hearing",

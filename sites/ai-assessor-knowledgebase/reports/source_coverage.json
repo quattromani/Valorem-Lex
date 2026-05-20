@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "source_count": 73,
-  "object_count": 137,
+  "source_count": 78,
+  "object_count": 159,
   "sources_by_type": {
     "working_paper": 2,
     "case_law": 4,
@@ -30,8 +30,9 @@
     "regulation_pdf": 1,
     "regulation_index": 1,
     "case_law_repository": 1,
+    "statute": 14,
     "statute_range": 3,
-    "statute": 10
+    "records_retention_schedule": 1
   },
   "sources_by_legal_hierarchy": {
     "academic_research": 3,
@@ -52,7 +53,8 @@
     "agency_directive": 1,
     "regulation": 3,
     "case_law_repository": 1,
-    "statute": 13,
+    "statute": 17,
+    "records_retention": 1,
     "administrative_tribunal": 1,
     "administrative_tribunal_guidance": 1
   },
@@ -68,10 +70,11 @@
     "Lincoln Institute of Land Policy": 1,
     "Journal of Real Estate Finance and Economics": 1,
     "Nebraska Auditor of Public Accounts": 2,
-    "Nebraska Legislature": 31,
+    "Nebraska Legislature": 35,
     "Nebraska Department of Revenue Property Assessment Division": 14,
     "Nebraska Department of Revenue": 6,
     "Nebraska Judicial Branch": 1,
+    "Nebraska Secretary of State Records Management Division": 1,
     "Sarpy County, Nebraska": 1,
     "Nebraska Tax Equalization and Review Commission": 2
   },
@@ -83,6 +86,7 @@
     "annual_report": 1,
     "appeal": 1,
     "appeal_deadline": 1,
+    "appeal_records": 1,
     "appeals": 2,
     "appraisal_terms": 1,
     "article_viii": 16,
@@ -95,11 +99,13 @@
     "assessment_process": 3,
     "assessment_regressivity": 3,
     "assessment_review": 1,
-    "assessment_roll": 1,
+    "assessment_roll": 2,
     "assessment_terms": 1,
     "assessment_vs_tax": 1,
     "assessor_certification": 1,
+    "assessor_transition": 2,
     "boe": 1,
+    "bond": 2,
     "budget": 1,
     "budget_act": 3,
     "budget_filing": 2,
@@ -121,10 +127,11 @@
     "constitution_article_viii": 1,
     "constitutional_authority": 1,
     "construction": 1,
-    "county_assessor": 1,
+    "county_assessor": 4,
     "county_board": 1,
     "county_board_equalization": 7,
     "county_clerk": 2,
+    "county_officer": 1,
     "county_reports": 1,
     "county_statistics": 1,
     "county_tax": 1,
@@ -135,6 +142,7 @@
     "delinquent_taxes": 1,
     "discounted_cash_flow": 1,
     "dismissal": 1,
+    "duties": 1,
     "education": 2,
     "education_calendar": 1,
     "electronic_filing": 1,
@@ -145,6 +153,7 @@
     "exemption": 1,
     "exemptions": 3,
     "exposure_draft": 1,
+    "field_review": 1,
     "filing": 1,
     "form_403stc": 1,
     "form_422": 4,
@@ -172,6 +181,7 @@
     "levy_limit": 2,
     "levy_limits": 1,
     "list_and_value": 1,
+    "litigation_hold": 1,
     "look_up_tool": 1,
     "market_value": 1,
     "mass_appraisal": 1,
@@ -179,6 +189,7 @@
     "municipal_property": 1,
     "municipal_tax": 1,
     "notice": 1,
+    "oath_of_office": 2,
     "official_opinions": 1,
     "oversight_agencies": 1,
     "pad_authority": 1,
@@ -189,7 +200,9 @@
     "political_subdivision": 4,
     "prb": 1,
     "prd": 2,
+    "preliminary_value_meeting": 1,
     "property_characteristics": 1,
+    "property_record_accuracy": 1,
     "property_tax": 2,
     "property_tax_administrator": 1,
     "property_tax_credit": 3,
@@ -214,6 +227,9 @@
     "real_estate": 1,
     "real_property": 4,
     "recertification": 1,
+    "record_disposition": 1,
+    "records_retention": 1,
+    "records_review": 1,
     "redemption": 1,
     "refundable_credit": 2,
     "regression_bias": 1,
@@ -229,6 +245,7 @@
     "school_district_tax": 3,
     "section_index": 1,
     "seed": 1,
+    "six_year_cycle": 1,
     "special_assessment": 1,
     "special_valuation": 1,
     "standard_revision": 1,
@@ -239,6 +256,7 @@
     "suits_index": 1,
     "supreme_court": 1,
     "survey": 1,
+    "systematic_inspection": 1,
     "tax_cancellation": 1,
     "tax_collection": 3,
     "tax_increment_financing": 1,
@@ -256,7 +274,7 @@
     "transition": 1,
     "treasurer_calendar": 1,
     "uniform_execution": 1,
-    "uniformity": 6,
+    "uniformity": 7,
     "vacant_lots": 1,
     "valuation": 1,
     "valuation_approaches": 1,
@@ -308,8 +326,9 @@
       ]
     },
     "iaao_assessment_appeal_standard": {
-      "object_count": 1,
+      "object_count": 2,
       "object_ids": [
+        "procedure_terc_appeal_packet_public_scaffold",
         "standard_iaao_assessment_appeal"
       ]
     },
@@ -541,13 +560,14 @@
       ]
     },
     "ne_dor_main_calendar_pdf": {
-      "object_count": 6,
+      "object_count": 7,
       "object_ids": [
         "concept_assessment_date",
         "crosswalk_assessment_to_tax_cycle",
         "deadline_jan1_assessment_date",
         "deadline_may1_personal_property_return",
         "statute_ne_77_1301_assessment_of_real_property",
+        "timeline_ne_assessor_operating_calendar_scaffold",
         "workflow_real_property_annual_assessment_cycle"
       ]
     },
@@ -558,9 +578,12 @@
       ]
     },
     "ne_dor_pad_calendars": {
-      "object_count": 1,
+      "object_count": 4,
       "object_ids": [
-        "concept_homestead_exemption"
+        "concept_homestead_exemption",
+        "crosswalk_assessor_first_year_readiness",
+        "procedure_assessor_assume_office_public_readiness",
+        "timeline_ne_assessor_operating_calendar_scaffold"
       ]
     },
     "ne_dor_pad_court_case_summaries_history": {
@@ -572,7 +595,7 @@
       ]
     },
     "ne_dor_pad_faq": {
-      "object_count": 15,
+      "object_count": 20,
       "object_ids": [
         "concept_actual_value",
         "concept_assessed_value",
@@ -582,11 +605,16 @@
         "concept_tax_bill",
         "concept_value_vs_tax",
         "crosswalk_assessment_to_tax_cycle",
+        "crosswalk_public_question_bank",
         "deadline_may1_personal_property_return",
         "deadline_tax_delinquency_douglas_lancaster_sarpy",
         "deadline_tax_delinquency_standard_counties",
         "public_guidance_assessment_vs_taxes",
+        "public_guidance_board_member_qna_core",
+        "public_guidance_field_review_taxpayer_qna_core",
+        "public_guidance_taxpayer_question_bank_core",
         "statute_ne_77_1201_personal_property_assessment",
+        "timeline_ne_assessor_operating_calendar_scaffold",
         "workflow_levy_setting_tax_statement_cycle",
         "workflow_real_property_annual_assessment_cycle"
       ]
@@ -612,10 +640,13 @@
       ]
     },
     "ne_dor_pad_real_property_valuation_protest_guide": {
-      "object_count": 3,
+      "object_count": 6,
       "object_ids": [
+        "crosswalk_public_question_bank",
         "deadline_july25_boe_decision_session",
         "deadline_june30_real_property_protest",
+        "procedure_board_packet_public_scaffold",
+        "public_guidance_taxpayer_question_bank_core",
         "workflow_valuation_notice_to_protest"
       ]
     },
@@ -645,13 +676,18 @@
       ]
     },
     "ne_dor_title350_fullset_pdf": {
-      "object_count": 27,
+      "object_count": 32,
       "object_ids": [
+        "concept_assessor_office_transition",
+        "concept_assessor_reference_manual",
         "concept_centrally_assessed_property",
         "concept_documentary_stamp_tax",
         "concept_payment_in_lieu_of_tax",
         "concept_tax_increment_financing",
+        "crosswalk_internal_workflow_extension_points",
         "crosswalk_title350_chapter_catalog",
+        "procedure_field_review_public_law_scaffold",
+        "public_guidance_field_review_taxpayer_qna_core",
         "standard_ne_title350_ch10_real_property",
         "standard_ne_title350_ch11_ag_special_valuation",
         "standard_ne_title350_ch12_sales_file",
@@ -718,10 +754,25 @@
         "workflow_sales_file_to_ratio_study"
       ]
     },
+    "ne_leg_11_101_oath_of_office": {
+      "object_count": 2,
+      "object_ids": [
+        "procedure_assessor_assume_office_public_readiness",
+        "statute_ne_11_101_oath_of_office"
+      ]
+    },
     "ne_leg_13_501_13_522_budget_act": {
       "object_count": 1,
       "object_ids": [
         "statute_ne_13_501_budget_act"
+      ]
+    },
+    "ne_leg_23_3205_county_assessor_oath_bond": {
+      "object_count": 3,
+      "object_ids": [
+        "concept_assessor_office_transition",
+        "procedure_assessor_assume_office_public_readiness",
+        "statute_ne_23_3205_assessor_oath_bond"
       ]
     },
     "ne_leg_77_112": {
@@ -747,6 +798,25 @@
         "workflow_real_property_annual_assessment_cycle"
       ]
     },
+    "ne_leg_77_1311_03_systematic_inspection": {
+      "object_count": 4,
+      "object_ids": [
+        "procedure_field_review_public_law_scaffold",
+        "procedure_plan_of_assessment_public_scaffold",
+        "public_guidance_field_review_taxpayer_qna_core",
+        "statute_ne_77_1311_03_systematic_inspection"
+      ]
+    },
+    "ne_leg_77_1311_county_assessor_duties": {
+      "object_count": 5,
+      "object_ids": [
+        "crosswalk_assessor_first_year_readiness",
+        "crosswalk_internal_workflow_extension_points",
+        "procedure_assessor_assume_office_public_readiness",
+        "statute_ne_77_1311_county_assessor_duties",
+        "timeline_ne_assessor_operating_calendar_scaffold"
+      ]
+    },
     "ne_leg_77_1314": {
       "object_count": 2,
       "object_ids": [
@@ -768,10 +838,11 @@
       ]
     },
     "ne_leg_77_1502": {
-      "object_count": 6,
+      "object_count": 7,
       "object_ids": [
         "deadline_june30_real_property_protest",
         "form_422_property_valuation_protest",
+        "procedure_board_packet_public_scaffold",
         "statute_ne_77_1315_assessment_roll",
         "statute_ne_77_1502_protests",
         "workflow_boe_protest_hearing",
@@ -779,10 +850,12 @@
       ]
     },
     "ne_leg_77_1504": {
-      "object_count": 5,
+      "object_count": 7,
       "object_ids": [
         "concept_equalization",
         "deadline_july25_boe_decision_session",
+        "procedure_board_packet_public_scaffold",
+        "public_guidance_board_member_qna_core",
         "statute_ne_77_1504_boe_powers_decision",
         "workflow_boe_protest_hearing",
         "workflow_terc_appeal"
@@ -818,6 +891,21 @@
         "statute_ne_77_6701_6706_property_tax_incentive"
       ]
     },
+    "ne_sos_schedule14_county_assessors": {
+      "object_count": 10,
+      "object_ids": [
+        "concept_plan_of_assessment",
+        "concept_records_retention_litigation_hold",
+        "crosswalk_assessor_first_year_readiness",
+        "crosswalk_internal_workflow_extension_points",
+        "procedure_assessor_assume_office_public_readiness",
+        "procedure_board_packet_public_scaffold",
+        "procedure_plan_of_assessment_public_scaffold",
+        "procedure_records_retention_schedule14",
+        "procedure_terc_appeal_packet_public_scaffold",
+        "public_guidance_terc_preparation_qna_core"
+      ]
+    },
     "sarpy_county_form_422": {
       "object_count": 1,
       "object_ids": [
@@ -833,8 +921,13 @@
       ]
     },
     "terc_appeal_process": {
-      "object_count": 1,
+      "object_count": 6,
       "object_ids": [
+        "crosswalk_public_question_bank",
+        "procedure_terc_appeal_packet_public_scaffold",
+        "public_guidance_board_member_qna_core",
+        "public_guidance_taxpayer_question_bank_core",
+        "public_guidance_terc_preparation_qna_core",
         "workflow_terc_appeal"
       ]
     }
@@ -1041,9 +1134,19 @@
       "publication_date_note": "Repository page describes official online opinions but has no page publication date."
     },
     {
+      "source_id": "ne_leg_11_101_oath_of_office",
+      "title": "Neb. Rev. Stat. sec. 11-101 Oath of Office",
+      "publication_date_note": "Statute page does not state publication date."
+    },
+    {
       "source_id": "ne_leg_13_501_13_522_budget_act",
       "title": "Nebraska Budget Act, Neb. Rev. Stat. §§ 13-501 to 13-522",
       "publication_date_note": "Statute range page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_23_3205_county_assessor_oath_bond",
+      "title": "Neb. Rev. Stat. sec. 23-3205 County Assessor Oath and Bond",
+      "publication_date_note": "Statute page does not state publication date."
     },
     {
       "source_id": "ne_leg_77_112",
@@ -1059,6 +1162,16 @@
       "source_id": "ne_leg_77_1301",
       "title": "Neb. Rev. Stat. § 77-1301 Assessment of Real Property",
       "publication_date_note": "Statute page does not state publication date in discovered result."
+    },
+    {
+      "source_id": "ne_leg_77_1311_03_systematic_inspection",
+      "title": "Neb. Rev. Stat. sec. 77-1311.03 County Assessor Systematic Inspection and Review",
+      "publication_date_note": "Statute page does not state publication date."
+    },
+    {
+      "source_id": "ne_leg_77_1311_county_assessor_duties",
+      "title": "Neb. Rev. Stat. sec. 77-1311 County Assessor Duties",
+      "publication_date_note": "Statute page does not state publication date."
     },
     {
       "source_id": "ne_leg_77_1314",

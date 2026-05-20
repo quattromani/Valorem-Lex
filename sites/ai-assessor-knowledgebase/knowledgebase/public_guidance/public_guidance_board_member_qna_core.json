@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-20",
+  "id": "public_guidance_board_member_qna_core",
+  "object_type": "public_guidance",
+  "canonical_term": "Board of Equalization and County Board Question Bank",
+  "aliases": [
+    "BOE Q&A",
+    "board of supervisors Q&A",
+    "county board valuation questions"
+  ],
+  "category": "board_question_bank",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Core public-law Q&A frames for county board, board of supervisors, and board of equalization questions about valuation protests, equalization, evidence, taxes versus value, and appeal routing.",
+  "plain_language": "This helps board members stay in the right lane: value/equalization evidence, not general tax frustration.",
+  "semantic_tags": [
+    "boe",
+    "county_board",
+    "board_of_supervisors",
+    "valuation_protest",
+    "equalization",
+    "qna"
+  ],
+  "facts": [
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "What is the board deciding in a valuation protest?",
+        "answer_frame": "Current-year assessment/equalization issue for the described property, not the taxpayer's overall tax affordability."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "Can the board raise as well as lower value?",
+        "answer_frame": "Route to board statutory powers and due process/notice requirements before answering from local facts."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "What evidence should matter?",
+        "answer_frame": "Evidence tied to actual value, comparable properties, equalization, classification, property record accuracy, or a specific legal program."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "How should tax-bill complaints be handled?",
+        "answer_frame": "Explain value versus levy/tax request mechanics and route levy questions to budget/taxing-subdivision context."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "What must be preserved for appeal?",
+        "answer_frame": "Decision, notice, protest form, exhibits, property record, assessor analysis, board/referee report, and appeal deadline trace."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "What if a taxpayer presents a recent appraisal?",
+        "answer_frame": "Treat it as evidence; compare effective date, property rights, scope, market period, and whether it addresses the assessment date and issue."
+      }
+    },
+    {
+      "predicate": "board_question",
+      "object": {
+        "q": "What if a taxpayer says neighbors are lower?",
+        "answer_frame": "Route to equalization: identify truly comparable parcels and whether equivalent characteristics receive equivalent treatment."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "supports",
+      "target_id": "procedure_board_packet_public_scaffold",
+      "note": "BOE packet and hearing support."
+    },
+    {
+      "type": "supports",
+      "target_id": "workflow_boe_protest_hearing",
+      "note": "County board protest workflow."
+    },
+    {
+      "type": "distinguishes",
+      "target_id": "public_guidance_assessment_vs_taxes",
+      "note": "Value/tax distinction."
+    },
+    {
+      "type": "prepares_for",
+      "target_id": "procedure_terc_appeal_packet_public_scaffold",
+      "note": "Appeal record preservation."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_77_1504",
+      "locator": "board powers and duties",
+      "citation": "Neb. Rev. Stat. sec. 77-1504."
+    },
+    {
+      "source_id": "ne_dor_pad_faq",
+      "locator": "assessment process and protest FAQ",
+      "citation": "Nebraska DOR, Nebraska Property Assessment FAQs."
+    },
+    {
+      "source_id": "terc_appeal_process",
+      "locator": "appeal process",
+      "citation": "Nebraska TERC, Appeal Process."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_core_question_bank_expand_next"
+}

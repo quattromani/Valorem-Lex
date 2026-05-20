@@ -47,6 +47,21 @@
       "gap": "Article VIII current sections and source histories are catalogued, but amendment traces are not yet expanded into ballot measure, LR, election-date, and session-law objects.",
       "risk": "Historical constitutional questions can be grounded at a source-history level, but not yet fully reconstructed across every amendment event.",
       "next_action": "Extract each Article VIII amendment event into canonical amendment-history objects linked to LR/session-law/election results where available."
+    },
+    {
+      "gap": "Internal office workflows and paperwork are intentionally excluded, but extension points are now reserved.",
+      "risk": "The public-law scaffold can guide setup, but it will not reflect county-specific CAMA codes, staff routing, packet templates, or vendor procedures until those materials are ingested.",
+      "next_action": "After assuming office or obtaining authorized materials, import internal workflows into the reserved extension slots as private/county-specific objects."
+    },
+    {
+      "gap": "Public question bank is core-seeded but not yet exhaustive.",
+      "risk": "LexValorum can route common questions, but edge-case public Q&A still needs expansion by topic: commercial, ag/soil/LVG, personal property, exemptions, BOE evidence, TERC, levy/budget, and credits.",
+      "next_action": "Expand public Q&A into atomized objects with question patterns, short answer frames, legal caveats, and relationship targets."
+    },
+    {
+      "gap": "Records retention is scaffolded from Schedule 14 but not fully atomized item-by-item.",
+      "risk": "The system understands holds and sample retention categories, but cannot yet answer every Schedule 14 item with precision.",
+      "next_action": "Extract every Schedule 14 item into records-retention objects with retention period, trigger, hold exception, and related workflow."
     }
   ],
   "future_ingestion_targets": [
@@ -63,6 +78,11 @@
     "Title 350 section-level extraction from REGS_web_fullset.pdf into regulation section objects.",
     "Nebraska Constitution Article VIII amendment-event trace using Legislature source notes, LR texts, election materials, and historical constitution compilations.",
     "Chapter 10 Real Property extraction for field-review valuation concepts, appraisal approaches, quality/condition, and property-record duties.",
-    "Chapter 14 agricultural/horticultural assessment extraction with soil/LVG/ag-land methodology crosswalks."
+    "Chapter 14 agricultural/horticultural assessment extraction with soil/LVG/ag-land methodology crosswalks.",
+    "Assessor internal workflow imports into reserved extension slots when authorized.",
+    "Full Schedule 14 item-by-item records retention extraction.",
+    "PAD calendar PDFs parsed into normalized date/deadline/timeline objects.",
+    "Large public Q&A corpus for taxpayers, BOE/board members, TERC preparation, field review, commercial appraisal, and agricultural/soil/LVG questions.",
+    "Nebraska Assessor Reference Manual discovery and extraction, if publicly available or provided."
   ]
 }
