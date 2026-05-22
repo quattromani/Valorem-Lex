@@ -62,6 +62,38 @@
       "gap": "Records retention is scaffolded from Schedule 14 but not fully atomized item-by-item.",
       "risk": "The system understands holds and sample retention categories, but cannot yet answer every Schedule 14 item with precision.",
       "next_action": "Extract every Schedule 14 item into records-retention objects with retention period, trigger, hold exception, and related workflow."
+    },
+    {
+      "gap_id": "gap_tif_project_level_data_extraction",
+      "area": "tax_increment_financing",
+      "status": "partially_seeded",
+      "description": "Official TIF annual report index is catalogued, but project-level PDF/Excel data for each tax year has not yet been extracted into county/project objects.",
+      "priority": "high",
+      "recommended_action": "Ingest 2008-present Excel files from DOR PAD TIF reports, normalize project IDs, county/city, base value, excess value, taxes levied, project remarks, and expiration years."
+    },
+    {
+      "gap_id": "gap_micro_tif_local_policy_variance",
+      "area": "micro_tif_local_implementation",
+      "status": "weakly_sourced",
+      "description": "State form and statutes are seeded, with Hastings and Lexington examples. More local packets, ordinances, fee resolutions, maps, and approved examples should be collected to model city/CRA variation.",
+      "priority": "medium",
+      "recommended_action": "Collect Grand Island, Columbus, Hastings, Lexington, North Platte, and other city Micro-TIF ordinances, packets, approval resolutions, and sample agendas."
+    },
+    {
+      "gap_id": "gap_tif_bond_note_repayment_docs",
+      "area": "tif_financing_documents",
+      "status": "pending",
+      "description": "Knowledgebase explains statutory division and assessor workflow, but does not yet model local promissory notes, redevelopment agreements, bond resolutions, eligible-cost schedules, or reimbursement timing.",
+      "priority": "medium",
+      "recommended_action": "Create private/local extension slots for TIF note tracking and public-source templates where available."
+    },
+    {
+      "gap_id": "gap_tif_case_law",
+      "area": "case_law",
+      "status": "missing",
+      "description": "Nebraska TIF and community redevelopment case law has not yet been separately extracted into case objects.",
+      "priority": "medium",
+      "recommended_action": "Search Nebraska appellate decisions for Community Development Law, blight findings, TIF, redevelopment plan challenges, and assessor valuation disputes under sec. 18-2147."
     }
   ],
   "future_ingestion_targets": [
@@ -83,6 +115,11 @@
     "Full Schedule 14 item-by-item records retention extraction.",
     "PAD calendar PDFs parsed into normalized date/deadline/timeline objects.",
     "Large public Q&A corpus for taxpayers, BOE/board members, TERC preparation, field review, commercial appraisal, and agricultural/soil/LVG questions.",
-    "Nebraska Assessor Reference Manual discovery and extraction, if publicly available or provided."
+    "Nebraska Assessor Reference Manual discovery and extraction, if publicly available or provided.",
+    "Nebraska DOR PAD TIF annual report Excel files, 2008-present",
+    "Nebraska DOR PAD current Certification of Completion of Expedited Community Redevelopment Plan TIF Project PDF",
+    "Local Micro-TIF ordinances/resolutions and packets from Grand Island, Columbus, Hastings, Lexington, North Platte, and comparable cities",
+    "Nebraska Community Development Law case law and Attorney General opinions related to TIF, blight, and redevelopment plans",
+    "Approved Micro-TIF sample projects and council/CRA agenda packets with assessor/value references"
   ]
 }

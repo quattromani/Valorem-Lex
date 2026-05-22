@@ -6,9 +6,10 @@
     "data/seed/sources.seed.json",
     "data/seed/knowledge.seed.json",
     "data/seed/authority_catalog.seed.json",
-    "data/seed/operational_readiness.seed.json"
+    "data/seed/operational_readiness.seed.json",
+    "data/seed/tif_microtif.seed.json"
   ],
-  "generated_object_count": 159,
-  "generated_source_count": 78,
-  "generated_edge_count": 545
+  "generated_object_count": 176,
+  "generated_source_count": 92,
+  "generated_edge_count": 609
 }

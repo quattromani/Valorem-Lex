@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "form_notice_to_divide_tif_project",
+  "object_type": "form",
+  "canonical_term": "Notice to Divide Tax for Community Redevelopment Project TIF Project",
+  "aliases": [
+    "Notice to Divide Tax",
+    "Form 96-252",
+    "TIF notice to county assessor"
+  ],
+  "category": "tif_administration_form",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "agency_form",
+  "summary": "Property Tax Administrator-prescribed form filed by a city or CRA with the county assessor to request division of real property taxes for a new community redevelopment/TIF project.",
+  "plain_language": "This is the form that tells the assessor to set up the TIF split for a project.",
+  "semantic_tags": [
+    "form",
+    "tif",
+    "notice_to_divide",
+    "july_1",
+    "base_value",
+    "county_assessor"
+  ],
+  "facts": [
+    {
+      "predicate": "filing_party",
+      "object": "city or community redevelopment authority"
+    },
+    {
+      "predicate": "file_with",
+      "object": "county assessor"
+    },
+    {
+      "predicate": "deadline",
+      "object": "on or before July 1 of the calendar year the division of real property tax becomes effective"
+    },
+    {
+      "predicate": "assessor_fields",
+      "object": [
+        "real property base value",
+        "parcel ID numbers if not stated above",
+        "TIF excess authority/fund code",
+        "TIF base tax district code",
+        "CTL report TIF sequence number",
+        "school district code"
+      ]
+    },
+    {
+      "predicate": "assessor_distribution",
+      "object": "assessor retains original and provides copies to city/CRA, county treasurer, and Nebraska DOR PAD"
+    },
+    {
+      "predicate": "redevelopment_plan_types",
+      "object": [
+        "standard",
+        "expedited",
+        "extremely blighted"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Prescribed notice under sec. 18-2147."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor setup workflow."
+    },
+    {
+      "type": "documents",
+      "target_id": "concept_tif_base_and_excess_value",
+      "note": "Assessor base value fields."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "locator": "form and instructions",
+      "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025."
+    },
+    {
+      "source_id": "ne_dor_pad_property_assessment_forms_tif",
+      "locator": "TIF forms section",
+      "citation": "Nebraska DOR PAD, Property Assessment Forms, Tax Increment Financing."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

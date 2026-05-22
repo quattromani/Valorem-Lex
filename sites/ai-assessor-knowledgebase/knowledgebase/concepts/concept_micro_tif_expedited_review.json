@@ -1,0 +1,99 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "concept_micro_tif_expedited_review",
+  "object_type": "concept",
+  "canonical_term": "Micro-TIF",
+  "abbreviation": "Micro-TIF",
+  "aliases": [
+    "TIF Lite",
+    "expedited review redevelopment plan",
+    "expedited community redevelopment plan tax increment financing project"
+  ],
+  "category": "micro_tif_program_concept",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_program",
+  "summary": "Common shorthand for Nebraska expedited review of eligible one-project redevelopment plans under sec. 18-2155, with possible financing through the sec. 18-2147 division-of-taxes mechanism.",
+  "plain_language": "Micro-TIF is a smaller, faster TIF path, but it is still tied to redevelopment law, city/CRA approval, assessor valuation work, and TIF tax allocation if Question 6 is yes.",
+  "semantic_tags": [
+    "micro_tif",
+    "tif_lite",
+    "expedited_review",
+    "redevelopment_plan",
+    "county_assessor",
+    "public_guidance"
+  ],
+  "facts": [
+    {
+      "predicate": "program_character",
+      "object": "expedited review pathway, not a separate tax exemption"
+    },
+    {
+      "predicate": "common_local_label",
+      "object": "Micro-TIF"
+    },
+    {
+      "predicate": "statutory_name",
+      "object": "expedited review of redevelopment plans under Neb. Rev. Stat. sec. 18-2155"
+    },
+    {
+      "predicate": "finance_switch",
+      "object": "Question 6 determines whether the project will use division of taxes under sec. 18-2147 in whole or in part."
+    },
+    {
+      "predicate": "local_variation",
+      "object": "Cities/CRAs may add local supplemental forms, maps, deadlines, pre-application steps, and staff review details."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "authorized_by",
+      "target_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Primary statute."
+    },
+    {
+      "type": "variant_of",
+      "target_id": "concept_tax_increment_financing",
+      "note": "Small expedited review path within Nebraska TIF domain."
+    },
+    {
+      "type": "may_use",
+      "target_id": "concept_tax_increment_division_of_taxes",
+      "note": "Only if financed through sec. 18-2147."
+    },
+    {
+      "type": "implemented_by",
+      "target_id": "workflow_micro_tif_expedited_review",
+      "note": "Workflow object."
+    },
+    {
+      "type": "asks",
+      "target_id": "public_guidance_micro_tif_question_6",
+      "note": "Important form question."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_ded_micro_tif_page",
+      "locator": "Micro-TIF page",
+      "citation": "Nebraska DED, Micro-TIF."
+    },
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155",
+      "citation": "Neb. Rev. Stat. sec. 18-2155."
+    },
+    {
+      "source_id": "city_hastings_micro_tif_packet",
+      "locator": "What is Micro-TIF?",
+      "citation": "City of Hastings, What is Micro-TIF? packet."
+    },
+    {
+      "source_id": "city_lexington_micro_tif_flier_application",
+      "locator": "Lexington Micro-TIF flier",
+      "citation": "City of Lexington, Micro-TIF flier."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

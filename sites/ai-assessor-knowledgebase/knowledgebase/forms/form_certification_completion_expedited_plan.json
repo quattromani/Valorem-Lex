@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "form_certification_completion_expedited_plan",
+  "object_type": "form",
+  "canonical_term": "Certification of Completion of Expedited Community Redevelopment Plan TIF Project",
+  "aliases": [
+    "Micro-TIF completion certification",
+    "expedited redevelopment plan completion form"
+  ],
+  "category": "micro_tif_completion_form",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "agency_form",
+  "summary": "DOR PAD standard certification form used after completion of an expedited review redevelopment project to certify completion, valuation increase, amount of increase, and that the increase was due to improvements.",
+  "plain_language": "This is the back-end assessor certification before the CRA can begin using the increment for the Micro-TIF note.",
+  "semantic_tags": [
+    "form",
+    "micro_tif",
+    "completion",
+    "county_assessor",
+    "valuation_increase",
+    "18_2155"
+  ],
+  "facts": [
+    {
+      "predicate": "listed_by_dor_pad",
+      "object": "Certification of Completion of Expedited Community Redevelopment Plan Tax Increment Financing (TIF) Project (10/2020)"
+    },
+    {
+      "predicate": "statutory_certification_items",
+      "object": [
+        "improvements made and completed",
+        "valuation increase occurred",
+        "amount of valuation increase",
+        "valuation increase was due to improvements made"
+      ]
+    },
+    {
+      "predicate": "trigger",
+      "object": "after redeveloper notifies county assessor of completion and assessor determines completion and assessed value"
+    },
+    {
+      "predicate": "effect",
+      "object": "authority may begin using the sec. 18-2147 increment portion to pay sec. 18-2155 indebtedness after certification"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "required_by",
+      "target_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Certification required by sec. 18-2155(7)."
+    },
+    {
+      "type": "used_in",
+      "target_id": "workflow_micro_tif_expedited_review",
+      "note": "Completion workflow."
+    },
+    {
+      "type": "supports",
+      "target_id": "concept_tif_base_and_excess_value",
+      "note": "Valuation increase certification."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155(6)-(8)",
+      "citation": "Neb. Rev. Stat. sec. 18-2155(6)-(8)."
+    },
+    {
+      "source_id": "ne_dor_pad_property_assessment_forms_tif",
+      "locator": "TIF forms section",
+      "citation": "Nebraska DOR PAD, Property Assessment Forms, Tax Increment Financing."
+    },
+    {
+      "source_id": "ne_ded_expedited_review_application_june2023",
+      "locator": "instructions page",
+      "citation": "Nebraska DED, Application for Expedited Review instructions, reissued June 2023."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "form_indexed_pdf_fetch_pending"
+}

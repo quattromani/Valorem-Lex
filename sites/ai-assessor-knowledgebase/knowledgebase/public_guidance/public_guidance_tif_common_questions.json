@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "public_guidance_tif_common_questions",
+  "object_type": "public_guidance",
+  "canonical_term": "Nebraska TIF Common Questions",
+  "aliases": [
+    "TIF FAQ",
+    "taxpayer TIF questions",
+    "board TIF questions"
+  ],
+  "category": "tif_question_bank",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "public_guidance",
+  "summary": "Compressed question bank for taxpayer, assessor, county board, and city/CRA questions about Nebraska TIF, with routing to canonical statutes, concepts, forms, and workflows.",
+  "plain_language": "These are the recurring TIF questions that need fast routing before they turn into tax confusion.",
+  "semantic_tags": [
+    "tif",
+    "faq",
+    "taxpayer_questions",
+    "board_questions",
+    "micro_tif",
+    "semantic_routing"
+  ],
+  "facts": [
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Does TIF mean the property owner does not pay property tax?",
+        "answer_frame": "No. The property remains taxed; the increment is allocated differently under sec. 18-2147.",
+        "route_to": [
+          "concept_tax_increment_division_of_taxes",
+          "public_guidance_assessment_vs_taxes"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What does Question 6 on the Micro-TIF application mean?",
+        "answer_frame": "It asks whether any part of project financing will use the sec. 18-2147 tax division mechanism.",
+        "route_to": [
+          "public_guidance_micro_tif_question_6"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What does the assessor do on a TIF project?",
+        "answer_frame": "The assessor handles valuation/base/excess and required certifications/reports, not city redevelopment policy approval.",
+        "route_to": [
+          "workflow_tif_assessor_base_excess_administration"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "What happens if the notice to divide is late?",
+        "answer_frame": "Current sec. 18-2147 and Form 96-252 direct that affected taxes remain undivided and are allocated to political subdivisions for that year.",
+        "route_to": [
+          "form_notice_to_divide_tif_project",
+          "statute_ne_18_2147_division_of_taxes"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "Is Micro-TIF available everywhere?",
+        "answer_frame": "No. It depends on city election, eligible project type, qualifying area, county population, age/platted requirements, and completed value limits.",
+        "route_to": [
+          "statute_ne_18_2155_expedited_review_micro_tif",
+          "concept_micro_tif_expedited_review"
+        ]
+      }
+    },
+    {
+      "predicate": "question",
+      "object": {
+        "q": "When does a Micro-TIF applicant get money?",
+        "answer_frame": "Local guidance often frames Micro-TIF as reimbursement after completion and after new tax value is paid; exact timing depends on local note and tax collection.",
+        "route_to": [
+          "workflow_micro_tif_expedited_review"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "extends",
+      "target_id": "public_guidance_taxpayer_question_bank_core",
+      "note": "Adds TIF-specific taxpayer questions."
+    },
+    {
+      "type": "extends",
+      "target_id": "public_guidance_board_member_qna_core",
+      "note": "Adds TIF-specific board routing."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "public_guidance_micro_tif_question_6",
+      "note": "Micro-TIF question 6."
+    },
+    {
+      "type": "routes_to",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor TIF lane."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2147_division_of_taxes",
+      "locator": "sec. 18-2147",
+      "citation": "Neb. Rev. Stat. sec. 18-2147."
+    },
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155",
+      "citation": "Neb. Rev. Stat. sec. 18-2155."
+    },
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "locator": "instructions",
+      "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025."
+    },
+    {
+      "source_id": "city_hastings_micro_tif_packet",
+      "locator": "Micro-TIF process notes",
+      "citation": "City of Hastings, What is Micro-TIF? packet."
+    }
+  ],
+  "confidence": "medium",
+  "review_status": "seeded_from_official_sources_expand_with_local_faqs_next"
+}

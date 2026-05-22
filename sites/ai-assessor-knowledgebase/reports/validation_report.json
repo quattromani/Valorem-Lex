@@ -2,11 +2,27 @@
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
   "status": "pass",
-  "object_count": 159,
-  "source_count": 78,
+  "object_count": 176,
+  "source_count": 92,
   "error_count": 0,
-  "warning_count": 61,
+  "warning_count": 74,
   "issues": [
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "city_hastings_micro_tif_packet"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "city_lexington_micro_tif_flier_application"
+      }
+    },
     {
       "severity": "warning",
       "code": "publication_date_missing",
@@ -196,7 +212,39 @@
       "code": "publication_date_missing",
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
+        "source_id": "ne_ded_expedited_review_application_june2023"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_ded_micro_tif_page"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_2025_legislative_changes_tif"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
         "source_id": "ne_dor_form_422a"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_form_notice_to_divide_tif_2025"
       }
     },
     {
@@ -229,6 +277,14 @@
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
         "source_id": "ne_dor_pad_faq"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_dor_pad_property_assessment_forms_tif"
       }
     },
     {
@@ -300,6 +356,14 @@
       "code": "publication_date_missing",
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
+        "source_id": "ne_dor_tif_annual_reports_page"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
         "source_id": "ne_dor_title350_chapters_pdf"
       }
     },
@@ -341,6 +405,46 @@
       "message": "Source has no stated publication date; registry must preserve publication_date_note.",
       "context": {
         "source_id": "ne_leg_13_501_13_522_budget_act"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_18_2103_redevelopment_definitions"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_18_2147_division_of_taxes"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_18_2155_expedited_review"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_18_2156_area_review"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "publication_date_missing",
+      "message": "Source has no stated publication date; registry must preserve publication_date_note.",
+      "context": {
+        "source_id": "ne_leg_18_2157_thirty_year_designation_analysis"
       }
     },
     {

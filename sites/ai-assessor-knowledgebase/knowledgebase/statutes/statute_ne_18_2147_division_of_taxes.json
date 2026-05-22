@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "statute_ne_18_2147_division_of_taxes",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Division of Taxes for TIF",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 18-2147",
+    "division of taxes",
+    "TIF tax split",
+    "redevelopment project valuation"
+  ],
+  "category": "tif_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Core Nebraska TIF statute authorizing a redevelopment plan to divide ad valorem taxes so the base-value portion continues to normal taxing bodies and the excess/increment portion is allocated to redevelopment indebtedness for the authorized period.",
+  "plain_language": "The property is still taxed. The question is where the tax on the new value goes: ordinary taxing bodies receive the base portion, while the increment can repay approved redevelopment costs.",
+  "semantic_tags": [
+    "statute",
+    "tif",
+    "division_of_taxes",
+    "base_value",
+    "excess_value",
+    "county_assessor"
+  ],
+  "facts": [
+    {
+      "predicate": "base_value_distribution",
+      "object": "Tax on redevelopment project valuation is paid to public bodies in the same proportion as other taxes."
+    },
+    {
+      "predicate": "increment_distribution",
+      "object": "Tax on value above the redevelopment project valuation is allocated to a special authority fund for bonds, loans, notes, advances, or indebtedness financing or refinancing the redevelopment project."
+    },
+    {
+      "predicate": "standard_duration_limit",
+      "object": "not more than 15 years after the effective date for most redevelopment plans"
+    },
+    {
+      "predicate": "extremely_blighted_duration_limit",
+      "object": "not more than 20 years if more than 50 percent of the project area has been declared extremely blighted"
+    },
+    {
+      "predicate": "notice_deadline_current",
+      "object": "authority notice to county assessor on Property Tax Administrator forms on or before July 1 of the effective year"
+    },
+    {
+      "predicate": "late_notice_effect",
+      "object": "taxes remain undivided for affected years if notice is not timely satisfied"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "concept_tax_increment_division_of_taxes",
+      "note": "Statutory mechanism."
+    },
+    {
+      "type": "governs",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor base/excess workflow."
+    },
+    {
+      "type": "answered_by",
+      "target_id": "public_guidance_micro_tif_question_6",
+      "note": "Question 6 refers to this statute."
+    },
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Constitutional TIF authority."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2147_division_of_taxes",
+      "locator": "sec. 18-2147(1), (4), (6)",
+      "citation": "Neb. Rev. Stat. sec. 18-2147."
+    },
+    {
+      "source_id": "ne_dor_2025_legislative_changes_tif",
+      "locator": "Community Development Law/Tax Increment Financing (TIF)",
+      "citation": "Nebraska DOR, 2025 Nebraska Legislative Changes, Community Development Law/Tax Increment Financing."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

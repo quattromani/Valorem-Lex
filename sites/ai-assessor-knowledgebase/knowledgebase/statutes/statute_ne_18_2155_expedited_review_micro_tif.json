@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "statute_ne_18_2155_expedited_review_micro_tif",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Expedited Review Redevelopment Plan Statute",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 18-2155",
+    "Micro-TIF statute",
+    "expedited review of redevelopment plans"
+  ],
+  "category": "micro_tif_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Statute allowing a city, by resolution, to permit expedited review of eligible single-project redevelopment plans meeting location, age, population, value-limit, and procedural requirements.",
+  "plain_language": "This is the statutory basis for what people call Micro-TIF or TIF Lite.",
+  "semantic_tags": [
+    "statute",
+    "micro_tif",
+    "expedited_review",
+    "eligibility",
+    "county_assessor",
+    "completion"
+  ],
+  "facts": [
+    {
+      "predicate": "city_election_required",
+      "object": "A city may elect by resolution to allow expedited reviews."
+    },
+    {
+      "predicate": "plan_scope",
+      "object": "Eligible redevelopment plan includes only one redevelopment project."
+    },
+    {
+      "predicate": "project_location",
+      "object": "Project must be in a substandard and blighted area and located in a county with population under 100,000."
+    },
+    {
+      "predicate": "project_type",
+      "object": [
+        "repair, rehabilitation, or replacement of an existing structure in corporate limits for at least 60 years",
+        "redevelopment of a vacant lot in a substandard and blighted area in corporate limits and platted for at least 60 years"
+      ]
+    },
+    {
+      "predicate": "completed_value_limits",
+      "object": {
+        "single_family_residential": 350000,
+        "multifamily_or_commercial": 1500000,
+        "national_register_structure": 10000000
+      }
+    },
+    {
+      "predicate": "form_required_question_6",
+      "object": "The standard form must indicate whether the project will be financed in whole or in part through the division of taxes under sec. 18-2147."
+    },
+    {
+      "predicate": "review_window",
+      "object": "governing body decides approve or deny within 30 days after submission"
+    },
+    {
+      "predicate": "completion_window",
+      "object": "project must be completed within two years after plan approval"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "authorizes",
+      "target_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF domain."
+    },
+    {
+      "type": "requires",
+      "target_id": "form_expedited_review_micro_tif_application",
+      "note": "DED standard form."
+    },
+    {
+      "type": "requires",
+      "target_id": "form_certification_completion_expedited_plan",
+      "note": "DOR standard certification after completion."
+    },
+    {
+      "type": "uses_if_financed_by_tif",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Division of taxes mechanism."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155",
+      "citation": "Neb. Rev. Stat. sec. 18-2155."
+    },
+    {
+      "source_id": "ne_ded_micro_tif_page",
+      "locator": "Micro-TIF program page",
+      "citation": "Nebraska DED, Micro-TIF."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

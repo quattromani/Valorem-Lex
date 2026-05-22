@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "pad_tif_annual_reports_to_legislature",
+  "object_type": "pad",
+  "canonical_term": "Nebraska TIF Annual Reports to the Legislature",
+  "aliases": [
+    "TIF reports",
+    "community redevelopment report",
+    "TIF Excel files"
+  ],
+  "category": "pad_tif_reporting",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "agency_report",
+  "summary": "DOR PAD annual report index for Nebraska tax increment financing projects, including PDF and Excel reports by tax year and related forms/regulation links.",
+  "plain_language": "This is the official statewide project-level data trail for Nebraska TIF activity.",
+  "semantic_tags": [
+    "pad",
+    "tif_report",
+    "annual_report",
+    "legislature",
+    "data_ingestion",
+    "ctl"
+  ],
+  "facts": [
+    {
+      "predicate": "report_years_pdf",
+      "object": "1997 through present listed on report index"
+    },
+    {
+      "predicate": "report_years_excel",
+      "object": "2008 through present listed on report index"
+    },
+    {
+      "predicate": "related_information",
+      "object": [
+        "Community Redevelopment Laws",
+        "Title 350 Chapter 18 regulation",
+        "Notice to Divide Tax form",
+        "Nebraska Library Commission copies"
+      ]
+    },
+    {
+      "predicate": "next_ingestion_value",
+      "object": "project-level TIF base value, excess value, taxes levied, city, county, project remarks, and sequence history can be normalized into county statistical history and levy/tax allocation objects"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "reports_on",
+      "target_id": "concept_tax_increment_financing",
+      "note": "Statewide TIF reporting source."
+    },
+    {
+      "type": "data_source_for",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor/CTL-reported values feed reports."
+    },
+    {
+      "type": "supports",
+      "target_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Future project-level crosswalk."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_tif_annual_reports_page",
+      "locator": "report index",
+      "citation": "Nebraska DOR PAD, Tax Increment Financing Annual Reports to the Legislature."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "index_seeded_extract_project_data_next"
+}

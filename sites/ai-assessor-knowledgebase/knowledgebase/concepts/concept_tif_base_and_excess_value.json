@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "concept_tif_base_and_excess_value",
+  "object_type": "concept",
+  "canonical_term": "TIF Base Value and Excess Value",
+  "aliases": [
+    "redevelopment project valuation",
+    "base valuation",
+    "redevelopment project excess valuation",
+    "increment value"
+  ],
+  "category": "tif_valuation_concept",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "concept",
+  "summary": "Paired valuation concepts used to calculate TIF allocation: the redevelopment project valuation or base value and the excess value above that base in the current year.",
+  "plain_language": "TIF turns one parcel value into two accounting buckets: the old/base value and the new/increment value.",
+  "semantic_tags": [
+    "tif",
+    "base_value",
+    "excess_value",
+    "assessment",
+    "county_assessor",
+    "ctl"
+  ],
+  "facts": [
+    {
+      "predicate": "base_value_general_rule",
+      "object": "assessed valuation last certified to political subdivisions in the year prior to effective date to divide tax"
+    },
+    {
+      "predicate": "base_value_expedited_review_rule",
+      "object": "for expedited review projects, Form 96-252 instructions state the base value is the assessed value last certified in the year in which the redevelopment plan is approved"
+    },
+    {
+      "predicate": "excess_value_formula",
+      "object": "current year total assessed value less redevelopment project base valuation"
+    },
+    {
+      "predicate": "if_current_value_below_base",
+      "object": "no excess value or TIF proceeds are available until current value again exceeds base value"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "used_by",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor annual TIF reporting."
+    },
+    {
+      "type": "computed_under",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Statutory tax division."
+    },
+    {
+      "type": "form_field_on",
+      "target_id": "form_notice_to_divide_tif_project",
+      "note": "Notice to Divide requires assessor base value and codes."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "locator": "Instructions, Definitions and County Assessor's Duties",
+      "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 18, REG-18-002.15-.16 and REG-18-004",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "statute_ne_18_2157_thirty_year_designation_analysis",
+  "object_type": "statute",
+  "canonical_term": "Thirty-Year Blight Designation Analysis Requirement",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 18-2157",
+    "thirty-year area analysis",
+    "old blight designation analysis"
+  ],
+  "category": "tif_guardrail_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Beginning January 1, 2026, restricts approval of new redevelopment plans or projects in certain areas designated substandard, blighted, or extremely blighted for more than thirty years unless the city conducts an analysis of redevelopment activity and future goals.",
+  "plain_language": "For very old redevelopment-area designations, a fresh analysis may be needed before new TIF-related approvals.",
+  "semantic_tags": [
+    "statute",
+    "tif_guardrail",
+    "thirty_year_designation",
+    "2026",
+    "blighted_area"
+  ],
+  "facts": [
+    {
+      "predicate": "operative_trigger_date",
+      "object": "2026-01-01"
+    },
+    {
+      "predicate": "trigger",
+      "object": "area designated substandard and blighted or extremely blighted for more than 30 years"
+    },
+    {
+      "predicate": "analysis_minimum_content",
+      "object": [
+        "factors contributing to lack of redevelopment where significant redevelopment has not occurred",
+        "goals for future redevelopment of the area"
+      ]
+    },
+    {
+      "predicate": "public_inspection",
+      "object": "copy of analysis must be available for public inspection at a city-designated location"
+    },
+    {
+      "predicate": "exception",
+      "object": "does not apply to downtown area of a city of the first class, city of the second class, or village"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "context_for",
+      "target_id": "workflow_micro_tif_expedited_review",
+      "note": "Potential precondition when project is inside an old designation area."
+    },
+    {
+      "type": "context_for",
+      "target_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Current-era TIF guardrail."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2157_thirty_year_designation_analysis",
+      "locator": "sec. 18-2157",
+      "citation": "Neb. Rev. Stat. sec. 18-2157."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

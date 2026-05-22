@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "workflow_tif_assessor_base_excess_administration",
+  "object_type": "workflow",
+  "canonical_term": "TIF Assessor Base and Excess Administration",
+  "aliases": [
+    "assessor TIF workflow",
+    "base value and excess value workflow",
+    "TIF CTL reporting workflow"
+  ],
+  "category": "assessor_tif_workflow",
+  "jurisdiction": "Nebraska county",
+  "legal_hierarchy": "statutory_and_regulatory_workflow",
+  "summary": "County assessor workflow for receiving TIF notices, determining or verifying redevelopment project valuation, maintaining base/excess values, certifying valuation data for levy/reporting purposes, and coordinating with county treasurer, city/CRA, and DOR PAD.",
+  "plain_language": "Once a project uses TIF, the assessor has a valuation and reporting lane separate from the ordinary taxpayer-facing value conversation.",
+  "semantic_tags": [
+    "workflow",
+    "county_assessor",
+    "tif",
+    "base_value",
+    "excess_value",
+    "ctl",
+    "notice_to_divide"
+  ],
+  "steps": [
+    {
+      "sequence": 1,
+      "actor": "city_or_cra",
+      "action": "file Notice to Divide Tax with county assessor by July 1 of effective calendar year",
+      "source_basis": "sec. 18-2147(6); Form 96-252 Rev. 3-2025"
+    },
+    {
+      "sequence": 2,
+      "actor": "county_assessor",
+      "action": "verify or determine redevelopment project valuation/base value and complete assessor section of notice",
+      "source_basis": "Form 96-252 instructions"
+    },
+    {
+      "sequence": 3,
+      "actor": "county_assessor",
+      "action": "retain original and distribute copies to city/CRA, county treasurer, and DOR PAD",
+      "source_basis": "Form 96-252"
+    },
+    {
+      "sequence": 4,
+      "actor": "county_assessor",
+      "action": "annually certify base and excess values to authority and county treasurer; include base-only value for levy setting and required abstract/school/CTL reporting",
+      "source_basis": "Title 350 Chapter 18 REG-18-004"
+    },
+    {
+      "sequence": 5,
+      "actor": "county_treasurer",
+      "action": "distribute base taxes to political subdivisions and excess taxes to special fund under statutory/form directions",
+      "source_basis": "sec. 18-2147; Title 350 Chapter 18 REG-18-003.03C"
+    },
+    {
+      "sequence": 6,
+      "actor": "city_or_cra",
+      "action": "notify assessor, treasurer, and Property Tax Administrator when indebtedness is paid so taxes return to ordinary distribution",
+      "source_basis": "Form 96-252 instructions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Statutory TIF tax division."
+    },
+    {
+      "type": "uses_form",
+      "target_id": "form_notice_to_divide_tif_project",
+      "note": "Notice to Divide setup."
+    },
+    {
+      "type": "uses_concept",
+      "target_id": "concept_tif_base_and_excess_value",
+      "note": "Base/excess calculation."
+    },
+    {
+      "type": "regulated_by",
+      "target_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Title 350 Chapter 18 assessor reporting."
+    },
+    {
+      "type": "feeds",
+      "target_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF base/excess affects levy certification and tax distribution."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2147_division_of_taxes",
+      "locator": "sec. 18-2147",
+      "citation": "Neb. Rev. Stat. sec. 18-2147."
+    },
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "locator": "form and instructions",
+      "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025."
+    },
+    {
+      "source_id": "ne_dor_title350_fullset_pdf",
+      "locator": "Title 350 Chapter 18, REG-18-003 and REG-18-004",
+      "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

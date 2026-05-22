@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "statute_ne_18_2156_area_designation_review",
+  "object_type": "statute",
+  "canonical_term": "Nebraska Review of Blight and Substandard Designations",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 18-2156",
+    "review of blighted area designation",
+    "remove blight designation"
+  ],
+  "category": "tif_guardrail_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "Authorizes a city governing body to review substandard, blighted, or extremely blighted area designations and remove a designation by resolution if the area no longer qualifies, without invalidating previously approved projects or related debt.",
+  "plain_language": "A city can revisit whether an old blight designation still fits, but that does not undo already-approved projects.",
+  "semantic_tags": [
+    "statute",
+    "blight_designation",
+    "tif_guardrail",
+    "area_review"
+  ],
+  "facts": [
+    {
+      "predicate": "review_optional",
+      "object": "governing body may review designated area at any time"
+    },
+    {
+      "predicate": "removal_authority",
+      "object": "governing body may remove designation by resolution if the area is no longer eligible"
+    },
+    {
+      "predicate": "prior_project_protection",
+      "object": "removal does not affect validity of approved plans, projects, bonds, contracts, or agreements approved before removal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "context_for",
+      "target_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF eligibility depends on qualifying substandard and blighted area context."
+    },
+    {
+      "type": "context_for",
+      "target_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Current guardrail around redevelopment-area designations."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2156_area_review",
+      "locator": "sec. 18-2156",
+      "citation": "Neb. Rev. Stat. sec. 18-2156."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

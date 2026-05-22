@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "edge_count": 545,
+  "edge_count": 609,
   "edges": [
     {
       "from_id": "case_gordman_v_hall_county_boe",
@@ -478,6 +478,36 @@
       "note": "Common level measure."
     },
     {
+      "from_id": "concept_micro_tif_expedited_review",
+      "relationship_type": "asks",
+      "to_id": "public_guidance_micro_tif_question_6",
+      "note": "Important form question."
+    },
+    {
+      "from_id": "concept_micro_tif_expedited_review",
+      "relationship_type": "authorized_by",
+      "to_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Primary statute."
+    },
+    {
+      "from_id": "concept_micro_tif_expedited_review",
+      "relationship_type": "implemented_by",
+      "to_id": "workflow_micro_tif_expedited_review",
+      "note": "Workflow object."
+    },
+    {
+      "from_id": "concept_micro_tif_expedited_review",
+      "relationship_type": "may_use",
+      "to_id": "concept_tax_increment_division_of_taxes",
+      "note": "Only if financed through sec. 18-2147."
+    },
+    {
+      "from_id": "concept_micro_tif_expedited_review",
+      "relationship_type": "variant_of",
+      "to_id": "concept_tax_increment_financing",
+      "note": "Small expedited review path within Nebraska TIF domain."
+    },
+    {
       "from_id": "concept_neighborhood",
       "relationship_type": "implementation_of",
       "to_id": "concept_market_area",
@@ -832,6 +862,30 @@
       "note": "Public explanation object."
     },
     {
+      "from_id": "concept_tax_increment_division_of_taxes",
+      "relationship_type": "calculated_in",
+      "to_id": "concept_tif_base_and_excess_value",
+      "note": "Base/excess valuation concept."
+    },
+    {
+      "from_id": "concept_tax_increment_division_of_taxes",
+      "relationship_type": "distinguishes",
+      "to_id": "concept_value_vs_tax",
+      "note": "Valuation is separate from tax allocation."
+    },
+    {
+      "from_id": "concept_tax_increment_division_of_taxes",
+      "relationship_type": "explained_by",
+      "to_id": "public_guidance_micro_tif_question_6",
+      "note": "Form question explanation."
+    },
+    {
+      "from_id": "concept_tax_increment_division_of_taxes",
+      "relationship_type": "implemented_by",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Core statute."
+    },
+    {
       "from_id": "concept_tax_increment_financing",
       "relationship_type": "context_for",
       "to_id": "workflow_levy_setting_tax_statement_cycle",
@@ -848,6 +902,24 @@
       "relationship_type": "grounded_in",
       "to_id": "const_ne_article_viii_12_tax_increment_financing",
       "note": "Article VIII-12 catalogue entry."
+    },
+    {
+      "from_id": "concept_tif_base_and_excess_value",
+      "relationship_type": "computed_under",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Statutory tax division."
+    },
+    {
+      "from_id": "concept_tif_base_and_excess_value",
+      "relationship_type": "form_field_on",
+      "to_id": "form_notice_to_divide_tif_project",
+      "note": "Notice to Divide requires assessor base value and codes."
+    },
+    {
+      "from_id": "concept_tif_base_and_excess_value",
+      "relationship_type": "used_by",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor annual TIF reporting."
     },
     {
       "from_id": "concept_uniformity_proportionality",
@@ -1462,6 +1534,48 @@
       "note": "Article VIII-1."
     },
     {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "anchors",
+      "to_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF concept."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "anchors",
+      "to_id": "concept_tax_increment_division_of_taxes",
+      "note": "Division of taxes concept."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "anchors",
+      "to_id": "concept_tax_increment_financing",
+      "note": "Existing canonical TIF concept."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "anchors",
+      "to_id": "public_guidance_tif_common_questions",
+      "note": "Public Q&A routes."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "anchors",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor workflow."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Constitutional authority."
+    },
+    {
+      "from_id": "crosswalk_nebraska_tif_micro_tif",
+      "relationship_type": "regulated_by",
+      "to_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "PAD regulation chapter."
+    },
+    {
       "from_id": "crosswalk_public_question_bank",
       "relationship_type": "catalogues",
       "to_id": "public_guidance_board_member_qna_core",
@@ -1810,6 +1924,60 @@
       "note": "Formal protest filing."
     },
     {
+      "from_id": "form_certification_completion_expedited_plan",
+      "relationship_type": "required_by",
+      "to_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Certification required by sec. 18-2155(7)."
+    },
+    {
+      "from_id": "form_certification_completion_expedited_plan",
+      "relationship_type": "supports",
+      "to_id": "concept_tif_base_and_excess_value",
+      "note": "Valuation increase certification."
+    },
+    {
+      "from_id": "form_certification_completion_expedited_plan",
+      "relationship_type": "used_in",
+      "to_id": "workflow_micro_tif_expedited_review",
+      "note": "Completion workflow."
+    },
+    {
+      "from_id": "form_expedited_review_micro_tif_application",
+      "relationship_type": "interpreted_by",
+      "to_id": "public_guidance_micro_tif_question_6",
+      "note": "Question 6 explanation."
+    },
+    {
+      "from_id": "form_expedited_review_micro_tif_application",
+      "relationship_type": "required_by",
+      "to_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Statutory standard form."
+    },
+    {
+      "from_id": "form_expedited_review_micro_tif_application",
+      "relationship_type": "starts",
+      "to_id": "workflow_micro_tif_expedited_review",
+      "note": "Application starts the review workflow."
+    },
+    {
+      "from_id": "form_notice_to_divide_tif_project",
+      "relationship_type": "documents",
+      "to_id": "concept_tif_base_and_excess_value",
+      "note": "Assessor base value fields."
+    },
+    {
+      "from_id": "form_notice_to_divide_tif_project",
+      "relationship_type": "implements",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Prescribed notice under sec. 18-2147."
+    },
+    {
+      "from_id": "form_notice_to_divide_tif_project",
+      "relationship_type": "used_in",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor setup workflow."
+    },
+    {
       "from_id": "form_ptc_property_tax_credit",
       "relationship_type": "claims",
       "to_id": "concept_property_tax_credit",
@@ -1874,6 +2042,24 @@
       "relationship_type": "uses",
       "to_id": "workflow_ratio_study_equalization",
       "note": "Ratio-study workflow."
+    },
+    {
+      "from_id": "pad_tif_annual_reports_to_legislature",
+      "relationship_type": "data_source_for",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor/CTL-reported values feed reports."
+    },
+    {
+      "from_id": "pad_tif_annual_reports_to_legislature",
+      "relationship_type": "reports_on",
+      "to_id": "concept_tax_increment_financing",
+      "note": "Statewide TIF reporting source."
+    },
+    {
+      "from_id": "pad_tif_annual_reports_to_legislature",
+      "relationship_type": "supports",
+      "to_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Future project-level crosswalk."
     },
     {
       "from_id": "procedure_assessor_assume_office_public_readiness",
@@ -2128,6 +2314,36 @@
       "note": "Field review public answers."
     },
     {
+      "from_id": "public_guidance_micro_tif_question_6",
+      "relationship_type": "distinguishes",
+      "to_id": "public_guidance_assessment_vs_taxes",
+      "note": "Not a general tax-bill protest or exemption issue."
+    },
+    {
+      "from_id": "public_guidance_micro_tif_question_6",
+      "relationship_type": "explains",
+      "to_id": "form_expedited_review_micro_tif_application",
+      "note": "Question 6 form field."
+    },
+    {
+      "from_id": "public_guidance_micro_tif_question_6",
+      "relationship_type": "interprets",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Section 18-2147 reference."
+    },
+    {
+      "from_id": "public_guidance_micro_tif_question_6",
+      "relationship_type": "routes_to",
+      "to_id": "concept_tax_increment_division_of_taxes",
+      "note": "Semantic target for division-of-taxes meaning."
+    },
+    {
+      "from_id": "public_guidance_micro_tif_question_6",
+      "relationship_type": "routes_to",
+      "to_id": "workflow_micro_tif_expedited_review",
+      "note": "Workflow implications if yes."
+    },
+    {
       "from_id": "public_guidance_taxpayer_question_bank_core",
       "relationship_type": "catalogued_in",
       "to_id": "crosswalk_public_question_bank",
@@ -2174,6 +2390,30 @@
       "relationship_type": "supports",
       "to_id": "workflow_terc_appeal",
       "note": "TERC appeal workflow."
+    },
+    {
+      "from_id": "public_guidance_tif_common_questions",
+      "relationship_type": "extends",
+      "to_id": "public_guidance_board_member_qna_core",
+      "note": "Adds TIF-specific board routing."
+    },
+    {
+      "from_id": "public_guidance_tif_common_questions",
+      "relationship_type": "extends",
+      "to_id": "public_guidance_taxpayer_question_bank_core",
+      "note": "Adds TIF-specific taxpayer questions."
+    },
+    {
+      "from_id": "public_guidance_tif_common_questions",
+      "relationship_type": "routes_to",
+      "to_id": "public_guidance_micro_tif_question_6",
+      "note": "Micro-TIF question 6."
+    },
+    {
+      "from_id": "public_guidance_tif_common_questions",
+      "relationship_type": "routes_to",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor TIF lane."
     },
     {
       "from_id": "research_berry_reassessing_property_tax",
@@ -2734,6 +2974,90 @@
       "note": "Budget/tax request feeds levy."
     },
     {
+      "from_id": "statute_ne_18_2147_division_of_taxes",
+      "relationship_type": "answered_by",
+      "to_id": "public_guidance_micro_tif_question_6",
+      "note": "Question 6 refers to this statute."
+    },
+    {
+      "from_id": "statute_ne_18_2147_division_of_taxes",
+      "relationship_type": "governs",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor base/excess workflow."
+    },
+    {
+      "from_id": "statute_ne_18_2147_division_of_taxes",
+      "relationship_type": "grounded_in",
+      "to_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Constitutional TIF authority."
+    },
+    {
+      "from_id": "statute_ne_18_2147_division_of_taxes",
+      "relationship_type": "implements",
+      "to_id": "concept_tax_increment_division_of_taxes",
+      "note": "Statutory mechanism."
+    },
+    {
+      "from_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "relationship_type": "authorizes",
+      "to_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF domain."
+    },
+    {
+      "from_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "relationship_type": "requires",
+      "to_id": "form_certification_completion_expedited_plan",
+      "note": "DOR standard certification after completion."
+    },
+    {
+      "from_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "relationship_type": "requires",
+      "to_id": "form_expedited_review_micro_tif_application",
+      "note": "DED standard form."
+    },
+    {
+      "from_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "relationship_type": "uses_if_financed_by_tif",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Division of taxes mechanism."
+    },
+    {
+      "from_id": "statute_ne_18_2156_area_designation_review",
+      "relationship_type": "context_for",
+      "to_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF eligibility depends on qualifying substandard and blighted area context."
+    },
+    {
+      "from_id": "statute_ne_18_2156_area_designation_review",
+      "relationship_type": "context_for",
+      "to_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Current guardrail around redevelopment-area designations."
+    },
+    {
+      "from_id": "statute_ne_18_2157_thirty_year_designation_analysis",
+      "relationship_type": "context_for",
+      "to_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Current-era TIF guardrail."
+    },
+    {
+      "from_id": "statute_ne_18_2157_thirty_year_designation_analysis",
+      "relationship_type": "context_for",
+      "to_id": "workflow_micro_tif_expedited_review",
+      "note": "Potential precondition when project is inside an old designation area."
+    },
+    {
+      "from_id": "statute_ne_18_2158_affordable_housing_tif_condition",
+      "relationship_type": "context_for",
+      "to_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Newer TIF condition to track."
+    },
+    {
+      "from_id": "statute_ne_18_2158_affordable_housing_tif_condition",
+      "relationship_type": "modifies_context_for",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Applies to projects using division of taxes under sec. 18-2147 when affordable-housing blight basis is used."
+    },
+    {
       "from_id": "statute_ne_23_3205_assessor_oath_bond",
       "relationship_type": "governs",
       "to_id": "procedure_assessor_assume_office_public_readiness",
@@ -3106,6 +3430,36 @@
       "note": "Tax statement/tax due."
     },
     {
+      "from_id": "workflow_micro_tif_expedited_review",
+      "relationship_type": "depends_on_if_question_6_yes",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Tax division financing mechanism."
+    },
+    {
+      "from_id": "workflow_micro_tif_expedited_review",
+      "relationship_type": "feeds",
+      "to_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor base/excess and tax division administration."
+    },
+    {
+      "from_id": "workflow_micro_tif_expedited_review",
+      "relationship_type": "implements",
+      "to_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Primary workflow statute."
+    },
+    {
+      "from_id": "workflow_micro_tif_expedited_review",
+      "relationship_type": "starts_with",
+      "to_id": "form_expedited_review_micro_tif_application",
+      "note": "DED standard application."
+    },
+    {
+      "from_id": "workflow_micro_tif_expedited_review",
+      "relationship_type": "uses",
+      "to_id": "form_certification_completion_expedited_plan",
+      "note": "Completion certification."
+    },
+    {
       "from_id": "workflow_ratio_study_equalization",
       "relationship_type": "contextualized_by",
       "to_id": "standard_iaao_ratio_studies_2013",
@@ -3230,6 +3584,36 @@
       "relationship_type": "follows",
       "to_id": "workflow_boe_protest_hearing",
       "note": "County board decision is prerequisite for regular protest appeal."
+    },
+    {
+      "from_id": "workflow_tif_assessor_base_excess_administration",
+      "relationship_type": "feeds",
+      "to_id": "workflow_levy_setting_tax_statement_cycle",
+      "note": "TIF base/excess affects levy certification and tax distribution."
+    },
+    {
+      "from_id": "workflow_tif_assessor_base_excess_administration",
+      "relationship_type": "implements",
+      "to_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Statutory TIF tax division."
+    },
+    {
+      "from_id": "workflow_tif_assessor_base_excess_administration",
+      "relationship_type": "regulated_by",
+      "to_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "Title 350 Chapter 18 assessor reporting."
+    },
+    {
+      "from_id": "workflow_tif_assessor_base_excess_administration",
+      "relationship_type": "uses_concept",
+      "to_id": "concept_tif_base_and_excess_value",
+      "note": "Base/excess calculation."
+    },
+    {
+      "from_id": "workflow_tif_assessor_base_excess_administration",
+      "relationship_type": "uses_form",
+      "to_id": "form_notice_to_divide_tif_project",
+      "note": "Notice to Divide setup."
     },
     {
       "from_id": "workflow_valuation_notice_to_protest",

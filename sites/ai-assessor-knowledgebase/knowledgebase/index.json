@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "object_count": 159,
-  "source_count": 78,
+  "object_count": 176,
+  "source_count": 92,
   "objects": [
     {
       "id": "case_gordman_v_hall_county_boe",
@@ -423,6 +423,22 @@
       "path": "knowledgebase/metrics/concept_median_ratio.json"
     },
     {
+      "id": "concept_micro_tif_expedited_review",
+      "object_type": "concept",
+      "canonical_term": "Micro-TIF",
+      "category": "micro_tif_program_concept",
+      "legal_hierarchy": "statutory_program",
+      "semantic_tags": [
+        "micro_tif",
+        "tif_lite",
+        "expedited_review",
+        "redevelopment_plan",
+        "county_assessor",
+        "public_guidance"
+      ],
+      "path": "knowledgebase/concepts/concept_micro_tif_expedited_review.json"
+    },
+    {
       "id": "concept_neighborhood",
       "object_type": "cama",
       "canonical_term": "Neighborhood Coding",
@@ -680,6 +696,22 @@
       "path": "knowledgebase/taxes/concept_tax_bill.json"
     },
     {
+      "id": "concept_tax_increment_division_of_taxes",
+      "object_type": "concept",
+      "canonical_term": "Division of Taxes",
+      "category": "tif_tax_mechanic",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "tif",
+        "division_of_taxes",
+        "base_value",
+        "excess_value",
+        "tax_allocation",
+        "public_guidance"
+      ],
+      "path": "knowledgebase/concepts/concept_tax_increment_division_of_taxes.json"
+    },
+    {
       "id": "concept_tax_increment_financing",
       "object_type": "concept",
       "canonical_term": "Tax Increment Financing",
@@ -693,6 +725,22 @@
         "title_350_ch18"
       ],
       "path": "knowledgebase/concepts/concept_tax_increment_financing.json"
+    },
+    {
+      "id": "concept_tif_base_and_excess_value",
+      "object_type": "concept",
+      "canonical_term": "TIF Base Value and Excess Value",
+      "category": "tif_valuation_concept",
+      "legal_hierarchy": "concept",
+      "semantic_tags": [
+        "tif",
+        "base_value",
+        "excess_value",
+        "assessment",
+        "county_assessor",
+        "ctl"
+      ],
+      "path": "knowledgebase/concepts/concept_tif_base_and_excess_value.json"
     },
     {
       "id": "concept_uniformity_proportionality",
@@ -1119,6 +1167,23 @@
       "path": "knowledgebase/crosswalks/crosswalk_ne_const_article_viii_catalog.json"
     },
     {
+      "id": "crosswalk_nebraska_tif_micro_tif",
+      "object_type": "crosswalk",
+      "canonical_term": "Nebraska TIF and Micro-TIF Crosswalk",
+      "category": "tif_crosswalk",
+      "legal_hierarchy": "crosswalk",
+      "semantic_tags": [
+        "crosswalk",
+        "tif",
+        "micro_tif",
+        "division_of_taxes",
+        "forms",
+        "assessor_workflow",
+        "public_guidance"
+      ],
+      "path": "knowledgebase/crosswalks/crosswalk_nebraska_tif_micro_tif.json"
+    },
+    {
       "id": "crosswalk_public_question_bank",
       "object_type": "crosswalk",
       "canonical_term": "Public Question Bank Crosswalk",
@@ -1286,6 +1351,54 @@
       "path": "knowledgebase/forms/form_422_property_valuation_protest.json"
     },
     {
+      "id": "form_certification_completion_expedited_plan",
+      "object_type": "form",
+      "canonical_term": "Certification of Completion of Expedited Community Redevelopment Plan TIF Project",
+      "category": "micro_tif_completion_form",
+      "legal_hierarchy": "agency_form",
+      "semantic_tags": [
+        "form",
+        "micro_tif",
+        "completion",
+        "county_assessor",
+        "valuation_increase",
+        "18_2155"
+      ],
+      "path": "knowledgebase/forms/form_certification_completion_expedited_plan.json"
+    },
+    {
+      "id": "form_expedited_review_micro_tif_application",
+      "object_type": "form",
+      "canonical_term": "Application for Expedited Review of Community Redevelopment Plan TIF Project",
+      "category": "micro_tif_application_form",
+      "legal_hierarchy": "agency_form",
+      "semantic_tags": [
+        "form",
+        "micro_tif",
+        "question_6",
+        "expedited_review",
+        "ded",
+        "18_2155"
+      ],
+      "path": "knowledgebase/forms/form_expedited_review_micro_tif_application.json"
+    },
+    {
+      "id": "form_notice_to_divide_tif_project",
+      "object_type": "form",
+      "canonical_term": "Notice to Divide Tax for Community Redevelopment Project TIF Project",
+      "category": "tif_administration_form",
+      "legal_hierarchy": "agency_form",
+      "semantic_tags": [
+        "form",
+        "tif",
+        "notice_to_divide",
+        "july_1",
+        "base_value",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/forms/form_notice_to_divide_tif_project.json"
+    },
+    {
       "id": "form_ptc_property_tax_credit",
       "object_type": "form",
       "canonical_term": "Nebraska Property Tax Credit Form PTC",
@@ -1345,6 +1458,22 @@
         "level_of_value"
       ],
       "path": "knowledgebase/equalization/pad_statewide_equalization.json"
+    },
+    {
+      "id": "pad_tif_annual_reports_to_legislature",
+      "object_type": "pad",
+      "canonical_term": "Nebraska TIF Annual Reports to the Legislature",
+      "category": "pad_tif_reporting",
+      "legal_hierarchy": "agency_report",
+      "semantic_tags": [
+        "pad",
+        "tif_report",
+        "annual_report",
+        "legislature",
+        "data_ingestion",
+        "ctl"
+      ],
+      "path": "knowledgebase/pad/pad_tif_annual_reports_to_legislature.json"
     },
     {
       "id": "procedure_assessor_assume_office_public_readiness",
@@ -1488,6 +1617,22 @@
       "path": "knowledgebase/public_guidance/public_guidance_field_review_taxpayer_qna_core.json"
     },
     {
+      "id": "public_guidance_micro_tif_question_6",
+      "object_type": "public_guidance",
+      "canonical_term": "Micro-TIF Application Question 6 Explanation",
+      "category": "micro_tif_public_guidance",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "micro_tif",
+        "question_6",
+        "public_guidance",
+        "division_of_taxes",
+        "18_2147",
+        "taxpayer_questions"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_micro_tif_question_6.json"
+    },
+    {
       "id": "public_guidance_taxpayer_question_bank_core",
       "object_type": "public_guidance",
       "canonical_term": "Core Taxpayer Question Bank",
@@ -1519,6 +1664,22 @@
         "deadline"
       ],
       "path": "knowledgebase/public_guidance/public_guidance_terc_preparation_qna_core.json"
+    },
+    {
+      "id": "public_guidance_tif_common_questions",
+      "object_type": "public_guidance",
+      "canonical_term": "Nebraska TIF Common Questions",
+      "category": "tif_question_bank",
+      "legal_hierarchy": "public_guidance",
+      "semantic_tags": [
+        "tif",
+        "faq",
+        "taxpayer_questions",
+        "board_questions",
+        "micro_tif",
+        "semantic_routing"
+      ],
+      "path": "knowledgebase/public_guidance/public_guidance_tif_common_questions.json"
     },
     {
       "id": "research_berry_reassessing_property_tax",
@@ -2038,6 +2199,82 @@
       "path": "knowledgebase/statutes/statute_ne_13_501_budget_act.json"
     },
     {
+      "id": "statute_ne_18_2147_division_of_taxes",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Division of Taxes for TIF",
+      "category": "tif_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "tif",
+        "division_of_taxes",
+        "base_value",
+        "excess_value",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_18_2147_division_of_taxes.json"
+    },
+    {
+      "id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Expedited Review Redevelopment Plan Statute",
+      "category": "micro_tif_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "micro_tif",
+        "expedited_review",
+        "eligibility",
+        "county_assessor",
+        "completion"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_18_2155_expedited_review_micro_tif.json"
+    },
+    {
+      "id": "statute_ne_18_2156_area_designation_review",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Review of Blight and Substandard Designations",
+      "category": "tif_guardrail_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "blight_designation",
+        "tif_guardrail",
+        "area_review"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_18_2156_area_designation_review.json"
+    },
+    {
+      "id": "statute_ne_18_2157_thirty_year_designation_analysis",
+      "object_type": "statute",
+      "canonical_term": "Thirty-Year Blight Designation Analysis Requirement",
+      "category": "tif_guardrail_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "tif_guardrail",
+        "thirty_year_designation",
+        "2026",
+        "blighted_area"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_18_2157_thirty_year_designation_analysis.json"
+    },
+    {
+      "id": "statute_ne_18_2158_affordable_housing_tif_condition",
+      "object_type": "statute",
+      "canonical_term": "Affordable Housing Basis TIF Approval Condition",
+      "category": "tif_guardrail_statute",
+      "legal_hierarchy": "statute",
+      "semantic_tags": [
+        "statute",
+        "tif",
+        "affordable_housing",
+        "lb288",
+        "2025_change"
+      ],
+      "path": "knowledgebase/statutes/statute_ne_18_2158_affordable_housing_tif_condition.json"
+    },
+    {
       "id": "statute_ne_23_3205_assessor_oath_bond",
       "object_type": "statute",
       "canonical_term": "County Assessor Oath and Bond",
@@ -2327,6 +2564,22 @@
       "path": "knowledgebase/workflows/workflow_levy_setting_tax_statement_cycle.json"
     },
     {
+      "id": "workflow_micro_tif_expedited_review",
+      "object_type": "workflow",
+      "canonical_term": "Micro-TIF Expedited Review Workflow",
+      "category": "micro_tif_workflow",
+      "legal_hierarchy": "statutory_workflow",
+      "semantic_tags": [
+        "workflow",
+        "micro_tif",
+        "expedited_review",
+        "30_day_review",
+        "two_year_completion",
+        "county_assessor"
+      ],
+      "path": "knowledgebase/workflows/workflow_micro_tif_expedited_review.json"
+    },
+    {
       "id": "workflow_ratio_study_equalization",
       "object_type": "workflow",
       "canonical_term": "Ratio Study and Equalization Workflow",
@@ -2388,6 +2641,23 @@
         "valuation_protest"
       ],
       "path": "knowledgebase/workflows/workflow_terc_appeal.json"
+    },
+    {
+      "id": "workflow_tif_assessor_base_excess_administration",
+      "object_type": "workflow",
+      "canonical_term": "TIF Assessor Base and Excess Administration",
+      "category": "assessor_tif_workflow",
+      "legal_hierarchy": "statutory_and_regulatory_workflow",
+      "semantic_tags": [
+        "workflow",
+        "county_assessor",
+        "tif",
+        "base_value",
+        "excess_value",
+        "ctl",
+        "notice_to_divide"
+      ],
+      "path": "knowledgebase/workflows/workflow_tif_assessor_base_excess_administration.json"
     },
     {
       "id": "workflow_valuation_notice_to_protest",

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "discovered_source_count": 78,
+  "discovered_source_count": 92,
   "saturation_notes": [
     "Searches repeatedly returned the Nebraska DOR PAD legal-information hub, Chapter 77 statutes, PAD calendars, protest guidance, and county protest pages.",
     "County-level results became duplicative around Form 422, June protest timing, evidence requirements, and TERC appeal routing.",
@@ -73,6 +73,34 @@
         "grossly_excessive",
         "equalization",
         "agricultural_land"
+      ]
+    },
+    {
+      "source_id": "city_hastings_micro_tif_packet",
+      "title": "What is Micro-TIF? Hastings Micro-TIF Application Packet",
+      "url": "https://www.cityofhastings.org/assets/site/coh/documents/doccentral/Micro-TIF1746478869.pdf",
+      "source_type": "local_guidance_packet",
+      "legal_hierarchy": "local_guidance",
+      "topics": [
+        "micro_tif",
+        "local_process",
+        "county_assessor",
+        "application_packet",
+        "reimbursement"
+      ]
+    },
+    {
+      "source_id": "city_lexington_micro_tif_flier_application",
+      "title": "Lexington Micro-TIF Flier and Application",
+      "url": "https://info.cityoflex.com/econdev/lex_micro-tif_flier_2022.pdf",
+      "source_type": "local_guidance_and_form",
+      "legal_hierarchy": "local_guidance",
+      "topics": [
+        "micro_tif",
+        "local_process",
+        "expedited_review",
+        "application_fee",
+        "one_project"
       ]
     },
     {
@@ -473,6 +501,35 @@
       ]
     },
     {
+      "source_id": "ne_ded_expedited_review_application_june2023",
+      "title": "Application for Expedited Review of Community Redevelopment Plan Tax Increment Financing (TIF) Project",
+      "url": "https://opportunity.nebraska.gov/wp-content/uploads/2023/06/Redevelopment_Plan_Application-June-2023.pdf",
+      "source_type": "form",
+      "legal_hierarchy": "agency_form",
+      "topics": [
+        "micro_tif",
+        "expedited_review",
+        "form",
+        "question_6",
+        "18_2147",
+        "18_2155"
+      ]
+    },
+    {
+      "source_id": "ne_ded_micro_tif_page",
+      "title": "Micro-TIF",
+      "url": "https://opportunity.nebraska.gov/micro-tif/",
+      "source_type": "agency_program_page",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "micro_tif",
+        "expedited_review",
+        "community_redevelopment",
+        "tif",
+        "ded"
+      ]
+    },
+    {
       "source_id": "ne_dor_2025_annual_report",
       "title": "2025 Annual Report - Property Assessment Division",
       "url": "https://revenue.nebraska.gov/PAD/2025-annual-report-property-assessment-division",
@@ -484,6 +541,21 @@
         "taxes_levied",
         "levels_of_value",
         "county_statistics"
+      ]
+    },
+    {
+      "source_id": "ne_dor_2025_legislative_changes_tif",
+      "title": "2025 Nebraska Legislative Changes - Community Development Law/Tax Increment Financing",
+      "url": "https://revenue.nebraska.gov/about/2025-nebraska-legislative-changes",
+      "source_type": "agency_legislative_summary",
+      "legal_hierarchy": "agency_guidance",
+      "topics": [
+        "tif",
+        "2025_legislative_changes",
+        "lb240",
+        "lb288",
+        "july_1_notice",
+        "affordable_housing"
       ]
     },
     {
@@ -510,6 +582,21 @@
         "valuation_protest",
         "county_board_equalization",
         "appeal"
+      ]
+    },
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "title": "Notice to Divide Tax for Community Redevelopment Project Tax Increment Financing (TIF) Project",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/pad/research/TIF_Reports/f_96-252r2025.pdf",
+      "source_type": "form",
+      "legal_hierarchy": "agency_form",
+      "topics": [
+        "tif",
+        "notice_to_divide",
+        "form_96_252",
+        "base_value",
+        "excess_value",
+        "july_1"
       ]
     },
     {
@@ -579,6 +666,20 @@
         "protest",
         "tax_collection",
         "personal_property"
+      ]
+    },
+    {
+      "source_id": "ne_dor_pad_property_assessment_forms_tif",
+      "title": "Property Assessment Forms - Tax Increment Financing (TIF)",
+      "url": "https://revenue.nebraska.gov/about/forms/pad-forms",
+      "source_type": "agency_forms_index",
+      "legal_hierarchy": "agency_form_index",
+      "topics": [
+        "tif",
+        "pad_forms",
+        "notice_to_divide",
+        "micro_tif_completion",
+        "county_assessor"
       ]
     },
     {
@@ -707,6 +808,21 @@
       ]
     },
     {
+      "source_id": "ne_dor_tif_annual_reports_page",
+      "title": "Tax Increment Financing Annual Reports to the Legislature",
+      "url": "https://revenue.nebraska.gov/PAD/research-statistical-reports/tax-increment-financing-annual-reports-legislature",
+      "source_type": "agency_report_index",
+      "legal_hierarchy": "agency_report",
+      "topics": [
+        "tif",
+        "annual_report",
+        "legislature",
+        "ctl",
+        "base_value",
+        "excess_value"
+      ]
+    },
+    {
       "source_id": "ne_dor_title350_chapters_pdf",
       "title": "Title 350 Nebraska Administrative Code - List of Regulation Chapters",
       "url": "https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/legal/regs/pad/List_of_REG_Chapters.pdf",
@@ -789,6 +905,92 @@
         "political_subdivision",
         "budget_filing",
         "property_tax_request"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2103_redevelopment_definitions",
+      "title": "Neb. Rev. Stat. sec. 18-2103 Community Development Law Definitions",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2103",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "community_redevelopment",
+        "definitions",
+        "authority",
+        "redevelopment_plan",
+        "blighted_area"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2147_division_of_taxes",
+      "title": "Neb. Rev. Stat. sec. 18-2147 Ad Valorem Tax; Division Authorized; Limitations; Qualified Allocation Plan",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2147",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "tif",
+        "division_of_taxes",
+        "base_value",
+        "excess_value",
+        "county_assessor",
+        "notice_to_divide"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "title": "Neb. Rev. Stat. sec. 18-2155 Plan; Expedited Review; Eligibility; Limit; Procedure; Projects; Use of Property Taxes",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2155",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "micro_tif",
+        "expedited_review",
+        "eligibility",
+        "county_assessor",
+        "completion_certification",
+        "18_2147"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2156_area_review",
+      "title": "Neb. Rev. Stat. sec. 18-2156 Substandard and Blighted Area; Extremely Blighted Area; Review; Remove Designation",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2156",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "tif",
+        "blighted_area",
+        "substandard_area",
+        "designation_review",
+        "redevelopment_area"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2157_thirty_year_designation_analysis",
+      "title": "Neb. Rev. Stat. sec. 18-2157 Designation for More Than Thirty Years; Analysis of Redevelopment Projects",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2157",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "tif",
+        "blighted_area",
+        "substandard_area",
+        "thirty_year_analysis",
+        "2026"
+      ]
+    },
+    {
+      "source_id": "ne_leg_18_2158_affordable_housing_tif_condition",
+      "title": "Neb. Rev. Stat. sec. 18-2158 Substandard and Blighted Area; Project Approval; Conditions",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2158",
+      "source_type": "statute",
+      "legal_hierarchy": "statute",
+      "topics": [
+        "tif",
+        "affordable_housing",
+        "blighted_area",
+        "lb288",
+        "2025_change"
       ]
     },
     {

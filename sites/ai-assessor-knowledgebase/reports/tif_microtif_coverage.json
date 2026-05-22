@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-20T00:00:00-05:00",
+  "phase": "nebraska_tif_micro_tif_seed",
+  "object_ids": [
+    "statute_ne_18_2147_division_of_taxes",
+    "statute_ne_18_2155_expedited_review_micro_tif",
+    "statute_ne_18_2156_area_designation_review",
+    "statute_ne_18_2157_thirty_year_designation_analysis",
+    "statute_ne_18_2158_affordable_housing_tif_condition",
+    "concept_tax_increment_division_of_taxes",
+    "concept_tif_base_and_excess_value",
+    "concept_micro_tif_expedited_review",
+    "form_expedited_review_micro_tif_application",
+    "form_notice_to_divide_tif_project",
+    "form_certification_completion_expedited_plan",
+    "workflow_micro_tif_expedited_review",
+    "workflow_tif_assessor_base_excess_administration",
+    "public_guidance_micro_tif_question_6",
+    "pad_tif_annual_reports_to_legislature",
+    "public_guidance_tif_common_questions",
+    "crosswalk_nebraska_tif_micro_tif"
+  ],
+  "source_ids": [
+    "ne_ded_micro_tif_page",
+    "ne_ded_expedited_review_application_june2023",
+    "ne_leg_18_2147_division_of_taxes",
+    "ne_leg_18_2155_expedited_review",
+    "ne_leg_18_2156_area_review",
+    "ne_leg_18_2157_thirty_year_designation_analysis",
+    "ne_leg_18_2158_affordable_housing_tif_condition",
+    "ne_leg_18_2103_redevelopment_definitions",
+    "ne_dor_pad_property_assessment_forms_tif",
+    "ne_dor_form_notice_to_divide_tif_2025",
+    "ne_dor_tif_annual_reports_page",
+    "ne_dor_2025_legislative_changes_tif",
+    "city_hastings_micro_tif_packet",
+    "city_lexington_micro_tif_flier_application"
+  ],
+  "key_answer": {
+    "question": "Will the redevelopment project be financed in whole or in part through the division of taxes as provided in section 18-2147?",
+    "answer": "Yes means the project will use the TIF increment/division-of-taxes mechanism for all or part of project financing; no means no sec. 18-2147 tax division financing is being used.",
+    "assessor_implication": "A yes answer connects the project to base/excess valuation, Notice to Divide Tax, completion certification for expedited plans, and annual base/excess reporting."
+  },
+  "review_notes": [
+    "DED Micro-TIF page still points to a DED standard application; current DED form discovered as June 2023 reissue.",
+    "Statutory value limits in current sec. 18-2155 differ from early single-family-only guidance found in older summaries; current statute and form use $350,000, $1,500,000, and $10,000,000 caps.",
+    "Current sec. 18-2147 notice deadline is July 1 after LB240, as reflected in Form 96-252 Rev. 3-2025."
+  ]
+}

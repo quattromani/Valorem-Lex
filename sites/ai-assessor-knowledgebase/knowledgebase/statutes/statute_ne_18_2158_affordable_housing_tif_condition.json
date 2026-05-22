@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "statute_ne_18_2158_affordable_housing_tif_condition",
+  "object_type": "statute",
+  "canonical_term": "Affordable Housing Basis TIF Approval Condition",
+  "aliases": [
+    "Neb. Rev. Stat. sec. 18-2158",
+    "LB288 affordable housing TIF condition"
+  ],
+  "category": "tif_guardrail_statute",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statute",
+  "summary": "For redevelopment projects using division of taxes in an area declared substandard and blighted because less than twenty percent of housing is affordable housing, approval requires residential housing construction and a finding that at least thirty percent of residential housing in the area will be affordable upon completion.",
+  "plain_language": "If the blight/substandard basis is lack of affordable housing, the TIF project must itself move the area toward affordable housing.",
+  "semantic_tags": [
+    "statute",
+    "tif",
+    "affordable_housing",
+    "lb288",
+    "2025_change"
+  ],
+  "facts": [
+    {
+      "predicate": "operative_date",
+      "object": "2025-09-03"
+    },
+    {
+      "predicate": "approval_conditions",
+      "object": [
+        "project includes construction of residential housing",
+        "governing body finds at least 30 percent of residential housing in the area will be affordable housing when project is complete"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "modifies_context_for",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Applies to projects using division of taxes under sec. 18-2147 when affordable-housing blight basis is used."
+    },
+    {
+      "type": "context_for",
+      "target_id": "crosswalk_nebraska_tif_micro_tif",
+      "note": "Newer TIF condition to track."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2158_affordable_housing_tif_condition",
+      "locator": "sec. 18-2158",
+      "citation": "Neb. Rev. Stat. sec. 18-2158."
+    },
+    {
+      "source_id": "ne_dor_2025_legislative_changes_tif",
+      "locator": "LB288 summary",
+      "citation": "Nebraska DOR, 2025 Nebraska Legislative Changes, LB288 Community Development Law/Tax Increment Financing."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

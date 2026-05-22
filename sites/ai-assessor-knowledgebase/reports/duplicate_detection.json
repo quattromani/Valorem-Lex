@@ -1,8 +1,22 @@
 {
   "schema_version": "0.1.0",
   "generated_at": "2026-05-20T00:00:00-05:00",
-  "duplicate_term_count": 2,
+  "duplicate_term_count": 4,
   "duplicate_terms": [
+    {
+      "term": "division of taxes",
+      "object_ids": [
+        "concept_tax_increment_division_of_taxes",
+        "statute_ne_18_2147_division_of_taxes"
+      ]
+    },
+    {
+      "term": "redevelopment project valuation",
+      "object_ids": [
+        "concept_tif_base_and_excess_value",
+        "statute_ne_18_2147_division_of_taxes"
+      ]
+    },
     {
       "term": "statewide equalization",
       "object_ids": [

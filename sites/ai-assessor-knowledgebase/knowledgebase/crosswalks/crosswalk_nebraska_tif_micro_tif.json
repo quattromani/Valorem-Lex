@@ -1,0 +1,127 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "crosswalk_nebraska_tif_micro_tif",
+  "object_type": "crosswalk",
+  "canonical_term": "Nebraska TIF and Micro-TIF Crosswalk",
+  "aliases": [
+    "TIF to Micro-TIF crosswalk",
+    "Nebraska redevelopment finance crosswalk",
+    "TIF Lite crosswalk"
+  ],
+  "category": "tif_crosswalk",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "crosswalk",
+  "summary": "Relationship map connecting constitutional authority, statutory tax division, Title 350 Chapter 18 assessor rules, Micro-TIF expedited review, forms, current 2025-2026 changes, PAD reports, and public question routing.",
+  "plain_language": "This is the retrieval map for TIF questions so LexValorum can traverse from a phrase like 'Micro-TIF Question 6' to the statute, form, assessor workflow, and taxpayer explanation.",
+  "semantic_tags": [
+    "crosswalk",
+    "tif",
+    "micro_tif",
+    "division_of_taxes",
+    "forms",
+    "assessor_workflow",
+    "public_guidance"
+  ],
+  "facts": [
+    {
+      "predicate": "canonical_route_question_6",
+      "object": [
+        "form_expedited_review_micro_tif_application",
+        "public_guidance_micro_tif_question_6",
+        "statute_ne_18_2147_division_of_taxes",
+        "workflow_micro_tif_expedited_review"
+      ]
+    },
+    {
+      "predicate": "canonical_route_assessor_task",
+      "object": [
+        "form_notice_to_divide_tif_project",
+        "concept_tif_base_and_excess_value",
+        "workflow_tif_assessor_base_excess_administration",
+        "pad_tif_annual_reports_to_legislature"
+      ]
+    },
+    {
+      "predicate": "current_change_watchlist",
+      "object": [
+        "LB240 July 1 notice deadline",
+        "LB288 affordable-housing TIF condition",
+        "2026 thirty-year designation analysis requirement"
+      ]
+    },
+    {
+      "predicate": "local_implementation_sources_seeded",
+      "object": [
+        "Hastings packet",
+        "Lexington flier/application"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "anchors",
+      "target_id": "concept_tax_increment_financing",
+      "note": "Existing canonical TIF concept."
+    },
+    {
+      "type": "anchors",
+      "target_id": "concept_micro_tif_expedited_review",
+      "note": "Micro-TIF concept."
+    },
+    {
+      "type": "anchors",
+      "target_id": "concept_tax_increment_division_of_taxes",
+      "note": "Division of taxes concept."
+    },
+    {
+      "type": "anchors",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor workflow."
+    },
+    {
+      "type": "anchors",
+      "target_id": "public_guidance_tif_common_questions",
+      "note": "Public Q&A routes."
+    },
+    {
+      "type": "grounded_in",
+      "target_id": "const_ne_article_viii_12_tax_increment_financing",
+      "note": "Constitutional authority."
+    },
+    {
+      "type": "regulated_by",
+      "target_id": "standard_ne_title350_ch18_community_redevelopment",
+      "note": "PAD regulation chapter."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_const_article_viii_12",
+      "locator": "Article VIII-12",
+      "citation": "Neb. Const. art. VIII, sec. 12."
+    },
+    {
+      "source_id": "ne_leg_18_2103_redevelopment_definitions",
+      "locator": "sec. 18-2103",
+      "citation": "Neb. Rev. Stat. sec. 18-2103."
+    },
+    {
+      "source_id": "ne_leg_18_2147_division_of_taxes",
+      "locator": "sec. 18-2147",
+      "citation": "Neb. Rev. Stat. sec. 18-2147."
+    },
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155",
+      "citation": "Neb. Rev. Stat. sec. 18-2155."
+    },
+    {
+      "source_id": "ne_dor_form_notice_to_divide_tif_2025",
+      "locator": "Form 96-252 Rev. 3-2025",
+      "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_relationship_map"
+}

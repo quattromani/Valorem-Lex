@@ -1,0 +1,862 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-22T00:00:00-05:00",
+  "sources": [
+    {
+      "id": "ne_ded_micro_tif_page",
+      "title": "Micro-TIF",
+      "source_type": "agency_program_page",
+      "issuing_authority": "Nebraska Department of Economic Development",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_guidance",
+      "url": "https://opportunity.nebraska.gov/micro-tif/",
+      "publication_date": null,
+      "publication_date_note": "Program page does not state a publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["micro_tif", "expedited_review", "community_redevelopment", "tif", "ded"],
+      "notes": "Official DED landing page for the expedited review application."
+    },
+    {
+      "id": "ne_ded_expedited_review_application_june2023",
+      "title": "Application for Expedited Review of Community Redevelopment Plan Tax Increment Financing (TIF) Project",
+      "source_type": "form",
+      "issuing_authority": "Nebraska Department of Economic Development",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form",
+      "url": "https://opportunity.nebraska.gov/wp-content/uploads/2023/06/Redevelopment_Plan_Application-June-2023.pdf",
+      "publication_date": null,
+      "publication_date_note": "Form states reissued June 2023 and replaces November 2020 and July 2022 versions; no exact date stated.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["micro_tif", "expedited_review", "form", "question_6", "18_2147", "18_2155"],
+      "notes": "Standard form required by Neb. Rev. Stat. sec. 18-2155; includes Question 6 about financing through division of taxes under sec. 18-2147."
+    },
+    {
+      "id": "ne_leg_18_2147_division_of_taxes",
+      "title": "Neb. Rev. Stat. sec. 18-2147 Ad Valorem Tax; Division Authorized; Limitations; Qualified Allocation Plan",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2147",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date; source history through Laws 2025, LB240, sec. 1.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "division_of_taxes", "base_value", "excess_value", "county_assessor", "notice_to_divide"],
+      "notes": "Core statutory mechanism for dividing ad valorem taxes between normal taxing bodies and TIF redevelopment obligations."
+    },
+    {
+      "id": "ne_leg_18_2155_expedited_review",
+      "title": "Neb. Rev. Stat. sec. 18-2155 Plan; Expedited Review; Eligibility; Limit; Procedure; Projects; Use of Property Taxes",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2155",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date; source history through Laws 2023, LB531, sec. 20.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["micro_tif", "expedited_review", "eligibility", "county_assessor", "completion_certification", "18_2147"],
+      "notes": "Primary statute for expedited review redevelopment plans commonly called Micro-TIF."
+    },
+    {
+      "id": "ne_leg_18_2156_area_review",
+      "title": "Neb. Rev. Stat. sec. 18-2156 Substandard and Blighted Area; Extremely Blighted Area; Review; Remove Designation",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2156",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date; source history Laws 2023, LB531, sec. 18.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "blighted_area", "substandard_area", "designation_review", "redevelopment_area"],
+      "notes": "Allows review and removal of substandard, blighted, or extremely blighted designations without invalidating prior approved projects or debt."
+    },
+    {
+      "id": "ne_leg_18_2157_thirty_year_designation_analysis",
+      "title": "Neb. Rev. Stat. sec. 18-2157 Designation for More Than Thirty Years; Analysis of Redevelopment Projects",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2157",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date; source history Laws 2023, LB531, sec. 19.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "blighted_area", "substandard_area", "thirty_year_analysis", "2026"],
+      "notes": "Beginning January 1, 2026, requires analysis before approving new redevelopment plans or projects in certain areas designated more than thirty years."
+    },
+    {
+      "id": "ne_leg_18_2158_affordable_housing_tif_condition",
+      "title": "Neb. Rev. Stat. sec. 18-2158 Substandard and Blighted Area; Project Approval; Conditions",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2158",
+      "publication_date": "2025-09-03",
+      "publication_date_note": "Statute states operative date September 3, 2025.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "affordable_housing", "blighted_area", "lb288", "2025_change"],
+      "notes": "New condition for TIF projects in areas declared substandard and blighted because of lack of affordable housing."
+    },
+    {
+      "id": "ne_leg_18_2103_redevelopment_definitions",
+      "title": "Neb. Rev. Stat. sec. 18-2103 Community Development Law Definitions",
+      "source_type": "statute",
+      "issuing_authority": "Nebraska Legislature",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=18-2103",
+      "publication_date": null,
+      "publication_date_note": "Statute page does not state publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["community_redevelopment", "definitions", "authority", "redevelopment_plan", "blighted_area"],
+      "notes": "Definitions source for authority, redevelopment project, redevelopment plan, substandard area, blighted area, and related terms."
+    },
+    {
+      "id": "ne_dor_pad_property_assessment_forms_tif",
+      "title": "Property Assessment Forms - Tax Increment Financing (TIF)",
+      "source_type": "agency_forms_index",
+      "issuing_authority": "Nebraska Department of Revenue Property Assessment Division",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form_index",
+      "url": "https://revenue.nebraska.gov/about/forms/pad-forms",
+      "publication_date": null,
+      "publication_date_note": "Forms index does not state a page publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "pad_forms", "notice_to_divide", "micro_tif_completion", "county_assessor"],
+      "notes": "Official PAD forms index listing the Notice to Divide Tax and Certification of Completion for expedited redevelopment plans."
+    },
+    {
+      "id": "ne_dor_form_notice_to_divide_tif_2025",
+      "title": "Notice to Divide Tax for Community Redevelopment Project Tax Increment Financing (TIF) Project",
+      "source_type": "form",
+      "issuing_authority": "Nebraska Department of Revenue Property Assessment Division",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/pad/research/TIF_Reports/f_96-252r2025.pdf",
+      "publication_date": null,
+      "publication_date_note": "Form states Rev. 3-2025; no exact date stated.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "notice_to_divide", "form_96_252", "base_value", "excess_value", "july_1"],
+      "notes": "Form filed by city or CRA with county assessor on or before July 1 for the year division of tax becomes effective."
+    },
+    {
+      "id": "ne_dor_tif_annual_reports_page",
+      "title": "Tax Increment Financing Annual Reports to the Legislature",
+      "source_type": "agency_report_index",
+      "issuing_authority": "Nebraska Department of Revenue Property Assessment Division",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_report",
+      "url": "https://revenue.nebraska.gov/PAD/research-statistical-reports/tax-increment-financing-annual-reports-legislature",
+      "publication_date": null,
+      "publication_date_note": "Report index does not state a page publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "annual_report", "legislature", "ctl", "base_value", "excess_value"],
+      "notes": "Official index for annual Nebraska TIF reports and Excel files."
+    },
+    {
+      "id": "ne_dor_2025_legislative_changes_tif",
+      "title": "2025 Nebraska Legislative Changes - Community Development Law/Tax Increment Financing",
+      "source_type": "agency_legislative_summary",
+      "issuing_authority": "Nebraska Department of Revenue",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_guidance",
+      "url": "https://revenue.nebraska.gov/about/2025-nebraska-legislative-changes",
+      "publication_date": null,
+      "publication_date_note": "Page does not state a publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official",
+      "topics": ["tif", "2025_legislative_changes", "lb240", "lb288", "july_1_notice", "affordable_housing"],
+      "notes": "DOR summary noting LB240 July 1 notice change and LB288 affordable-housing redevelopment changes."
+    },
+    {
+      "id": "city_hastings_micro_tif_packet",
+      "title": "What is Micro-TIF? Hastings Micro-TIF Application Packet",
+      "source_type": "local_guidance_packet",
+      "issuing_authority": "City of Hastings",
+      "jurisdiction": "Hastings, Nebraska",
+      "legal_hierarchy": "local_guidance",
+      "url": "https://www.cityofhastings.org/assets/site/coh/documents/doccentral/Micro-TIF1746478869.pdf",
+      "publication_date": null,
+      "publication_date_note": "Packet does not state a publication date.",
+      "accessed_date": "2026-05-22",
+      "status": "official_local",
+      "topics": ["micro_tif", "local_process", "county_assessor", "application_packet", "reimbursement"],
+      "notes": "Local implementation packet describing Micro-TIF as a reimbursement program, county assessor coordination, 30-day review, two-year completion, and up to 15-year repayment."
+    },
+    {
+      "id": "city_lexington_micro_tif_flier_application",
+      "title": "Lexington Micro-TIF Flier and Application",
+      "source_type": "local_guidance_and_form",
+      "issuing_authority": "City of Lexington",
+      "jurisdiction": "Lexington, Nebraska",
+      "legal_hierarchy": "local_guidance",
+      "url": "https://info.cityoflex.com/econdev/lex_micro-tif_flier_2022.pdf",
+      "publication_date": null,
+      "publication_date_note": "Flier states updated August 2022; no exact date stated.",
+      "accessed_date": "2026-05-22",
+      "status": "official_local",
+      "topics": ["micro_tif", "local_process", "expedited_review", "application_fee", "one_project"],
+      "notes": "Local flier describes Micro-TIF as a lite version of TIF with simpler rules and shorter time frames."
+    }
+  ],
+  "objects": [
+    {
+      "id": "statute_ne_18_2147_division_of_taxes",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Division of Taxes for TIF",
+      "aliases": ["Neb. Rev. Stat. sec. 18-2147", "division of taxes", "TIF tax split", "redevelopment project valuation"],
+      "category": "tif_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Core Nebraska TIF statute authorizing a redevelopment plan to divide ad valorem taxes so the base-value portion continues to normal taxing bodies and the excess/increment portion is allocated to redevelopment indebtedness for the authorized period.",
+      "plain_language": "The property is still taxed. The question is where the tax on the new value goes: ordinary taxing bodies receive the base portion, while the increment can repay approved redevelopment costs.",
+      "semantic_tags": ["statute", "tif", "division_of_taxes", "base_value", "excess_value", "county_assessor"],
+      "facts": [
+        { "predicate": "base_value_distribution", "object": "Tax on redevelopment project valuation is paid to public bodies in the same proportion as other taxes." },
+        { "predicate": "increment_distribution", "object": "Tax on value above the redevelopment project valuation is allocated to a special authority fund for bonds, loans, notes, advances, or indebtedness financing or refinancing the redevelopment project." },
+        { "predicate": "standard_duration_limit", "object": "not more than 15 years after the effective date for most redevelopment plans" },
+        { "predicate": "extremely_blighted_duration_limit", "object": "not more than 20 years if more than 50 percent of the project area has been declared extremely blighted" },
+        { "predicate": "notice_deadline_current", "object": "authority notice to county assessor on Property Tax Administrator forms on or before July 1 of the effective year" },
+        { "predicate": "late_notice_effect", "object": "taxes remain undivided for affected years if notice is not timely satisfied" }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "concept_tax_increment_division_of_taxes", "note": "Statutory mechanism." },
+        { "type": "governs", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor base/excess workflow." },
+        { "type": "answered_by", "target_id": "public_guidance_micro_tif_question_6", "note": "Question 6 refers to this statute." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_12_tax_increment_financing", "note": "Constitutional TIF authority." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147(1), (4), (6)", "citation": "Neb. Rev. Stat. sec. 18-2147." },
+        { "source_id": "ne_dor_2025_legislative_changes_tif", "locator": "Community Development Law/Tax Increment Financing (TIF)", "citation": "Nebraska DOR, 2025 Nebraska Legislative Changes, Community Development Law/Tax Increment Financing." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Expedited Review Redevelopment Plan Statute",
+      "aliases": ["Neb. Rev. Stat. sec. 18-2155", "Micro-TIF statute", "expedited review of redevelopment plans"],
+      "category": "micro_tif_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Statute allowing a city, by resolution, to permit expedited review of eligible single-project redevelopment plans meeting location, age, population, value-limit, and procedural requirements.",
+      "plain_language": "This is the statutory basis for what people call Micro-TIF or TIF Lite.",
+      "semantic_tags": ["statute", "micro_tif", "expedited_review", "eligibility", "county_assessor", "completion"],
+      "facts": [
+        { "predicate": "city_election_required", "object": "A city may elect by resolution to allow expedited reviews." },
+        { "predicate": "plan_scope", "object": "Eligible redevelopment plan includes only one redevelopment project." },
+        { "predicate": "project_location", "object": "Project must be in a substandard and blighted area and located in a county with population under 100,000." },
+        { "predicate": "project_type", "object": ["repair, rehabilitation, or replacement of an existing structure in corporate limits for at least 60 years", "redevelopment of a vacant lot in a substandard and blighted area in corporate limits and platted for at least 60 years"] },
+        { "predicate": "completed_value_limits", "object": { "single_family_residential": 350000, "multifamily_or_commercial": 1500000, "national_register_structure": 10000000 } },
+        { "predicate": "form_required_question_6", "object": "The standard form must indicate whether the project will be financed in whole or in part through the division of taxes under sec. 18-2147." },
+        { "predicate": "review_window", "object": "governing body decides approve or deny within 30 days after submission" },
+        { "predicate": "completion_window", "object": "project must be completed within two years after plan approval" }
+      ],
+      "relationships": [
+        { "type": "authorizes", "target_id": "concept_micro_tif_expedited_review", "note": "Micro-TIF domain." },
+        { "type": "requires", "target_id": "form_expedited_review_micro_tif_application", "note": "DED standard form." },
+        { "type": "requires", "target_id": "form_certification_completion_expedited_plan", "note": "DOR standard certification after completion." },
+        { "type": "uses_if_financed_by_tif", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Division of taxes mechanism." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155", "citation": "Neb. Rev. Stat. sec. 18-2155." },
+        { "source_id": "ne_ded_micro_tif_page", "locator": "Micro-TIF program page", "citation": "Nebraska DED, Micro-TIF." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "statute_ne_18_2156_area_designation_review",
+      "object_type": "statute",
+      "canonical_term": "Nebraska Review of Blight and Substandard Designations",
+      "aliases": ["Neb. Rev. Stat. sec. 18-2156", "review of blighted area designation", "remove blight designation"],
+      "category": "tif_guardrail_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Authorizes a city governing body to review substandard, blighted, or extremely blighted area designations and remove a designation by resolution if the area no longer qualifies, without invalidating previously approved projects or related debt.",
+      "plain_language": "A city can revisit whether an old blight designation still fits, but that does not undo already-approved projects.",
+      "semantic_tags": ["statute", "blight_designation", "tif_guardrail", "area_review"],
+      "facts": [
+        { "predicate": "review_optional", "object": "governing body may review designated area at any time" },
+        { "predicate": "removal_authority", "object": "governing body may remove designation by resolution if the area is no longer eligible" },
+        { "predicate": "prior_project_protection", "object": "removal does not affect validity of approved plans, projects, bonds, contracts, or agreements approved before removal" }
+      ],
+      "relationships": [
+        { "type": "context_for", "target_id": "concept_micro_tif_expedited_review", "note": "Micro-TIF eligibility depends on qualifying substandard and blighted area context." },
+        { "type": "context_for", "target_id": "crosswalk_nebraska_tif_micro_tif", "note": "Current guardrail around redevelopment-area designations." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2156_area_review", "locator": "sec. 18-2156", "citation": "Neb. Rev. Stat. sec. 18-2156." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "statute_ne_18_2157_thirty_year_designation_analysis",
+      "object_type": "statute",
+      "canonical_term": "Thirty-Year Blight Designation Analysis Requirement",
+      "aliases": ["Neb. Rev. Stat. sec. 18-2157", "thirty-year area analysis", "old blight designation analysis"],
+      "category": "tif_guardrail_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "Beginning January 1, 2026, restricts approval of new redevelopment plans or projects in certain areas designated substandard, blighted, or extremely blighted for more than thirty years unless the city conducts an analysis of redevelopment activity and future goals.",
+      "plain_language": "For very old redevelopment-area designations, a fresh analysis may be needed before new TIF-related approvals.",
+      "semantic_tags": ["statute", "tif_guardrail", "thirty_year_designation", "2026", "blighted_area"],
+      "facts": [
+        { "predicate": "operative_trigger_date", "object": "2026-01-01" },
+        { "predicate": "trigger", "object": "area designated substandard and blighted or extremely blighted for more than 30 years" },
+        { "predicate": "analysis_minimum_content", "object": ["factors contributing to lack of redevelopment where significant redevelopment has not occurred", "goals for future redevelopment of the area"] },
+        { "predicate": "public_inspection", "object": "copy of analysis must be available for public inspection at a city-designated location" },
+        { "predicate": "exception", "object": "does not apply to downtown area of a city of the first class, city of the second class, or village" }
+      ],
+      "relationships": [
+        { "type": "context_for", "target_id": "workflow_micro_tif_expedited_review", "note": "Potential precondition when project is inside an old designation area." },
+        { "type": "context_for", "target_id": "crosswalk_nebraska_tif_micro_tif", "note": "Current-era TIF guardrail." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2157_thirty_year_designation_analysis", "locator": "sec. 18-2157", "citation": "Neb. Rev. Stat. sec. 18-2157." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "statute_ne_18_2158_affordable_housing_tif_condition",
+      "object_type": "statute",
+      "canonical_term": "Affordable Housing Basis TIF Approval Condition",
+      "aliases": ["Neb. Rev. Stat. sec. 18-2158", "LB288 affordable housing TIF condition"],
+      "category": "tif_guardrail_statute",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statute",
+      "summary": "For redevelopment projects using division of taxes in an area declared substandard and blighted because less than twenty percent of housing is affordable housing, approval requires residential housing construction and a finding that at least thirty percent of residential housing in the area will be affordable upon completion.",
+      "plain_language": "If the blight/substandard basis is lack of affordable housing, the TIF project must itself move the area toward affordable housing.",
+      "semantic_tags": ["statute", "tif", "affordable_housing", "lb288", "2025_change"],
+      "facts": [
+        { "predicate": "operative_date", "object": "2025-09-03" },
+        { "predicate": "approval_conditions", "object": ["project includes construction of residential housing", "governing body finds at least 30 percent of residential housing in the area will be affordable housing when project is complete"] }
+      ],
+      "relationships": [
+        { "type": "modifies_context_for", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Applies to projects using division of taxes under sec. 18-2147 when affordable-housing blight basis is used." },
+        { "type": "context_for", "target_id": "crosswalk_nebraska_tif_micro_tif", "note": "Newer TIF condition to track." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2158_affordable_housing_tif_condition", "locator": "sec. 18-2158", "citation": "Neb. Rev. Stat. sec. 18-2158." },
+        { "source_id": "ne_dor_2025_legislative_changes_tif", "locator": "LB288 summary", "citation": "Nebraska DOR, 2025 Nebraska Legislative Changes, LB288 Community Development Law/Tax Increment Financing." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "concept_tax_increment_division_of_taxes",
+      "object_type": "concept",
+      "canonical_term": "Division of Taxes",
+      "aliases": ["TIF increment split", "tax division", "ad valorem tax division", "base and excess split"],
+      "category": "tif_tax_mechanic",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Nebraska TIF mechanism splitting the tax generated by base/redevelopment project valuation from the tax generated by excess valuation above the base, with the excess used for authorized redevelopment indebtedness.",
+      "plain_language": "It is not a tax exemption. It is an allocation rule for property tax generated by a redevelopment project.",
+      "semantic_tags": ["tif", "division_of_taxes", "base_value", "excess_value", "tax_allocation", "public_guidance"],
+      "facts": [
+        { "predicate": "not_tax_exemption", "object": true },
+        { "predicate": "formula_plain", "object": "excess value equals current year assessed value minus redevelopment project base value" },
+        { "predicate": "tax_rate_application", "object": "consolidated tax rate applies to both base value and excess value" },
+        { "predicate": "base_tax_destination", "object": "ordinary taxing subdivisions" },
+        { "predicate": "excess_tax_destination", "object": "special fund for approved redevelopment indebtedness" }
+      ],
+      "relationships": [
+        { "type": "implemented_by", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Core statute." },
+        { "type": "calculated_in", "target_id": "concept_tif_base_and_excess_value", "note": "Base/excess valuation concept." },
+        { "type": "explained_by", "target_id": "public_guidance_micro_tif_question_6", "note": "Form question explanation." },
+        { "type": "distinguishes", "target_id": "concept_value_vs_tax", "note": "Valuation is separate from tax allocation." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147(1)(a)-(b)", "citation": "Neb. Rev. Stat. sec. 18-2147(1)(a)-(b)." },
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "Instructions, Division of Tax", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 18, REG-18-003.03C", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18, REG-18-003.03C." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "concept_tif_base_and_excess_value",
+      "object_type": "concept",
+      "canonical_term": "TIF Base Value and Excess Value",
+      "aliases": ["redevelopment project valuation", "base valuation", "redevelopment project excess valuation", "increment value"],
+      "category": "tif_valuation_concept",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "concept",
+      "summary": "Paired valuation concepts used to calculate TIF allocation: the redevelopment project valuation or base value and the excess value above that base in the current year.",
+      "plain_language": "TIF turns one parcel value into two accounting buckets: the old/base value and the new/increment value.",
+      "semantic_tags": ["tif", "base_value", "excess_value", "assessment", "county_assessor", "ctl"],
+      "facts": [
+        { "predicate": "base_value_general_rule", "object": "assessed valuation last certified to political subdivisions in the year prior to effective date to divide tax" },
+        { "predicate": "base_value_expedited_review_rule", "object": "for expedited review projects, Form 96-252 instructions state the base value is the assessed value last certified in the year in which the redevelopment plan is approved" },
+        { "predicate": "excess_value_formula", "object": "current year total assessed value less redevelopment project base valuation" },
+        { "predicate": "if_current_value_below_base", "object": "no excess value or TIF proceeds are available until current value again exceeds base value" }
+      ],
+      "relationships": [
+        { "type": "used_by", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor annual TIF reporting." },
+        { "type": "computed_under", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Statutory tax division." },
+        { "type": "form_field_on", "target_id": "form_notice_to_divide_tif_project", "note": "Notice to Divide requires assessor base value and codes." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "Instructions, Definitions and County Assessor's Duties", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 18, REG-18-002.15-.16 and REG-18-004", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "concept_micro_tif_expedited_review",
+      "object_type": "concept",
+      "canonical_term": "Micro-TIF",
+      "abbreviation": "Micro-TIF",
+      "aliases": ["TIF Lite", "expedited review redevelopment plan", "expedited community redevelopment plan tax increment financing project"],
+      "category": "micro_tif_program_concept",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_program",
+      "summary": "Common shorthand for Nebraska expedited review of eligible one-project redevelopment plans under sec. 18-2155, with possible financing through the sec. 18-2147 division-of-taxes mechanism.",
+      "plain_language": "Micro-TIF is a smaller, faster TIF path, but it is still tied to redevelopment law, city/CRA approval, assessor valuation work, and TIF tax allocation if Question 6 is yes.",
+      "semantic_tags": ["micro_tif", "tif_lite", "expedited_review", "redevelopment_plan", "county_assessor", "public_guidance"],
+      "facts": [
+        { "predicate": "program_character", "object": "expedited review pathway, not a separate tax exemption" },
+        { "predicate": "common_local_label", "object": "Micro-TIF" },
+        { "predicate": "statutory_name", "object": "expedited review of redevelopment plans under Neb. Rev. Stat. sec. 18-2155" },
+        { "predicate": "finance_switch", "object": "Question 6 determines whether the project will use division of taxes under sec. 18-2147 in whole or in part." },
+        { "predicate": "local_variation", "object": "Cities/CRAs may add local supplemental forms, maps, deadlines, pre-application steps, and staff review details." }
+      ],
+      "relationships": [
+        { "type": "authorized_by", "target_id": "statute_ne_18_2155_expedited_review_micro_tif", "note": "Primary statute." },
+        { "type": "variant_of", "target_id": "concept_tax_increment_financing", "note": "Small expedited review path within Nebraska TIF domain." },
+        { "type": "may_use", "target_id": "concept_tax_increment_division_of_taxes", "note": "Only if financed through sec. 18-2147." },
+        { "type": "implemented_by", "target_id": "workflow_micro_tif_expedited_review", "note": "Workflow object." },
+        { "type": "asks", "target_id": "public_guidance_micro_tif_question_6", "note": "Important form question." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_ded_micro_tif_page", "locator": "Micro-TIF page", "citation": "Nebraska DED, Micro-TIF." },
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155", "citation": "Neb. Rev. Stat. sec. 18-2155." },
+        { "source_id": "city_hastings_micro_tif_packet", "locator": "What is Micro-TIF?", "citation": "City of Hastings, What is Micro-TIF? packet." },
+        { "source_id": "city_lexington_micro_tif_flier_application", "locator": "Lexington Micro-TIF flier", "citation": "City of Lexington, Micro-TIF flier." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "form_expedited_review_micro_tif_application",
+      "object_type": "form",
+      "canonical_term": "Application for Expedited Review of Community Redevelopment Plan TIF Project",
+      "aliases": ["Micro-TIF application", "Redevelopment Plan Application June 2023", "Application for Expedited Review"],
+      "category": "micro_tif_application_form",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form",
+      "summary": "Nebraska DED standard form for a redeveloper to apply to a city or CRA for expedited review of an eligible redevelopment plan under sec. 18-2155.",
+      "plain_language": "This is the front-end application form for Micro-TIF/TIF Lite.",
+      "semantic_tags": ["form", "micro_tif", "question_6", "expedited_review", "ded", "18_2155"],
+      "facts": [
+        { "predicate": "required_by_statute", "object": "Neb. Rev. Stat. sec. 18-2155(4)(a)" },
+        { "predicate": "question_6_text", "object": "Will the redevelopment project be financed in whole or in part through the division of taxes as provided in section 18-2147?" },
+        { "predicate": "question_6_answer_yes", "object": "Any project financing that uses the TIF increment/tax division mechanism in whole or in part should be treated as a yes." },
+        { "predicate": "question_6_answer_no", "object": "No indicates the project is not using sec. 18-2147 division of taxes as a financing source." },
+        { "predicate": "submission_route", "object": "redeveloper provides original to city or community redevelopment authority" },
+        { "predicate": "application_fee_limit", "object": "city fee may not exceed 50 dollars under sec. 18-2155" }
+      ],
+      "relationships": [
+        { "type": "required_by", "target_id": "statute_ne_18_2155_expedited_review_micro_tif", "note": "Statutory standard form." },
+        { "type": "interpreted_by", "target_id": "public_guidance_micro_tif_question_6", "note": "Question 6 explanation." },
+        { "type": "starts", "target_id": "workflow_micro_tif_expedited_review", "note": "Application starts the review workflow." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_ded_expedited_review_application_june2023", "locator": "page 1 question 6; page 2 instructions", "citation": "Nebraska DED, Application for Expedited Review of Community Redevelopment Plan TIF Project, reissued June 2023." },
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155(4)(a)", "citation": "Neb. Rev. Stat. sec. 18-2155(4)(a)." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "form_notice_to_divide_tif_project",
+      "object_type": "form",
+      "canonical_term": "Notice to Divide Tax for Community Redevelopment Project TIF Project",
+      "aliases": ["Notice to Divide Tax", "Form 96-252", "TIF notice to county assessor"],
+      "category": "tif_administration_form",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form",
+      "summary": "Property Tax Administrator-prescribed form filed by a city or CRA with the county assessor to request division of real property taxes for a new community redevelopment/TIF project.",
+      "plain_language": "This is the form that tells the assessor to set up the TIF split for a project.",
+      "semantic_tags": ["form", "tif", "notice_to_divide", "july_1", "base_value", "county_assessor"],
+      "facts": [
+        { "predicate": "filing_party", "object": "city or community redevelopment authority" },
+        { "predicate": "file_with", "object": "county assessor" },
+        { "predicate": "deadline", "object": "on or before July 1 of the calendar year the division of real property tax becomes effective" },
+        { "predicate": "assessor_fields", "object": ["real property base value", "parcel ID numbers if not stated above", "TIF excess authority/fund code", "TIF base tax district code", "CTL report TIF sequence number", "school district code"] },
+        { "predicate": "assessor_distribution", "object": "assessor retains original and provides copies to city/CRA, county treasurer, and Nebraska DOR PAD" },
+        { "predicate": "redevelopment_plan_types", "object": ["standard", "expedited", "extremely blighted"] }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Prescribed notice under sec. 18-2147." },
+        { "type": "used_in", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor setup workflow." },
+        { "type": "documents", "target_id": "concept_tif_base_and_excess_value", "note": "Assessor base value fields." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "form and instructions", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." },
+        { "source_id": "ne_dor_pad_property_assessment_forms_tif", "locator": "TIF forms section", "citation": "Nebraska DOR PAD, Property Assessment Forms, Tax Increment Financing." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "form_certification_completion_expedited_plan",
+      "object_type": "form",
+      "canonical_term": "Certification of Completion of Expedited Community Redevelopment Plan TIF Project",
+      "aliases": ["Micro-TIF completion certification", "expedited redevelopment plan completion form"],
+      "category": "micro_tif_completion_form",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_form",
+      "summary": "DOR PAD standard certification form used after completion of an expedited review redevelopment project to certify completion, valuation increase, amount of increase, and that the increase was due to improvements.",
+      "plain_language": "This is the back-end assessor certification before the CRA can begin using the increment for the Micro-TIF note.",
+      "semantic_tags": ["form", "micro_tif", "completion", "county_assessor", "valuation_increase", "18_2155"],
+      "facts": [
+        { "predicate": "listed_by_dor_pad", "object": "Certification of Completion of Expedited Community Redevelopment Plan Tax Increment Financing (TIF) Project (10/2020)" },
+        { "predicate": "statutory_certification_items", "object": ["improvements made and completed", "valuation increase occurred", "amount of valuation increase", "valuation increase was due to improvements made"] },
+        { "predicate": "trigger", "object": "after redeveloper notifies county assessor of completion and assessor determines completion and assessed value" },
+        { "predicate": "effect", "object": "authority may begin using the sec. 18-2147 increment portion to pay sec. 18-2155 indebtedness after certification" }
+      ],
+      "relationships": [
+        { "type": "required_by", "target_id": "statute_ne_18_2155_expedited_review_micro_tif", "note": "Certification required by sec. 18-2155(7)." },
+        { "type": "used_in", "target_id": "workflow_micro_tif_expedited_review", "note": "Completion workflow." },
+        { "type": "supports", "target_id": "concept_tif_base_and_excess_value", "note": "Valuation increase certification." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155(6)-(8)", "citation": "Neb. Rev. Stat. sec. 18-2155(6)-(8)." },
+        { "source_id": "ne_dor_pad_property_assessment_forms_tif", "locator": "TIF forms section", "citation": "Nebraska DOR PAD, Property Assessment Forms, Tax Increment Financing." },
+        { "source_id": "ne_ded_expedited_review_application_june2023", "locator": "instructions page", "citation": "Nebraska DED, Application for Expedited Review instructions, reissued June 2023." }
+      ],
+      "confidence": "high",
+      "review_status": "form_indexed_pdf_fetch_pending",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "workflow_micro_tif_expedited_review",
+      "object_type": "workflow",
+      "canonical_term": "Micro-TIF Expedited Review Workflow",
+      "aliases": ["expedited redevelopment plan workflow", "Micro-TIF process", "TIF Lite workflow"],
+      "category": "micro_tif_workflow",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "statutory_workflow",
+      "summary": "End-to-end Micro-TIF workflow from city election and redeveloper standard form through 30-day city/CRA decision, project completion within two years, assessor completion/value determination, certification, and use of the tax increment to repay indebtedness.",
+      "plain_language": "Micro-TIF is fast at the approval stage, but the money side is usually a reimbursement-style, post-completion increment process.",
+      "semantic_tags": ["workflow", "micro_tif", "expedited_review", "30_day_review", "two_year_completion", "county_assessor"],
+      "steps": [
+        { "sequence": 1, "actor": "city", "action": "elect by resolution to allow expedited reviews", "source_basis": "sec. 18-2155(1)" },
+        { "sequence": 2, "actor": "redeveloper", "action": "prepare standard DED form with eligibility, value, increment, Question 6, and agreed costs", "source_basis": "sec. 18-2155(4)(a)" },
+        { "sequence": 3, "actor": "redeveloper", "action": "submit plan directly to governing body with local application fee not exceeding 50 dollars", "source_basis": "sec. 18-2155(4)(b)" },
+        { "sequence": 4, "actor": "governing body", "action": "approve or deny within 30 days after submission", "source_basis": "sec. 18-2155(4)(c)" },
+        { "sequence": 5, "actor": "authority", "action": "if financed through division of taxes, incur project indebtedness within statutory limit", "source_basis": "sec. 18-2155(6)(a)" },
+        { "sequence": 6, "actor": "redeveloper", "action": "complete agreed work within two years and notify county assessor", "source_basis": "sec. 18-2155(6)(b)-(c)" },
+        { "sequence": 7, "actor": "county_assessor", "action": "determine completion and assessed value; certify completion, valuation increase, amount, and cause", "source_basis": "sec. 18-2155(6)-(7)" },
+        { "sequence": 8, "actor": "authority", "action": "after assessor certification, begin using sec. 18-2147 tax portion to pay indebtedness", "source_basis": "sec. 18-2155(8)" }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "statute_ne_18_2155_expedited_review_micro_tif", "note": "Primary workflow statute." },
+        { "type": "starts_with", "target_id": "form_expedited_review_micro_tif_application", "note": "DED standard application." },
+        { "type": "depends_on_if_question_6_yes", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Tax division financing mechanism." },
+        { "type": "uses", "target_id": "form_certification_completion_expedited_plan", "note": "Completion certification." },
+        { "type": "feeds", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor base/excess and tax division administration." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155", "citation": "Neb. Rev. Stat. sec. 18-2155." },
+        { "source_id": "ne_ded_expedited_review_application_june2023", "locator": "form instructions", "citation": "Nebraska DED, Application for Expedited Review instructions, reissued June 2023." },
+        { "source_id": "city_hastings_micro_tif_packet", "locator": "Micro-TIF Application Procedure", "citation": "City of Hastings, What is Micro-TIF? packet." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "workflow_tif_assessor_base_excess_administration",
+      "object_type": "workflow",
+      "canonical_term": "TIF Assessor Base and Excess Administration",
+      "aliases": ["assessor TIF workflow", "base value and excess value workflow", "TIF CTL reporting workflow"],
+      "category": "assessor_tif_workflow",
+      "jurisdiction": "Nebraska county",
+      "legal_hierarchy": "statutory_and_regulatory_workflow",
+      "summary": "County assessor workflow for receiving TIF notices, determining or verifying redevelopment project valuation, maintaining base/excess values, certifying valuation data for levy/reporting purposes, and coordinating with county treasurer, city/CRA, and DOR PAD.",
+      "plain_language": "Once a project uses TIF, the assessor has a valuation and reporting lane separate from the ordinary taxpayer-facing value conversation.",
+      "semantic_tags": ["workflow", "county_assessor", "tif", "base_value", "excess_value", "ctl", "notice_to_divide"],
+      "steps": [
+        { "sequence": 1, "actor": "city_or_cra", "action": "file Notice to Divide Tax with county assessor by July 1 of effective calendar year", "source_basis": "sec. 18-2147(6); Form 96-252 Rev. 3-2025" },
+        { "sequence": 2, "actor": "county_assessor", "action": "verify or determine redevelopment project valuation/base value and complete assessor section of notice", "source_basis": "Form 96-252 instructions" },
+        { "sequence": 3, "actor": "county_assessor", "action": "retain original and distribute copies to city/CRA, county treasurer, and DOR PAD", "source_basis": "Form 96-252" },
+        { "sequence": 4, "actor": "county_assessor", "action": "annually certify base and excess values to authority and county treasurer; include base-only value for levy setting and required abstract/school/CTL reporting", "source_basis": "Title 350 Chapter 18 REG-18-004" },
+        { "sequence": 5, "actor": "county_treasurer", "action": "distribute base taxes to political subdivisions and excess taxes to special fund under statutory/form directions", "source_basis": "sec. 18-2147; Title 350 Chapter 18 REG-18-003.03C" },
+        { "sequence": 6, "actor": "city_or_cra", "action": "notify assessor, treasurer, and Property Tax Administrator when indebtedness is paid so taxes return to ordinary distribution", "source_basis": "Form 96-252 instructions" }
+      ],
+      "relationships": [
+        { "type": "implements", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Statutory TIF tax division." },
+        { "type": "uses_form", "target_id": "form_notice_to_divide_tif_project", "note": "Notice to Divide setup." },
+        { "type": "uses_concept", "target_id": "concept_tif_base_and_excess_value", "note": "Base/excess calculation." },
+        { "type": "regulated_by", "target_id": "standard_ne_title350_ch18_community_redevelopment", "note": "Title 350 Chapter 18 assessor reporting." },
+        { "type": "feeds", "target_id": "workflow_levy_setting_tax_statement_cycle", "note": "TIF base/excess affects levy certification and tax distribution." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147", "citation": "Neb. Rev. Stat. sec. 18-2147." },
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "form and instructions", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." },
+        { "source_id": "ne_dor_title350_fullset_pdf", "locator": "Title 350 Chapter 18, REG-18-003 and REG-18-004", "citation": "Nebraska DOR PAD, Title 350 Nebraska Administrative Code, ch. 18." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "public_guidance_micro_tif_question_6",
+      "object_type": "public_guidance",
+      "canonical_term": "Micro-TIF Application Question 6 Explanation",
+      "aliases": ["Question 6 division of taxes", "will project be financed through sec. 18-2147", "Micro-TIF yes no question"],
+      "category": "micro_tif_public_guidance",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Plain-language interpretation of Question 6 on Nebraska's expedited review application asking whether the redevelopment project will be financed in whole or in part through the sec. 18-2147 division-of-taxes mechanism.",
+      "plain_language": "If any part of the project financing depends on the TIF increment split, answer yes. If it will not use that tax split at all, answer no.",
+      "semantic_tags": ["micro_tif", "question_6", "public_guidance", "division_of_taxes", "18_2147", "taxpayer_questions"],
+      "facts": [
+        { "predicate": "form_question", "object": "Will the redevelopment project be financed in whole or in part through the division of taxes as provided in section 18-2147?" },
+        { "predicate": "plain_meaning_yes", "object": "The project will use TIF financing: all or some approved costs will be repaid from taxes generated by the increase in value above the base." },
+        { "predicate": "plain_meaning_no", "object": "The project may be reviewed as an expedited redevelopment plan, but the applicant is saying the project will not use sec. 18-2147 tax division as a financing source." },
+        { "predicate": "whole_or_part_rule", "object": "If any portion of financing uses the division-of-taxes mechanism, the question points to yes." },
+        { "predicate": "not_the_same_as", "object": ["ordinary loan financing alone", "a property tax exemption", "whether property taxes will be owed", "whether the owner personally pays taxes"] },
+        { "predicate": "assessor_relevance", "object": ["current assessed value on application", "completion and post-project assessed value", "certification of completion and value increase", "base/excess value setup if TIF division proceeds"] },
+        { "predicate": "practical_flag", "object": "If a local Micro-TIF packet describes reimbursement from future increment, the project is almost certainly using the sec. 18-2147 division of taxes and Question 6 should be treated accordingly by the applicant and city/CRA counsel." }
+      ],
+      "relationships": [
+        { "type": "explains", "target_id": "form_expedited_review_micro_tif_application", "note": "Question 6 form field." },
+        { "type": "interprets", "target_id": "statute_ne_18_2147_division_of_taxes", "note": "Section 18-2147 reference." },
+        { "type": "routes_to", "target_id": "concept_tax_increment_division_of_taxes", "note": "Semantic target for division-of-taxes meaning." },
+        { "type": "routes_to", "target_id": "workflow_micro_tif_expedited_review", "note": "Workflow implications if yes." },
+        { "type": "distinguishes", "target_id": "public_guidance_assessment_vs_taxes", "note": "Not a general tax-bill protest or exemption issue." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_ded_expedited_review_application_june2023", "locator": "page 1, Question 6; instructions page", "citation": "Nebraska DED, Application for Expedited Review of Community Redevelopment Plan TIF Project, Question 6, reissued June 2023." },
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155(4)(a)(vi) and (6)-(8)", "citation": "Neb. Rev. Stat. sec. 18-2155(4)(a)(vi), (6)-(8)." },
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147(1)", "citation": "Neb. Rev. Stat. sec. 18-2147(1)." },
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "Instructions, Division of Tax", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_from_current_official_sources_not_legal_advice",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "pad_tif_annual_reports_to_legislature",
+      "object_type": "pad",
+      "canonical_term": "Nebraska TIF Annual Reports to the Legislature",
+      "aliases": ["TIF reports", "community redevelopment report", "TIF Excel files"],
+      "category": "pad_tif_reporting",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "agency_report",
+      "summary": "DOR PAD annual report index for Nebraska tax increment financing projects, including PDF and Excel reports by tax year and related forms/regulation links.",
+      "plain_language": "This is the official statewide project-level data trail for Nebraska TIF activity.",
+      "semantic_tags": ["pad", "tif_report", "annual_report", "legislature", "data_ingestion", "ctl"],
+      "facts": [
+        { "predicate": "report_years_pdf", "object": "1997 through present listed on report index" },
+        { "predicate": "report_years_excel", "object": "2008 through present listed on report index" },
+        { "predicate": "related_information", "object": ["Community Redevelopment Laws", "Title 350 Chapter 18 regulation", "Notice to Divide Tax form", "Nebraska Library Commission copies"] },
+        { "predicate": "next_ingestion_value", "object": "project-level TIF base value, excess value, taxes levied, city, county, project remarks, and sequence history can be normalized into county statistical history and levy/tax allocation objects" }
+      ],
+      "relationships": [
+        { "type": "reports_on", "target_id": "concept_tax_increment_financing", "note": "Statewide TIF reporting source." },
+        { "type": "data_source_for", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor/CTL-reported values feed reports." },
+        { "type": "supports", "target_id": "crosswalk_nebraska_tif_micro_tif", "note": "Future project-level crosswalk." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_dor_tif_annual_reports_page", "locator": "report index", "citation": "Nebraska DOR PAD, Tax Increment Financing Annual Reports to the Legislature." }
+      ],
+      "confidence": "high",
+      "review_status": "index_seeded_extract_project_data_next",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "public_guidance_tif_common_questions",
+      "object_type": "public_guidance",
+      "canonical_term": "Nebraska TIF Common Questions",
+      "aliases": ["TIF FAQ", "taxpayer TIF questions", "board TIF questions"],
+      "category": "tif_question_bank",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "public_guidance",
+      "summary": "Compressed question bank for taxpayer, assessor, county board, and city/CRA questions about Nebraska TIF, with routing to canonical statutes, concepts, forms, and workflows.",
+      "plain_language": "These are the recurring TIF questions that need fast routing before they turn into tax confusion.",
+      "semantic_tags": ["tif", "faq", "taxpayer_questions", "board_questions", "micro_tif", "semantic_routing"],
+      "facts": [
+        { "predicate": "question", "object": { "q": "Does TIF mean the property owner does not pay property tax?", "answer_frame": "No. The property remains taxed; the increment is allocated differently under sec. 18-2147.", "route_to": ["concept_tax_increment_division_of_taxes", "public_guidance_assessment_vs_taxes"] } },
+        { "predicate": "question", "object": { "q": "What does Question 6 on the Micro-TIF application mean?", "answer_frame": "It asks whether any part of project financing will use the sec. 18-2147 tax division mechanism.", "route_to": ["public_guidance_micro_tif_question_6"] } },
+        { "predicate": "question", "object": { "q": "What does the assessor do on a TIF project?", "answer_frame": "The assessor handles valuation/base/excess and required certifications/reports, not city redevelopment policy approval.", "route_to": ["workflow_tif_assessor_base_excess_administration"] } },
+        { "predicate": "question", "object": { "q": "What happens if the notice to divide is late?", "answer_frame": "Current sec. 18-2147 and Form 96-252 direct that affected taxes remain undivided and are allocated to political subdivisions for that year.", "route_to": ["form_notice_to_divide_tif_project", "statute_ne_18_2147_division_of_taxes"] } },
+        { "predicate": "question", "object": { "q": "Is Micro-TIF available everywhere?", "answer_frame": "No. It depends on city election, eligible project type, qualifying area, county population, age/platted requirements, and completed value limits.", "route_to": ["statute_ne_18_2155_expedited_review_micro_tif", "concept_micro_tif_expedited_review"] } },
+        { "predicate": "question", "object": { "q": "When does a Micro-TIF applicant get money?", "answer_frame": "Local guidance often frames Micro-TIF as reimbursement after completion and after new tax value is paid; exact timing depends on local note and tax collection.", "route_to": ["workflow_micro_tif_expedited_review"] } }
+      ],
+      "relationships": [
+        { "type": "extends", "target_id": "public_guidance_taxpayer_question_bank_core", "note": "Adds TIF-specific taxpayer questions." },
+        { "type": "extends", "target_id": "public_guidance_board_member_qna_core", "note": "Adds TIF-specific board routing." },
+        { "type": "routes_to", "target_id": "public_guidance_micro_tif_question_6", "note": "Micro-TIF question 6." },
+        { "type": "routes_to", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor TIF lane." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147", "citation": "Neb. Rev. Stat. sec. 18-2147." },
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155", "citation": "Neb. Rev. Stat. sec. 18-2155." },
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "instructions", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." },
+        { "source_id": "city_hastings_micro_tif_packet", "locator": "Micro-TIF process notes", "citation": "City of Hastings, What is Micro-TIF? packet." }
+      ],
+      "confidence": "medium",
+      "review_status": "seeded_from_official_sources_expand_with_local_faqs_next",
+      "updated_at": "2026-05-22"
+    },
+    {
+      "id": "crosswalk_nebraska_tif_micro_tif",
+      "object_type": "crosswalk",
+      "canonical_term": "Nebraska TIF and Micro-TIF Crosswalk",
+      "aliases": ["TIF to Micro-TIF crosswalk", "Nebraska redevelopment finance crosswalk", "TIF Lite crosswalk"],
+      "category": "tif_crosswalk",
+      "jurisdiction": "Nebraska",
+      "legal_hierarchy": "crosswalk",
+      "summary": "Relationship map connecting constitutional authority, statutory tax division, Title 350 Chapter 18 assessor rules, Micro-TIF expedited review, forms, current 2025-2026 changes, PAD reports, and public question routing.",
+      "plain_language": "This is the retrieval map for TIF questions so LexValorum can traverse from a phrase like 'Micro-TIF Question 6' to the statute, form, assessor workflow, and taxpayer explanation.",
+      "semantic_tags": ["crosswalk", "tif", "micro_tif", "division_of_taxes", "forms", "assessor_workflow", "public_guidance"],
+      "facts": [
+        { "predicate": "canonical_route_question_6", "object": ["form_expedited_review_micro_tif_application", "public_guidance_micro_tif_question_6", "statute_ne_18_2147_division_of_taxes", "workflow_micro_tif_expedited_review"] },
+        { "predicate": "canonical_route_assessor_task", "object": ["form_notice_to_divide_tif_project", "concept_tif_base_and_excess_value", "workflow_tif_assessor_base_excess_administration", "pad_tif_annual_reports_to_legislature"] },
+        { "predicate": "current_change_watchlist", "object": ["LB240 July 1 notice deadline", "LB288 affordable-housing TIF condition", "2026 thirty-year designation analysis requirement"] },
+        { "predicate": "local_implementation_sources_seeded", "object": ["Hastings packet", "Lexington flier/application"] }
+      ],
+      "relationships": [
+        { "type": "anchors", "target_id": "concept_tax_increment_financing", "note": "Existing canonical TIF concept." },
+        { "type": "anchors", "target_id": "concept_micro_tif_expedited_review", "note": "Micro-TIF concept." },
+        { "type": "anchors", "target_id": "concept_tax_increment_division_of_taxes", "note": "Division of taxes concept." },
+        { "type": "anchors", "target_id": "workflow_tif_assessor_base_excess_administration", "note": "Assessor workflow." },
+        { "type": "anchors", "target_id": "public_guidance_tif_common_questions", "note": "Public Q&A routes." },
+        { "type": "grounded_in", "target_id": "const_ne_article_viii_12_tax_increment_financing", "note": "Constitutional authority." },
+        { "type": "regulated_by", "target_id": "standard_ne_title350_ch18_community_redevelopment", "note": "PAD regulation chapter." }
+      ],
+      "source_refs": [
+        { "source_id": "ne_const_article_viii_12", "locator": "Article VIII-12", "citation": "Neb. Const. art. VIII, sec. 12." },
+        { "source_id": "ne_leg_18_2103_redevelopment_definitions", "locator": "sec. 18-2103", "citation": "Neb. Rev. Stat. sec. 18-2103." },
+        { "source_id": "ne_leg_18_2147_division_of_taxes", "locator": "sec. 18-2147", "citation": "Neb. Rev. Stat. sec. 18-2147." },
+        { "source_id": "ne_leg_18_2155_expedited_review", "locator": "sec. 18-2155", "citation": "Neb. Rev. Stat. sec. 18-2155." },
+        { "source_id": "ne_dor_form_notice_to_divide_tif_2025", "locator": "Form 96-252 Rev. 3-2025", "citation": "Nebraska DOR PAD, Notice to Divide Tax for Community Redevelopment Project TIF Project, Rev. 3-2025." }
+      ],
+      "confidence": "high",
+      "review_status": "seeded_relationship_map",
+      "updated_at": "2026-05-22"
+    }
+  ],
+  "gap_analysis_additions": [
+    {
+      "gap_id": "gap_tif_project_level_data_extraction",
+      "area": "tax_increment_financing",
+      "status": "partially_seeded",
+      "description": "Official TIF annual report index is catalogued, but project-level PDF/Excel data for each tax year has not yet been extracted into county/project objects.",
+      "priority": "high",
+      "recommended_action": "Ingest 2008-present Excel files from DOR PAD TIF reports, normalize project IDs, county/city, base value, excess value, taxes levied, project remarks, and expiration years."
+    },
+    {
+      "gap_id": "gap_micro_tif_local_policy_variance",
+      "area": "micro_tif_local_implementation",
+      "status": "weakly_sourced",
+      "description": "State form and statutes are seeded, with Hastings and Lexington examples. More local packets, ordinances, fee resolutions, maps, and approved examples should be collected to model city/CRA variation.",
+      "priority": "medium",
+      "recommended_action": "Collect Grand Island, Columbus, Hastings, Lexington, North Platte, and other city Micro-TIF ordinances, packets, approval resolutions, and sample agendas."
+    },
+    {
+      "gap_id": "gap_tif_bond_note_repayment_docs",
+      "area": "tif_financing_documents",
+      "status": "pending",
+      "description": "Knowledgebase explains statutory division and assessor workflow, but does not yet model local promissory notes, redevelopment agreements, bond resolutions, eligible-cost schedules, or reimbursement timing.",
+      "priority": "medium",
+      "recommended_action": "Create private/local extension slots for TIF note tracking and public-source templates where available."
+    },
+    {
+      "gap_id": "gap_tif_case_law",
+      "area": "case_law",
+      "status": "missing",
+      "description": "Nebraska TIF and community redevelopment case law has not yet been separately extracted into case objects.",
+      "priority": "medium",
+      "recommended_action": "Search Nebraska appellate decisions for Community Development Law, blight findings, TIF, redevelopment plan challenges, and assessor valuation disputes under sec. 18-2147."
+    }
+  ],
+  "future_ingestion_targets_additions": [
+    "Nebraska DOR PAD TIF annual report Excel files, 2008-present",
+    "Nebraska DOR PAD current Certification of Completion of Expedited Community Redevelopment Plan TIF Project PDF",
+    "Local Micro-TIF ordinances/resolutions and packets from Grand Island, Columbus, Hastings, Lexington, North Platte, and comparable cities",
+    "Nebraska Community Development Law case law and Attorney General opinions related to TIF, blight, and redevelopment plans",
+    "Approved Micro-TIF sample projects and council/CRA agenda packets with assessor/value references"
+  ],
+  "tif_microtif_coverage": {
+    "phase": "nebraska_tif_micro_tif_seed",
+    "object_ids": [
+      "statute_ne_18_2147_division_of_taxes",
+      "statute_ne_18_2155_expedited_review_micro_tif",
+      "statute_ne_18_2156_area_designation_review",
+      "statute_ne_18_2157_thirty_year_designation_analysis",
+      "statute_ne_18_2158_affordable_housing_tif_condition",
+      "concept_tax_increment_division_of_taxes",
+      "concept_tif_base_and_excess_value",
+      "concept_micro_tif_expedited_review",
+      "form_expedited_review_micro_tif_application",
+      "form_notice_to_divide_tif_project",
+      "form_certification_completion_expedited_plan",
+      "workflow_micro_tif_expedited_review",
+      "workflow_tif_assessor_base_excess_administration",
+      "public_guidance_micro_tif_question_6",
+      "pad_tif_annual_reports_to_legislature",
+      "public_guidance_tif_common_questions",
+      "crosswalk_nebraska_tif_micro_tif"
+    ],
+    "source_ids": [
+      "ne_ded_micro_tif_page",
+      "ne_ded_expedited_review_application_june2023",
+      "ne_leg_18_2147_division_of_taxes",
+      "ne_leg_18_2155_expedited_review",
+      "ne_leg_18_2156_area_review",
+      "ne_leg_18_2157_thirty_year_designation_analysis",
+      "ne_leg_18_2158_affordable_housing_tif_condition",
+      "ne_leg_18_2103_redevelopment_definitions",
+      "ne_dor_pad_property_assessment_forms_tif",
+      "ne_dor_form_notice_to_divide_tif_2025",
+      "ne_dor_tif_annual_reports_page",
+      "ne_dor_2025_legislative_changes_tif",
+      "city_hastings_micro_tif_packet",
+      "city_lexington_micro_tif_flier_application"
+    ],
+    "key_answer": {
+      "question": "Will the redevelopment project be financed in whole or in part through the division of taxes as provided in section 18-2147?",
+      "answer": "Yes means the project will use the TIF increment/division-of-taxes mechanism for all or part of project financing; no means no sec. 18-2147 tax division financing is being used.",
+      "assessor_implication": "A yes answer connects the project to base/excess valuation, Notice to Divide Tax, completion certification for expedited plans, and annual base/excess reporting."
+    },
+    "review_notes": [
+      "DED Micro-TIF page still points to a DED standard application; current DED form discovered as June 2023 reissue.",
+      "Statutory value limits in current sec. 18-2155 differ from early single-family-only guidance found in older summaries; current statute and form use $350,000, $1,500,000, and $10,000,000 caps.",
+      "Current sec. 18-2147 notice deadline is July 1 after LB240, as reflected in Form 96-252 Rev. 3-2025."
+    ]
+  }
+}

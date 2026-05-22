@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "form_expedited_review_micro_tif_application",
+  "object_type": "form",
+  "canonical_term": "Application for Expedited Review of Community Redevelopment Plan TIF Project",
+  "aliases": [
+    "Micro-TIF application",
+    "Redevelopment Plan Application June 2023",
+    "Application for Expedited Review"
+  ],
+  "category": "micro_tif_application_form",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "agency_form",
+  "summary": "Nebraska DED standard form for a redeveloper to apply to a city or CRA for expedited review of an eligible redevelopment plan under sec. 18-2155.",
+  "plain_language": "This is the front-end application form for Micro-TIF/TIF Lite.",
+  "semantic_tags": [
+    "form",
+    "micro_tif",
+    "question_6",
+    "expedited_review",
+    "ded",
+    "18_2155"
+  ],
+  "facts": [
+    {
+      "predicate": "required_by_statute",
+      "object": "Neb. Rev. Stat. sec. 18-2155(4)(a)"
+    },
+    {
+      "predicate": "question_6_text",
+      "object": "Will the redevelopment project be financed in whole or in part through the division of taxes as provided in section 18-2147?"
+    },
+    {
+      "predicate": "question_6_answer_yes",
+      "object": "Any project financing that uses the TIF increment/tax division mechanism in whole or in part should be treated as a yes."
+    },
+    {
+      "predicate": "question_6_answer_no",
+      "object": "No indicates the project is not using sec. 18-2147 division of taxes as a financing source."
+    },
+    {
+      "predicate": "submission_route",
+      "object": "redeveloper provides original to city or community redevelopment authority"
+    },
+    {
+      "predicate": "application_fee_limit",
+      "object": "city fee may not exceed 50 dollars under sec. 18-2155"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "required_by",
+      "target_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Statutory standard form."
+    },
+    {
+      "type": "interpreted_by",
+      "target_id": "public_guidance_micro_tif_question_6",
+      "note": "Question 6 explanation."
+    },
+    {
+      "type": "starts",
+      "target_id": "workflow_micro_tif_expedited_review",
+      "note": "Application starts the review workflow."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_ded_expedited_review_application_june2023",
+      "locator": "page 1 question 6; page 2 instructions",
+      "citation": "Nebraska DED, Application for Expedited Review of Community Redevelopment Plan TIF Project, reissued June 2023."
+    },
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155(4)(a)",
+      "citation": "Neb. Rev. Stat. sec. 18-2155(4)(a)."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

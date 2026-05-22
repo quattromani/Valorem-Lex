@@ -1,0 +1,121 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "2026-05-22",
+  "id": "workflow_micro_tif_expedited_review",
+  "object_type": "workflow",
+  "canonical_term": "Micro-TIF Expedited Review Workflow",
+  "aliases": [
+    "expedited redevelopment plan workflow",
+    "Micro-TIF process",
+    "TIF Lite workflow"
+  ],
+  "category": "micro_tif_workflow",
+  "jurisdiction": "Nebraska",
+  "legal_hierarchy": "statutory_workflow",
+  "summary": "End-to-end Micro-TIF workflow from city election and redeveloper standard form through 30-day city/CRA decision, project completion within two years, assessor completion/value determination, certification, and use of the tax increment to repay indebtedness.",
+  "plain_language": "Micro-TIF is fast at the approval stage, but the money side is usually a reimbursement-style, post-completion increment process.",
+  "semantic_tags": [
+    "workflow",
+    "micro_tif",
+    "expedited_review",
+    "30_day_review",
+    "two_year_completion",
+    "county_assessor"
+  ],
+  "steps": [
+    {
+      "sequence": 1,
+      "actor": "city",
+      "action": "elect by resolution to allow expedited reviews",
+      "source_basis": "sec. 18-2155(1)"
+    },
+    {
+      "sequence": 2,
+      "actor": "redeveloper",
+      "action": "prepare standard DED form with eligibility, value, increment, Question 6, and agreed costs",
+      "source_basis": "sec. 18-2155(4)(a)"
+    },
+    {
+      "sequence": 3,
+      "actor": "redeveloper",
+      "action": "submit plan directly to governing body with local application fee not exceeding 50 dollars",
+      "source_basis": "sec. 18-2155(4)(b)"
+    },
+    {
+      "sequence": 4,
+      "actor": "governing body",
+      "action": "approve or deny within 30 days after submission",
+      "source_basis": "sec. 18-2155(4)(c)"
+    },
+    {
+      "sequence": 5,
+      "actor": "authority",
+      "action": "if financed through division of taxes, incur project indebtedness within statutory limit",
+      "source_basis": "sec. 18-2155(6)(a)"
+    },
+    {
+      "sequence": 6,
+      "actor": "redeveloper",
+      "action": "complete agreed work within two years and notify county assessor",
+      "source_basis": "sec. 18-2155(6)(b)-(c)"
+    },
+    {
+      "sequence": 7,
+      "actor": "county_assessor",
+      "action": "determine completion and assessed value; certify completion, valuation increase, amount, and cause",
+      "source_basis": "sec. 18-2155(6)-(7)"
+    },
+    {
+      "sequence": 8,
+      "actor": "authority",
+      "action": "after assessor certification, begin using sec. 18-2147 tax portion to pay indebtedness",
+      "source_basis": "sec. 18-2155(8)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "implements",
+      "target_id": "statute_ne_18_2155_expedited_review_micro_tif",
+      "note": "Primary workflow statute."
+    },
+    {
+      "type": "starts_with",
+      "target_id": "form_expedited_review_micro_tif_application",
+      "note": "DED standard application."
+    },
+    {
+      "type": "depends_on_if_question_6_yes",
+      "target_id": "statute_ne_18_2147_division_of_taxes",
+      "note": "Tax division financing mechanism."
+    },
+    {
+      "type": "uses",
+      "target_id": "form_certification_completion_expedited_plan",
+      "note": "Completion certification."
+    },
+    {
+      "type": "feeds",
+      "target_id": "workflow_tif_assessor_base_excess_administration",
+      "note": "Assessor base/excess and tax division administration."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "ne_leg_18_2155_expedited_review",
+      "locator": "sec. 18-2155",
+      "citation": "Neb. Rev. Stat. sec. 18-2155."
+    },
+    {
+      "source_id": "ne_ded_expedited_review_application_june2023",
+      "locator": "form instructions",
+      "citation": "Nebraska DED, Application for Expedited Review instructions, reissued June 2023."
+    },
+    {
+      "source_id": "city_hastings_micro_tif_packet",
+      "locator": "Micro-TIF Application Procedure",
+      "citation": "City of Hastings, What is Micro-TIF? packet."
+    }
+  ],
+  "confidence": "high",
+  "review_status": "seeded_from_current_official_sources"
+}

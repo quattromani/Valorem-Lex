@@ -140,7 +140,8 @@ async function main() {
   const knowledgeSeed = await readJson("data/seed/knowledge.seed.json");
   const optionalSeedFiles = [
     "data/seed/authority_catalog.seed.json",
-    "data/seed/operational_readiness.seed.json"
+    "data/seed/operational_readiness.seed.json",
+    "data/seed/tif_microtif.seed.json"
   ];
   const optionalSeeds = await Promise.all(
     optionalSeedFiles.map((seedPath) =>
@@ -293,6 +294,15 @@ async function main() {
       schema_version: knowledgeSeed.schema_version,
       generated_at: stableGeneratedAt,
       ...operationalReadinessSeed.operational_readiness_coverage
+    });
+  }
+
+  const tifMicrotifSeed = optionalSeeds.find((seed) => seed.tif_microtif_coverage);
+  if (tifMicrotifSeed?.tif_microtif_coverage) {
+    await writeJson("reports/tif_microtif_coverage.json", {
+      schema_version: knowledgeSeed.schema_version,
+      generated_at: stableGeneratedAt,
+      ...tifMicrotifSeed.tif_microtif_coverage
     });
   }
 
